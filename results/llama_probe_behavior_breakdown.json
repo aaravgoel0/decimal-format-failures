@@ -1,0 +1,220 @@
+[
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "numeral_final",
+    "direction": "canonical_to_padded",
+    "task": "value",
+    "selected_layer": 1,
+    "alpha": 100,
+    "behavior_definition": "exact greedy first response token parsed as yes/no",
+    "groups": [
+      {
+        "behavior_group": "correct",
+        "n_rows": 0,
+        "n_numerical_values": 0,
+        "metric": null,
+        "bootstrap_95_ci": null
+      },
+      {
+        "behavior_group": "incorrect",
+        "n_rows": 120,
+        "n_numerical_values": 30,
+        "metric": 0.7625057492373097,
+        "bootstrap_95_ci": [
+          0.5594168255195504,
+          0.8619935566453262
+        ]
+      }
+    ]
+  },
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "numeral_final",
+    "direction": "canonical_to_padded",
+    "task": "equality",
+    "selected_layer": 2,
+    "alpha": 0.1,
+    "behavior_definition": "exact greedy first response token parsed as yes/no",
+    "groups": [
+      {
+        "behavior_group": "correct",
+        "n_rows": 120,
+        "n_numerical_values": 30,
+        "metric": null,
+        "bootstrap_95_ci": null
+      },
+      {
+        "behavior_group": "incorrect",
+        "n_rows": 120,
+        "n_numerical_values": 30,
+        "metric": null,
+        "bootstrap_95_ci": null
+      }
+    ]
+  },
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "numeral_final",
+    "direction": "padded_to_canonical",
+    "task": "value",
+    "selected_layer": 0,
+    "alpha": 10,
+    "behavior_definition": "exact greedy first response token parsed as yes/no",
+    "groups": [
+      {
+        "behavior_group": "correct",
+        "n_rows": 60,
+        "n_numerical_values": 30,
+        "metric": 0.6368867822558547,
+        "bootstrap_95_ci": [
+          0.37452212630657766,
+          0.8081552237812004
+        ]
+      },
+      {
+        "behavior_group": "incorrect",
+        "n_rows": 0,
+        "n_numerical_values": 0,
+        "metric": null,
+        "bootstrap_95_ci": null
+      }
+    ]
+  },
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "numeral_final",
+    "direction": "padded_to_canonical",
+    "task": "equality",
+    "selected_layer": 0,
+    "alpha": 0.0001,
+    "behavior_definition": "exact greedy first response token parsed as yes/no",
+    "groups": [
+      {
+        "behavior_group": "correct",
+        "n_rows": 180,
+        "n_numerical_values": 30,
+        "metric": 0.6666666666666666,
+        "bootstrap_95_ci": [
+          0.5833333333333334,
+          0.75
+        ]
+      },
+      {
+        "behavior_group": "incorrect",
+        "n_rows": 0,
+        "n_numerical_values": 0,
+        "metric": null,
+        "bootstrap_95_ci": null
+      }
+    ]
+  },
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "answer",
+    "direction": "canonical_to_padded",
+    "task": "value",
+    "selected_layer": 2,
+    "alpha": 100,
+    "behavior_definition": "exact greedy first response token parsed as yes/no",
+    "groups": [
+      {
+        "behavior_group": "correct",
+        "n_rows": 0,
+        "n_numerical_values": 0,
+        "metric": null,
+        "bootstrap_95_ci": null
+      },
+      {
+        "behavior_group": "incorrect",
+        "n_rows": 120,
+        "n_numerical_values": 30,
+        "metric": 0.6435744194645298,
+        "bootstrap_95_ci": [
+          0.37884072114782025,
+          0.8015190818923452
+        ]
+      }
+    ]
+  },
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "answer",
+    "direction": "canonical_to_padded",
+    "task": "equality",
+    "selected_layer": 15,
+    "alpha": 0.1,
+    "behavior_definition": "exact greedy first response token parsed as yes/no",
+    "groups": [
+      {
+        "behavior_group": "correct",
+        "n_rows": 120,
+        "n_numerical_values": 30,
+        "metric": null,
+        "bootstrap_95_ci": null
+      },
+      {
+        "behavior_group": "incorrect",
+        "n_rows": 120,
+        "n_numerical_values": 30,
+        "metric": null,
+        "bootstrap_95_ci": null
+      }
+    ]
+  },
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "answer",
+    "direction": "padded_to_canonical",
+    "task": "value",
+    "selected_layer": 0,
+    "alpha": 10,
+    "behavior_definition": "exact greedy first response token parsed as yes/no",
+    "groups": [
+      {
+        "behavior_group": "correct",
+        "n_rows": 60,
+        "n_numerical_values": 30,
+        "metric": 0.25517241379310346,
+        "bootstrap_95_ci": [
+          -0.13661501543603816,
+          0.5934844063325525
+        ]
+      },
+      {
+        "behavior_group": "incorrect",
+        "n_rows": 0,
+        "n_numerical_values": 0,
+        "metric": null,
+        "bootstrap_95_ci": null
+      }
+    ]
+  },
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "answer",
+    "direction": "padded_to_canonical",
+    "task": "equality",
+    "selected_layer": 12,
+    "alpha": 0.0001,
+    "behavior_definition": "exact greedy first response token parsed as yes/no",
+    "groups": [
+      {
+        "behavior_group": "correct",
+        "n_rows": 180,
+        "n_numerical_values": 30,
+        "metric": 0.9833333333333334,
+        "bootstrap_95_ci": [
+          0.95,
+          1.0
+        ]
+      },
+      {
+        "behavior_group": "incorrect",
+        "n_rows": 0,
+        "n_numerical_values": 0,
+        "metric": null,
+        "bootstrap_95_ci": null
+      }
+    ]
+  }
+]

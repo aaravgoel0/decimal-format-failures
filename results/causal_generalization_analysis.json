@@ -1,0 +1,140 @@
+[
+  {
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "fixed_layer_zero_based": 2,
+    "primary_generalization_passed": true,
+    "selective_donor_corruption_passed": true,
+    "analyses": [
+      {
+        "template": "pooled",
+        "n_cases": 100,
+        "easy_number_mean_effect": 2.4625,
+        "easy_random_mean_effect": -1.29375,
+        "easy_aligned_minus_random": 3.75625,
+        "easy_contrast_bootstrap_95_ci": [
+          2.4162187499999996,
+          5.2875
+        ],
+        "easy_incorrect_to_correct_flip_rate": 0.04,
+        "donor_number_mean_effect": -43.26625,
+        "donor_random_mean_effect": 0.0825,
+        "donor_aligned_minus_random": -43.34875,
+        "donor_contrast_bootstrap_95_ci": [
+          -44.8525625,
+          -41.61975
+        ],
+        "donor_correct_to_incorrect_flip_rate": 0.94
+      },
+      {
+        "template": "relation_statements",
+        "n_cases": 50,
+        "easy_number_mean_effect": 0.42,
+        "easy_random_mean_effect": -0.5425,
+        "easy_aligned_minus_random": 0.9625,
+        "easy_contrast_bootstrap_95_ci": [
+          0.5574375,
+          1.41
+        ],
+        "easy_incorrect_to_correct_flip_rate": 0.0,
+        "donor_number_mean_effect": -45.6325,
+        "donor_random_mean_effect": 0.0825,
+        "donor_aligned_minus_random": -45.715,
+        "donor_contrast_bootstrap_95_ci": [
+          -46.5625,
+          -44.839937500000005
+        ],
+        "donor_correct_to_incorrect_flip_rate": 1.0
+      },
+      {
+        "template": "direct_choice",
+        "n_cases": 50,
+        "easy_number_mean_effect": 4.505,
+        "easy_random_mean_effect": -2.045,
+        "easy_aligned_minus_random": 6.55,
+        "easy_contrast_bootstrap_95_ci": [
+          4.0699375,
+          9.3075
+        ],
+        "easy_incorrect_to_correct_flip_rate": 0.08,
+        "donor_number_mean_effect": -40.9,
+        "donor_random_mean_effect": 0.0825,
+        "donor_aligned_minus_random": -40.9825,
+        "donor_contrast_bootstrap_95_ci": [
+          -43.9275625,
+          -37.8774375
+        ],
+        "donor_correct_to_incorrect_flip_rate": 0.88
+      }
+    ]
+  },
+  {
+    "model": "google/gemma-2-9b-it",
+    "revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+    "fixed_layer_zero_based": 7,
+    "primary_generalization_passed": false,
+    "selective_donor_corruption_passed": true,
+    "analyses": [
+      {
+        "template": "pooled",
+        "n_cases": 100,
+        "easy_number_mean_effect": 1.85375,
+        "easy_random_mean_effect": 0.686875,
+        "easy_aligned_minus_random": 1.166875,
+        "easy_contrast_bootstrap_95_ci": [
+          0.309375,
+          2.0812656249999995
+        ],
+        "easy_incorrect_to_correct_flip_rate": 0.16,
+        "donor_number_mean_effect": -8.41875,
+        "donor_random_mean_effect": 0.20125,
+        "donor_aligned_minus_random": -8.62,
+        "donor_contrast_bootstrap_95_ci": [
+          -9.458140625,
+          -7.73125
+        ],
+        "donor_correct_to_incorrect_flip_rate": 0.56
+      },
+      {
+        "template": "relation_statements",
+        "n_cases": 50,
+        "easy_number_mean_effect": 2.68375,
+        "easy_random_mean_effect": -0.0975,
+        "easy_aligned_minus_random": 2.78125,
+        "easy_contrast_bootstrap_95_ci": [
+          1.65,
+          4.011343749999999
+        ],
+        "easy_incorrect_to_correct_flip_rate": 0.22,
+        "donor_number_mean_effect": -11.21375,
+        "donor_random_mean_effect": -0.02375,
+        "donor_aligned_minus_random": -11.19,
+        "donor_contrast_bootstrap_95_ci": [
+          -12.14003125,
+          -10.194937500000002
+        ],
+        "donor_correct_to_incorrect_flip_rate": 0.78
+      },
+      {
+        "template": "direct_choice",
+        "n_cases": 50,
+        "easy_number_mean_effect": 1.02375,
+        "easy_random_mean_effect": 1.47125,
+        "easy_aligned_minus_random": -0.4475,
+        "easy_contrast_bootstrap_95_ci": [
+          -1.6287812499999998,
+          0.71
+        ],
+        "easy_incorrect_to_correct_flip_rate": 0.1,
+        "donor_number_mean_effect": -5.62375,
+        "donor_random_mean_effect": 0.42625,
+        "donor_aligned_minus_random": -6.05,
+        "donor_contrast_bootstrap_95_ci": [
+          -7.06253125,
+          -5.03125
+        ],
+        "donor_correct_to_incorrect_flip_rate": 0.34
+      }
+    ]
+  }
+]

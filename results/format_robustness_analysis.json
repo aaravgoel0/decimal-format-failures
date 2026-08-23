@@ -1,0 +1,1205 @@
+[
+  {
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "canonicalization_benefit_criterion_passed": false,
+    "cells": [
+      {
+        "condition": "original",
+        "family": "overall",
+        "n": 500,
+        "correct": 400,
+        "accuracy": 0.8,
+        "wilson_95_ci": [
+          0.7627108946948261,
+          0.8327145010282427
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 207
+      },
+      {
+        "condition": "original",
+        "family": "negative",
+        "n": 100,
+        "correct": 93,
+        "accuracy": 0.93,
+        "wilson_95_ci": [
+          0.8625048526092651,
+          0.9656807389327273
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 44
+      },
+      {
+        "condition": "original",
+        "family": "leading_zero",
+        "n": 100,
+        "correct": 77,
+        "accuracy": 0.77,
+        "wilson_95_ci": [
+          0.6784561697712622,
+          0.8415673411969654
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 42
+      },
+      {
+        "condition": "original",
+        "family": "long_fraction",
+        "n": 100,
+        "correct": 100,
+        "accuracy": 1.0,
+        "wilson_95_ci": [
+          0.9630065017930143,
+          1.0
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 33
+      },
+      {
+        "condition": "original",
+        "family": "scientific",
+        "n": 100,
+        "correct": 32,
+        "accuracy": 0.32,
+        "wilson_95_ci": [
+          0.23669147324999093,
+          0.41662618610452384
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 39
+      },
+      {
+        "condition": "original",
+        "family": "signed_zero",
+        "n": 100,
+        "correct": 98,
+        "accuracy": 0.98,
+        "wilson_95_ci": [
+          0.929988209271456,
+          0.9944980324498376
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 49
+      },
+      {
+        "condition": "canonicalized",
+        "family": "overall",
+        "n": 500,
+        "correct": 462,
+        "accuracy": 0.924,
+        "wilson_95_ci": [
+          0.8974035863260316,
+          0.9441309729625723
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 164
+      },
+      {
+        "condition": "canonicalized",
+        "family": "negative",
+        "n": 100,
+        "correct": 94,
+        "accuracy": 0.94,
+        "wilson_95_ci": [
+          0.8752318455410406,
+          0.9722138760368118
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 40
+      },
+      {
+        "condition": "canonicalized",
+        "family": "leading_zero",
+        "n": 100,
+        "correct": 98,
+        "accuracy": 0.98,
+        "wilson_95_ci": [
+          0.929988209271456,
+          0.9944980324498376
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 26
+      },
+      {
+        "condition": "canonicalized",
+        "family": "long_fraction",
+        "n": 100,
+        "correct": 95,
+        "accuracy": 0.95,
+        "wilson_95_ci": [
+          0.8882495307680808,
+          0.9784563208456319
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 31
+      },
+      {
+        "condition": "canonicalized",
+        "family": "scientific",
+        "n": 100,
+        "correct": 100,
+        "accuracy": 1.0,
+        "wilson_95_ci": [
+          0.9630065017930143,
+          1.0
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 27
+      },
+      {
+        "condition": "canonicalized",
+        "family": "signed_zero",
+        "n": 100,
+        "correct": 75,
+        "accuracy": 0.75,
+        "wilson_95_ci": [
+          0.656955364519384,
+          0.8245478863771232
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 40
+      }
+    ],
+    "paired_changes": [
+      {
+        "family": "overall",
+        "n": 500,
+        "accuracy_change": 0.124,
+        "bootstrap_95_ci": [
+          0.08,
+          0.166
+        ],
+        "incorrect_to_correct": 94,
+        "correct_to_incorrect": 32
+      },
+      {
+        "family": "negative",
+        "n": 100,
+        "accuracy_change": 0.01,
+        "bootstrap_95_ci": [
+          -0.02,
+          0.05
+        ],
+        "incorrect_to_correct": 2,
+        "correct_to_incorrect": 1
+      },
+      {
+        "family": "leading_zero",
+        "n": 100,
+        "accuracy_change": 0.21,
+        "bootstrap_95_ci": [
+          0.13,
+          0.3
+        ],
+        "incorrect_to_correct": 22,
+        "correct_to_incorrect": 1
+      },
+      {
+        "family": "long_fraction",
+        "n": 100,
+        "accuracy_change": -0.05,
+        "bootstrap_95_ci": [
+          -0.1,
+          -0.01
+        ],
+        "incorrect_to_correct": 0,
+        "correct_to_incorrect": 5
+      },
+      {
+        "family": "scientific",
+        "n": 100,
+        "accuracy_change": 0.68,
+        "bootstrap_95_ci": [
+          0.59,
+          0.77
+        ],
+        "incorrect_to_correct": 68,
+        "correct_to_incorrect": 0
+      },
+      {
+        "family": "signed_zero",
+        "n": 100,
+        "accuracy_change": -0.23,
+        "bootstrap_95_ci": [
+          -0.32,
+          -0.14
+        ],
+        "incorrect_to_correct": 2,
+        "correct_to_incorrect": 25
+      }
+    ],
+    "subgroups": [
+      {
+        "condition": "original",
+        "dimension": "template_index",
+        "value": 0,
+        "n": 250,
+        "correct": 189,
+        "accuracy": 0.756,
+        "wilson_95_ci": [
+          0.699148919960885,
+          0.8051028306974474
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "template_index",
+        "value": 1,
+        "n": 250,
+        "correct": 211,
+        "accuracy": 0.844,
+        "wilson_95_ci": [
+          0.793854055172539,
+          0.8837342347745949
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "equal",
+        "value": true,
+        "n": 250,
+        "correct": 183,
+        "accuracy": 0.732,
+        "wilson_95_ci": [
+          0.6738894704931712,
+          0.7830886785409424
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "equal",
+        "value": false,
+        "n": 250,
+        "correct": 217,
+        "accuracy": 0.868,
+        "wilson_95_ci": [
+          0.8204199080951821,
+          0.9044419834761707
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "answer_position",
+        "value": 1,
+        "n": 170,
+        "correct": 123,
+        "accuracy": 0.7235294117647059,
+        "wilson_95_ci": [
+          0.651921695222869,
+          0.7852582531943202
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "answer_position",
+        "value": 2,
+        "n": 165,
+        "correct": 138,
+        "accuracy": 0.8363636363636363,
+        "wilson_95_ci": [
+          0.7723868813989553,
+          0.8850345882762122
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "answer_position",
+        "value": 3,
+        "n": 165,
+        "correct": 139,
+        "accuracy": 0.8424242424242424,
+        "wilson_95_ci": [
+          0.7791275244445726,
+          0.8901393771166339
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "template_index",
+        "value": 0,
+        "n": 250,
+        "correct": 213,
+        "accuracy": 0.852,
+        "wilson_95_ci": [
+          0.8026659811384634,
+          0.8906801760167434
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "template_index",
+        "value": 1,
+        "n": 250,
+        "correct": 249,
+        "accuracy": 0.996,
+        "wilson_95_ci": [
+          0.9776942144345839,
+          0.9992935524659348
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "equal",
+        "value": true,
+        "n": 250,
+        "correct": 250,
+        "accuracy": 1.0,
+        "wilson_95_ci": [
+          0.9848667005045553,
+          0.9999999999999998
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "equal",
+        "value": false,
+        "n": 250,
+        "correct": 212,
+        "accuracy": 0.848,
+        "wilson_95_ci": [
+          0.7982548908329247,
+          0.8872123327182458
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "answer_position",
+        "value": 1,
+        "n": 170,
+        "correct": 153,
+        "accuracy": 0.9,
+        "wilson_95_ci": [
+          0.8456978197358397,
+          0.9366241932212359
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "answer_position",
+        "value": 2,
+        "n": 165,
+        "correct": 153,
+        "accuracy": 0.9272727272727272,
+        "wilson_95_ci": [
+          0.877192538041669,
+          0.9579104099240843
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "answer_position",
+        "value": 3,
+        "n": 165,
+        "correct": 156,
+        "accuracy": 0.9454545454545454,
+        "wilson_95_ci": [
+          0.8995979725883818,
+          0.9710412710354885
+        ]
+      }
+    ]
+  },
+  {
+    "model": "google/gemma-2-9b-it",
+    "revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+    "canonicalization_benefit_criterion_passed": false,
+    "cells": [
+      {
+        "condition": "original",
+        "family": "overall",
+        "n": 500,
+        "correct": 297,
+        "accuracy": 0.594,
+        "wilson_95_ci": [
+          0.5503970661272916,
+          0.6361695578659367
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 500
+      },
+      {
+        "condition": "original",
+        "family": "negative",
+        "n": 100,
+        "correct": 69,
+        "accuracy": 0.69,
+        "wilson_95_ci": [
+          0.5937394428051057,
+          0.7722030278762395
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 100
+      },
+      {
+        "condition": "original",
+        "family": "leading_zero",
+        "n": 100,
+        "correct": 40,
+        "accuracy": 0.4,
+        "wilson_95_ci": [
+          0.3094012864324589,
+          0.4979974132089382
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 100
+      },
+      {
+        "condition": "original",
+        "family": "long_fraction",
+        "n": 100,
+        "correct": 88,
+        "accuracy": 0.88,
+        "wilson_95_ci": [
+          0.8018790057328857,
+          0.9300059356298052
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 100
+      },
+      {
+        "condition": "original",
+        "family": "scientific",
+        "n": 100,
+        "correct": 25,
+        "accuracy": 0.25,
+        "wilson_95_ci": [
+          0.17545211362287672,
+          0.34304463548061603
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 100
+      },
+      {
+        "condition": "original",
+        "family": "signed_zero",
+        "n": 100,
+        "correct": 75,
+        "accuracy": 0.75,
+        "wilson_95_ci": [
+          0.656955364519384,
+          0.8245478863771232
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 100
+      },
+      {
+        "condition": "canonicalized",
+        "family": "overall",
+        "n": 500,
+        "correct": 423,
+        "accuracy": 0.846,
+        "wilson_95_ci": [
+          0.811734636678946,
+          0.8749893197216598
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 500
+      },
+      {
+        "condition": "canonicalized",
+        "family": "negative",
+        "n": 100,
+        "correct": 68,
+        "accuracy": 0.68,
+        "wilson_95_ci": [
+          0.5833738138954762,
+          0.7633085267500092
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 100
+      },
+      {
+        "condition": "canonicalized",
+        "family": "leading_zero",
+        "n": 100,
+        "correct": 97,
+        "accuracy": 0.97,
+        "wilson_95_ci": [
+          0.9154806357094724,
+          0.9897454759759611
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 100
+      },
+      {
+        "condition": "canonicalized",
+        "family": "long_fraction",
+        "n": 100,
+        "correct": 83,
+        "accuracy": 0.83,
+        "wilson_95_ci": [
+          0.7445199523239887,
+          0.8910643388594006
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 100
+      },
+      {
+        "condition": "canonicalized",
+        "family": "scientific",
+        "n": 100,
+        "correct": 100,
+        "accuracy": 1.0,
+        "wilson_95_ci": [
+          0.9630065017930143,
+          1.0
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 100
+      },
+      {
+        "condition": "canonicalized",
+        "family": "signed_zero",
+        "n": 100,
+        "correct": 75,
+        "accuracy": 0.75,
+        "wilson_95_ci": [
+          0.656955364519384,
+          0.8245478863771232
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 100
+      }
+    ],
+    "paired_changes": [
+      {
+        "family": "overall",
+        "n": 500,
+        "accuracy_change": 0.252,
+        "bootstrap_95_ci": [
+          0.202,
+          0.302
+        ],
+        "incorrect_to_correct": 160,
+        "correct_to_incorrect": 34
+      },
+      {
+        "family": "negative",
+        "n": 100,
+        "accuracy_change": -0.01,
+        "bootstrap_95_ci": [
+          -0.03,
+          0.0
+        ],
+        "incorrect_to_correct": 0,
+        "correct_to_incorrect": 1
+      },
+      {
+        "family": "leading_zero",
+        "n": 100,
+        "accuracy_change": 0.57,
+        "bootstrap_95_ci": [
+          0.46,
+          0.68
+        ],
+        "incorrect_to_correct": 60,
+        "correct_to_incorrect": 3
+      },
+      {
+        "family": "long_fraction",
+        "n": 100,
+        "accuracy_change": -0.05,
+        "bootstrap_95_ci": [
+          -0.1,
+          -0.01
+        ],
+        "incorrect_to_correct": 0,
+        "correct_to_incorrect": 5
+      },
+      {
+        "family": "scientific",
+        "n": 100,
+        "accuracy_change": 0.75,
+        "bootstrap_95_ci": [
+          0.67,
+          0.83
+        ],
+        "incorrect_to_correct": 75,
+        "correct_to_incorrect": 0
+      },
+      {
+        "family": "signed_zero",
+        "n": 100,
+        "accuracy_change": 0.0,
+        "bootstrap_95_ci": [
+          -0.14,
+          0.14
+        ],
+        "incorrect_to_correct": 25,
+        "correct_to_incorrect": 25
+      }
+    ],
+    "subgroups": [
+      {
+        "condition": "original",
+        "dimension": "template_index",
+        "value": 0,
+        "n": 250,
+        "correct": 204,
+        "accuracy": 0.816,
+        "wilson_95_ci": [
+          0.7633112722157498,
+          0.859124482503129
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "template_index",
+        "value": 1,
+        "n": 250,
+        "correct": 93,
+        "accuracy": 0.372,
+        "wilson_95_ci": [
+          0.3144464487445396,
+          0.4334276759262941
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "equal",
+        "value": true,
+        "n": 250,
+        "correct": 162,
+        "accuracy": 0.648,
+        "wilson_95_ci": [
+          0.5869651913984794,
+          0.704555351950869
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "equal",
+        "value": false,
+        "n": 250,
+        "correct": 135,
+        "accuracy": 0.54,
+        "wilson_95_ci": [
+          0.47808008556646064,
+          0.6007092504739038
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "answer_position",
+        "value": 1,
+        "n": 170,
+        "correct": 97,
+        "accuracy": 0.5705882352941176,
+        "wilson_95_ci": [
+          0.4954301867936186,
+          0.6426266390223359
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "answer_position",
+        "value": 2,
+        "n": 165,
+        "correct": 103,
+        "accuracy": 0.6242424242424243,
+        "wilson_95_ci": [
+          0.5483078393562717,
+          0.694523514307529
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "answer_position",
+        "value": 3,
+        "n": 165,
+        "correct": 97,
+        "accuracy": 0.5878787878787879,
+        "wilson_95_ci": [
+          0.5116078554058012,
+          0.660150906941765
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "template_index",
+        "value": 0,
+        "n": 250,
+        "correct": 215,
+        "accuracy": 0.86,
+        "wilson_95_ci": [
+          0.8115202816735541,
+          0.8975837426897257
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "template_index",
+        "value": 1,
+        "n": 250,
+        "correct": 208,
+        "accuracy": 0.832,
+        "wilson_95_ci": [
+          0.7807100422284562,
+          0.8732414469065685
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "equal",
+        "value": true,
+        "n": 250,
+        "correct": 250,
+        "accuracy": 1.0,
+        "wilson_95_ci": [
+          0.9848667005045553,
+          0.9999999999999998
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "equal",
+        "value": false,
+        "n": 250,
+        "correct": 173,
+        "accuracy": 0.692,
+        "wilson_95_ci": [
+          0.6322270749710638,
+          0.7459617380226854
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "answer_position",
+        "value": 1,
+        "n": 170,
+        "correct": 145,
+        "accuracy": 0.8529411764705882,
+        "wilson_95_ci": [
+          0.7919201765841425,
+          0.8983639524956301
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "answer_position",
+        "value": 2,
+        "n": 165,
+        "correct": 138,
+        "accuracy": 0.8363636363636363,
+        "wilson_95_ci": [
+          0.7723868813989553,
+          0.8850345882762122
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "answer_position",
+        "value": 3,
+        "n": 165,
+        "correct": 140,
+        "accuracy": 0.8484848484848485,
+        "wilson_95_ci": [
+          0.7858953408730194,
+          0.8952169925742262
+        ]
+      }
+    ]
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "canonicalization_benefit_criterion_passed": false,
+    "cells": [
+      {
+        "condition": "original",
+        "family": "overall",
+        "n": 500,
+        "correct": 244,
+        "accuracy": 0.488,
+        "wilson_95_ci": [
+          0.4444452370209479,
+          0.5317377471501294
+        ],
+        "parse_failures": 92,
+        "recovered_parses": 153
+      },
+      {
+        "condition": "original",
+        "family": "negative",
+        "n": 100,
+        "correct": 45,
+        "accuracy": 0.45,
+        "wilson_95_ci": [
+          0.3561453797951198,
+          0.5475539700255787
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 50
+      },
+      {
+        "condition": "original",
+        "family": "leading_zero",
+        "n": 100,
+        "correct": 24,
+        "accuracy": 0.24,
+        "wilson_95_ci": [
+          0.16691325556948772,
+          0.33232336349814473
+        ],
+        "parse_failures": 42,
+        "recovered_parses": 8
+      },
+      {
+        "condition": "original",
+        "family": "long_fraction",
+        "n": 100,
+        "correct": 89,
+        "accuracy": 0.89,
+        "wilson_95_ci": [
+          0.8136870349691969,
+          0.9374580364293543
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 50
+      },
+      {
+        "condition": "original",
+        "family": "scientific",
+        "n": 100,
+        "correct": 17,
+        "accuracy": 0.17,
+        "wilson_95_ci": [
+          0.10893566114059931,
+          0.25548004767601123
+        ],
+        "parse_failures": 50,
+        "recovered_parses": 0
+      },
+      {
+        "condition": "original",
+        "family": "signed_zero",
+        "n": 100,
+        "correct": 69,
+        "accuracy": 0.69,
+        "wilson_95_ci": [
+          0.5937394428051057,
+          0.7722030278762395
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 45
+      },
+      {
+        "condition": "canonicalized",
+        "family": "overall",
+        "n": 500,
+        "correct": 397,
+        "accuracy": 0.794,
+        "wilson_95_ci": [
+          0.7563735290819746,
+          0.8271433587266328
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 246
+      },
+      {
+        "condition": "canonicalized",
+        "family": "negative",
+        "n": 100,
+        "correct": 83,
+        "accuracy": 0.83,
+        "wilson_95_ci": [
+          0.7445199523239887,
+          0.8910643388594006
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 46
+      },
+      {
+        "condition": "canonicalized",
+        "family": "leading_zero",
+        "n": 100,
+        "correct": 83,
+        "accuracy": 0.83,
+        "wilson_95_ci": [
+          0.7445199523239887,
+          0.8910643388594006
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 50
+      },
+      {
+        "condition": "canonicalized",
+        "family": "long_fraction",
+        "n": 100,
+        "correct": 90,
+        "accuracy": 0.9,
+        "wilson_95_ci": [
+          0.8256343384950865,
+          0.9447708629393249
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 50
+      },
+      {
+        "condition": "canonicalized",
+        "family": "scientific",
+        "n": 100,
+        "correct": 83,
+        "accuracy": 0.83,
+        "wilson_95_ci": [
+          0.7445199523239887,
+          0.8910643388594006
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 50
+      },
+      {
+        "condition": "canonicalized",
+        "family": "signed_zero",
+        "n": 100,
+        "correct": 58,
+        "accuracy": 0.58,
+        "wilson_95_ci": [
+          0.4820648670304296,
+          0.6720161732564526
+        ],
+        "parse_failures": 0,
+        "recovered_parses": 50
+      }
+    ],
+    "paired_changes": [
+      {
+        "family": "overall",
+        "n": 500,
+        "accuracy_change": 0.306,
+        "bootstrap_95_ci": [
+          0.258,
+          0.356
+        ],
+        "incorrect_to_correct": 180,
+        "correct_to_incorrect": 27
+      },
+      {
+        "family": "negative",
+        "n": 100,
+        "accuracy_change": 0.38,
+        "bootstrap_95_ci": [
+          0.29,
+          0.48
+        ],
+        "incorrect_to_correct": 38,
+        "correct_to_incorrect": 0
+      },
+      {
+        "family": "leading_zero",
+        "n": 100,
+        "accuracy_change": 0.59,
+        "bootstrap_95_ci": [
+          0.48,
+          0.69
+        ],
+        "incorrect_to_correct": 61,
+        "correct_to_incorrect": 2
+      },
+      {
+        "family": "long_fraction",
+        "n": 100,
+        "accuracy_change": 0.01,
+        "bootstrap_95_ci": [
+          -0.02,
+          0.05
+        ],
+        "incorrect_to_correct": 2,
+        "correct_to_incorrect": 1
+      },
+      {
+        "family": "scientific",
+        "n": 100,
+        "accuracy_change": 0.66,
+        "bootstrap_95_ci": [
+          0.57,
+          0.75
+        ],
+        "incorrect_to_correct": 66,
+        "correct_to_incorrect": 0
+      },
+      {
+        "family": "signed_zero",
+        "n": 100,
+        "accuracy_change": -0.11,
+        "bootstrap_95_ci": [
+          -0.23,
+          0.01
+        ],
+        "incorrect_to_correct": 13,
+        "correct_to_incorrect": 24
+      }
+    ],
+    "subgroups": [
+      {
+        "condition": "original",
+        "dimension": "template_index",
+        "value": 0,
+        "n": 250,
+        "correct": 146,
+        "accuracy": 0.584,
+        "wilson_95_ci": [
+          0.5220809648361122,
+          0.643376640848653
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "template_index",
+        "value": 1,
+        "n": 250,
+        "correct": 98,
+        "accuracy": 0.392,
+        "wilson_95_ci": [
+          0.3335554373002608,
+          0.4537133553907552
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "equal",
+        "value": true,
+        "n": 250,
+        "correct": 99,
+        "accuracy": 0.396,
+        "wilson_95_ci": [
+          0.33738981084356817,
+          0.4577579154514842
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "equal",
+        "value": false,
+        "n": 250,
+        "correct": 145,
+        "accuracy": 0.58,
+        "wilson_95_ci": [
+          0.5180609451155799,
+          0.639517726965149
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "answer_position",
+        "value": 1,
+        "n": 170,
+        "correct": 39,
+        "accuracy": 0.22941176470588234,
+        "wilson_95_ci": [
+          0.1726042238248648,
+          0.2981779438806428
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "answer_position",
+        "value": 2,
+        "n": 165,
+        "correct": 98,
+        "accuracy": 0.593939393939394,
+        "wilson_95_ci": [
+          0.5176956937499576,
+          0.6659085004836479
+        ]
+      },
+      {
+        "condition": "original",
+        "dimension": "answer_position",
+        "value": 3,
+        "n": 165,
+        "correct": 107,
+        "accuracy": 0.6484848484848484,
+        "wilson_95_ci": [
+          0.5730110984404385,
+          0.7172019827675181
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "template_index",
+        "value": 0,
+        "n": 250,
+        "correct": 201,
+        "accuracy": 0.804,
+        "wilson_95_ci": [
+          0.7503491896964016,
+          0.8484497642103681
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "template_index",
+        "value": 1,
+        "n": 250,
+        "correct": 196,
+        "accuracy": 0.784,
+        "wilson_95_ci": [
+          0.7288965817807946,
+          0.8305077041057929
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "equal",
+        "value": true,
+        "n": 250,
+        "correct": 250,
+        "accuracy": 1.0,
+        "wilson_95_ci": [
+          0.9848667005045553,
+          0.9999999999999998
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "equal",
+        "value": false,
+        "n": 250,
+        "correct": 147,
+        "accuracy": 0.588,
+        "wilson_95_ci": [
+          0.5261050290746588,
+          0.6472315102141429
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "answer_position",
+        "value": 1,
+        "n": 170,
+        "correct": 93,
+        "accuracy": 0.5470588235294118,
+        "wilson_95_ci": [
+          0.47201545080231666,
+          0.6200224330749864
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "answer_position",
+        "value": 2,
+        "n": 165,
+        "correct": 147,
+        "accuracy": 0.8909090909090909,
+        "wilson_95_ci": [
+          0.8341574960936241,
+          0.9298728605558947
+        ]
+      },
+      {
+        "condition": "canonicalized",
+        "dimension": "answer_position",
+        "value": 3,
+        "n": 165,
+        "correct": 157,
+        "accuracy": 0.9515151515151515,
+        "wilson_95_ci": [
+          0.9072545900865077,
+          0.975230085423402
+        ]
+      }
+    ]
+  }
+]

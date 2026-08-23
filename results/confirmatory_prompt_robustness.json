@@ -1,0 +1,32 @@
+[
+  {
+    "prompt_variant": 0,
+    "correct": 905,
+    "n": 2000,
+    "accuracy": 0.4525,
+    "ci_low": 0.4307978320303002,
+    "ci_high": 0.4743842874614188,
+    "padded_first_accuracy": 0.025,
+    "padded_second_accuracy": 0.88
+  },
+  {
+    "prompt_variant": 1,
+    "correct": 12,
+    "n": 2000,
+    "accuracy": 0.006,
+    "ci_low": 0.003435594376936234,
+    "ci_high": 0.010458448336941664,
+    "padded_first_accuracy": 0.0,
+    "padded_second_accuracy": 0.012
+  },
+  {
+    "prompt_variant": 2,
+    "correct": 243,
+    "n": 2000,
+    "accuracy": 0.1215,
+    "ci_low": 0.10790262043403129,
+    "ci_high": 0.13654858435787717,
+    "padded_first_accuracy": 0.096,
+    "padded_second_accuracy": 0.147
+  }
+]

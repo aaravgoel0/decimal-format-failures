@@ -1,0 +1,317 @@
+[
+  {
+    "model": "Llama 3.1 8B",
+    "task": "Integer",
+    "prompt_variant": 0,
+    "n": 1000,
+    "correct": 998,
+    "accuracy": 0.998,
+    "ci_low": 0.9927371921365079,
+    "ci_high": 0.9994513564118793,
+    "option_1_rate": 0.504,
+    "option_2_rate": 0.496,
+    "option_3_rate": 0.0,
+    "correct_when_answer_1": 1.0,
+    "correct_when_answer_2": 0.9959839357429718,
+    "correct_padded_first": null,
+    "correct_padded_second": null,
+    "parse_counts": {
+      "exact": 1000
+    },
+    "source": "results/llama3.1-8b__integers__p0.jsonl"
+  },
+  {
+    "model": "Llama 3.1 8B",
+    "task": "Misleading",
+    "prompt_variant": 0,
+    "n": 1000,
+    "correct": 419,
+    "accuracy": 0.419,
+    "ci_low": 0.3887865610288496,
+    "ci_high": 0.4498333738458103,
+    "option_1_rate": 0.733,
+    "option_2_rate": 0.267,
+    "option_3_rate": 0.0,
+    "correct_when_answer_1": 0.652,
+    "correct_when_answer_2": 0.186,
+    "correct_padded_first": null,
+    "correct_padded_second": null,
+    "parse_counts": {
+      "exact": 1000
+    },
+    "source": "results/llama3.1-8b__misleading__p0.jsonl"
+  },
+  {
+    "model": "Llama 3.1 8B",
+    "task": "Zero-padding",
+    "prompt_variant": 0,
+    "n": 1000,
+    "correct": 279,
+    "accuracy": 0.279,
+    "ci_low": 0.2520877932829655,
+    "ci_high": 0.3076036339676499,
+    "option_1_rate": 0.381,
+    "option_2_rate": 0.34,
+    "option_3_rate": 0.279,
+    "correct_when_answer_1": null,
+    "correct_when_answer_2": null,
+    "correct_padded_first": 0.03,
+    "correct_padded_second": 0.528,
+    "parse_counts": {
+      "exact": 1000
+    },
+    "source": "results/llama3.1-8b__zero_padding__p0.jsonl"
+  },
+  {
+    "model": "Llama 3.1 8B",
+    "task": "Zero-padding",
+    "prompt_variant": 1,
+    "n": 1000,
+    "correct": 37,
+    "accuracy": 0.037,
+    "ci_low": 0.026961180875554734,
+    "ci_high": 0.05058239748206931,
+    "option_1_rate": 0.0,
+    "option_2_rate": 0.963,
+    "option_3_rate": 0.037,
+    "correct_when_answer_1": null,
+    "correct_when_answer_2": null,
+    "correct_padded_first": 0.004,
+    "correct_padded_second": 0.07,
+    "parse_counts": {
+      "exact": 1000
+    },
+    "source": "results/llama3.1-8b__zero_padding__p1.jsonl"
+  },
+  {
+    "model": "Llama 3.1 8B",
+    "task": "Zero-padding",
+    "prompt_variant": 2,
+    "n": 1000,
+    "correct": 172,
+    "accuracy": 0.172,
+    "ci_low": 0.14987640210972414,
+    "ci_high": 0.19663395145680002,
+    "option_1_rate": 0.0,
+    "option_2_rate": 0.828,
+    "option_3_rate": 0.172,
+    "correct_when_answer_1": null,
+    "correct_when_answer_2": null,
+    "correct_padded_first": 0.184,
+    "correct_padded_second": 0.16,
+    "parse_counts": {
+      "exact": 1000
+    },
+    "source": "results/llama3.1-8b__zero_padding__p2.jsonl"
+  },
+  {
+    "model": "Qwen3 4B Instruct 2507",
+    "task": "Integer",
+    "prompt_variant": 0,
+    "n": 1000,
+    "correct": 1000,
+    "accuracy": 1.0,
+    "ci_low": 0.996173241514445,
+    "ci_high": 1.0,
+    "option_1_rate": 0.502,
+    "option_2_rate": 0.498,
+    "option_3_rate": 0.0,
+    "correct_when_answer_1": 1.0,
+    "correct_when_answer_2": 1.0,
+    "correct_padded_first": null,
+    "correct_padded_second": null,
+    "parse_counts": {
+      "exact": 1000
+    },
+    "source": "results/Qwen-Qwen3-4B-Instruct-2507__integers__p0__mlx.jsonl"
+  },
+  {
+    "model": "Qwen3 4B Instruct 2507",
+    "task": "Misleading",
+    "prompt_variant": 0,
+    "n": 1000,
+    "correct": 996,
+    "accuracy": 0.996,
+    "ci_low": 0.9897604437227377,
+    "ci_high": 0.9984434118595916,
+    "option_1_rate": 0.496,
+    "option_2_rate": 0.504,
+    "option_3_rate": 0.0,
+    "correct_when_answer_1": 0.992,
+    "correct_when_answer_2": 1.0,
+    "correct_padded_first": null,
+    "correct_padded_second": null,
+    "parse_counts": {
+      "exact": 1000
+    },
+    "source": "results/Qwen-Qwen3-4B-Instruct-2507__misleading__p0__mlx.jsonl"
+  },
+  {
+    "model": "Qwen3 4B Instruct 2507",
+    "task": "Zero-padding",
+    "prompt_variant": 0,
+    "n": 1000,
+    "correct": 986,
+    "accuracy": 0.986,
+    "ci_low": 0.9766379658824644,
+    "ci_high": 0.9916424248695761,
+    "option_1_rate": 0.013,
+    "option_2_rate": 0.001,
+    "option_3_rate": 0.986,
+    "correct_when_answer_1": null,
+    "correct_when_answer_2": null,
+    "correct_padded_first": 0.972,
+    "correct_padded_second": 1.0,
+    "parse_counts": {
+      "exact": 1000
+    },
+    "source": "results/Qwen-Qwen3-4B-Instruct-2507__zero_padding__p0__mlx.jsonl"
+  },
+  {
+    "model": "Gemma 2 9B",
+    "task": "Integer",
+    "prompt_variant": 0,
+    "n": 1000,
+    "correct": 1000,
+    "accuracy": 1.0,
+    "ci_low": 0.996173241514445,
+    "ci_high": 1.0,
+    "option_1_rate": 0.502,
+    "option_2_rate": 0.498,
+    "option_3_rate": 0.0,
+    "correct_when_answer_1": 1.0,
+    "correct_when_answer_2": 1.0,
+    "correct_padded_first": null,
+    "correct_padded_second": null,
+    "parse_counts": {
+      "exact": 1000
+    },
+    "source": "results/gemma2-9b__integers__p0.jsonl"
+  },
+  {
+    "model": "Gemma 2 9B",
+    "task": "Misleading",
+    "prompt_variant": 0,
+    "n": 1000,
+    "correct": 966,
+    "accuracy": 0.966,
+    "ci_low": 0.9528648097546889,
+    "ci_high": 0.9755686513367737,
+    "option_1_rate": 0.474,
+    "option_2_rate": 0.526,
+    "option_3_rate": 0.0,
+    "correct_when_answer_1": 0.94,
+    "correct_when_answer_2": 0.992,
+    "correct_padded_first": null,
+    "correct_padded_second": null,
+    "parse_counts": {
+      "exact": 1000
+    },
+    "source": "results/gemma2-9b__misleading__p0.jsonl"
+  },
+  {
+    "model": "Gemma 2 9B",
+    "task": "Zero-padding",
+    "prompt_variant": 0,
+    "n": 1000,
+    "correct": 923,
+    "accuracy": 0.923,
+    "ci_low": 0.9048104693818263,
+    "ci_high": 0.9379520929393942,
+    "option_1_rate": 0.077,
+    "option_2_rate": 0.0,
+    "option_3_rate": 0.923,
+    "correct_when_answer_1": null,
+    "correct_when_answer_2": null,
+    "correct_padded_first": 0.846,
+    "correct_padded_second": 1.0,
+    "parse_counts": {
+      "exact": 1000
+    },
+    "source": "results/gemma2-9b__zero_padding__p0.jsonl"
+  },
+  {
+    "model": "Llama 3.1 8B full precision",
+    "task": "Integer",
+    "prompt_variant": 0,
+    "n": 1000,
+    "correct": 998,
+    "accuracy": 0.998,
+    "ci_low": 0.9927371921365079,
+    "ci_high": 0.9994513564118793,
+    "option_1_rate": 0.504,
+    "option_2_rate": 0.496,
+    "option_3_rate": 0.0,
+    "correct_when_answer_1": 1.0,
+    "correct_when_answer_2": 0.9959839357429718,
+    "correct_padded_first": null,
+    "correct_padded_second": null,
+    "parse_counts": {
+      "exact": 1000
+    },
+    "source": "results/meta-llama-Meta-Llama-3.1-8B-Instruct__integers__p0__mlx.jsonl"
+  },
+  {
+    "model": "Llama 3.1 8B full precision",
+    "task": "Misleading",
+    "prompt_variant": 0,
+    "n": 1000,
+    "correct": 546,
+    "accuracy": 0.546,
+    "ci_low": 0.5150242420441904,
+    "ci_high": 0.5766236961751385,
+    "option_1_rate": 0.684,
+    "option_2_rate": 0.316,
+    "option_3_rate": 0.0,
+    "correct_when_answer_1": 0.73,
+    "correct_when_answer_2": 0.362,
+    "correct_padded_first": null,
+    "correct_padded_second": null,
+    "parse_counts": {
+      "exact": 1000
+    },
+    "source": "results/meta-llama-Meta-Llama-3.1-8B-Instruct__misleading__p0__mlx.jsonl"
+  },
+  {
+    "model": "Gemma 2 9B full precision",
+    "task": "Integer",
+    "prompt_variant": 0,
+    "n": 1000,
+    "correct": 1000,
+    "accuracy": 1.0,
+    "ci_low": 0.996173241514445,
+    "ci_high": 1.0,
+    "option_1_rate": 0.502,
+    "option_2_rate": 0.498,
+    "option_3_rate": 0.0,
+    "correct_when_answer_1": 1.0,
+    "correct_when_answer_2": 1.0,
+    "correct_padded_first": null,
+    "correct_padded_second": null,
+    "parse_counts": {
+      "recovered": 1000
+    },
+    "source": "results/google-gemma-2-9b-it__integers__p0__mlx.jsonl"
+  },
+  {
+    "model": "Gemma 2 9B full precision",
+    "task": "Misleading",
+    "prompt_variant": 0,
+    "n": 1000,
+    "correct": 957,
+    "accuracy": 0.957,
+    "ci_low": 0.942580996155916,
+    "ci_high": 0.9679213465882865,
+    "option_1_rate": 0.457,
+    "option_2_rate": 0.543,
+    "option_3_rate": 0.0,
+    "correct_when_answer_1": 0.914,
+    "correct_when_answer_2": 1.0,
+    "correct_padded_first": null,
+    "correct_padded_second": null,
+    "parse_counts": {
+      "recovered": 1000
+    },
+    "source": "results/google-gemma-2-9b-it__misleading__p0__mlx.jsonl"
+  }
+]

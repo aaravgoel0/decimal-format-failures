@@ -1,0 +1,2212 @@
+[
+  {
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "fixed_layer_zero_based": 2,
+    "analyses": [
+      {
+        "source": "easy",
+        "component": "padded",
+        "template": "pooled",
+        "n": 100,
+        "aligned_minus_random": 1.1225,
+        "bootstrap_95_ci": [
+          0.23375,
+          2.09375
+        ]
+      },
+      {
+        "source": "easy",
+        "component": "padded",
+        "template": "relation_statements",
+        "n": 50,
+        "aligned_minus_random": 0.74,
+        "bootstrap_95_ci": [
+          0.4125,
+          1.0825
+        ]
+      },
+      {
+        "source": "easy",
+        "component": "padded",
+        "template": "direct_choice",
+        "n": 50,
+        "aligned_minus_random": 1.505,
+        "bootstrap_95_ci": [
+          -0.1825,
+          3.405249999999996
+        ]
+      },
+      {
+        "source": "easy",
+        "component": "short",
+        "template": "pooled",
+        "n": 100,
+        "aligned_minus_random": 3.08375,
+        "bootstrap_95_ci": [
+          2.3125,
+          3.93003125
+        ]
+      },
+      {
+        "source": "easy",
+        "component": "short",
+        "template": "relation_statements",
+        "n": 50,
+        "aligned_minus_random": 0.75,
+        "bootstrap_95_ci": [
+          0.5175,
+          0.995
+        ]
+      },
+      {
+        "source": "easy",
+        "component": "short",
+        "template": "direct_choice",
+        "n": 50,
+        "aligned_minus_random": 5.4175,
+        "bootstrap_95_ci": [
+          4.115,
+          6.785
+        ]
+      },
+      {
+        "source": "donor",
+        "component": "padded",
+        "template": "pooled",
+        "n": 100,
+        "aligned_minus_random": -0.01625,
+        "bootstrap_95_ci": [
+          -0.09,
+          0.0525
+        ]
+      },
+      {
+        "source": "donor",
+        "component": "padded",
+        "template": "relation_statements",
+        "n": 50,
+        "aligned_minus_random": -0.02,
+        "bootstrap_95_ci": [
+          -0.0825,
+          0.04
+        ]
+      },
+      {
+        "source": "donor",
+        "component": "padded",
+        "template": "direct_choice",
+        "n": 50,
+        "aligned_minus_random": -0.0125,
+        "bootstrap_95_ci": [
+          -0.145,
+          0.1125
+        ]
+      },
+      {
+        "source": "donor",
+        "component": "short",
+        "template": "pooled",
+        "n": 100,
+        "aligned_minus_random": -43.2825,
+        "bootstrap_95_ci": [
+          -44.8625,
+          -41.58115625
+        ]
+      },
+      {
+        "source": "donor",
+        "component": "short",
+        "template": "relation_statements",
+        "n": 50,
+        "aligned_minus_random": -45.675,
+        "bootstrap_95_ci": [
+          -46.5575,
+          -44.7775
+        ]
+      },
+      {
+        "source": "donor",
+        "component": "short",
+        "template": "direct_choice",
+        "n": 50,
+        "aligned_minus_random": -40.89,
+        "bootstrap_95_ci": [
+          -43.8125625,
+          -37.72
+        ]
+      }
+    ],
+    "joint_minus_component_sum": [
+      {
+        "source": "easy",
+        "template": "pooled",
+        "n": 100,
+        "joint_minus_component_sum": -0.45,
+        "bootstrap_95_ci": [
+          -1.8275312499999998,
+          1.0850312499999994
+        ],
+        "interpretation": "descriptive; not a formal factorial interaction"
+      },
+      {
+        "source": "easy",
+        "template": "relation_statements",
+        "n": 50,
+        "joint_minus_component_sum": -0.5275,
+        "bootstrap_95_ci": [
+          -1.0075,
+          -0.0175
+        ],
+        "interpretation": "descriptive; not a formal factorial interaction"
+      },
+      {
+        "source": "easy",
+        "template": "direct_choice",
+        "n": 50,
+        "joint_minus_component_sum": -0.3725,
+        "bootstrap_95_ci": [
+          -3.1375,
+          2.750062499999999
+        ],
+        "interpretation": "descriptive; not a formal factorial interaction"
+      },
+      {
+        "source": "donor",
+        "template": "pooled",
+        "n": 100,
+        "joint_minus_component_sum": -0.05,
+        "bootstrap_95_ci": [
+          -0.16,
+          0.06125
+        ],
+        "interpretation": "descriptive; not a formal factorial interaction"
+      },
+      {
+        "source": "donor",
+        "template": "relation_statements",
+        "n": 50,
+        "joint_minus_component_sum": -0.02,
+        "bootstrap_95_ci": [
+          -0.11,
+          0.0675
+        ],
+        "interpretation": "descriptive; not a formal factorial interaction"
+      },
+      {
+        "source": "donor",
+        "template": "direct_choice",
+        "n": 50,
+        "joint_minus_component_sum": -0.08,
+        "bootstrap_95_ci": [
+          -0.2825,
+          0.1275
+        ],
+        "interpretation": "descriptive; not a formal factorial interaction"
+      }
+    ],
+    "strata": [
+      {
+        "field": "zeros",
+        "value": 1,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -1.33125
+      },
+      {
+        "field": "zeros",
+        "value": 1,
+        "source": "easy",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": 4.9375
+      },
+      {
+        "field": "zeros",
+        "value": 1,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 0.03125
+      },
+      {
+        "field": "zeros",
+        "value": 1,
+        "source": "donor",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": -38.06875
+      },
+      {
+        "field": "zeros",
+        "value": 2,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 2.33125
+      },
+      {
+        "field": "zeros",
+        "value": 2,
+        "source": "easy",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": 3.95625
+      },
+      {
+        "field": "zeros",
+        "value": 2,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -0.0125
+      },
+      {
+        "field": "zeros",
+        "value": 2,
+        "source": "donor",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": -40.63125
+      },
+      {
+        "field": "zeros",
+        "value": 3,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 1.16875
+      },
+      {
+        "field": "zeros",
+        "value": 3,
+        "source": "easy",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": 2.05625
+      },
+      {
+        "field": "zeros",
+        "value": 3,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -0.025
+      },
+      {
+        "field": "zeros",
+        "value": 3,
+        "source": "donor",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": -44.98125
+      },
+      {
+        "field": "zeros",
+        "value": 4,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 1.38125
+      },
+      {
+        "field": "zeros",
+        "value": 4,
+        "source": "easy",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": 2.74375
+      },
+      {
+        "field": "zeros",
+        "value": 4,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -0.0125
+      },
+      {
+        "field": "zeros",
+        "value": 4,
+        "source": "donor",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": -45.8
+      },
+      {
+        "field": "zeros",
+        "value": 5,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 2.0625
+      },
+      {
+        "field": "zeros",
+        "value": 5,
+        "source": "easy",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": 1.725
+      },
+      {
+        "field": "zeros",
+        "value": 5,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -0.0625
+      },
+      {
+        "field": "zeros",
+        "value": 5,
+        "source": "donor",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": -46.93125
+      },
+      {
+        "field": "digit",
+        "value": 0,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.525
+      },
+      {
+        "field": "digit",
+        "value": 0,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 0.575
+      },
+      {
+        "field": "digit",
+        "value": 0,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.025
+      },
+      {
+        "field": "digit",
+        "value": 0,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -47.925
+      },
+      {
+        "field": "digit",
+        "value": 1,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.9
+      },
+      {
+        "field": "digit",
+        "value": 1,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 7.15
+      },
+      {
+        "field": "digit",
+        "value": 1,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": -0.1625
+      },
+      {
+        "field": "digit",
+        "value": 1,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -34.0625
+      },
+      {
+        "field": "digit",
+        "value": 2,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": -0.5
+      },
+      {
+        "field": "digit",
+        "value": 2,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 3.5375
+      },
+      {
+        "field": "digit",
+        "value": 2,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.025
+      },
+      {
+        "field": "digit",
+        "value": 2,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -39.5375
+      },
+      {
+        "field": "digit",
+        "value": 3,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.9
+      },
+      {
+        "field": "digit",
+        "value": 3,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 4.6
+      },
+      {
+        "field": "digit",
+        "value": 3,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.15
+      },
+      {
+        "field": "digit",
+        "value": 3,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -40.225
+      },
+      {
+        "field": "digit",
+        "value": 4,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 1.2625
+      },
+      {
+        "field": "digit",
+        "value": 4,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 3.0875
+      },
+      {
+        "field": "digit",
+        "value": 4,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.1375
+      },
+      {
+        "field": "digit",
+        "value": 4,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -40.8125
+      },
+      {
+        "field": "digit",
+        "value": 5,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.025
+      },
+      {
+        "field": "digit",
+        "value": 5,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 0.1875
+      },
+      {
+        "field": "digit",
+        "value": 5,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": -0.0125
+      },
+      {
+        "field": "digit",
+        "value": 5,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -47.925
+      },
+      {
+        "field": "digit",
+        "value": 6,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": -0.575
+      },
+      {
+        "field": "digit",
+        "value": 6,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 1.5875
+      },
+      {
+        "field": "digit",
+        "value": 6,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": -0.0625
+      },
+      {
+        "field": "digit",
+        "value": 6,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -42.25
+      },
+      {
+        "field": "digit",
+        "value": 7,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.4875
+      },
+      {
+        "field": "digit",
+        "value": 7,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 2.675
+      },
+      {
+        "field": "digit",
+        "value": 7,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.0125
+      },
+      {
+        "field": "digit",
+        "value": 7,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -46.5375
+      },
+      {
+        "field": "digit",
+        "value": 8,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 4.625
+      },
+      {
+        "field": "digit",
+        "value": 8,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 3.2
+      },
+      {
+        "field": "digit",
+        "value": 8,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": -0.0625
+      },
+      {
+        "field": "digit",
+        "value": 8,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -46.5625
+      },
+      {
+        "field": "digit",
+        "value": 9,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 3.575
+      },
+      {
+        "field": "digit",
+        "value": 9,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 4.2375
+      },
+      {
+        "field": "digit",
+        "value": 9,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": -0.2125
+      },
+      {
+        "field": "digit",
+        "value": 9,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -46.9875
+      },
+      {
+        "field": "patched_token_count",
+        "value": 5,
+        "source": "easy",
+        "component": "short",
+        "n": 100,
+        "mean_contrast": 3.08375
+      },
+      {
+        "field": "patched_token_count",
+        "value": 5,
+        "source": "donor",
+        "component": "short",
+        "n": 100,
+        "mean_contrast": -43.2825
+      },
+      {
+        "field": "patched_token_count",
+        "value": 6,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -1.33125
+      },
+      {
+        "field": "patched_token_count",
+        "value": 6,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 0.03125
+      },
+      {
+        "field": "patched_token_count",
+        "value": 7,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 2.33125
+      },
+      {
+        "field": "patched_token_count",
+        "value": 7,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -0.0125
+      },
+      {
+        "field": "patched_token_count",
+        "value": 8,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 1.16875
+      },
+      {
+        "field": "patched_token_count",
+        "value": 8,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -0.025
+      },
+      {
+        "field": "patched_token_count",
+        "value": 9,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 1.38125
+      },
+      {
+        "field": "patched_token_count",
+        "value": 9,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -0.0125
+      },
+      {
+        "field": "patched_token_count",
+        "value": 10,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 2.0625
+      },
+      {
+        "field": "patched_token_count",
+        "value": 10,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -0.0625
+      },
+      {
+        "field": "zeros",
+        "value": 1,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 0.5
+      },
+      {
+        "field": "zeros",
+        "value": 1,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -38.14375
+      },
+      {
+        "field": "zeros",
+        "value": 2,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 4.84375
+      },
+      {
+        "field": "zeros",
+        "value": 2,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -40.71875
+      },
+      {
+        "field": "zeros",
+        "value": 3,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 2.94375
+      },
+      {
+        "field": "zeros",
+        "value": 3,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -45.0625
+      },
+      {
+        "field": "zeros",
+        "value": 4,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 6.1625
+      },
+      {
+        "field": "zeros",
+        "value": 4,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -45.80625
+      },
+      {
+        "field": "zeros",
+        "value": 5,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 4.33125
+      },
+      {
+        "field": "zeros",
+        "value": 5,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -47.0125
+      },
+      {
+        "field": "digit",
+        "value": 0,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 1.8
+      },
+      {
+        "field": "digit",
+        "value": 0,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -47.9625
+      },
+      {
+        "field": "digit",
+        "value": 1,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 5.8125
+      },
+      {
+        "field": "digit",
+        "value": 1,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -34.15
+      },
+      {
+        "field": "digit",
+        "value": 2,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 1.325
+      },
+      {
+        "field": "digit",
+        "value": 2,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -39.75
+      },
+      {
+        "field": "digit",
+        "value": 3,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 1.55
+      },
+      {
+        "field": "digit",
+        "value": 3,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -40.075
+      },
+      {
+        "field": "digit",
+        "value": 4,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 5.3375
+      },
+      {
+        "field": "digit",
+        "value": 4,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -41.1
+      },
+      {
+        "field": "digit",
+        "value": 5,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 0.65
+      },
+      {
+        "field": "digit",
+        "value": 5,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -47.8625
+      },
+      {
+        "field": "digit",
+        "value": 6,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 8.075
+      },
+      {
+        "field": "digit",
+        "value": 6,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -42.4375
+      },
+      {
+        "field": "digit",
+        "value": 7,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 3.15
+      },
+      {
+        "field": "digit",
+        "value": 7,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -46.5625
+      },
+      {
+        "field": "digit",
+        "value": 8,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 4.2
+      },
+      {
+        "field": "digit",
+        "value": 8,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -46.55
+      },
+      {
+        "field": "digit",
+        "value": 9,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 5.6625
+      },
+      {
+        "field": "digit",
+        "value": 9,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -47.0375
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 11,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 0.5
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 11,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -38.14375
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 12,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 4.84375
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 12,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -40.71875
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 13,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 2.94375
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 13,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -45.0625
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 14,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 6.1625
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 14,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -45.80625
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 15,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 4.33125
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 15,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -47.0125
+      }
+    ]
+  },
+  {
+    "model": "google/gemma-2-9b-it",
+    "revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+    "fixed_layer_zero_based": 7,
+    "analyses": [
+      {
+        "source": "easy",
+        "component": "padded",
+        "template": "pooled",
+        "n": 100,
+        "aligned_minus_random": 4.07625,
+        "bootstrap_95_ci": [
+          3.42875,
+          4.741312499999999
+        ]
+      },
+      {
+        "source": "easy",
+        "component": "padded",
+        "template": "relation_statements",
+        "n": 50,
+        "aligned_minus_random": 3.0025,
+        "bootstrap_95_ci": [
+          2.2349687499999997,
+          3.81875
+        ]
+      },
+      {
+        "source": "easy",
+        "component": "padded",
+        "template": "direct_choice",
+        "n": 50,
+        "aligned_minus_random": 5.15,
+        "bootstrap_95_ci": [
+          4.2225,
+          6.055031249999999
+        ]
+      },
+      {
+        "source": "easy",
+        "component": "short",
+        "template": "pooled",
+        "n": 100,
+        "aligned_minus_random": 0.721875,
+        "bootstrap_95_ci": [
+          0.254375,
+          1.199390625
+        ]
+      },
+      {
+        "source": "easy",
+        "component": "short",
+        "template": "relation_statements",
+        "n": 50,
+        "aligned_minus_random": 0.1,
+        "bootstrap_95_ci": [
+          -0.43878124999999996,
+          0.71625
+        ]
+      },
+      {
+        "source": "easy",
+        "component": "short",
+        "template": "direct_choice",
+        "n": 50,
+        "aligned_minus_random": 1.34375,
+        "bootstrap_95_ci": [
+          0.6149687500000001,
+          2.04125
+        ]
+      },
+      {
+        "source": "donor",
+        "component": "padded",
+        "template": "pooled",
+        "n": 100,
+        "aligned_minus_random": -0.10375,
+        "bootstrap_95_ci": [
+          -0.25001562499999996,
+          0.006875
+        ]
+      },
+      {
+        "source": "donor",
+        "component": "padded",
+        "template": "relation_statements",
+        "n": 50,
+        "aligned_minus_random": 0.05875,
+        "bootstrap_95_ci": [
+          0.0125,
+          0.11125
+        ]
+      },
+      {
+        "source": "donor",
+        "component": "padded",
+        "template": "direct_choice",
+        "n": 50,
+        "aligned_minus_random": -0.26625,
+        "bootstrap_95_ci": [
+          -0.535,
+          -0.05875
+        ]
+      },
+      {
+        "source": "donor",
+        "component": "short",
+        "template": "pooled",
+        "n": 100,
+        "aligned_minus_random": -8.499375,
+        "bootstrap_95_ci": [
+          -9.393125,
+          -7.605609375
+        ]
+      },
+      {
+        "source": "donor",
+        "component": "short",
+        "template": "relation_statements",
+        "n": 50,
+        "aligned_minus_random": -11.2025,
+        "bootstrap_95_ci": [
+          -12.14253125,
+          -10.22625
+        ]
+      },
+      {
+        "source": "donor",
+        "component": "short",
+        "template": "direct_choice",
+        "n": 50,
+        "aligned_minus_random": -5.79625,
+        "bootstrap_95_ci": [
+          -6.820062500000001,
+          -4.77
+        ]
+      }
+    ],
+    "joint_minus_component_sum": [
+      {
+        "source": "easy",
+        "template": "pooled",
+        "n": 100,
+        "joint_minus_component_sum": -3.63125,
+        "bootstrap_95_ci": [
+          -4.75190625,
+          -2.538125
+        ],
+        "interpretation": "descriptive; not a formal factorial interaction"
+      },
+      {
+        "source": "easy",
+        "template": "relation_statements",
+        "n": 50,
+        "joint_minus_component_sum": -0.32125,
+        "bootstrap_95_ci": [
+          -1.38,
+          0.6675312499999996
+        ],
+        "interpretation": "descriptive; not a formal factorial interaction"
+      },
+      {
+        "source": "easy",
+        "template": "direct_choice",
+        "n": 50,
+        "joint_minus_component_sum": -6.94125,
+        "bootstrap_95_ci": [
+          -8.4750625,
+          -5.444968750000001
+        ],
+        "interpretation": "descriptive; not a formal factorial interaction"
+      },
+      {
+        "source": "donor",
+        "template": "pooled",
+        "n": 100,
+        "joint_minus_component_sum": -0.016875,
+        "bootstrap_95_ci": [
+          -0.215,
+          0.178125
+        ],
+        "interpretation": "descriptive; not a formal factorial interaction"
+      },
+      {
+        "source": "donor",
+        "template": "relation_statements",
+        "n": 50,
+        "joint_minus_component_sum": -0.04625,
+        "bootstrap_95_ci": [
+          -0.1,
+          0.005
+        ],
+        "interpretation": "descriptive; not a formal factorial interaction"
+      },
+      {
+        "source": "donor",
+        "template": "direct_choice",
+        "n": 50,
+        "joint_minus_component_sum": 0.0125,
+        "bootstrap_95_ci": [
+          -0.39128124999999997,
+          0.39
+        ],
+        "interpretation": "descriptive; not a formal factorial interaction"
+      }
+    ],
+    "strata": [
+      {
+        "field": "zeros",
+        "value": 1,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 6.721875
+      },
+      {
+        "field": "zeros",
+        "value": 1,
+        "source": "easy",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": 2.8375
+      },
+      {
+        "field": "zeros",
+        "value": 1,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 0.034375
+      },
+      {
+        "field": "zeros",
+        "value": 1,
+        "source": "donor",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": -4.70625
+      },
+      {
+        "field": "zeros",
+        "value": 2,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 4.30625
+      },
+      {
+        "field": "zeros",
+        "value": 2,
+        "source": "easy",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": 0.415625
+      },
+      {
+        "field": "zeros",
+        "value": 2,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -0.134375
+      },
+      {
+        "field": "zeros",
+        "value": 2,
+        "source": "donor",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": -8.0125
+      },
+      {
+        "field": "zeros",
+        "value": 3,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 3.053125
+      },
+      {
+        "field": "zeros",
+        "value": 3,
+        "source": "easy",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": 0.275
+      },
+      {
+        "field": "zeros",
+        "value": 3,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 0.009375
+      },
+      {
+        "field": "zeros",
+        "value": 3,
+        "source": "donor",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": -9.478125
+      },
+      {
+        "field": "zeros",
+        "value": 4,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 3.41875
+      },
+      {
+        "field": "zeros",
+        "value": 4,
+        "source": "easy",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": -0.065625
+      },
+      {
+        "field": "zeros",
+        "value": 4,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -0.21875
+      },
+      {
+        "field": "zeros",
+        "value": 4,
+        "source": "donor",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": -9.9875
+      },
+      {
+        "field": "zeros",
+        "value": 5,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 2.88125
+      },
+      {
+        "field": "zeros",
+        "value": 5,
+        "source": "easy",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": 0.146875
+      },
+      {
+        "field": "zeros",
+        "value": 5,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -0.209375
+      },
+      {
+        "field": "zeros",
+        "value": 5,
+        "source": "donor",
+        "component": "short",
+        "n": 20,
+        "mean_contrast": -10.3125
+      },
+      {
+        "field": "digit",
+        "value": 0,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.99375
+      },
+      {
+        "field": "digit",
+        "value": 0,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 2.29375
+      },
+      {
+        "field": "digit",
+        "value": 0,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.13125
+      },
+      {
+        "field": "digit",
+        "value": 0,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -11.54375
+      },
+      {
+        "field": "digit",
+        "value": 1,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 3.725
+      },
+      {
+        "field": "digit",
+        "value": 1,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 1.58125
+      },
+      {
+        "field": "digit",
+        "value": 1,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": -0.4625
+      },
+      {
+        "field": "digit",
+        "value": 1,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -3.69375
+      },
+      {
+        "field": "digit",
+        "value": 2,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 3.61875
+      },
+      {
+        "field": "digit",
+        "value": 2,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 0.19375
+      },
+      {
+        "field": "digit",
+        "value": 2,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.0125
+      },
+      {
+        "field": "digit",
+        "value": 2,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -9.03125
+      },
+      {
+        "field": "digit",
+        "value": 3,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 3.6
+      },
+      {
+        "field": "digit",
+        "value": 3,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -0.69375
+      },
+      {
+        "field": "digit",
+        "value": 3,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": -0.0625
+      },
+      {
+        "field": "digit",
+        "value": 3,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -7.30625
+      },
+      {
+        "field": "digit",
+        "value": 4,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 4.95
+      },
+      {
+        "field": "digit",
+        "value": 4,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 0.10625
+      },
+      {
+        "field": "digit",
+        "value": 4,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.0625
+      },
+      {
+        "field": "digit",
+        "value": 4,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -8.65
+      },
+      {
+        "field": "digit",
+        "value": 5,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 5.4375
+      },
+      {
+        "field": "digit",
+        "value": 5,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 3.225
+      },
+      {
+        "field": "digit",
+        "value": 5,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.09375
+      },
+      {
+        "field": "digit",
+        "value": 5,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -8.575
+      },
+      {
+        "field": "digit",
+        "value": 6,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 4.5125
+      },
+      {
+        "field": "digit",
+        "value": 6,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -0.0125
+      },
+      {
+        "field": "digit",
+        "value": 6,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": -0.06875
+      },
+      {
+        "field": "digit",
+        "value": 6,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -9.39375
+      },
+      {
+        "field": "digit",
+        "value": 7,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 4.825
+      },
+      {
+        "field": "digit",
+        "value": 7,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -0.38125
+      },
+      {
+        "field": "digit",
+        "value": 7,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": -0.4125
+      },
+      {
+        "field": "digit",
+        "value": 7,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -8.55
+      },
+      {
+        "field": "digit",
+        "value": 8,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 3.44375
+      },
+      {
+        "field": "digit",
+        "value": 8,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -0.06875
+      },
+      {
+        "field": "digit",
+        "value": 8,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": -0.3625
+      },
+      {
+        "field": "digit",
+        "value": 8,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -10.75
+      },
+      {
+        "field": "digit",
+        "value": 9,
+        "source": "easy",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 5.65625
+      },
+      {
+        "field": "digit",
+        "value": 9,
+        "source": "easy",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": 0.975
+      },
+      {
+        "field": "digit",
+        "value": 9,
+        "source": "donor",
+        "component": "padded",
+        "n": 10,
+        "mean_contrast": 0.03125
+      },
+      {
+        "field": "digit",
+        "value": 9,
+        "source": "donor",
+        "component": "short",
+        "n": 10,
+        "mean_contrast": -7.5
+      },
+      {
+        "field": "patched_token_count",
+        "value": 5,
+        "source": "easy",
+        "component": "short",
+        "n": 100,
+        "mean_contrast": 0.721875
+      },
+      {
+        "field": "patched_token_count",
+        "value": 5,
+        "source": "donor",
+        "component": "short",
+        "n": 100,
+        "mean_contrast": -8.499375
+      },
+      {
+        "field": "patched_token_count",
+        "value": 6,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 6.721875
+      },
+      {
+        "field": "patched_token_count",
+        "value": 6,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 0.034375
+      },
+      {
+        "field": "patched_token_count",
+        "value": 7,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 4.30625
+      },
+      {
+        "field": "patched_token_count",
+        "value": 7,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -0.134375
+      },
+      {
+        "field": "patched_token_count",
+        "value": 8,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 3.053125
+      },
+      {
+        "field": "patched_token_count",
+        "value": 8,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 0.009375
+      },
+      {
+        "field": "patched_token_count",
+        "value": 9,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 3.41875
+      },
+      {
+        "field": "patched_token_count",
+        "value": 9,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -0.21875
+      },
+      {
+        "field": "patched_token_count",
+        "value": 10,
+        "source": "easy",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": 2.88125
+      },
+      {
+        "field": "patched_token_count",
+        "value": 10,
+        "source": "donor",
+        "component": "padded",
+        "n": 20,
+        "mean_contrast": -0.209375
+      },
+      {
+        "field": "zeros",
+        "value": 1,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 6.3625
+      },
+      {
+        "field": "zeros",
+        "value": 1,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -4.69375
+      },
+      {
+        "field": "zeros",
+        "value": 2,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 2.10625
+      },
+      {
+        "field": "zeros",
+        "value": 2,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -8.065625
+      },
+      {
+        "field": "zeros",
+        "value": 3,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -1.396875
+      },
+      {
+        "field": "zeros",
+        "value": 3,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -9.940625
+      },
+      {
+        "field": "zeros",
+        "value": 4,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -1.45625
+      },
+      {
+        "field": "zeros",
+        "value": 4,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -9.996875
+      },
+      {
+        "field": "zeros",
+        "value": 5,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 0.21875
+      },
+      {
+        "field": "zeros",
+        "value": 5,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -10.403125
+      },
+      {
+        "field": "digit",
+        "value": 0,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 0.2375
+      },
+      {
+        "field": "digit",
+        "value": 0,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -11.4875
+      },
+      {
+        "field": "digit",
+        "value": 1,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 3.79375
+      },
+      {
+        "field": "digit",
+        "value": 1,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -4.1375
+      },
+      {
+        "field": "digit",
+        "value": 2,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 0.65625
+      },
+      {
+        "field": "digit",
+        "value": 2,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -9.03125
+      },
+      {
+        "field": "digit",
+        "value": 3,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 1.7
+      },
+      {
+        "field": "digit",
+        "value": 3,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -7.55625
+      },
+      {
+        "field": "digit",
+        "value": 4,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 1.24375
+      },
+      {
+        "field": "digit",
+        "value": 4,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -8.75625
+      },
+      {
+        "field": "digit",
+        "value": 5,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 1.15625
+      },
+      {
+        "field": "digit",
+        "value": 5,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -9.1125
+      },
+      {
+        "field": "digit",
+        "value": 6,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -1.28125
+      },
+      {
+        "field": "digit",
+        "value": 6,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -9.2625
+      },
+      {
+        "field": "digit",
+        "value": 7,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 1.20625
+      },
+      {
+        "field": "digit",
+        "value": 7,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -8.625
+      },
+      {
+        "field": "digit",
+        "value": 8,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -1.225
+      },
+      {
+        "field": "digit",
+        "value": 8,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -10.95
+      },
+      {
+        "field": "digit",
+        "value": 9,
+        "source": "easy",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": 4.18125
+      },
+      {
+        "field": "digit",
+        "value": 9,
+        "source": "donor",
+        "component": "joint",
+        "n": 10,
+        "mean_contrast": -7.28125
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 11,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 6.3625
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 11,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -4.69375
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 12,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 2.10625
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 12,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -8.065625
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 13,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -1.396875
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 13,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -9.940625
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 14,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -1.45625
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 14,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -9.996875
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 15,
+        "source": "easy",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": 0.21875
+      },
+      {
+        "field": "numeral_token_count",
+        "value": 15,
+        "source": "donor",
+        "component": "joint",
+        "n": 20,
+        "mean_contrast": -10.403125
+      }
+    ]
+  }
+]

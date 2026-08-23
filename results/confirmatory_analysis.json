@@ -1,0 +1,111 @@
+{
+  "summaries": [
+    {
+      "model": "Llama 3.1 8B",
+      "n": 2000,
+      "correct": 905,
+      "accuracy": 0.4525,
+      "ci_low": 0.4307978320303002,
+      "ci_high": 0.4743842874614188,
+      "padded_first_accuracy": 0.025,
+      "padded_second_accuracy": 0.88,
+      "risk_difference_first_minus_second": -0.855,
+      "risk_difference_ci_low": -0.921,
+      "risk_difference_ci_high": -0.7779750000000002,
+      "invalid_responses": 0
+    },
+    {
+      "model": "Qwen3 4B Instruct 2507",
+      "n": 2000,
+      "correct": 1992,
+      "accuracy": 0.996,
+      "ci_low": 0.9921265357039621,
+      "ci_high": 0.9979717533930348,
+      "padded_first_accuracy": 0.992,
+      "padded_second_accuracy": 1.0,
+      "risk_difference_first_minus_second": -0.008000000000000007,
+      "risk_difference_ci_low": -0.018,
+      "risk_difference_ci_high": -0.0010000000000000009,
+      "invalid_responses": 0
+    },
+    {
+      "model": "Gemma 2 9B",
+      "n": 2000,
+      "correct": 1814,
+      "accuracy": 0.907,
+      "ci_low": 0.8934795252227157,
+      "ci_high": 0.9189599982903445,
+      "padded_first_accuracy": 0.814,
+      "padded_second_accuracy": 1.0,
+      "risk_difference_first_minus_second": -0.18600000000000005,
+      "risk_difference_ci_low": -0.261,
+      "risk_difference_ci_high": -0.11800000000000001,
+      "invalid_responses": 0
+    }
+  ],
+  "primary_tests": [
+    {
+      "test": "overall:Llama 3.1 8B",
+      "raw_p": 1.1728948532937874e-05,
+      "holm_p": 2.3457897065875748e-05,
+      "reject_0.05": true
+    },
+    {
+      "test": "position:Llama 3.1 8B",
+      "raw_p": 0.0,
+      "holm_p": 0.0,
+      "reject_0.05": true
+    },
+    {
+      "test": "overall:Qwen3 4B Instruct 2507",
+      "raw_p": 4.609084362034886e-78,
+      "holm_p": 2.3045421810174432e-77,
+      "reject_0.05": true
+    },
+    {
+      "test": "position:Qwen3 4B Instruct 2507",
+      "raw_p": 0.0038517404255419474,
+      "holm_p": 0.0038517404255419474,
+      "reject_0.05": true
+    },
+    {
+      "test": "overall:Gemma 2 9B",
+      "raw_p": 4.7248392201738684e-39,
+      "holm_p": 1.4174517660521606e-38,
+      "reject_0.05": true
+    },
+    {
+      "test": "position:Gemma 2 9B",
+      "raw_p": 7.642914135160733e-61,
+      "holm_p": 3.0571656540642933e-60,
+      "reject_0.05": true
+    }
+  ],
+  "secondary_digit_1_less_than_0_p": {
+    "Llama 3.1 8B": 1.0588049721682489e-12,
+    "Qwen3 4B Instruct 2507": 0.007406481321436421,
+    "Gemma 2 9B": 6.192776933177314e-17
+  },
+  "model_by_position_lr_statistic": 0.01387666971049839,
+  "model_by_position_lr_df": 2,
+  "model_by_position_lr_p": 0.9930856798173209,
+  "logistic_interaction_separation_warning": true,
+  "logistic_interaction_note": "Qwen and Gemma have perfect padded-second accuracy, producing complete separation and unstable ordinary-GLM interaction estimates. Treat the prespecified LR p-value as invalid.",
+  "bootstrap_position_penalty_contrasts": {
+    "Llama 3.1 8B minus Qwen3 4B Instruct 2507": {
+      "difference_in_position_penalties": -0.8470000000000001,
+      "bootstrap_ci_low": -0.9140000000000001,
+      "bootstrap_ci_high": -0.77
+    },
+    "Llama 3.1 8B minus Gemma 2 9B": {
+      "difference_in_position_penalties": -0.669,
+      "bootstrap_ci_low": -0.7640250000000001,
+      "bootstrap_ci_high": -0.5639750000000002
+    },
+    "Qwen3 4B Instruct 2507 minus Gemma 2 9B": {
+      "difference_in_position_penalties": 0.17800000000000002,
+      "bootstrap_ci_low": 0.109,
+      "bootstrap_ci_high": 0.25599999999999995
+    }
+  }
+}

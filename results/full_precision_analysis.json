@@ -1,0 +1,40 @@
+[
+  {
+    "model": "Llama 3.1 8B",
+    "n": 2000,
+    "quantized_correct": 905,
+    "quantized_accuracy": 0.4525,
+    "quantized_ci_low": 0.4307978320303002,
+    "quantized_ci_high": 0.4743842874614188,
+    "full_correct": 1150,
+    "full_accuracy": 0.575,
+    "full_ci_low": 0.5532113813845846,
+    "full_ci_high": 0.5965010615232275,
+    "full_minus_quantized": 0.1225,
+    "quantized_only_correct": 0,
+    "full_only_correct": 245,
+    "mcnemar_p_two_sided": 3.5373746401666845e-74,
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "full_padded_position_1_accuracy": 0.155,
+    "full_padded_position_2_accuracy": 0.995
+  },
+  {
+    "model": "Gemma 2 9B",
+    "n": 2000,
+    "quantized_correct": 1814,
+    "quantized_accuracy": 0.907,
+    "quantized_ci_low": 0.8934795252227157,
+    "quantized_ci_high": 0.9189599982903445,
+    "full_correct": 1861,
+    "full_accuracy": 0.9305,
+    "full_ci_low": 0.9185097628647387,
+    "full_ci_high": 0.9408396594261024,
+    "full_minus_quantized": 0.0235,
+    "quantized_only_correct": 3,
+    "full_only_correct": 50,
+    "mcnemar_p_two_sided": 5.519584789226428e-12,
+    "revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+    "full_padded_position_1_accuracy": 0.861,
+    "full_padded_position_2_accuracy": 1.0
+  }
+]

@@ -1,0 +1,5522 @@
+[
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "numeral_final",
+    "direction": "canonical_to_padded",
+    "task": "value",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 100,
+        "validation_metric": 0.1911684239722322,
+        "metric": 0.10700762318887669
+      },
+      {
+        "layer": 1,
+        "alpha": 100,
+        "validation_metric": 0.3461766095629764,
+        "metric": 0.76250574923731
+      },
+      {
+        "layer": 2,
+        "alpha": 0.0001,
+        "validation_metric": 0.27430083980546077,
+        "metric": 0.5001564102035938
+      },
+      {
+        "layer": 3,
+        "alpha": 100,
+        "validation_metric": 0.2942848608633315,
+        "metric": 0.32338537553313773
+      },
+      {
+        "layer": 4,
+        "alpha": 100,
+        "validation_metric": 0.19339195899953351,
+        "metric": 0.5625543619072374
+      },
+      {
+        "layer": 5,
+        "alpha": 100,
+        "validation_metric": 0.09322170601960841,
+        "metric": 0.22485497963584736
+      },
+      {
+        "layer": 6,
+        "alpha": 100,
+        "validation_metric": 0.11331690382884421,
+        "metric": 0.1491158177683957
+      },
+      {
+        "layer": 7,
+        "alpha": 100,
+        "validation_metric": 0.11951500771744668,
+        "metric": 0.3594900255389431
+      },
+      {
+        "layer": 8,
+        "alpha": 100,
+        "validation_metric": -0.019177989610474,
+        "metric": 0.313407262098123
+      },
+      {
+        "layer": 9,
+        "alpha": 100,
+        "validation_metric": 0.043803640037836274,
+        "metric": 0.27285554203771495
+      },
+      {
+        "layer": 10,
+        "alpha": 100,
+        "validation_metric": 0.11529029116557415,
+        "metric": 0.35487619035729284
+      },
+      {
+        "layer": 11,
+        "alpha": 1,
+        "validation_metric": 0.13046591772690574,
+        "metric": 0.35785016845630835
+      },
+      {
+        "layer": 12,
+        "alpha": 0.0001,
+        "validation_metric": 0.16901645626274264,
+        "metric": 0.5422090164074302
+      },
+      {
+        "layer": 13,
+        "alpha": 0.1,
+        "validation_metric": 0.0844665368496094,
+        "metric": 0.3058472430052985
+      },
+      {
+        "layer": 14,
+        "alpha": 100,
+        "validation_metric": 0.06990238242078567,
+        "metric": 0.4672758859873753
+      },
+      {
+        "layer": 15,
+        "alpha": 100,
+        "validation_metric": 0.03969010023732881,
+        "metric": 0.4178022316299206
+      },
+      {
+        "layer": 16,
+        "alpha": 0.1,
+        "validation_metric": 0.010867527445935268,
+        "metric": 0.2535107873001933
+      },
+      {
+        "layer": 17,
+        "alpha": 100,
+        "validation_metric": 0.05619984781504121,
+        "metric": 0.3042073859226637
+      },
+      {
+        "layer": 18,
+        "alpha": 0.0001,
+        "validation_metric": 0.04372025747431248,
+        "metric": 0.20703890522959542
+      },
+      {
+        "layer": 19,
+        "alpha": 1,
+        "validation_metric": 0.04900115316415314,
+        "metric": 0.2994823739896484
+      },
+      {
+        "layer": 20,
+        "alpha": 0.01,
+        "validation_metric": 0.12018206822563708,
+        "metric": 0.37130255537148144
+      },
+      {
+        "layer": 21,
+        "alpha": 0.0001,
+        "validation_metric": 0.10333879039382948,
+        "metric": 0.24030854807559163
+      },
+      {
+        "layer": 22,
+        "alpha": 0.0001,
+        "validation_metric": 0.06114721325078667,
+        "metric": 0.27574613757320665
+      },
+      {
+        "layer": 23,
+        "alpha": 100,
+        "validation_metric": 0.08688463119179962,
+        "metric": 0.21826775711746718
+      },
+      {
+        "layer": 24,
+        "alpha": 0.0001,
+        "validation_metric": 0.05339263484307328,
+        "metric": 0.22844042986737076
+      },
+      {
+        "layer": 25,
+        "alpha": 0.0001,
+        "validation_metric": 0.026460066824885872,
+        "metric": 0.17418617520121824
+      },
+      {
+        "layer": 26,
+        "alpha": 10,
+        "validation_metric": 0.029989928680726734,
+        "metric": 0.10467291141021028
+      },
+      {
+        "layer": 27,
+        "alpha": 10,
+        "validation_metric": 0.0076434016563483335,
+        "metric": 0.07871313996646721
+      },
+      {
+        "layer": 28,
+        "alpha": 100,
+        "validation_metric": -0.0118403240203796,
+        "metric": 0.08254873788856201
+      },
+      {
+        "layer": 29,
+        "alpha": 100,
+        "validation_metric": -0.01762151509136307,
+        "metric": 0.08760728007567255
+      },
+      {
+        "layer": 30,
+        "alpha": 100,
+        "validation_metric": -0.11084322111097149,
+        "metric": 0.13616372623436543
+      },
+      {
+        "layer": 31,
+        "alpha": 0.0001,
+        "validation_metric": -0.05625543619072374,
+        "metric": 0.15108920510512563
+      }
+    ],
+    "selected_layer": 1,
+    "test_metric": 0.76250574923731
+  },
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "numeral_final",
+    "direction": "canonical_to_padded",
+    "task": "equality",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 0.1,
+        "validation_metric": 0.8333333333333333,
+        "metric": 0.8541666666666667
+      },
+      {
+        "layer": 1,
+        "alpha": 10,
+        "validation_metric": 0.6666666666666666,
+        "metric": 0.6666666666666666
+      },
+      {
+        "layer": 2,
+        "alpha": 0.1,
+        "validation_metric": 0.9208333333333334,
+        "metric": 0.8791666666666667
+      },
+      {
+        "layer": 3,
+        "alpha": 100,
+        "validation_metric": 0.6833333333333333,
+        "metric": 0.7041666666666666
+      },
+      {
+        "layer": 4,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 5,
+        "alpha": 0.01,
+        "validation_metric": 0.7791666666666667,
+        "metric": 0.7166666666666667
+      },
+      {
+        "layer": 6,
+        "alpha": 0.0001,
+        "validation_metric": 0.6291666666666667,
+        "metric": 0.6
+      },
+      {
+        "layer": 7,
+        "alpha": 0.01,
+        "validation_metric": 0.6541666666666667,
+        "metric": 0.6041666666666666
+      },
+      {
+        "layer": 8,
+        "alpha": 0.0001,
+        "validation_metric": 0.675,
+        "metric": 0.7291666666666667
+      },
+      {
+        "layer": 9,
+        "alpha": 0.01,
+        "validation_metric": 0.7625,
+        "metric": 0.7333333333333334
+      },
+      {
+        "layer": 10,
+        "alpha": 0.01,
+        "validation_metric": 0.6708333333333334,
+        "metric": 0.5833333333333334
+      },
+      {
+        "layer": 11,
+        "alpha": 0.1,
+        "validation_metric": 0.6291666666666667,
+        "metric": 0.6916666666666667
+      },
+      {
+        "layer": 12,
+        "alpha": 0.0001,
+        "validation_metric": 0.6,
+        "metric": 0.5916666666666667
+      },
+      {
+        "layer": 13,
+        "alpha": 0.01,
+        "validation_metric": 0.6291666666666667,
+        "metric": 0.6208333333333333
+      },
+      {
+        "layer": 14,
+        "alpha": 0.0001,
+        "validation_metric": 0.6208333333333333,
+        "metric": 0.6
+      },
+      {
+        "layer": 15,
+        "alpha": 0.1,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.5083333333333333
+      },
+      {
+        "layer": 16,
+        "alpha": 0.1,
+        "validation_metric": 0.8958333333333333,
+        "metric": 0.8541666666666667
+      },
+      {
+        "layer": 17,
+        "alpha": 0.0001,
+        "validation_metric": 0.6416666666666666,
+        "metric": 0.5625
+      },
+      {
+        "layer": 18,
+        "alpha": 0.01,
+        "validation_metric": 0.675,
+        "metric": 0.6708333333333334
+      },
+      {
+        "layer": 19,
+        "alpha": 0.0001,
+        "validation_metric": 0.7375,
+        "metric": 0.7125
+      },
+      {
+        "layer": 20,
+        "alpha": 0.0001,
+        "validation_metric": 0.8583333333333334,
+        "metric": 0.85
+      },
+      {
+        "layer": 21,
+        "alpha": 0.0001,
+        "validation_metric": 0.7749999999999999,
+        "metric": 0.6291666666666667
+      },
+      {
+        "layer": 22,
+        "alpha": 0.1,
+        "validation_metric": 0.7375,
+        "metric": 0.7416666666666667
+      },
+      {
+        "layer": 23,
+        "alpha": 0.0001,
+        "validation_metric": 0.6083333333333334,
+        "metric": 0.6458333333333334
+      },
+      {
+        "layer": 24,
+        "alpha": 0.0001,
+        "validation_metric": 0.5791666666666666,
+        "metric": 0.5333333333333333
+      },
+      {
+        "layer": 25,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5041666666666667
+      },
+      {
+        "layer": 26,
+        "alpha": 0.1,
+        "validation_metric": 0.5291666666666667,
+        "metric": 0.5416666666666666
+      },
+      {
+        "layer": 27,
+        "alpha": 0.1,
+        "validation_metric": 0.5416666666666666,
+        "metric": 0.5458333333333333
+      },
+      {
+        "layer": 28,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 29,
+        "alpha": 0.1,
+        "validation_metric": 0.6666666666666666,
+        "metric": 0.6458333333333334
+      },
+      {
+        "layer": 30,
+        "alpha": 0.1,
+        "validation_metric": 0.6333333333333333,
+        "metric": 0.6458333333333334
+      },
+      {
+        "layer": 31,
+        "alpha": 0.0001,
+        "validation_metric": 0.8416666666666667,
+        "metric": 0.825
+      }
+    ],
+    "selected_layer": 2,
+    "test_metric": 0.8791666666666667
+  },
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "numeral_final",
+    "direction": "padded_to_canonical",
+    "task": "value",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 10,
+        "validation_metric": 0.45109107465293347,
+        "metric": 0.6368867822558547
+      },
+      {
+        "layer": 1,
+        "alpha": 100,
+        "validation_metric": 0.32322448952824195,
+        "metric": 0.7893259893914653
+      },
+      {
+        "layer": 2,
+        "alpha": 10,
+        "validation_metric": 0.13298124852967919,
+        "metric": 0.720389221759023
+      },
+      {
+        "layer": 3,
+        "alpha": 1,
+        "validation_metric": 0.32411399620737025,
+        "metric": 0.7927728277730874
+      },
+      {
+        "layer": 4,
+        "alpha": 1,
+        "validation_metric": 0.06382210422745473,
+        "metric": 0.6099792052122242
+      },
+      {
+        "layer": 5,
+        "alpha": 0.0001,
+        "validation_metric": 0.4072828707058652,
+        "metric": 0.6940375863898474
+      },
+      {
+        "layer": 6,
+        "alpha": 10,
+        "validation_metric": 0.15455178549854018,
+        "metric": 0.5432662042776024
+      },
+      {
+        "layer": 7,
+        "alpha": 100,
+        "validation_metric": 0.22615707316836745,
+        "metric": 0.4883391668414305
+      },
+      {
+        "layer": 8,
+        "alpha": 100,
+        "validation_metric": 0.11018763987701678,
+        "metric": 0.36169565340054044
+      },
+      {
+        "layer": 9,
+        "alpha": 100,
+        "validation_metric": 0.13720640525553854,
+        "metric": 0.3548019766372962
+      },
+      {
+        "layer": 10,
+        "alpha": 0.0001,
+        "validation_metric": 0.24450314842538837,
+        "metric": 0.7012648281577646
+      },
+      {
+        "layer": 11,
+        "alpha": 100,
+        "validation_metric": 0.06749131927885892,
+        "metric": 0.3432383898086285
+      },
+      {
+        "layer": 12,
+        "alpha": 100,
+        "validation_metric": 0.011230021823994647,
+        "metric": 0.5828492514988113
+      },
+      {
+        "layer": 13,
+        "alpha": 100,
+        "validation_metric": 0.07527450272123144,
+        "metric": 0.5661710012651558
+      },
+      {
+        "layer": 14,
+        "alpha": 100,
+        "validation_metric": -0.051257822384767636,
+        "metric": 0.6565671175315682
+      },
+      {
+        "layer": 15,
+        "alpha": 100,
+        "validation_metric": 0.06137596085985193,
+        "metric": 0.7173871367169649
+      },
+      {
+        "layer": 16,
+        "alpha": 100,
+        "validation_metric": 0.05381515408726147,
+        "metric": 0.8050035446111014
+      },
+      {
+        "layer": 17,
+        "alpha": 100,
+        "validation_metric": 0.1468797903910587,
+        "metric": 0.7257262618337926
+      },
+      {
+        "layer": 18,
+        "alpha": 100,
+        "validation_metric": 0.15099375878202703,
+        "metric": 0.4135094174597633
+      },
+      {
+        "layer": 19,
+        "alpha": 100,
+        "validation_metric": 0.14120918531161586,
+        "metric": 0.625212007092296
+      },
+      {
+        "layer": 20,
+        "alpha": 100,
+        "validation_metric": 0.17167478907175973,
+        "metric": 0.6249896304225139
+      },
+      {
+        "layer": 21,
+        "alpha": 100,
+        "validation_metric": 0.11863795332873553,
+        "metric": 0.42073665922768066
+      },
+      {
+        "layer": 22,
+        "alpha": 100,
+        "validation_metric": 0.18590689593781234,
+        "metric": 0.38793610043482496
+      },
+      {
+        "layer": 23,
+        "alpha": 100,
+        "validation_metric": 0.11507992661222236,
+        "metric": 0.32578182123073574
+      },
+      {
+        "layer": 24,
+        "alpha": 100,
+        "validation_metric": 0.03780403386295227,
+        "metric": 0.3277832112587744
+      },
+      {
+        "layer": 25,
+        "alpha": 100,
+        "validation_metric": 0.010785268484430502,
+        "metric": 0.3244475612120433
+      },
+      {
+        "layer": 26,
+        "alpha": 100,
+        "validation_metric": 0.05203614072900489,
+        "metric": 0.2938707691170084
+      },
+      {
+        "layer": 27,
+        "alpha": 100,
+        "validation_metric": 0.12742183178512737,
+        "metric": 0.3122168443740294
+      },
+      {
+        "layer": 28,
+        "alpha": 100,
+        "validation_metric": 0.10596248315115742,
+        "metric": 0.32344686619802404
+      },
+      {
+        "layer": 29,
+        "alpha": 100,
+        "validation_metric": 0.16633774899699,
+        "metric": 0.31132733769490106
+      },
+      {
+        "layer": 30,
+        "alpha": 100,
+        "validation_metric": 0.08205699114958465,
+        "metric": 0.3685893301637847
+      },
+      {
+        "layer": 31,
+        "alpha": 100,
+        "validation_metric": 0.0428075089330489,
+        "metric": 0.3000973158709065
+      }
+    ],
+    "selected_layer": 0,
+    "test_metric": 0.6368867822558547
+  },
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "numeral_final",
+    "direction": "padded_to_canonical",
+    "task": "equality",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 0.0001,
+        "validation_metric": 0.6666666666666666,
+        "metric": 0.6666666666666666
+      },
+      {
+        "layer": 1,
+        "alpha": 0.0001,
+        "validation_metric": 0.6666666666666666,
+        "metric": 0.6666666666666666
+      },
+      {
+        "layer": 2,
+        "alpha": 0.0001,
+        "validation_metric": 0.5666666666666667,
+        "metric": 0.5833333333333334
+      },
+      {
+        "layer": 3,
+        "alpha": 100,
+        "validation_metric": 0.5666666666666667,
+        "metric": 0.6083333333333334
+      },
+      {
+        "layer": 4,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 5,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 6,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 7,
+        "alpha": 0.0001,
+        "validation_metric": 0.575,
+        "metric": 0.575
+      },
+      {
+        "layer": 8,
+        "alpha": 0.0001,
+        "validation_metric": 0.5833333333333334,
+        "metric": 0.5916666666666667
+      },
+      {
+        "layer": 9,
+        "alpha": 0.0001,
+        "validation_metric": 0.5916666666666667,
+        "metric": 0.6166666666666667
+      },
+      {
+        "layer": 10,
+        "alpha": 0.0001,
+        "validation_metric": 0.625,
+        "metric": 0.6083333333333334
+      },
+      {
+        "layer": 11,
+        "alpha": 0.0001,
+        "validation_metric": 0.6583333333333333,
+        "metric": 0.65
+      },
+      {
+        "layer": 12,
+        "alpha": 10,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.5
+      },
+      {
+        "layer": 13,
+        "alpha": 10,
+        "validation_metric": 0.5583333333333333,
+        "metric": 0.525
+      },
+      {
+        "layer": 14,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 15,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 16,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 17,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 18,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 19,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 20,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 21,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 22,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 23,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 24,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 25,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 26,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 27,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 28,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 29,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 30,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 31,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      }
+    ],
+    "selected_layer": 0,
+    "test_metric": 0.6666666666666666
+  },
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "answer",
+    "direction": "canonical_to_padded",
+    "task": "value",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 10,
+        "validation_metric": -0.052197484765898805,
+        "metric": 0.259208595807653
+      },
+      {
+        "layer": 1,
+        "alpha": 0.0001,
+        "validation_metric": 0.11203837118814594,
+        "metric": 0.3904527507941142
+      },
+      {
+        "layer": 2,
+        "alpha": 100,
+        "validation_metric": 0.17677103467045602,
+        "metric": 0.6435744194645298
+      },
+      {
+        "layer": 3,
+        "alpha": 100,
+        "validation_metric": 0.08944169647319615,
+        "metric": 0.3265817071348834
+      },
+      {
+        "layer": 4,
+        "alpha": 100,
+        "validation_metric": 0.020845640880950003,
+        "metric": 0.31365740978869444
+      },
+      {
+        "layer": 5,
+        "alpha": 100,
+        "validation_metric": 0.10386687996281355,
+        "metric": 0.24597856239521004
+      },
+      {
+        "layer": 6,
+        "alpha": 100,
+        "validation_metric": 0.04027377818199541,
+        "metric": 0.22835704730384696
+      },
+      {
+        "layer": 7,
+        "alpha": 100,
+        "validation_metric": 0.062453540079326214,
+        "metric": 0.2616544843376844
+      },
+      {
+        "layer": 8,
+        "alpha": 10,
+        "validation_metric": -0.03037904731050447,
+        "metric": 0.23989163525797264
+      },
+      {
+        "layer": 9,
+        "alpha": 100,
+        "validation_metric": -0.02504256324498127,
+        "metric": 0.07718445963519754
+      },
+      {
+        "layer": 10,
+        "alpha": 0.0001,
+        "validation_metric": 0.01553695100326807,
+        "metric": 0.03471494061374208
+      },
+      {
+        "layer": 11,
+        "alpha": 0.0001,
+        "validation_metric": -0.03187993345393287,
+        "metric": 0.10728556506728935
+      },
+      {
+        "layer": 12,
+        "alpha": 100,
+        "validation_metric": 0.04955703692097848,
+        "metric": 0.13113297823509618
+      },
+      {
+        "layer": 13,
+        "alpha": 0.0001,
+        "validation_metric": 0.07229268257513462,
+        "metric": 0.09324950020744968
+      },
+      {
+        "layer": 14,
+        "alpha": 100,
+        "validation_metric": -0.03240802302291693,
+        "metric": 0.09088699424094202
+      },
+      {
+        "layer": 15,
+        "alpha": 100,
+        "validation_metric": 0.002807212971967934,
+        "metric": 0.08460550778881575
+      },
+      {
+        "layer": 16,
+        "alpha": 100,
+        "validation_metric": -0.05936838522894561,
+        "metric": 0.18102354541016982
+      },
+      {
+        "layer": 17,
+        "alpha": 0.0001,
+        "validation_metric": -0.021095788571521404,
+        "metric": 0.07051385455329354
+      },
+      {
+        "layer": 18,
+        "alpha": 100,
+        "validation_metric": -0.006642810894062735,
+        "metric": 0.19261372173997804
+      },
+      {
+        "layer": 19,
+        "alpha": 100,
+        "validation_metric": 0.10472849978589281,
+        "metric": 0.17977280695731285
+      },
+      {
+        "layer": 20,
+        "alpha": 1,
+        "validation_metric": 0.08649551256202188,
+        "metric": 0.20995729495292842
+      },
+      {
+        "layer": 21,
+        "alpha": 100,
+        "validation_metric": 0.12073795198246241,
+        "metric": 0.2139874521899121
+      },
+      {
+        "layer": 22,
+        "alpha": 100,
+        "validation_metric": -0.014675331180188803,
+        "metric": -0.0035576560436821336
+      },
+      {
+        "layer": 23,
+        "alpha": 0.0001,
+        "validation_metric": 0.029823163553679137,
+        "metric": 0.12496266853433495
+      },
+      {
+        "layer": 24,
+        "alpha": 0.0001,
+        "validation_metric": 0.07482195366868988,
+        "metric": 0.19561549402683484
+      },
+      {
+        "layer": 25,
+        "alpha": 10,
+        "validation_metric": 0.014369595113934867,
+        "metric": 0.1707952842845837
+      },
+      {
+        "layer": 26,
+        "alpha": 100,
+        "validation_metric": -0.028655807664345938,
+        "metric": 0.07793490270691174
+      },
+      {
+        "layer": 27,
+        "alpha": 100,
+        "validation_metric": -0.038661715287201935,
+        "metric": 0.058284411903136206
+      },
+      {
+        "layer": 28,
+        "alpha": 100,
+        "validation_metric": -0.06676163919472254,
+        "metric": 0.2543446129354313
+      },
+      {
+        "layer": 29,
+        "alpha": 100,
+        "validation_metric": -0.13571901922890517,
+        "metric": 0.12385090102068426
+      },
+      {
+        "layer": 30,
+        "alpha": 100,
+        "validation_metric": -0.1423340359351266,
+        "metric": 0.24886915793070177
+      },
+      {
+        "layer": 31,
+        "alpha": 100,
+        "validation_metric": -0.21095788571521404,
+        "metric": 0.5042143616284186
+      }
+    ],
+    "selected_layer": 2,
+    "test_metric": 0.6435744194645298
+  },
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "answer",
+    "direction": "canonical_to_padded",
+    "task": "equality",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 0.01,
+        "validation_metric": 0.5791666666666667,
+        "metric": 0.5791666666666666
+      },
+      {
+        "layer": 1,
+        "alpha": 0.0001,
+        "validation_metric": 0.6166666666666667,
+        "metric": 0.5666666666666667
+      },
+      {
+        "layer": 2,
+        "alpha": 0.01,
+        "validation_metric": 0.5791666666666667,
+        "metric": 0.5458333333333333
+      },
+      {
+        "layer": 3,
+        "alpha": 0.0001,
+        "validation_metric": 0.6166666666666667,
+        "metric": 0.5583333333333333
+      },
+      {
+        "layer": 4,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 5,
+        "alpha": 0.1,
+        "validation_metric": 0.5291666666666667,
+        "metric": 0.5416666666666666
+      },
+      {
+        "layer": 6,
+        "alpha": 0.1,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.5
+      },
+      {
+        "layer": 7,
+        "alpha": 0.0001,
+        "validation_metric": 0.6333333333333333,
+        "metric": 0.6208333333333333
+      },
+      {
+        "layer": 8,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 9,
+        "alpha": 1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 10,
+        "alpha": 0.001,
+        "validation_metric": 0.7291666666666666,
+        "metric": 0.6666666666666666
+      },
+      {
+        "layer": 11,
+        "alpha": 0.001,
+        "validation_metric": 0.5166666666666666,
+        "metric": 0.41666666666666663
+      },
+      {
+        "layer": 12,
+        "alpha": 0.01,
+        "validation_metric": 0.6333333333333333,
+        "metric": 0.6458333333333334
+      },
+      {
+        "layer": 13,
+        "alpha": 0.0001,
+        "validation_metric": 0.5791666666666666,
+        "metric": 0.475
+      },
+      {
+        "layer": 14,
+        "alpha": 0.1,
+        "validation_metric": 0.5791666666666667,
+        "metric": 0.5416666666666667
+      },
+      {
+        "layer": 15,
+        "alpha": 0.1,
+        "validation_metric": 0.7875,
+        "metric": 0.7458333333333333
+      },
+      {
+        "layer": 16,
+        "alpha": 0.01,
+        "validation_metric": 0.5875,
+        "metric": 0.5583333333333333
+      },
+      {
+        "layer": 17,
+        "alpha": 0.0001,
+        "validation_metric": 0.725,
+        "metric": 0.7333333333333334
+      },
+      {
+        "layer": 18,
+        "alpha": 0.1,
+        "validation_metric": 0.7041666666666667,
+        "metric": 0.725
+      },
+      {
+        "layer": 19,
+        "alpha": 1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 20,
+        "alpha": 1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 21,
+        "alpha": 0.1,
+        "validation_metric": 0.5666666666666667,
+        "metric": 0.6
+      },
+      {
+        "layer": 22,
+        "alpha": 0.01,
+        "validation_metric": 0.6375,
+        "metric": 0.5541666666666667
+      },
+      {
+        "layer": 23,
+        "alpha": 0.1,
+        "validation_metric": 0.5416666666666666,
+        "metric": 0.55
+      },
+      {
+        "layer": 24,
+        "alpha": 0.1,
+        "validation_metric": 0.5083333333333333,
+        "metric": 0.49583333333333335
+      },
+      {
+        "layer": 25,
+        "alpha": 0.0001,
+        "validation_metric": 0.7,
+        "metric": 0.6875
+      },
+      {
+        "layer": 26,
+        "alpha": 0.01,
+        "validation_metric": 0.7208333333333334,
+        "metric": 0.6875
+      },
+      {
+        "layer": 27,
+        "alpha": 0.01,
+        "validation_metric": 0.5583333333333333,
+        "metric": 0.5791666666666667
+      },
+      {
+        "layer": 28,
+        "alpha": 0.1,
+        "validation_metric": 0.5958333333333333,
+        "metric": 0.6166666666666667
+      },
+      {
+        "layer": 29,
+        "alpha": 1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 30,
+        "alpha": 0.1,
+        "validation_metric": 0.5166666666666666,
+        "metric": 0.5166666666666666
+      },
+      {
+        "layer": 31,
+        "alpha": 0.0001,
+        "validation_metric": 0.6458333333333333,
+        "metric": 0.6875
+      }
+    ],
+    "selected_layer": 15,
+    "test_metric": 0.7458333333333333
+  },
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "answer",
+    "direction": "padded_to_canonical",
+    "task": "value",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 10,
+        "validation_metric": 0.2075639599555061,
+        "metric": 0.2551724137931034
+      },
+      {
+        "layer": 1,
+        "alpha": 100,
+        "validation_metric": 0.17018909899888765,
+        "metric": 0.3931034482758621
+      },
+      {
+        "layer": 2,
+        "alpha": 100,
+        "validation_metric": 0.09365962180200221,
+        "metric": 0.6894327030033369
+      },
+      {
+        "layer": 3,
+        "alpha": 100,
+        "validation_metric": 0.11724137931034483,
+        "metric": 0.7770856507230256
+      },
+      {
+        "layer": 4,
+        "alpha": 10,
+        "validation_metric": -0.18175750834260287,
+        "metric": 0.5750834260289209
+      },
+      {
+        "layer": 5,
+        "alpha": 100,
+        "validation_metric": -0.02602892102335929,
+        "metric": 0.6516129032258063
+      },
+      {
+        "layer": 6,
+        "alpha": 10,
+        "validation_metric": -0.10033370411568408,
+        "metric": 0.3459399332591769
+      },
+      {
+        "layer": 7,
+        "alpha": 10,
+        "validation_metric": -0.1114571746384872,
+        "metric": 0.5354838709677419
+      },
+      {
+        "layer": 8,
+        "alpha": 10,
+        "validation_metric": -0.36952169076751945,
+        "metric": 0.4923248053392658
+      },
+      {
+        "layer": 9,
+        "alpha": 0.0001,
+        "validation_metric": -0.43848720800889873,
+        "metric": 0.5813125695216907
+      },
+      {
+        "layer": 10,
+        "alpha": 100,
+        "validation_metric": -0.28498331479421574,
+        "metric": 0.5203559510567296
+      },
+      {
+        "layer": 11,
+        "alpha": 0.0001,
+        "validation_metric": -0.3512791991101223,
+        "metric": 0.44071190211345934
+      },
+      {
+        "layer": 12,
+        "alpha": 0.0001,
+        "validation_metric": -0.3365962180200222,
+        "metric": 0.38375973303670746
+      },
+      {
+        "layer": 13,
+        "alpha": 10,
+        "validation_metric": -0.453615127919911,
+        "metric": 0.2275862068965517
+      },
+      {
+        "layer": 14,
+        "alpha": 0.0001,
+        "validation_metric": -0.617797552836485,
+        "metric": 0.5862068965517241
+      },
+      {
+        "layer": 15,
+        "alpha": 10,
+        "validation_metric": -0.45494994438264735,
+        "metric": 0.5906562847608453
+      },
+      {
+        "layer": 16,
+        "alpha": 0.1,
+        "validation_metric": -0.19065628476084537,
+        "metric": 0.521245828698554
+      },
+      {
+        "layer": 17,
+        "alpha": 10,
+        "validation_metric": -0.4091212458286986,
+        "metric": 0.33303670745272523
+      },
+      {
+        "layer": 18,
+        "alpha": 0.0001,
+        "validation_metric": -0.3196885428253615,
+        "metric": 0.2369299221357063
+      },
+      {
+        "layer": 19,
+        "alpha": 0.01,
+        "validation_metric": -0.15061179087875418,
+        "metric": 0.4131256952169076
+      },
+      {
+        "layer": 20,
+        "alpha": 100,
+        "validation_metric": -0.32947719688542826,
+        "metric": 0.32013348164627364
+      },
+      {
+        "layer": 21,
+        "alpha": 100,
+        "validation_metric": -0.20889877641824248,
+        "metric": 0.3210233592880979
+      },
+      {
+        "layer": 22,
+        "alpha": 100,
+        "validation_metric": -0.1252502780867631,
+        "metric": 0.21690767519466075
+      },
+      {
+        "layer": 23,
+        "alpha": 0.1,
+        "validation_metric": -0.32458286985539486,
+        "metric": 0.20845383759733035
+      },
+      {
+        "layer": 24,
+        "alpha": 0.0001,
+        "validation_metric": -0.22224694104560622,
+        "metric": 0.24226918798665184
+      },
+      {
+        "layer": 25,
+        "alpha": 1,
+        "validation_metric": -0.24404894327030036,
+        "metric": 0.28809788654060065
+      },
+      {
+        "layer": 26,
+        "alpha": 10,
+        "validation_metric": -0.3205784204671857,
+        "metric": 0.15773081201334815
+      },
+      {
+        "layer": 27,
+        "alpha": 100,
+        "validation_metric": -0.446496106785317,
+        "metric": 0.1350389321468298
+      },
+      {
+        "layer": 28,
+        "alpha": 100,
+        "validation_metric": -0.47764182424916574,
+        "metric": -0.004226918798665183
+      },
+      {
+        "layer": 29,
+        "alpha": 100,
+        "validation_metric": -0.6832035595105673,
+        "metric": 0.014015572858731925
+      },
+      {
+        "layer": 30,
+        "alpha": 100,
+        "validation_metric": -0.49588431590656284,
+        "metric": 0.008676307007786429
+      },
+      {
+        "layer": 31,
+        "alpha": 100,
+        "validation_metric": -0.5692992213570633,
+        "metric": 0.3125695216907675
+      }
+    ],
+    "selected_layer": 0,
+    "test_metric": 0.2551724137931034
+  },
+  {
+    "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
+    "position": "answer",
+    "direction": "padded_to_canonical",
+    "task": "equality",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 100,
+        "validation_metric": 0.625,
+        "metric": 0.6
+      },
+      {
+        "layer": 1,
+        "alpha": 0.0001,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.5
+      },
+      {
+        "layer": 2,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 3,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 4,
+        "alpha": 0.0001,
+        "validation_metric": 0.5333333333333333,
+        "metric": 0.5833333333333334
+      },
+      {
+        "layer": 5,
+        "alpha": 0.0001,
+        "validation_metric": 0.5333333333333333,
+        "metric": 0.6333333333333333
+      },
+      {
+        "layer": 6,
+        "alpha": 0.0001,
+        "validation_metric": 0.7333333333333334,
+        "metric": 0.7666666666666666
+      },
+      {
+        "layer": 7,
+        "alpha": 0.0001,
+        "validation_metric": 0.9833333333333334,
+        "metric": 1.0
+      },
+      {
+        "layer": 8,
+        "alpha": 100,
+        "validation_metric": 0.8,
+        "metric": 0.85
+      },
+      {
+        "layer": 9,
+        "alpha": 0.0001,
+        "validation_metric": 0.95,
+        "metric": 0.9666666666666667
+      },
+      {
+        "layer": 10,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 11,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 12,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 0.9833333333333334
+      },
+      {
+        "layer": 13,
+        "alpha": 100,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 14,
+        "alpha": 100,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 15,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 16,
+        "alpha": 100,
+        "validation_metric": 0.5333333333333333,
+        "metric": 0.5
+      },
+      {
+        "layer": 17,
+        "alpha": 100,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 18,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 19,
+        "alpha": 0.0001,
+        "validation_metric": 0.9666666666666667,
+        "metric": 1.0
+      },
+      {
+        "layer": 20,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 21,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 22,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 23,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 24,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 25,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 26,
+        "alpha": 0.0001,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.5166666666666667
+      },
+      {
+        "layer": 27,
+        "alpha": 0.0001,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.5
+      },
+      {
+        "layer": 28,
+        "alpha": 0.001,
+        "validation_metric": 0.6166666666666667,
+        "metric": 0.55
+      },
+      {
+        "layer": 29,
+        "alpha": 0.0001,
+        "validation_metric": 0.6833333333333333,
+        "metric": 0.5833333333333334
+      },
+      {
+        "layer": 30,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 31,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      }
+    ],
+    "selected_layer": 12,
+    "test_metric": 0.9833333333333334
+  },
+  {
+    "model": "Qwen-Qwen3-4B-Instruct-2507",
+    "position": "numeral_final",
+    "direction": "canonical_to_padded",
+    "task": "value",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 0.0001,
+        "validation_metric": 0.08343815189948255,
+        "metric": 0.08780183939056141
+      },
+      {
+        "layer": 1,
+        "alpha": 0.0001,
+        "validation_metric": 0.11073204435960643,
+        "metric": 0.13221695156090554
+      },
+      {
+        "layer": 2,
+        "alpha": 100,
+        "validation_metric": 0.0105895855675226,
+        "metric": 0.12821458851176318
+      },
+      {
+        "layer": 3,
+        "alpha": 100,
+        "validation_metric": 0.061730891195453275,
+        "metric": 0.16506968158928276
+      },
+      {
+        "layer": 4,
+        "alpha": 0.1,
+        "validation_metric": 0.12532399297627142,
+        "metric": 0.15536951003268068
+      },
+      {
+        "layer": 5,
+        "alpha": 0.0001,
+        "validation_metric": 0.04335893303237601,
+        "metric": 0.10447835209532141
+      },
+      {
+        "layer": 6,
+        "alpha": 0.1,
+        "validation_metric": 0.002028975712412467,
+        "metric": 0.2656012590111443
+      },
+      {
+        "layer": 7,
+        "alpha": 1,
+        "validation_metric": -0.0035020676679996007,
+        "metric": 0.16670953867191748
+      },
+      {
+        "layer": 8,
+        "alpha": 100,
+        "validation_metric": 0.06011882830065981,
+        "metric": 0.26468405081238255
+      },
+      {
+        "layer": 9,
+        "alpha": 100,
+        "validation_metric": 0.022179761897330803,
+        "metric": 0.16807145387613956
+      },
+      {
+        "layer": 10,
+        "alpha": 1,
+        "validation_metric": 0.0009172081987618002,
+        "metric": 0.11248307819360621
+      },
+      {
+        "layer": 11,
+        "alpha": 100,
+        "validation_metric": -0.03318626028247241,
+        "metric": 0.10836953839309876
+      },
+      {
+        "layer": 12,
+        "alpha": 100,
+        "validation_metric": -0.040940838690185805,
+        "metric": 0.12412884289909697
+      },
+      {
+        "layer": 13,
+        "alpha": 100,
+        "validation_metric": 0.05945176779246941,
+        "metric": 0.13246709925147696
+      },
+      {
+        "layer": 14,
+        "alpha": 100,
+        "validation_metric": 0.10044819485833775,
+        "metric": 0.16537541765553668
+      },
+      {
+        "layer": 15,
+        "alpha": 100,
+        "validation_metric": 0.17123999129004397,
+        "metric": 0.3245805256103122
+      },
+      {
+        "layer": 16,
+        "alpha": 100,
+        "validation_metric": 0.1564534833584901,
+        "metric": 0.24834106836171768
+      },
+      {
+        "layer": 17,
+        "alpha": 0.1,
+        "validation_metric": 0.010506203003998802,
+        "metric": 0.07632283981211828
+      },
+      {
+        "layer": 18,
+        "alpha": 10,
+        "validation_metric": 0.016204011511458467,
+        "metric": 0.22126952940432398
+      },
+      {
+        "layer": 19,
+        "alpha": 1,
+        "validation_metric": 0.08165932387764148,
+        "metric": 0.11415072946408224
+      },
+      {
+        "layer": 20,
+        "alpha": 100,
+        "validation_metric": 0.1439183046420788,
+        "metric": 0.16882189694785374
+      },
+      {
+        "layer": 21,
+        "alpha": 100,
+        "validation_metric": 0.08599521718087909,
+        "metric": 0.13407916214627041
+      },
+      {
+        "layer": 22,
+        "alpha": 100,
+        "validation_metric": 0.053253663903866946,
+        "metric": 0.04433172960682034
+      },
+      {
+        "layer": 23,
+        "alpha": 0.001,
+        "validation_metric": 0.14530801403414217,
+        "metric": 0.19341975318737475
+      },
+      {
+        "layer": 24,
+        "alpha": 10,
+        "validation_metric": 0.16106731854014036,
+        "metric": 0.1523677377458239
+      },
+      {
+        "layer": 25,
+        "alpha": 10,
+        "validation_metric": 0.09755759932284601,
+        "metric": 0.05859014796939014
+      },
+      {
+        "layer": 26,
+        "alpha": 100,
+        "validation_metric": 0.08138138199922881,
+        "metric": 0.05972970967088208
+      },
+      {
+        "layer": 27,
+        "alpha": 10,
+        "validation_metric": 0.11812529832538336,
+        "metric": 0.02479241555440987
+      },
+      {
+        "layer": 28,
+        "alpha": 0.001,
+        "validation_metric": 0.23185911497184658,
+        "metric": 0.09794671795262375
+      },
+      {
+        "layer": 29,
+        "alpha": 100,
+        "validation_metric": 0.11440087715465361,
+        "metric": 0.08705139631884722
+      },
+      {
+        "layer": 30,
+        "alpha": 100,
+        "validation_metric": 0.09861377846081414,
+        "metric": 0.07154223950342041
+      },
+      {
+        "layer": 31,
+        "alpha": 10,
+        "validation_metric": 0.09744642257148095,
+        "metric": 0.021484907201299138
+      },
+      {
+        "layer": 32,
+        "alpha": 1,
+        "validation_metric": 0.08382727052926028,
+        "metric": 0.06467707510662754
+      },
+      {
+        "layer": 33,
+        "alpha": 1,
+        "validation_metric": 0.10058716579754408,
+        "metric": 0.08001946679500675
+      },
+      {
+        "layer": 34,
+        "alpha": 0.0001,
+        "validation_metric": 0.18961194945312124,
+        "metric": 0.12401766614773191
+      },
+      {
+        "layer": 35,
+        "alpha": 100,
+        "validation_metric": 0.18891709475708957,
+        "metric": 0.11879235883357377
+      }
+    ],
+    "selected_layer": 28,
+    "test_metric": 0.09794671795262375
+  },
+  {
+    "model": "Qwen-Qwen3-4B-Instruct-2507",
+    "position": "numeral_final",
+    "direction": "canonical_to_padded",
+    "task": "equality",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 0.1,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 1,
+        "alpha": 0.01,
+        "validation_metric": 0.6041666666666667,
+        "metric": 0.25
+      },
+      {
+        "layer": 2,
+        "alpha": 0.1,
+        "validation_metric": 0.75,
+        "metric": 0.75
+      },
+      {
+        "layer": 3,
+        "alpha": 0.1,
+        "validation_metric": 0.65,
+        "metric": 0.5958333333333333
+      },
+      {
+        "layer": 4,
+        "alpha": 0.1,
+        "validation_metric": 0.8083333333333333,
+        "metric": 0.8125
+      },
+      {
+        "layer": 5,
+        "alpha": 0.1,
+        "validation_metric": 0.525,
+        "metric": 0.5583333333333333
+      },
+      {
+        "layer": 6,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 7,
+        "alpha": 0.01,
+        "validation_metric": 0.775,
+        "metric": 0.7125
+      },
+      {
+        "layer": 8,
+        "alpha": 0.0001,
+        "validation_metric": 0.6291666666666667,
+        "metric": 0.6458333333333333
+      },
+      {
+        "layer": 9,
+        "alpha": 0.01,
+        "validation_metric": 0.575,
+        "metric": 0.5708333333333333
+      },
+      {
+        "layer": 10,
+        "alpha": 0.01,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.3625
+      },
+      {
+        "layer": 11,
+        "alpha": 1,
+        "validation_metric": 0.7083333333333334,
+        "metric": 0.7125
+      },
+      {
+        "layer": 12,
+        "alpha": 0.1,
+        "validation_metric": 0.5833333333333334,
+        "metric": 0.65
+      },
+      {
+        "layer": 13,
+        "alpha": 0.0001,
+        "validation_metric": 0.7458333333333333,
+        "metric": 0.6875
+      },
+      {
+        "layer": 14,
+        "alpha": 0.01,
+        "validation_metric": 0.9166666666666667,
+        "metric": 0.9083333333333333
+      },
+      {
+        "layer": 15,
+        "alpha": 0.0001,
+        "validation_metric": 0.6458333333333334,
+        "metric": 0.6333333333333333
+      },
+      {
+        "layer": 16,
+        "alpha": 1,
+        "validation_metric": 0.75,
+        "metric": 0.75
+      },
+      {
+        "layer": 17,
+        "alpha": 1,
+        "validation_metric": 0.75,
+        "metric": 0.75
+      },
+      {
+        "layer": 18,
+        "alpha": 0.01,
+        "validation_metric": 0.925,
+        "metric": 0.8625
+      },
+      {
+        "layer": 19,
+        "alpha": 0.01,
+        "validation_metric": 0.9208333333333333,
+        "metric": 0.8625
+      },
+      {
+        "layer": 20,
+        "alpha": 1,
+        "validation_metric": 0.75,
+        "metric": 0.75
+      },
+      {
+        "layer": 21,
+        "alpha": 0.1,
+        "validation_metric": 0.7458333333333333,
+        "metric": 0.75
+      },
+      {
+        "layer": 22,
+        "alpha": 0.01,
+        "validation_metric": 0.8333333333333333,
+        "metric": 0.8083333333333333
+      },
+      {
+        "layer": 23,
+        "alpha": 0.01,
+        "validation_metric": 0.85,
+        "metric": 0.8083333333333333
+      },
+      {
+        "layer": 24,
+        "alpha": 0.1,
+        "validation_metric": 0.7458333333333333,
+        "metric": 0.75
+      },
+      {
+        "layer": 25,
+        "alpha": 0.01,
+        "validation_metric": 0.8875,
+        "metric": 0.85
+      },
+      {
+        "layer": 26,
+        "alpha": 0.01,
+        "validation_metric": 0.6625,
+        "metric": 0.6083333333333334
+      },
+      {
+        "layer": 27,
+        "alpha": 0.01,
+        "validation_metric": 0.6333333333333333,
+        "metric": 0.6708333333333333
+      },
+      {
+        "layer": 28,
+        "alpha": 0.1,
+        "validation_metric": 0.75,
+        "metric": 0.75
+      },
+      {
+        "layer": 29,
+        "alpha": 0.1,
+        "validation_metric": 0.75,
+        "metric": 0.7416666666666667
+      },
+      {
+        "layer": 30,
+        "alpha": 0.01,
+        "validation_metric": 0.5208333333333333,
+        "metric": 0.5041666666666667
+      },
+      {
+        "layer": 31,
+        "alpha": 0.1,
+        "validation_metric": 0.75,
+        "metric": 0.75
+      },
+      {
+        "layer": 32,
+        "alpha": 0.01,
+        "validation_metric": 0.9291666666666667,
+        "metric": 0.825
+      },
+      {
+        "layer": 33,
+        "alpha": 0.0001,
+        "validation_metric": 0.6000000000000001,
+        "metric": 0.5916666666666667
+      },
+      {
+        "layer": 34,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 35,
+        "alpha": 0.1,
+        "validation_metric": 0.5041666666666667,
+        "metric": 0.5125
+      }
+    ],
+    "selected_layer": 0,
+    "test_metric": 1.0
+  },
+  {
+    "model": "Qwen-Qwen3-4B-Instruct-2507",
+    "position": "numeral_final",
+    "direction": "padded_to_canonical",
+    "task": "value",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 100,
+        "validation_metric": 0.1598888255733099,
+        "metric": 0.21292566131633414
+      },
+      {
+        "layer": 1,
+        "alpha": 10,
+        "validation_metric": 0.17078528239263147,
+        "metric": 0.21637249969795624
+      },
+      {
+        "layer": 2,
+        "alpha": 1,
+        "validation_metric": 0.47755389835700013,
+        "metric": 0.4426407612012147
+      },
+      {
+        "layer": 3,
+        "alpha": 0.01,
+        "validation_metric": 0.16711606734122725,
+        "metric": 0.2427241350671318
+      },
+      {
+        "layer": 4,
+        "alpha": 100,
+        "validation_metric": -0.135538580232173,
+        "metric": -0.08661571288011712
+      },
+      {
+        "layer": 5,
+        "alpha": 100,
+        "validation_metric": -0.018457263591911993,
+        "metric": 0.02646282370406659
+      },
+      {
+        "layer": 6,
+        "alpha": 100,
+        "validation_metric": -0.3948297771980692,
+        "metric": 0.20436415952972437
+      },
+      {
+        "layer": 7,
+        "alpha": 0.001,
+        "validation_metric": -0.381820742015818,
+        "metric": 0.0807227311308922
+      },
+      {
+        "layer": 8,
+        "alpha": 0.001,
+        "validation_metric": -0.3852675803974401,
+        "metric": -0.2836414423070331
+      },
+      {
+        "layer": 9,
+        "alpha": 100,
+        "validation_metric": -0.31577487109054253,
+        "metric": -0.08628214787544401
+      },
+      {
+        "layer": 10,
+        "alpha": 100,
+        "validation_metric": -0.381931930350709,
+        "metric": 0.20369702952037813
+      },
+      {
+        "layer": 11,
+        "alpha": 10,
+        "validation_metric": -0.1826824342259723,
+        "metric": 0.00455872173053248
+      },
+      {
+        "layer": 12,
+        "alpha": 1,
+        "validation_metric": -0.03635858550936881,
+        "metric": 0.20814456291601957
+      },
+      {
+        "layer": 13,
+        "alpha": 1,
+        "validation_metric": 0.0007783183442372527,
+        "metric": -0.061931902534307116
+      },
+      {
+        "layer": 14,
+        "alpha": 0.1,
+        "validation_metric": 0.1585545655546175,
+        "metric": 0.04870049068227381
+      },
+      {
+        "layer": 15,
+        "alpha": 100,
+        "validation_metric": 0.024906187015592086,
+        "metric": -0.031243922104381143
+      },
+      {
+        "layer": 16,
+        "alpha": 100,
+        "validation_metric": 0.05603892078508219,
+        "metric": 0.007116053433026311
+      },
+      {
+        "layer": 17,
+        "alpha": 0.0001,
+        "validation_metric": -0.1099652632072347,
+        "metric": -0.0701598393162438
+      },
+      {
+        "layer": 18,
+        "alpha": 0.001,
+        "validation_metric": -0.12775539678980047,
+        "metric": -0.04692147732401723
+      },
+      {
+        "layer": 19,
+        "alpha": 0.0001,
+        "validation_metric": -0.027241142048303843,
+        "metric": -0.03380125380687497
+      },
+      {
+        "layer": 20,
+        "alpha": 0.1,
+        "validation_metric": -0.11307853658418372,
+        "metric": -0.09495483799694483
+      },
+      {
+        "layer": 21,
+        "alpha": 100,
+        "validation_metric": -0.15599723385212366,
+        "metric": -0.08305768616360397
+      },
+      {
+        "layer": 22,
+        "alpha": 0.1,
+        "validation_metric": -0.035135513825567406,
+        "metric": -0.08617095954055297
+      },
+      {
+        "layer": 23,
+        "alpha": 100,
+        "validation_metric": 0.0005559416744551805,
+        "metric": 0.32400280787247915
+      },
+      {
+        "layer": 24,
+        "alpha": 0.001,
+        "validation_metric": -0.21359279132568035,
+        "metric": -0.09317582463868825
+      },
+      {
+        "layer": 25,
+        "alpha": 0.001,
+        "validation_metric": -0.13009035182251222,
+        "metric": -0.05959694750159535
+      },
+      {
+        "layer": 26,
+        "alpha": 100,
+        "validation_metric": -0.2763030122042247,
+        "metric": -0.21981933807957835
+      },
+      {
+        "layer": 27,
+        "alpha": 100,
+        "validation_metric": -0.15722030553592503,
+        "metric": -0.11863795332873553
+      },
+      {
+        "layer": 28,
+        "alpha": 100,
+        "validation_metric": -0.2518415785281968,
+        "metric": -0.22082003309359766
+      },
+      {
+        "layer": 29,
+        "alpha": 10,
+        "validation_metric": -0.12264073338481282,
+        "metric": -0.03958304722120885
+      },
+      {
+        "layer": 30,
+        "alpha": 10,
+        "validation_metric": -0.12997916348762123,
+        "metric": -0.0320222404486184
+      },
+      {
+        "layer": 31,
+        "alpha": 0.0001,
+        "validation_metric": -0.15143851212159118,
+        "metric": -0.031799863778836326
+      },
+      {
+        "layer": 32,
+        "alpha": 0.1,
+        "validation_metric": -0.025795693694720376,
+        "metric": -0.021792913638643076
+      },
+      {
+        "layer": 33,
+        "alpha": 0.0001,
+        "validation_metric": 0.0680472609533141,
+        "metric": 0.09751216969943866
+      },
+      {
+        "layer": 34,
+        "alpha": 10,
+        "validation_metric": 0.058818629157358096,
+        "metric": 0.10362752811844565
+      },
+      {
+        "layer": 35,
+        "alpha": 0.1,
+        "validation_metric": 0.07027102765113481,
+        "metric": 0.1090757565281064
+      }
+    ],
+    "selected_layer": 2,
+    "test_metric": 0.4426407612012147
+  },
+  {
+    "model": "Qwen-Qwen3-4B-Instruct-2507",
+    "position": "numeral_final",
+    "direction": "padded_to_canonical",
+    "task": "equality",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 1,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 2,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 3,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 4,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 5,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 6,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 7,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 8,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 9,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 10,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 11,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 12,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 13,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 14,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 15,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 16,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 17,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 18,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 19,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 20,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 21,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 22,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 23,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 24,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 25,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 26,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 27,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 28,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 29,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 30,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 31,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 32,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 33,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 34,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 35,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      }
+    ],
+    "selected_layer": 0,
+    "test_metric": 0.5
+  },
+  {
+    "model": "Qwen-Qwen3-4B-Instruct-2507",
+    "position": "answer",
+    "direction": "canonical_to_padded",
+    "task": "value",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 100,
+        "validation_metric": 0.4899837374536901,
+        "metric": 0.5719487973975856
+      },
+      {
+        "layer": 1,
+        "alpha": 100,
+        "validation_metric": 0.4669423557332801,
+        "metric": 0.7222597652431556
+      },
+      {
+        "layer": 2,
+        "alpha": 100,
+        "validation_metric": 0.43592404210242647,
+        "metric": 0.6934927808274447
+      },
+      {
+        "layer": 3,
+        "alpha": 100,
+        "validation_metric": 0.43278329887636335,
+        "metric": 0.616614057258501
+      },
+      {
+        "layer": 4,
+        "alpha": 100,
+        "validation_metric": 0.4000139514115099,
+        "metric": 0.5845951528653619
+      },
+      {
+        "layer": 5,
+        "alpha": 100,
+        "validation_metric": 0.38870171696011435,
+        "metric": 0.6243686356662145
+      },
+      {
+        "layer": 6,
+        "alpha": 1,
+        "validation_metric": 0.42127650511007897,
+        "metric": 0.6003822515592013
+      },
+      {
+        "layer": 7,
+        "alpha": 100,
+        "validation_metric": 0.2536775524272409,
+        "metric": 0.5109405550860052
+      },
+      {
+        "layer": 8,
+        "alpha": 100,
+        "validation_metric": 0.2520376953446062,
+        "metric": 0.651523557187132
+      },
+      {
+        "layer": 9,
+        "alpha": 100,
+        "validation_metric": 0.20951258794746816,
+        "metric": 0.6009937236917092
+      },
+      {
+        "layer": 10,
+        "alpha": 100,
+        "validation_metric": 0.23955810500387745,
+        "metric": 0.5732273300382839
+      },
+      {
+        "layer": 11,
+        "alpha": 100,
+        "validation_metric": 0.3170205065174876,
+        "metric": 0.3534030984017057
+      },
+      {
+        "layer": 12,
+        "alpha": 100,
+        "validation_metric": 0.15700936711531543,
+        "metric": 0.09800230632830628
+      },
+      {
+        "layer": 13,
+        "alpha": 100,
+        "validation_metric": 0.11276102007201888,
+        "metric": 0.09600112480373509
+      },
+      {
+        "layer": 14,
+        "alpha": 100,
+        "validation_metric": 0.03468714642590081,
+        "metric": 0.11287219682338394
+      },
+      {
+        "layer": 15,
+        "alpha": 0.0001,
+        "validation_metric": 0.044137170291931475,
+        "metric": 0.20570478421321464
+      },
+      {
+        "layer": 16,
+        "alpha": 0.0001,
+        "validation_metric": -0.009283258738983068,
+        "metric": 0.20145227347350084
+      },
+      {
+        "layer": 17,
+        "alpha": 100,
+        "validation_metric": 0.03221346370802807,
+        "metric": 0.21587745696311825
+      },
+      {
+        "layer": 18,
+        "alpha": 100,
+        "validation_metric": -0.05033527418053394,
+        "metric": 0.07740681313792767
+      },
+      {
+        "layer": 19,
+        "alpha": 0.0001,
+        "validation_metric": -0.03493729411647221,
+        "metric": 0.06075809462100894
+      },
+      {
+        "layer": 20,
+        "alpha": 100,
+        "validation_metric": 0.06706737526097648,
+        "metric": 0.17966163020594778
+      },
+      {
+        "layer": 21,
+        "alpha": 100,
+        "validation_metric": 0.07459960016595975,
+        "metric": 0.07165341625478548
+      },
+      {
+        "layer": 22,
+        "alpha": 100,
+        "validation_metric": 0.08254873788856201,
+        "metric": 0.08371609377789521
+      },
+      {
+        "layer": 23,
+        "alpha": 100,
+        "validation_metric": 0.12329501726385893,
+        "metric": 0.08896919527989462
+      },
+      {
+        "layer": 24,
+        "alpha": 0.0001,
+        "validation_metric": 0.11701353081173267,
+        "metric": 0.39867983039512916
+      },
+      {
+        "layer": 25,
+        "alpha": 0.0001,
+        "validation_metric": 0.15314597500537935,
+        "metric": 0.4444290635818541
+      },
+      {
+        "layer": 26,
+        "alpha": 100,
+        "validation_metric": 0.09463920959951301,
+        "metric": 0.25509505600714555
+      },
+      {
+        "layer": 27,
+        "alpha": 10,
+        "validation_metric": 0.0785463748394196,
+        "metric": 0.2501754847592413
+      },
+      {
+        "layer": 28,
+        "alpha": 0.0001,
+        "validation_metric": 0.10064275417322661,
+        "metric": 0.25234343141086013
+      },
+      {
+        "layer": 29,
+        "alpha": 100,
+        "validation_metric": 0.22963557994454525,
+        "metric": 0.29673074939336297
+      },
+      {
+        "layer": 30,
+        "alpha": 0.0001,
+        "validation_metric": 0.16809924806398083,
+        "metric": 0.2710767140158738
+      },
+      {
+        "layer": 31,
+        "alpha": 100,
+        "validation_metric": 0.109231158216178,
+        "metric": 0.14575272103960243
+      },
+      {
+        "layer": 32,
+        "alpha": 0.0001,
+        "validation_metric": 0.1620401151145847,
+        "metric": 0.3934823172688123
+      },
+      {
+        "layer": 33,
+        "alpha": 0.0001,
+        "validation_metric": 0.18227428386302683,
+        "metric": 0.36791166445484697
+      },
+      {
+        "layer": 34,
+        "alpha": 100,
+        "validation_metric": 0.15417435995550624,
+        "metric": 0.3212730172572014
+      },
+      {
+        "layer": 35,
+        "alpha": 100,
+        "validation_metric": 0.06214780401307228,
+        "metric": 0.3063197441986
+      }
+    ],
+    "selected_layer": 0,
+    "test_metric": 0.5719487973975856
+  },
+  {
+    "model": "Qwen-Qwen3-4B-Instruct-2507",
+    "position": "answer",
+    "direction": "canonical_to_padded",
+    "task": "equality",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 0.0001,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.5083333333333333
+      },
+      {
+        "layer": 1,
+        "alpha": 0.01,
+        "validation_metric": 0.5125,
+        "metric": 0.5291666666666667
+      },
+      {
+        "layer": 2,
+        "alpha": 0.0001,
+        "validation_metric": 0.5458333333333333,
+        "metric": 0.5416666666666666
+      },
+      {
+        "layer": 3,
+        "alpha": 0.0001,
+        "validation_metric": 0.6166666666666667,
+        "metric": 0.6458333333333334
+      },
+      {
+        "layer": 4,
+        "alpha": 0.01,
+        "validation_metric": 0.5791666666666666,
+        "metric": 0.5208333333333334
+      },
+      {
+        "layer": 5,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 6,
+        "alpha": 0.01,
+        "validation_metric": 0.5833333333333334,
+        "metric": 0.5541666666666667
+      },
+      {
+        "layer": 7,
+        "alpha": 0.01,
+        "validation_metric": 0.5916666666666667,
+        "metric": 0.5958333333333333
+      },
+      {
+        "layer": 8,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 9,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 10,
+        "alpha": 0.01,
+        "validation_metric": 0.5083333333333333,
+        "metric": 0.5333333333333333
+      },
+      {
+        "layer": 11,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 12,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 13,
+        "alpha": 0.0001,
+        "validation_metric": 0.6833333333333333,
+        "metric": 0.7708333333333333
+      },
+      {
+        "layer": 14,
+        "alpha": 0.01,
+        "validation_metric": 0.7291666666666667,
+        "metric": 0.7041666666666666
+      },
+      {
+        "layer": 15,
+        "alpha": 0.01,
+        "validation_metric": 0.6541666666666667,
+        "metric": 0.7041666666666667
+      },
+      {
+        "layer": 16,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 17,
+        "alpha": 0.1,
+        "validation_metric": 0.6,
+        "metric": 0.5791666666666667
+      },
+      {
+        "layer": 18,
+        "alpha": 0.0001,
+        "validation_metric": 0.6791666666666667,
+        "metric": 0.7041666666666666
+      },
+      {
+        "layer": 19,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 20,
+        "alpha": 0.0001,
+        "validation_metric": 0.6958333333333333,
+        "metric": 0.6708333333333333
+      },
+      {
+        "layer": 21,
+        "alpha": 100,
+        "validation_metric": 0.75,
+        "metric": 0.75
+      },
+      {
+        "layer": 22,
+        "alpha": 0.1,
+        "validation_metric": 1.0,
+        "metric": 0.9916666666666667
+      },
+      {
+        "layer": 23,
+        "alpha": 1,
+        "validation_metric": 0.75,
+        "metric": 0.75
+      },
+      {
+        "layer": 24,
+        "alpha": 0.1,
+        "validation_metric": 0.975,
+        "metric": 0.9833333333333334
+      },
+      {
+        "layer": 25,
+        "alpha": 100,
+        "validation_metric": 0.7708333333333333,
+        "metric": 0.7666666666666666
+      },
+      {
+        "layer": 26,
+        "alpha": 0.1,
+        "validation_metric": 0.9833333333333334,
+        "metric": 0.9875
+      },
+      {
+        "layer": 27,
+        "alpha": 0.1,
+        "validation_metric": 0.9333333333333333,
+        "metric": 0.9125
+      },
+      {
+        "layer": 28,
+        "alpha": 0.1,
+        "validation_metric": 0.9291666666666667,
+        "metric": 0.9041666666666667
+      },
+      {
+        "layer": 29,
+        "alpha": 100,
+        "validation_metric": 0.9125,
+        "metric": 0.9
+      },
+      {
+        "layer": 30,
+        "alpha": 100,
+        "validation_metric": 0.9125,
+        "metric": 0.9
+      },
+      {
+        "layer": 31,
+        "alpha": 100,
+        "validation_metric": 0.9125,
+        "metric": 0.9083333333333333
+      },
+      {
+        "layer": 32,
+        "alpha": 0.1,
+        "validation_metric": 0.9833333333333334,
+        "metric": 0.9416666666666667
+      },
+      {
+        "layer": 33,
+        "alpha": 100,
+        "validation_metric": 0.9125,
+        "metric": 0.9125
+      },
+      {
+        "layer": 34,
+        "alpha": 0.1,
+        "validation_metric": 0.9416666666666667,
+        "metric": 0.9041666666666667
+      },
+      {
+        "layer": 35,
+        "alpha": 100,
+        "validation_metric": 0.9125,
+        "metric": 0.9125
+      }
+    ],
+    "selected_layer": 22,
+    "test_metric": 0.9916666666666667
+  },
+  {
+    "model": "Qwen-Qwen3-4B-Instruct-2507",
+    "position": "answer",
+    "direction": "padded_to_canonical",
+    "task": "value",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 100,
+        "validation_metric": 0.7330367074527252,
+        "metric": 0.8300333704115683
+      },
+      {
+        "layer": 1,
+        "alpha": 100,
+        "validation_metric": 0.48298109010011114,
+        "metric": 0.717908787541713
+      },
+      {
+        "layer": 2,
+        "alpha": 100,
+        "validation_metric": 0.4197997775305895,
+        "metric": 0.8375973303670744
+      },
+      {
+        "layer": 3,
+        "alpha": 10,
+        "validation_metric": 0.43848720800889873,
+        "metric": 0.7779755283648497
+      },
+      {
+        "layer": 4,
+        "alpha": 10,
+        "validation_metric": 0.5750834260289209,
+        "metric": 0.7993325917686318
+      },
+      {
+        "layer": 5,
+        "alpha": 100,
+        "validation_metric": 0.5626251390433815,
+        "metric": 0.8433815350389321
+      },
+      {
+        "layer": 6,
+        "alpha": 0.0001,
+        "validation_metric": 0.6743047830923248,
+        "metric": 0.8353726362625138
+      },
+      {
+        "layer": 7,
+        "alpha": 0.0001,
+        "validation_metric": 0.5879866518353726,
+        "metric": 0.8327030033370412
+      },
+      {
+        "layer": 8,
+        "alpha": 100,
+        "validation_metric": 0.49054505005561727,
+        "metric": 0.91412680756396
+      },
+      {
+        "layer": 9,
+        "alpha": 0.0001,
+        "validation_metric": 0.5225806451612903,
+        "metric": 0.7797552836484982
+      },
+      {
+        "layer": 10,
+        "alpha": 0.0001,
+        "validation_metric": 0.44293659621802,
+        "metric": 0.8033370411568409
+      },
+      {
+        "layer": 11,
+        "alpha": 0.0001,
+        "validation_metric": 0.43537263626251393,
+        "metric": 0.5479421579532814
+      },
+      {
+        "layer": 12,
+        "alpha": 0.0001,
+        "validation_metric": 0.36284760845383757,
+        "metric": 0.47853170189099
+      },
+      {
+        "layer": 13,
+        "alpha": 1,
+        "validation_metric": 0.38153503893214685,
+        "metric": 0.4865406006674083
+      },
+      {
+        "layer": 14,
+        "alpha": 1,
+        "validation_metric": 0.5065628476084538,
+        "metric": 0.5568409343715238
+      },
+      {
+        "layer": 15,
+        "alpha": 10,
+        "validation_metric": 0.24627363737486097,
+        "metric": 0.5697441601779756
+      },
+      {
+        "layer": 16,
+        "alpha": 100,
+        "validation_metric": 0.09187986651835373,
+        "metric": 0.44293659621802
+      },
+      {
+        "layer": 17,
+        "alpha": 10,
+        "validation_metric": 0.13681868743047831,
+        "metric": 0.38020022246941043
+      },
+      {
+        "layer": 18,
+        "alpha": 10,
+        "validation_metric": 0.23426028921023356,
+        "metric": 0.45984427141268075
+      },
+      {
+        "layer": 19,
+        "alpha": 0.0001,
+        "validation_metric": 0.17908787541713014,
+        "metric": 0.4068965517241379
+      },
+      {
+        "layer": 20,
+        "alpha": 10,
+        "validation_metric": 0.11902113459399333,
+        "metric": 0.2493882091212458
+      },
+      {
+        "layer": 21,
+        "alpha": 10,
+        "validation_metric": 0.14304783092324805,
+        "metric": 0.3121245828698554
+      },
+      {
+        "layer": 22,
+        "alpha": 100,
+        "validation_metric": 0.1274749721913237,
+        "metric": -0.011345939933259176
+      },
+      {
+        "layer": 23,
+        "alpha": 100,
+        "validation_metric": 0.303670745272525,
+        "metric": 0.13948832035595105
+      },
+      {
+        "layer": 24,
+        "alpha": 100,
+        "validation_metric": 0.4438264738598442,
+        "metric": 0.43759733036707454
+      },
+      {
+        "layer": 25,
+        "alpha": 100,
+        "validation_metric": 0.14082313681868744,
+        "metric": 0.3219132369299222
+      },
+      {
+        "layer": 26,
+        "alpha": 0.0001,
+        "validation_metric": 0.3219132369299222,
+        "metric": 0.7236929922135706
+      },
+      {
+        "layer": 27,
+        "alpha": 0.0001,
+        "validation_metric": 0.2872080088987764,
+        "metric": 0.5790878754171301
+      },
+      {
+        "layer": 28,
+        "alpha": 0.0001,
+        "validation_metric": 0.26140155728587317,
+        "metric": 0.6378197997775306
+      },
+      {
+        "layer": 29,
+        "alpha": 10,
+        "validation_metric": 0.3606229143492769,
+        "metric": 0.29521690767519465
+      },
+      {
+        "layer": 30,
+        "alpha": 100,
+        "validation_metric": 0.40556173526140155,
+        "metric": 0.48787541713014465
+      },
+      {
+        "layer": 31,
+        "alpha": 0.0001,
+        "validation_metric": 0.3939933259176863,
+        "metric": 0.1421579532814238
+      },
+      {
+        "layer": 32,
+        "alpha": 10,
+        "validation_metric": 0.29343715239154616,
+        "metric": 0.8393770856507229
+      },
+      {
+        "layer": 33,
+        "alpha": 1,
+        "validation_metric": 0.27964404894327033,
+        "metric": 0.7330367074527252
+      },
+      {
+        "layer": 34,
+        "alpha": 10,
+        "validation_metric": 0.27964404894327033,
+        "metric": 0.7601779755283649
+      },
+      {
+        "layer": 35,
+        "alpha": 0.0001,
+        "validation_metric": 0.2427141268075639,
+        "metric": 0.8291434927697441
+      }
+    ],
+    "selected_layer": 0,
+    "test_metric": 0.8300333704115683
+  },
+  {
+    "model": "Qwen-Qwen3-4B-Instruct-2507",
+    "position": "answer",
+    "direction": "padded_to_canonical",
+    "task": "equality",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 0.0001,
+        "validation_metric": 0.7041666666666666,
+        "metric": 0.7875
+      },
+      {
+        "layer": 1,
+        "alpha": 0.0001,
+        "validation_metric": 0.6666666666666666,
+        "metric": 0.9333333333333333
+      },
+      {
+        "layer": 2,
+        "alpha": 0.0001,
+        "validation_metric": 0.55,
+        "metric": 0.7166666666666667
+      },
+      {
+        "layer": 3,
+        "alpha": 0.0001,
+        "validation_metric": 0.8333333333333333,
+        "metric": 0.9166666666666667
+      },
+      {
+        "layer": 4,
+        "alpha": 100,
+        "validation_metric": 0.6,
+        "metric": 0.7333333333333334
+      },
+      {
+        "layer": 5,
+        "alpha": 100,
+        "validation_metric": 0.95,
+        "metric": 0.75
+      },
+      {
+        "layer": 6,
+        "alpha": 0.0001,
+        "validation_metric": 0.85,
+        "metric": 0.75
+      },
+      {
+        "layer": 7,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 0.9833333333333334
+      },
+      {
+        "layer": 8,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 9,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 10,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 11,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 12,
+        "alpha": 0.0001,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.5
+      },
+      {
+        "layer": 13,
+        "alpha": 0.0001,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.5
+      },
+      {
+        "layer": 14,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 15,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 16,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 17,
+        "alpha": 0.0001,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.5166666666666667
+      },
+      {
+        "layer": 18,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 19,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 20,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 21,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 22,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 23,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 24,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 25,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 26,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 27,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 28,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 29,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 30,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 31,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 32,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 33,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 34,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 35,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      }
+    ],
+    "selected_layer": 7,
+    "test_metric": 0.9833333333333334
+  },
+  {
+    "model": "google-gemma-2-9b-it",
+    "position": "numeral_final",
+    "direction": "canonical_to_padded",
+    "task": "value",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 10,
+        "validation_metric": 0.368022841206212,
+        "metric": 0.40418307958769994
+      },
+      {
+        "layer": 1,
+        "alpha": 100,
+        "validation_metric": 0.11195498862462215,
+        "metric": 0.11395617014919335
+      },
+      {
+        "layer": 2,
+        "alpha": 100,
+        "validation_metric": -0.13535769478696866,
+        "metric": 0.15498039140290296
+      },
+      {
+        "layer": 3,
+        "alpha": 1,
+        "validation_metric": -0.21087450315169023,
+        "metric": 0.28975440824520504
+      },
+      {
+        "layer": 4,
+        "alpha": 0.0001,
+        "validation_metric": -0.1961991719715014,
+        "metric": 0.18900047732061334
+      },
+      {
+        "layer": 5,
+        "alpha": 0.1,
+        "validation_metric": -0.20175800953975476,
+        "metric": 0.35476501360592777
+      },
+      {
+        "layer": 6,
+        "alpha": 0.0001,
+        "validation_metric": -0.24097560858378203,
+        "metric": 0.30106664269660055
+      },
+      {
+        "layer": 7,
+        "alpha": 1,
+        "validation_metric": -0.16573674209747313,
+        "metric": 0.15500818559074422
+      },
+      {
+        "layer": 8,
+        "alpha": 0.0001,
+        "validation_metric": -0.05280895689840668,
+        "metric": 0.15031096784557013
+      },
+      {
+        "layer": 9,
+        "alpha": 1,
+        "validation_metric": -0.09058125817468808,
+        "metric": 0.11631867611570101
+      },
+      {
+        "layer": 10,
+        "alpha": 100,
+        "validation_metric": -0.06476045767015133,
+        "metric": 0.17418617520121824
+      },
+      {
+        "layer": 11,
+        "alpha": 100,
+        "validation_metric": -0.08265991463992708,
+        "metric": 0.2816940937712377
+      },
+      {
+        "layer": 12,
+        "alpha": 100,
+        "validation_metric": -0.05422646047831127,
+        "metric": 0.36282532807989515
+      },
+      {
+        "layer": 13,
+        "alpha": 100,
+        "validation_metric": 0.007893549346919734,
+        "metric": 0.13399577958274664
+      },
+      {
+        "layer": 14,
+        "alpha": 10,
+        "validation_metric": -0.035131853431361076,
+        "metric": 0.06703958107313521
+      },
+      {
+        "layer": 15,
+        "alpha": 100,
+        "validation_metric": -0.045915998313772535,
+        "metric": -0.0135079752908556
+      },
+      {
+        "layer": 16,
+        "alpha": 100,
+        "validation_metric": -0.06259251101853254,
+        "metric": -0.008560609855110134
+      },
+      {
+        "layer": 17,
+        "alpha": 10,
+        "validation_metric": -0.017760486030569404,
+        "metric": -0.01745474996431547
+      },
+      {
+        "layer": 18,
+        "alpha": 0.0001,
+        "validation_metric": -0.0002779418784126667,
+        "metric": -0.022846822405521203
+      },
+      {
+        "layer": 19,
+        "alpha": 0.0001,
+        "validation_metric": -0.031212872945742473,
+        "metric": -0.047111148390947
+      },
+      {
+        "layer": 20,
+        "alpha": 0.1,
+        "validation_metric": 0.016065040572252134,
+        "metric": -0.023096970096092604
+      },
+      {
+        "layer": 21,
+        "alpha": 0.001,
+        "validation_metric": -0.02557065281396534,
+        "metric": -0.009727965744443333
+      },
+      {
+        "layer": 22,
+        "alpha": 0.0001,
+        "validation_metric": -0.004224716551872534,
+        "metric": -0.04113539800507467
+      },
+      {
+        "layer": 23,
+        "alpha": 0.0001,
+        "validation_metric": -0.02782198202910794,
+        "metric": -0.07732343057440387
+      },
+      {
+        "layer": 24,
+        "alpha": 0.0001,
+        "validation_metric": -0.04574923318672494,
+        "metric": -0.06917973353691274
+      },
+      {
+        "layer": 25,
+        "alpha": 100,
+        "validation_metric": -0.024014178294854405,
+        "metric": -0.10445055790748015
+      },
+      {
+        "layer": 26,
+        "alpha": 0.001,
+        "validation_metric": -0.029211691421171273,
+        "metric": -0.06890179165850008
+      },
+      {
+        "layer": 27,
+        "alpha": 100,
+        "validation_metric": 0.09469479797519555,
+        "metric": 0.1441962465204915
+      },
+      {
+        "layer": 28,
+        "alpha": 1,
+        "validation_metric": 0.07451621760243594,
+        "metric": 0.11203837118814594
+      },
+      {
+        "layer": 29,
+        "alpha": 0.0001,
+        "validation_metric": 0.06703958107313521,
+        "metric": 0.119653978656653
+      },
+      {
+        "layer": 30,
+        "alpha": 0.0001,
+        "validation_metric": 0.12115486480008143,
+        "metric": 0.16431923851756858
+      },
+      {
+        "layer": 31,
+        "alpha": 0.001,
+        "validation_metric": 0.0847166845401808,
+        "metric": 0.10700762318887669
+      },
+      {
+        "layer": 32,
+        "alpha": 100,
+        "validation_metric": 0.051196894003613214,
+        "metric": 0.12529619878843015
+      },
+      {
+        "layer": 33,
+        "alpha": 100,
+        "validation_metric": 0.07988049585580041,
+        "metric": 0.13519092965992108
+      },
+      {
+        "layer": 34,
+        "alpha": 100,
+        "validation_metric": 0.09541744685906847,
+        "metric": 0.14944934802249088
+      },
+      {
+        "layer": 35,
+        "alpha": 100,
+        "validation_metric": 0.1080915965146861,
+        "metric": 0.14477992446515808
+      },
+      {
+        "layer": 36,
+        "alpha": 100,
+        "validation_metric": 0.1332453365110324,
+        "metric": 0.24898033468206682
+      },
+      {
+        "layer": 37,
+        "alpha": 100,
+        "validation_metric": 0.10139319724494081,
+        "metric": 0.2149046603886739
+      },
+      {
+        "layer": 38,
+        "alpha": 100,
+        "validation_metric": 0.20145227347350084,
+        "metric": 0.3661884248086884
+      },
+      {
+        "layer": 39,
+        "alpha": 100,
+        "validation_metric": 0.15425774251903002,
+        "metric": 0.3040406207956161
+      },
+      {
+        "layer": 40,
+        "alpha": 100,
+        "validation_metric": 0.20551022489832577,
+        "metric": 0.40623984948795366
+      },
+      {
+        "layer": 41,
+        "alpha": 100,
+        "validation_metric": 0.18533164452556616,
+        "metric": 0.44662480442131414
+      }
+    ],
+    "selected_layer": 0,
+    "test_metric": 0.40418307958769994
+  },
+  {
+    "model": "google-gemma-2-9b-it",
+    "position": "numeral_final",
+    "direction": "canonical_to_padded",
+    "task": "equality",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 0.1,
+        "validation_metric": 1.0,
+        "metric": 0.9875
+      },
+      {
+        "layer": 1,
+        "alpha": 0.1,
+        "validation_metric": 1.0,
+        "metric": 0.9958333333333333
+      },
+      {
+        "layer": 2,
+        "alpha": 1,
+        "validation_metric": 0.75,
+        "metric": 0.75
+      },
+      {
+        "layer": 3,
+        "alpha": 0.1,
+        "validation_metric": 0.7583333333333333,
+        "metric": 0.7541666666666667
+      },
+      {
+        "layer": 4,
+        "alpha": 1,
+        "validation_metric": 0.725,
+        "metric": 0.7166666666666667
+      },
+      {
+        "layer": 5,
+        "alpha": 0.0001,
+        "validation_metric": 0.6625000000000001,
+        "metric": 0.65
+      },
+      {
+        "layer": 6,
+        "alpha": 0.01,
+        "validation_metric": 0.5666666666666667,
+        "metric": 0.6166666666666667
+      },
+      {
+        "layer": 7,
+        "alpha": 0.01,
+        "validation_metric": 0.5541666666666667,
+        "metric": 0.5791666666666666
+      },
+      {
+        "layer": 8,
+        "alpha": 0.01,
+        "validation_metric": 0.8375,
+        "metric": 0.8166666666666667
+      },
+      {
+        "layer": 9,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 10,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 11,
+        "alpha": 0.0001,
+        "validation_metric": 0.5583333333333333,
+        "metric": 0.4875
+      },
+      {
+        "layer": 12,
+        "alpha": 0.0001,
+        "validation_metric": 0.7166666666666667,
+        "metric": 0.7458333333333333
+      },
+      {
+        "layer": 13,
+        "alpha": 0.1,
+        "validation_metric": 0.5916666666666667,
+        "metric": 0.6125
+      },
+      {
+        "layer": 14,
+        "alpha": 1,
+        "validation_metric": 0.6666666666666666,
+        "metric": 0.6583333333333333
+      },
+      {
+        "layer": 15,
+        "alpha": 10,
+        "validation_metric": 0.6666666666666666,
+        "metric": 0.6666666666666666
+      },
+      {
+        "layer": 16,
+        "alpha": 0.01,
+        "validation_metric": 0.8666666666666667,
+        "metric": 0.8958333333333334
+      },
+      {
+        "layer": 17,
+        "alpha": 0.1,
+        "validation_metric": 0.975,
+        "metric": 0.975
+      },
+      {
+        "layer": 18,
+        "alpha": 10,
+        "validation_metric": 0.6166666666666667,
+        "metric": 0.6375
+      },
+      {
+        "layer": 19,
+        "alpha": 0.01,
+        "validation_metric": 0.8208333333333333,
+        "metric": 0.85
+      },
+      {
+        "layer": 20,
+        "alpha": 0.1,
+        "validation_metric": 0.7458333333333333,
+        "metric": 0.7541666666666667
+      },
+      {
+        "layer": 21,
+        "alpha": 0.01,
+        "validation_metric": 0.575,
+        "metric": 0.6375
+      },
+      {
+        "layer": 22,
+        "alpha": 0.0001,
+        "validation_metric": 0.6666666666666667,
+        "metric": 0.6375
+      },
+      {
+        "layer": 23,
+        "alpha": 0.0001,
+        "validation_metric": 0.6416666666666666,
+        "metric": 0.6791666666666667
+      },
+      {
+        "layer": 24,
+        "alpha": 0.1,
+        "validation_metric": 0.7541666666666667,
+        "metric": 0.7583333333333333
+      },
+      {
+        "layer": 25,
+        "alpha": 100,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.5125
+      },
+      {
+        "layer": 26,
+        "alpha": 0.0001,
+        "validation_metric": 0.7375,
+        "metric": 0.6916666666666667
+      },
+      {
+        "layer": 27,
+        "alpha": 0.1,
+        "validation_metric": 0.9625,
+        "metric": 0.975
+      },
+      {
+        "layer": 28,
+        "alpha": 0.1,
+        "validation_metric": 0.5875,
+        "metric": 0.5833333333333334
+      },
+      {
+        "layer": 29,
+        "alpha": 0.1,
+        "validation_metric": 0.75,
+        "metric": 0.75
+      },
+      {
+        "layer": 30,
+        "alpha": 0.1,
+        "validation_metric": 0.7375,
+        "metric": 0.7458333333333333
+      },
+      {
+        "layer": 31,
+        "alpha": 0.1,
+        "validation_metric": 0.8333333333333333,
+        "metric": 0.8083333333333333
+      },
+      {
+        "layer": 32,
+        "alpha": 0.0001,
+        "validation_metric": 0.6375,
+        "metric": 0.5916666666666667
+      },
+      {
+        "layer": 33,
+        "alpha": 0.0001,
+        "validation_metric": 0.55,
+        "metric": 0.5791666666666666
+      },
+      {
+        "layer": 34,
+        "alpha": 0.1,
+        "validation_metric": 0.75,
+        "metric": 0.75
+      },
+      {
+        "layer": 35,
+        "alpha": 0.0001,
+        "validation_metric": 0.8,
+        "metric": 0.7833333333333333
+      },
+      {
+        "layer": 36,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 37,
+        "alpha": 0.1,
+        "validation_metric": 0.6083333333333334,
+        "metric": 0.625
+      },
+      {
+        "layer": 38,
+        "alpha": 0.0001,
+        "validation_metric": 0.7583333333333333,
+        "metric": 0.8
+      },
+      {
+        "layer": 39,
+        "alpha": 0.01,
+        "validation_metric": 0.75,
+        "metric": 0.7625
+      },
+      {
+        "layer": 40,
+        "alpha": 0.01,
+        "validation_metric": 0.825,
+        "metric": 0.7833333333333334
+      },
+      {
+        "layer": 41,
+        "alpha": 0.01,
+        "validation_metric": 0.625,
+        "metric": 0.7125
+      }
+    ],
+    "selected_layer": 0,
+    "test_metric": 0.9875
+  },
+  {
+    "model": "google-gemma-2-9b-it",
+    "position": "numeral_final",
+    "direction": "padded_to_canonical",
+    "task": "value",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 100,
+        "validation_metric": 0.08172342614491153,
+        "metric": 0.17056290572284938
+      },
+      {
+        "layer": 1,
+        "alpha": 10,
+        "validation_metric": 0.255733170249383,
+        "metric": 0.24872830515124777
+      },
+      {
+        "layer": 2,
+        "alpha": 0.0001,
+        "validation_metric": 0.021792913638643076,
+        "metric": 0.09929118305769524
+      },
+      {
+        "layer": 3,
+        "alpha": 10,
+        "validation_metric": -0.4071716823709742,
+        "metric": -0.06393329256234576
+      },
+      {
+        "layer": 4,
+        "alpha": 100,
+        "validation_metric": -0.35869356835848243,
+        "metric": -0.07805421109350735
+      },
+      {
+        "layer": 5,
+        "alpha": 100,
+        "validation_metric": -0.08339125116827707,
+        "metric": 0.17289786075556113
+      },
+      {
+        "layer": 6,
+        "alpha": 0.1,
+        "validation_metric": -0.18701877928672272,
+        "metric": 0.22059765642381565
+      },
+      {
+        "layer": 7,
+        "alpha": 0.1,
+        "validation_metric": 0.07861015276796252,
+        "metric": 0.12063934335677418
+      },
+      {
+        "layer": 8,
+        "alpha": 1,
+        "validation_metric": -0.1360945219066282,
+        "metric": -0.05748436913866567
+      },
+      {
+        "layer": 9,
+        "alpha": 0.0001,
+        "validation_metric": 0.11352328992374787,
+        "metric": 0.1789020308396771
+      },
+      {
+        "layer": 10,
+        "alpha": 100,
+        "validation_metric": 0.2751911288553143,
+        "metric": 0.2327171849269386
+      },
+      {
+        "layer": 11,
+        "alpha": 0.1,
+        "validation_metric": 0.3158860594254336,
+        "metric": 0.45698405640215833
+      },
+      {
+        "layer": 12,
+        "alpha": 10,
+        "validation_metric": 0.6298819171577195,
+        "metric": 0.5977484883742101
+      },
+      {
+        "layer": 13,
+        "alpha": 0.001,
+        "validation_metric": 0.4595413881046521,
+        "metric": 0.20692149123221817
+      },
+      {
+        "layer": 14,
+        "alpha": 1,
+        "validation_metric": 0.4242946859441938,
+        "metric": 0.1552189155078864
+      },
+      {
+        "layer": 15,
+        "alpha": 0.1,
+        "validation_metric": 0.5358165858399031,
+        "metric": 0.20692149123221817
+      },
+      {
+        "layer": 16,
+        "alpha": 0.1,
+        "validation_metric": 0.3797081636528883,
+        "metric": 0.12497568841752457
+      },
+      {
+        "layer": 17,
+        "alpha": 10,
+        "validation_metric": 0.5155803088897344,
+        "metric": 0.10084781974616974
+      },
+      {
+        "layer": 18,
+        "alpha": 100,
+        "validation_metric": 0.49734542196760445,
+        "metric": -0.03313412379752875
+      },
+      {
+        "layer": 19,
+        "alpha": 100,
+        "validation_metric": 0.17456568577892667,
+        "metric": -0.05792912247822981
+      },
+      {
+        "layer": 20,
+        "alpha": 100,
+        "validation_metric": 0.17011815238328523,
+        "metric": -0.08794997289880956
+      },
+      {
+        "layer": 21,
+        "alpha": 100,
+        "validation_metric": 0.12330786339415904,
+        "metric": -0.04458652229130547
+      },
+      {
+        "layer": 22,
+        "alpha": 1,
+        "validation_metric": 0.22971509988488062,
+        "metric": 0.11363447825863889
+      },
+      {
+        "layer": 23,
+        "alpha": 1,
+        "validation_metric": 0.19969424946430084,
+        "metric": 0.09128562294554063
+      },
+      {
+        "layer": 24,
+        "alpha": 0.0001,
+        "validation_metric": 0.1164141866309148,
+        "metric": 0.07527450272123144
+      },
+      {
+        "layer": 25,
+        "alpha": 1,
+        "validation_metric": 0.015788743554527127,
+        "metric": 0.0388047288769716
+      },
+      {
+        "layer": 26,
+        "alpha": 10,
+        "validation_metric": 0.0699374626464617,
+        "metric": 0.06026407751094157
+      },
+      {
+        "layer": 27,
+        "alpha": 100,
+        "validation_metric": -0.09684503969009245,
+        "metric": 0.0415844372492475
+      },
+      {
+        "layer": 28,
+        "alpha": 100,
+        "validation_metric": 0.11419041993309408,
+        "metric": 0.3396803630921153
+      },
+      {
+        "layer": 29,
+        "alpha": 100,
+        "validation_metric": 0.02223766697820722,
+        "metric": 0.144767212028129
+      },
+      {
+        "layer": 30,
+        "alpha": 0.0001,
+        "validation_metric": 0.08984017459195717,
+        "metric": 0.23627521164345172
+      },
+      {
+        "layer": 31,
+        "alpha": 0.01,
+        "validation_metric": -0.020458653619950643,
+        "metric": 0.07772064608883424
+      },
+      {
+        "layer": 32,
+        "alpha": 100,
+        "validation_metric": 0.1764558874720743,
+        "metric": 0.3993884989286017
+      },
+      {
+        "layer": 33,
+        "alpha": 100,
+        "validation_metric": 0.11763725831471619,
+        "metric": 0.34090343477591667
+      },
+      {
+        "layer": 34,
+        "alpha": 1,
+        "validation_metric": 0.11652537496580583,
+        "metric": 0.15010425210289874
+      },
+      {
+        "layer": 35,
+        "alpha": 100,
+        "validation_metric": 0.09295344796890617,
+        "metric": 0.2950938408008098
+      },
+      {
+        "layer": 36,
+        "alpha": 100,
+        "validation_metric": 0.10451703479757393,
+        "metric": 0.3874913470952608
+      },
+      {
+        "layer": 37,
+        "alpha": 10,
+        "validation_metric": -0.11574705662156859,
+        "metric": 0.3206671578257481
+      },
+      {
+        "layer": 38,
+        "alpha": 10,
+        "validation_metric": 0.025017375350483123,
+        "metric": 0.366476751800855
+      },
+      {
+        "layer": 39,
+        "alpha": 1,
+        "validation_metric": 0.16889508069948383,
+        "metric": 0.3324531213241979
+      },
+      {
+        "layer": 40,
+        "alpha": 10,
+        "validation_metric": 0.24939543516059398,
+        "metric": 0.39961087559838376
+      },
+      {
+        "layer": 41,
+        "alpha": 1,
+        "validation_metric": 0.11963864834275485,
+        "metric": 0.3424600714643912
+      }
+    ],
+    "selected_layer": 12,
+    "test_metric": 0.5977484883742101
+  },
+  {
+    "model": "google-gemma-2-9b-it",
+    "position": "numeral_final",
+    "direction": "padded_to_canonical",
+    "task": "equality",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 1,
+        "alpha": 100,
+        "validation_metric": 0.6666666666666666,
+        "metric": 0.6666666666666666
+      },
+      {
+        "layer": 2,
+        "alpha": 0.0001,
+        "validation_metric": 0.525,
+        "metric": 0.5333333333333333
+      },
+      {
+        "layer": 3,
+        "alpha": 0.0001,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.5
+      },
+      {
+        "layer": 4,
+        "alpha": 0.0001,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.5083333333333333
+      },
+      {
+        "layer": 5,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 6,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 7,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 8,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 9,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 10,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 11,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 12,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 13,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 14,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 15,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 16,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 17,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 18,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 19,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 20,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 21,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 22,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 23,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 24,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 25,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 26,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 27,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 28,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 29,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 30,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 31,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 32,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 33,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 34,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 35,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 36,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 37,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 38,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 39,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 40,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 41,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5083333333333333
+      }
+    ],
+    "selected_layer": 1,
+    "test_metric": 0.6666666666666666
+  },
+  {
+    "model": "google-gemma-2-9b-it",
+    "position": "answer",
+    "direction": "canonical_to_padded",
+    "task": "value",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 100,
+        "validation_metric": 0.313407262098123,
+        "metric": 0.3285273002837721
+      },
+      {
+        "layer": 1,
+        "alpha": 100,
+        "validation_metric": 0.46583058821962936,
+        "metric": 0.6365702841285307
+      },
+      {
+        "layer": 2,
+        "alpha": 100,
+        "validation_metric": 0.4408992017260132,
+        "metric": 0.6498281117288148
+      },
+      {
+        "layer": 3,
+        "alpha": 100,
+        "validation_metric": 0.36174135475408575,
+        "metric": 0.621922747136183
+      },
+      {
+        "layer": 4,
+        "alpha": 100,
+        "validation_metric": 0.1953097579605809,
+        "metric": 0.44606892066448883
+      },
+      {
+        "layer": 5,
+        "alpha": 100,
+        "validation_metric": 0.23588927220883024,
+        "metric": 0.4191641468341427
+      },
+      {
+        "layer": 6,
+        "alpha": 100,
+        "validation_metric": 0.1716291099198217,
+        "metric": 0.3087100443529489
+      },
+      {
+        "layer": 7,
+        "alpha": 100,
+        "validation_metric": 0.18674914810547075,
+        "metric": 0.37188623331614806
+      },
+      {
+        "layer": 8,
+        "alpha": 0.0001,
+        "validation_metric": 0.30409620917129865,
+        "metric": 0.47061118852832723
+      },
+      {
+        "layer": 9,
+        "alpha": 10,
+        "validation_metric": 0.2727443652863498,
+        "metric": 0.21373730449934067
+      },
+      {
+        "layer": 10,
+        "alpha": 0.0001,
+        "validation_metric": 0.3984852710802403,
+        "metric": 0.32024463230707456
+      },
+      {
+        "layer": 11,
+        "alpha": 100,
+        "validation_metric": 0.42772475668925286,
+        "metric": 0.3676893109521168
+      },
+      {
+        "layer": 12,
+        "alpha": 0.0001,
+        "validation_metric": 0.38822921576681285,
+        "metric": 0.3201056613678683
+      },
+      {
+        "layer": 13,
+        "alpha": 100,
+        "validation_metric": 0.2933398584767284,
+        "metric": 0.4997394973859747
+      },
+      {
+        "layer": 14,
+        "alpha": 1,
+        "validation_metric": 0.4294479963354113,
+        "metric": 0.5016295021591809
+      },
+      {
+        "layer": 15,
+        "alpha": 100,
+        "validation_metric": 0.4090470624599216,
+        "metric": 0.41810796769617453
+      },
+      {
+        "layer": 16,
+        "alpha": 100,
+        "validation_metric": 0.42177680049122174,
+        "metric": 0.372191969382402
+      },
+      {
+        "layer": 17,
+        "alpha": 1,
+        "validation_metric": 0.3543481007883088,
+        "metric": 0.35787796264414967
+      },
+      {
+        "layer": 18,
+        "alpha": 100,
+        "validation_metric": 0.19803358836902504,
+        "metric": 0.3111003445072978
+      },
+      {
+        "layer": 19,
+        "alpha": 100,
+        "validation_metric": 0.2559010874545422,
+        "metric": 0.4211097399830313
+      },
+      {
+        "layer": 20,
+        "alpha": 100,
+        "validation_metric": 0.2871973429638085,
+        "metric": 0.3478998492091349
+      },
+      {
+        "layer": 21,
+        "alpha": 0.0001,
+        "validation_metric": 0.16120628947934668,
+        "metric": 0.3059306255688222
+      },
+      {
+        "layer": 22,
+        "alpha": 0.0001,
+        "validation_metric": 0.18997327389505772,
+        "metric": 0.2734392199823815
+      },
+      {
+        "layer": 23,
+        "alpha": 100,
+        "validation_metric": 0.1788833929463923,
+        "metric": 0.3110725503194566
+      },
+      {
+        "layer": 24,
+        "alpha": 100,
+        "validation_metric": 0.10695203481319415,
+        "metric": 0.11529029116557415
+      },
+      {
+        "layer": 25,
+        "alpha": 100,
+        "validation_metric": -0.040774073563138204,
+        "metric": 0.14255638943785676
+      },
+      {
+        "layer": 26,
+        "alpha": 0.0001,
+        "validation_metric": -0.06934649866396034,
+        "metric": -0.07735122476224515
+      },
+      {
+        "layer": 27,
+        "alpha": 100,
+        "validation_metric": -0.042080400391677736,
+        "metric": -0.04900115316415314
+      },
+      {
+        "layer": 28,
+        "alpha": 100,
+        "validation_metric": 0.006031338761554868,
+        "metric": -0.02657124357625094
+      },
+      {
+        "layer": 29,
+        "alpha": 100,
+        "validation_metric": -0.034603763862377006,
+        "metric": -0.06489942860935767
+      },
+      {
+        "layer": 30,
+        "alpha": 100,
+        "validation_metric": -0.05186395451180361,
+        "metric": -0.05228086732942261
+      },
+      {
+        "layer": 31,
+        "alpha": 100,
+        "validation_metric": -0.06412119134980221,
+        "metric": -0.09160964312481494
+      },
+      {
+        "layer": 32,
+        "alpha": 10,
+        "validation_metric": -0.06264809939421508,
+        "metric": -0.1068130638739878
+      },
+      {
+        "layer": 33,
+        "alpha": 100,
+        "validation_metric": -0.05506028611354927,
+        "metric": -0.10036481229481395
+      },
+      {
+        "layer": 34,
+        "alpha": 100,
+        "validation_metric": -0.0302678705591394,
+        "metric": -0.06615016706221467
+      },
+      {
+        "layer": 35,
+        "alpha": 0.001,
+        "validation_metric": -0.0322690520837106,
+        "metric": -0.06951326379100795
+      },
+      {
+        "layer": 36,
+        "alpha": 10,
+        "validation_metric": -0.025264916747711405,
+        "metric": -0.050446450931899006
+      },
+      {
+        "layer": 37,
+        "alpha": 100,
+        "validation_metric": -0.04544349712047101,
+        "metric": -0.042441724833614206
+      },
+      {
+        "layer": 38,
+        "alpha": 100,
+        "validation_metric": -0.0326025823378058,
+        "metric": -0.04196922364031267
+      },
+      {
+        "layer": 39,
+        "alpha": 100,
+        "validation_metric": -0.08699580794316468,
+        "metric": 0.11837544601595476
+      },
+      {
+        "layer": 40,
+        "alpha": 100,
+        "validation_metric": -0.029573015863107736,
+        "metric": 0.03696626982888467
+      },
+      {
+        "layer": 41,
+        "alpha": 100,
+        "validation_metric": -0.032574788149964534,
+        "metric": -0.016509747577712404
+      }
+    ],
+    "selected_layer": 1,
+    "test_metric": 0.6365702841285307
+  },
+  {
+    "model": "google-gemma-2-9b-it",
+    "position": "answer",
+    "direction": "canonical_to_padded",
+    "task": "equality",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 1,
+        "alpha": 0.0001,
+        "validation_metric": 0.6416666666666666,
+        "metric": 0.6041666666666667
+      },
+      {
+        "layer": 2,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 3,
+        "alpha": 0.0001,
+        "validation_metric": 0.525,
+        "metric": 0.5
+      },
+      {
+        "layer": 4,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 5,
+        "alpha": 0.0001,
+        "validation_metric": 0.525,
+        "metric": 0.575
+      },
+      {
+        "layer": 6,
+        "alpha": 0.01,
+        "validation_metric": 0.5666666666666667,
+        "metric": 0.5208333333333333
+      },
+      {
+        "layer": 7,
+        "alpha": 0.01,
+        "validation_metric": 0.5125,
+        "metric": 0.3666666666666667
+      },
+      {
+        "layer": 8,
+        "alpha": 0.001,
+        "validation_metric": 0.5583333333333333,
+        "metric": 0.5625
+      },
+      {
+        "layer": 9,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 10,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 11,
+        "alpha": 0.001,
+        "validation_metric": 0.5625,
+        "metric": 0.425
+      },
+      {
+        "layer": 12,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 13,
+        "alpha": 0.01,
+        "validation_metric": 0.6541666666666667,
+        "metric": 0.7
+      },
+      {
+        "layer": 14,
+        "alpha": 0.1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 15,
+        "alpha": 0.1,
+        "validation_metric": 0.5541666666666667,
+        "metric": 0.5666666666666667
+      },
+      {
+        "layer": 16,
+        "alpha": 0.01,
+        "validation_metric": 0.5166666666666666,
+        "metric": 0.4916666666666667
+      },
+      {
+        "layer": 17,
+        "alpha": 0.1,
+        "validation_metric": 0.6208333333333333,
+        "metric": 0.6541666666666667
+      },
+      {
+        "layer": 18,
+        "alpha": 0.0001,
+        "validation_metric": 0.6958333333333333,
+        "metric": 0.7458333333333333
+      },
+      {
+        "layer": 19,
+        "alpha": 0.1,
+        "validation_metric": 0.5208333333333334,
+        "metric": 0.5166666666666666
+      },
+      {
+        "layer": 20,
+        "alpha": 0.01,
+        "validation_metric": 0.6958333333333333,
+        "metric": 0.7125
+      },
+      {
+        "layer": 21,
+        "alpha": 1,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 22,
+        "alpha": 0.1,
+        "validation_metric": 0.6541666666666667,
+        "metric": 0.6166666666666667
+      },
+      {
+        "layer": 23,
+        "alpha": 100,
+        "validation_metric": 0.7458333333333333,
+        "metric": 0.7458333333333333
+      },
+      {
+        "layer": 24,
+        "alpha": 100,
+        "validation_metric": 0.7458333333333333,
+        "metric": 0.7458333333333333
+      },
+      {
+        "layer": 25,
+        "alpha": 10,
+        "validation_metric": 0.75,
+        "metric": 0.7458333333333333
+      },
+      {
+        "layer": 26,
+        "alpha": 0.1,
+        "validation_metric": 0.95,
+        "metric": 0.9291666666666667
+      },
+      {
+        "layer": 27,
+        "alpha": 0.1,
+        "validation_metric": 0.7916666666666666,
+        "metric": 0.7583333333333333
+      },
+      {
+        "layer": 28,
+        "alpha": 100,
+        "validation_metric": 0.775,
+        "metric": 0.7583333333333333
+      },
+      {
+        "layer": 29,
+        "alpha": 0.0001,
+        "validation_metric": 0.8208333333333333,
+        "metric": 0.8041666666666667
+      },
+      {
+        "layer": 30,
+        "alpha": 100,
+        "validation_metric": 0.7875,
+        "metric": 0.775
+      },
+      {
+        "layer": 31,
+        "alpha": 100,
+        "validation_metric": 0.825,
+        "metric": 0.7958333333333334
+      },
+      {
+        "layer": 32,
+        "alpha": 100,
+        "validation_metric": 0.8208333333333333,
+        "metric": 0.7916666666666667
+      },
+      {
+        "layer": 33,
+        "alpha": 0.1,
+        "validation_metric": 0.9875,
+        "metric": 0.9708333333333333
+      },
+      {
+        "layer": 34,
+        "alpha": 100,
+        "validation_metric": 0.8416666666666667,
+        "metric": 0.8166666666666667
+      },
+      {
+        "layer": 35,
+        "alpha": 100,
+        "validation_metric": 0.8458333333333333,
+        "metric": 0.8166666666666667
+      },
+      {
+        "layer": 36,
+        "alpha": 1,
+        "validation_metric": 0.8625,
+        "metric": 0.8458333333333333
+      },
+      {
+        "layer": 37,
+        "alpha": 100,
+        "validation_metric": 0.8458333333333333,
+        "metric": 0.8166666666666667
+      },
+      {
+        "layer": 38,
+        "alpha": 100,
+        "validation_metric": 0.85,
+        "metric": 0.8291666666666666
+      },
+      {
+        "layer": 39,
+        "alpha": 100,
+        "validation_metric": 0.8541666666666667,
+        "metric": 0.8375
+      },
+      {
+        "layer": 40,
+        "alpha": 1,
+        "validation_metric": 0.8583333333333334,
+        "metric": 0.8291666666666666
+      },
+      {
+        "layer": 41,
+        "alpha": 0.1,
+        "validation_metric": 0.8999999999999999,
+        "metric": 0.7958333333333334
+      }
+    ],
+    "selected_layer": 33,
+    "test_metric": 0.9708333333333333
+  },
+  {
+    "model": "google-gemma-2-9b-it",
+    "position": "answer",
+    "direction": "padded_to_canonical",
+    "task": "value",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 100,
+        "validation_metric": 0.7183537263626251,
+        "metric": 0.5959955506117908
+      },
+      {
+        "layer": 1,
+        "alpha": 100,
+        "validation_metric": 0.5167964404894326,
+        "metric": 0.7819799777530589
+      },
+      {
+        "layer": 2,
+        "alpha": 0.0001,
+        "validation_metric": 0.5221357063403782,
+        "metric": 0.6987764182424916
+      },
+      {
+        "layer": 3,
+        "alpha": 0.0001,
+        "validation_metric": 0.4046718576195773,
+        "metric": 0.8487208008898776
+      },
+      {
+        "layer": 4,
+        "alpha": 0.0001,
+        "validation_metric": 0.12302558398220245,
+        "metric": 0.4051167964404894
+      },
+      {
+        "layer": 5,
+        "alpha": 10,
+        "validation_metric": 0.1492769744160178,
+        "metric": 0.56440489432703
+      },
+      {
+        "layer": 6,
+        "alpha": 100,
+        "validation_metric": 0.09988876529477196,
+        "metric": 0.4433815350389322
+      },
+      {
+        "layer": 7,
+        "alpha": 10,
+        "validation_metric": 0.17063403781979977,
+        "metric": 0.6124582869855394
+      },
+      {
+        "layer": 8,
+        "alpha": 10,
+        "validation_metric": 0.3944382647385984,
+        "metric": 0.6057842046718577
+      },
+      {
+        "layer": 9,
+        "alpha": 0.0001,
+        "validation_metric": 0.4362625139043381,
+        "metric": 0.5501668520578421
+      },
+      {
+        "layer": 10,
+        "alpha": 100,
+        "validation_metric": 0.4291434927697441,
+        "metric": 0.5163515016685206
+      },
+      {
+        "layer": 11,
+        "alpha": 100,
+        "validation_metric": 0.47630700778642937,
+        "metric": 0.4424916573971079
+      },
+      {
+        "layer": 12,
+        "alpha": 100,
+        "validation_metric": 0.45939933259176857,
+        "metric": 0.5216907675194661
+      },
+      {
+        "layer": 13,
+        "alpha": 0.0001,
+        "validation_metric": 0.43848720800889873,
+        "metric": 0.632035595105673
+      },
+      {
+        "layer": 14,
+        "alpha": 10,
+        "validation_metric": 0.4482758620689655,
+        "metric": 0.6427141268075639
+      },
+      {
+        "layer": 15,
+        "alpha": 0.0001,
+        "validation_metric": 0.4518353726362625,
+        "metric": 0.6725250278086763
+      },
+      {
+        "layer": 16,
+        "alpha": 10,
+        "validation_metric": 0.42780867630700775,
+        "metric": 0.589321468298109
+      },
+      {
+        "layer": 17,
+        "alpha": 100,
+        "validation_metric": 0.39977753058954396,
+        "metric": 0.42691879866518345
+      },
+      {
+        "layer": 18,
+        "alpha": 0.0001,
+        "validation_metric": 0.2525027808676307,
+        "metric": 0.675194660734149
+      },
+      {
+        "layer": 19,
+        "alpha": 0.0001,
+        "validation_metric": 0.10745272525027809,
+        "metric": 0.5328142380422692
+      },
+      {
+        "layer": 20,
+        "alpha": 1,
+        "validation_metric": 0.004671857619577308,
+        "metric": 0.43314794215795327
+      },
+      {
+        "layer": 21,
+        "alpha": 100,
+        "validation_metric": 0.19733036707452725,
+        "metric": 0.10211345939933258
+      },
+      {
+        "layer": 22,
+        "alpha": 10,
+        "validation_metric": 0.2053392658509455,
+        "metric": 0.28542825361512797
+      },
+      {
+        "layer": 23,
+        "alpha": 0.0001,
+        "validation_metric": 0.24760845383759733,
+        "metric": 0.27608453837597335
+      },
+      {
+        "layer": 24,
+        "alpha": 0.0001,
+        "validation_metric": 0.5888765294771968,
+        "metric": 0.21067853170189096
+      },
+      {
+        "layer": 25,
+        "alpha": 1,
+        "validation_metric": 0.28231368186874306,
+        "metric": 0.37486095661846497
+      },
+      {
+        "layer": 26,
+        "alpha": 0.1,
+        "validation_metric": 0.38375973303670746,
+        "metric": 0.13681868743047831
+      },
+      {
+        "layer": 27,
+        "alpha": 0.0001,
+        "validation_metric": 0.3414905450500556,
+        "metric": 0.4562847608453838
+      },
+      {
+        "layer": 28,
+        "alpha": 0.0001,
+        "validation_metric": 0.49143492769744157,
+        "metric": 0.7833147942157953
+      },
+      {
+        "layer": 29,
+        "alpha": 0.0001,
+        "validation_metric": 0.33303670745272523,
+        "metric": 0.7899888765294771
+      },
+      {
+        "layer": 30,
+        "alpha": 0.0001,
+        "validation_metric": 0.3668520578420467,
+        "metric": 0.6244716351501668
+      },
+      {
+        "layer": 31,
+        "alpha": 10,
+        "validation_metric": 0.06963292547274749,
+        "metric": 0.5421579532814238
+      },
+      {
+        "layer": 32,
+        "alpha": 0.0001,
+        "validation_metric": 0.1025583982202447,
+        "metric": 0.5946607341490544
+      },
+      {
+        "layer": 33,
+        "alpha": 0.0001,
+        "validation_metric": 0.1492769744160178,
+        "metric": 0.4300333704115684
+      },
+      {
+        "layer": 34,
+        "alpha": 0.0001,
+        "validation_metric": 0.18754171301446051,
+        "metric": 0.4945494994438264
+      },
+      {
+        "layer": 35,
+        "alpha": 0.1,
+        "validation_metric": 0.23915461624026693,
+        "metric": 0.3050055617352614
+      },
+      {
+        "layer": 36,
+        "alpha": 0.0001,
+        "validation_metric": 0.18442714126807563,
+        "metric": 0.2551724137931034
+      },
+      {
+        "layer": 37,
+        "alpha": 0.01,
+        "validation_metric": 0.3058954393770857,
+        "metric": 0.22847608453837595
+      },
+      {
+        "layer": 38,
+        "alpha": 10,
+        "validation_metric": 0.21334816462736372,
+        "metric": 0.2925472747497219
+      },
+      {
+        "layer": 39,
+        "alpha": 1,
+        "validation_metric": 0.264516129032258,
+        "metric": 0.3361512791991101
+      },
+      {
+        "layer": 40,
+        "alpha": 0.0001,
+        "validation_metric": 0.38153503893214685,
+        "metric": 0.5768631813125695
+      },
+      {
+        "layer": 41,
+        "alpha": 1,
+        "validation_metric": 0.30233592880978866,
+        "metric": 0.6520578420467186
+      }
+    ],
+    "selected_layer": 0,
+    "test_metric": 0.5959955506117908
+  },
+  {
+    "model": "google-gemma-2-9b-it",
+    "position": "answer",
+    "direction": "padded_to_canonical",
+    "task": "equality",
+    "layers": [
+      {
+        "layer": 0,
+        "alpha": 0.0001,
+        "validation_metric": 0.8666666666666667,
+        "metric": 0.7916666666666666
+      },
+      {
+        "layer": 1,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5
+      },
+      {
+        "layer": 2,
+        "alpha": 0.0001,
+        "validation_metric": 0.5833333333333334,
+        "metric": 0.55
+      },
+      {
+        "layer": 3,
+        "alpha": 0.0001,
+        "validation_metric": 0.5166666666666667,
+        "metric": 0.5
+      },
+      {
+        "layer": 4,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5333333333333333
+      },
+      {
+        "layer": 5,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5333333333333333
+      },
+      {
+        "layer": 6,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.55
+      },
+      {
+        "layer": 7,
+        "alpha": 0.0001,
+        "validation_metric": 0.5,
+        "metric": 0.5333333333333333
+      },
+      {
+        "layer": 8,
+        "alpha": 0.0001,
+        "validation_metric": 0.6,
+        "metric": 0.8166666666666667
+      },
+      {
+        "layer": 9,
+        "alpha": 100,
+        "validation_metric": 0.8,
+        "metric": 0.8333333333333333
+      },
+      {
+        "layer": 10,
+        "alpha": 100,
+        "validation_metric": 0.9333333333333333,
+        "metric": 0.95
+      },
+      {
+        "layer": 11,
+        "alpha": 0.0001,
+        "validation_metric": 0.9833333333333334,
+        "metric": 0.9833333333333334
+      },
+      {
+        "layer": 12,
+        "alpha": 100,
+        "validation_metric": 0.9333333333333333,
+        "metric": 0.9833333333333334
+      },
+      {
+        "layer": 13,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 14,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 15,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 16,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 17,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 18,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 19,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 20,
+        "alpha": 10,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 21,
+        "alpha": 100,
+        "validation_metric": 0.7833333333333333,
+        "metric": 0.7
+      },
+      {
+        "layer": 22,
+        "alpha": 100,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 23,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 24,
+        "alpha": 100,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 25,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 26,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 27,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 28,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 29,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 30,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 31,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 32,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 33,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 34,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 35,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 36,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 37,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 38,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 39,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 40,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      },
+      {
+        "layer": 41,
+        "alpha": 0.0001,
+        "validation_metric": 1.0,
+        "metric": 1.0
+      }
+    ],
+    "selected_layer": 13,
+    "test_metric": 1.0
+  }
+]
