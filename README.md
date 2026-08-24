@@ -10,7 +10,8 @@ The unpublished LessWrong draft is intentionally not included here.
 ## Main findings
 
 - Llama 3.1 8B compares ordinary integers almost perfectly but is highly
-  sensitive to decimal formatting, prompt wording, and answer order.
+  sensitive to decimal formatting, prompt wording, and numeral presentation
+  order.
 - Qwen3 4B and Gemma 2 9B are much more accurate on matched decimal tasks.
 - Qwen passes the fixed-site causal-generalization criterion on two new prompt
   templates and an incompatible-value donor test.

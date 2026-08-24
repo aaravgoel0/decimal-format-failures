@@ -1,32 +1,38 @@
 [
   {
+    "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
     "prompt_variant": 0,
-    "correct": 905,
+    "correct": 1150,
     "n": 2000,
-    "accuracy": 0.4525,
-    "ci_low": 0.4307978320303002,
-    "ci_high": 0.4743842874614188,
-    "padded_first_accuracy": 0.025,
-    "padded_second_accuracy": 0.88
+    "accuracy": 0.575,
+    "ci_low": 0.5532113813845846,
+    "ci_high": 0.5965010615232275,
+    "padded_first_accuracy": 0.155,
+    "padded_second_accuracy": 0.995
   },
   {
+    "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
     "prompt_variant": 1,
-    "correct": 12,
+    "correct": 70,
     "n": 2000,
-    "accuracy": 0.006,
-    "ci_low": 0.003435594376936234,
-    "ci_high": 0.010458448336941664,
+    "accuracy": 0.035,
+    "ci_low": 0.027795569156293554,
+    "ci_high": 0.04398728481527167,
     "padded_first_accuracy": 0.0,
-    "padded_second_accuracy": 0.012
+    "padded_second_accuracy": 0.07
   },
   {
+    "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
     "prompt_variant": 2,
-    "correct": 243,
+    "correct": 493,
     "n": 2000,
-    "accuracy": 0.1215,
-    "ci_low": 0.10790262043403129,
-    "ci_high": 0.13654858435787717,
-    "padded_first_accuracy": 0.096,
-    "padded_second_accuracy": 0.147
+    "accuracy": 0.2465,
+    "ci_low": 0.22810994921020825,
+    "ci_high": 0.26586199376138697,
+    "padded_first_accuracy": 0.125,
+    "padded_second_accuracy": 0.368
   }
 ]

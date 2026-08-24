@@ -273,6 +273,90 @@
     "source": "results/meta-llama-Meta-Llama-3.1-8B-Instruct__misleading__p0__mlx.jsonl"
   },
   {
+    "model": "Llama 3.1 8B full precision",
+    "task": "Zero-padding held-out",
+    "prompt_variant": 0,
+    "n": 2000,
+    "correct": 1150,
+    "accuracy": 0.575,
+    "ci_low": 0.5532113813845846,
+    "ci_high": 0.5965010615232275,
+    "option_1_rate": 0.152,
+    "option_2_rate": 0.273,
+    "option_3_rate": 0.575,
+    "correct_when_answer_1": null,
+    "correct_when_answer_2": null,
+    "correct_padded_first": 0.155,
+    "correct_padded_second": 0.995,
+    "parse_counts": {
+      "exact": 2000
+    },
+    "source": "results/meta-llama-Meta-Llama-3.1-8B-Instruct__confirmatory_zero_padding__p0__mlx.jsonl"
+  },
+  {
+    "model": "Llama 3.1 8B full precision",
+    "task": "Zero-padding held-out",
+    "prompt_variant": 1,
+    "n": 2000,
+    "correct": 70,
+    "accuracy": 0.035,
+    "ci_low": 0.027795569156293554,
+    "ci_high": 0.04398728481527167,
+    "option_1_rate": 0.0,
+    "option_2_rate": 0.965,
+    "option_3_rate": 0.035,
+    "correct_when_answer_1": null,
+    "correct_when_answer_2": null,
+    "correct_padded_first": 0.0,
+    "correct_padded_second": 0.07,
+    "parse_counts": {
+      "exact": 2000
+    },
+    "source": "results/meta-llama-Meta-Llama-3.1-8B-Instruct__confirmatory_zero_padding__p1__mlx.jsonl"
+  },
+  {
+    "model": "Llama 3.1 8B full precision",
+    "task": "Zero-padding held-out",
+    "prompt_variant": 2,
+    "n": 2000,
+    "correct": 493,
+    "accuracy": 0.2465,
+    "ci_low": 0.22810994921020825,
+    "ci_high": 0.26586199376138697,
+    "option_1_rate": 0.0025,
+    "option_2_rate": 0.751,
+    "option_3_rate": 0.2465,
+    "correct_when_answer_1": null,
+    "correct_when_answer_2": null,
+    "correct_padded_first": 0.125,
+    "correct_padded_second": 0.368,
+    "parse_counts": {
+      "exact": 2000
+    },
+    "source": "results/meta-llama-Meta-Llama-3.1-8B-Instruct__confirmatory_zero_padding__p2__mlx.jsonl"
+  },
+  {
+    "model": "Qwen3 4B Instruct 2507",
+    "task": "Zero-padding held-out",
+    "prompt_variant": 0,
+    "n": 2000,
+    "correct": 1992,
+    "accuracy": 0.996,
+    "ci_low": 0.9921265357039621,
+    "ci_high": 0.9979717533930348,
+    "option_1_rate": 0.004,
+    "option_2_rate": 0.0,
+    "option_3_rate": 0.996,
+    "correct_when_answer_1": null,
+    "correct_when_answer_2": null,
+    "correct_padded_first": 0.992,
+    "correct_padded_second": 1.0,
+    "parse_counts": {
+      "exact": 2000
+    },
+    "source": "results/Qwen-Qwen3-4B-Instruct-2507__confirmatory_zero_padding__p0__mlx.jsonl"
+  },
+  {
     "model": "Gemma 2 9B full precision",
     "task": "Integer",
     "prompt_variant": 0,
@@ -313,5 +397,26 @@
       "recovered": 1000
     },
     "source": "results/google-gemma-2-9b-it__misleading__p0__mlx.jsonl"
+  },
+  {
+    "model": "Gemma 2 9B full precision",
+    "task": "Zero-padding held-out",
+    "prompt_variant": 0,
+    "n": 2000,
+    "correct": 1861,
+    "accuracy": 0.9305,
+    "ci_low": 0.9185097628647387,
+    "ci_high": 0.9408396594261024,
+    "option_1_rate": 0.0685,
+    "option_2_rate": 0.001,
+    "option_3_rate": 0.9305,
+    "correct_when_answer_1": null,
+    "correct_when_answer_2": null,
+    "correct_padded_first": 0.861,
+    "correct_padded_second": 1.0,
+    "parse_counts": {
+      "recovered": 2000
+    },
+    "source": "results/google-gemma-2-9b-it__confirmatory_zero_padding__p0__mlx.jsonl"
   }
 ]

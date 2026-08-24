@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Summarize held-out Llama prompt variants with Wilson intervals."""
+"""Summarize official full-precision Llama prompt variants."""
 import json, math
 from pathlib import Path
 
@@ -12,7 +12,7 @@ def wilson(k, n, z=1.959963984540054):
 def main():
     rows = []
     for variant in range(3):
-        path = Path(f"results/llama3.1-8b__confirmatory_zero_padding__p{variant}.jsonl")
+        path = Path(f"results/meta-llama-Meta-Llama-3.1-8B-Instruct__confirmatory_zero_padding__p{variant}__mlx.jsonl")
         data = [json.loads(line) for line in path.read_text().splitlines()]
         if len(data) != 2000 or any(row["parse_status"] == "error" for row in data):
             raise RuntimeError(f"{path} is incomplete or contains execution errors")
@@ -21,7 +21,9 @@ def main():
         for position in (1, 2):
             subset = [row for row in data if row["padded_position"] == position]
             by_position[position] = sum(row["correct"] for row in subset) / len(subset)
-        rows.append({"prompt_variant": variant, "correct": correct, "n": len(data),
+        rows.append({"model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+                     "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+                     "prompt_variant": variant, "correct": correct, "n": len(data),
                      "accuracy": correct/len(data), "ci_low": low, "ci_high": high,
                      "padded_first_accuracy": by_position[1],
                      "padded_second_accuracy": by_position[2]})
