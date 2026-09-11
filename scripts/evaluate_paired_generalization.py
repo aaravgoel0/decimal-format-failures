@@ -92,7 +92,7 @@ def main():
             "raw_response": raw,
             "prediction": prediction,
             "parse_status": parse_status,
-            "correct": prediction == row["answer"],
+            "correct": parse_status == "exact" and prediction == row["answer"],
             "constrained_correct": constrained_prediction == row["answer"],
             "error": error,
             "elapsed_seconds": round(time.time() - started, 4),
