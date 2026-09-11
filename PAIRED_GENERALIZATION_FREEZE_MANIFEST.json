@@ -1,0 +1,10 @@
+{
+  "frozen_at": "2026-09-11 America/Los_Angeles",
+  "dataset_rows": 600,
+  "base_item_pairs": 300,
+  "dataset_sha256": "9227668091b8812e815d70ac6efe8e30e60fed7fe2fa45cc17ac18f08c8e8e1a",
+  "protocol_sha256": "867a35680b07463ee46a2ea06e44725ec1a836571fceeba72226f20043b9141e",
+  "generator_sha256": "827e85c8500a3c257df17b1c2fa80df1155f5b14f537a50c9157e939c5f6ce94",
+  "evaluator_sha256": "c74e4bc47e10823aad2922a36530340527ee40d5e0fb31c1feceba6956ddaf88",
+  "analysis_sha256": "696caeb13e950cd36995cdba92d386d219918f3eb9a36babe351bb9280149f13"
+}
