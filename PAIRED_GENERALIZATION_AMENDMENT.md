@@ -23,3 +23,11 @@ logit outcome. This does not replace the preregistered exact-response primary
 outcome. The constrained paired summaries are secondary and were added after
 seeing Llama's response-format behavior but before inspecting any Qwen or Gemma
 outcomes.
+
+After the first 600 Gemma attempts completed, the integrity validator found
+four Metal out-of-memory execution errors. Before calculating any three-model
+accuracy result, those failed attempt rows were copied unchanged to
+`results/execution_errors_paired_order_generalization_gemma.jsonl`, removed
+from the primary result file, and scheduled for exact rerun under the same
+checkpoint and settings. Hardware failures are not model responses and are not
+scored as incorrect. The replacement rows retain their original dataset IDs.
