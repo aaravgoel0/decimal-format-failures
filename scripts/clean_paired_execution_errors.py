@@ -12,11 +12,12 @@ def main():
     rows = [json.loads(line) for line in SOURCE.read_text().splitlines()]
     failed = [row for row in rows if row.get("parse_status") == "error"]
     valid = [row for row in rows if row.get("parse_status") != "error"]
-    if len(rows) != 600 or len(failed) != 4 or len(valid) != 596:
+    if len(rows) != 600 or not failed:
         raise RuntimeError(f"unexpected counts: total={len(rows)} failed={len(failed)}")
-    ERROR_LOG.write_text("".join(json.dumps(row, sort_keys=True) + "\n" for row in failed))
+    earlier = ERROR_LOG.read_text() if ERROR_LOG.exists() else ""
+    ERROR_LOG.write_text(earlier + "".join(json.dumps(row, sort_keys=True) + "\n" for row in failed))
     SOURCE.write_text("".join(json.dumps(row, sort_keys=True) + "\n" for row in valid))
-    print(f"preserved {len(failed)} failures; retained {len(valid)} valid rows")
+    print(f"preserved {len(failed)} additional failures; retained {len(valid)} valid rows")
 
 
 if __name__ == "__main__":

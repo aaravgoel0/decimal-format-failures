@@ -8,11 +8,11 @@
   },
   "saved_llama_correct_after_protocol_repair": 0,
   "partial_llama_results_sha256": "8ed3c24a190c7b28750e4d2b95af690255a2a3d50386b942e08cc6ae883d8346",
-  "amendment_sha256": "02dc0b271a703ca24b728714c8bf1a3dc216d557b07b540ae40612770dd3fbae",
+  "amendment_sha256": "36a8fb7b791c61d5402d65946f1c23a1299984e837ffd1a7c465904447457fe8",
   "corrected_evaluator_sha256": "8a76d17430901ad5ab1f5570bff4651643a14face66788c3919ff48ede8cb177",
   "repair_script_sha256": "e12ff4c3d9c9b41e6f7fb689b9c0153449ed79cdecbdbcaf8055d7dffcf4cc46",
   "secondary_analysis_commit": "6fbd783",
   "corrected_analysis_sha256": "7447ee3b7bd66a865977f1d44d18e6e21a8f91a997102e621bfd18cde20d7dae",
-  "gemma_execution_errors_preserved": 4,
-  "execution_error_cleaner_sha256": "87c7f999931d3257d81376ad971f8a1a96bb036320ed50b2ac0316d050a82570"
+  "gemma_execution_errors_preserved": 5,
+  "execution_error_cleaner_sha256": "2ad25ba4f4d6b6a55f4a83bd44525473f30207c7d37609e05f20e2b640a54c6a"
 }

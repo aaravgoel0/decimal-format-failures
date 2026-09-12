@@ -31,3 +31,8 @@ accuracy result, those failed attempt rows were copied unchanged to
 from the primary result file, and scheduled for exact rerun under the same
 checkpoint and settings. Hardware failures are not model responses and are not
 scored as incorrect. The replacement rows retain their original dataset IDs.
+
+Three of the four first retries succeeded. The retry for `paired-124-o2` hit
+the same Metal out-of-memory error a second time. That fifth failed execution
+attempt was appended to the error log and removed from the primary result file
+before a second exact retry. No model outcome for that row had been observed.
