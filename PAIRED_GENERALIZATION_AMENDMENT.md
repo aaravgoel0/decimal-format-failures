@@ -15,3 +15,11 @@ repair set `correct` to false for all 35 rows, as the frozen protocol requires.
 The raw responses, parsed predictions, constrained-label predictions, and all
 other stored fields remain unchanged. No hypothesis, dataset row, model,
 prompt, or analysis rule changed.
+
+After the completed Llama run showed that many generations included prose
+instead of only an option number, the analysis output was expanded to report
+the same paired order summaries for the already-recorded constrained-label
+logit outcome. This does not replace the preregistered exact-response primary
+outcome. The constrained paired summaries are secondary and were added after
+seeing Llama's response-format behavior but before inspecting any Qwen or Gemma
+outcomes.
