@@ -11,12 +11,22 @@ FORMS = ["canonical", "padded_1", "padded_2", "near_minus", "near_plus"]
 BOOTSTRAPS, SEED = 10_000, 73_201
 
 
+def checked_matmul(left, right):
+    """Fast matrix product with an explicit non-finite result check."""
+    with np.errstate(divide="ignore", over="ignore", invalid="ignore"):
+        result = left @ right
+    if not np.isfinite(result).all():
+        raise FloatingPointError("non-finite geometry matrix product")
+    return result
+
+
 def cosine(a, b):
-    return float(a @ b / (np.linalg.norm(a) * np.linalg.norm(b) + 1e-12))
+    numerator = checked_matmul(a, b)
+    return float(numerator / (np.linalg.norm(a) * np.linalg.norm(b) + 1e-12))
 
 
 def cka(x, y):
-    return cka_grams(x @ x.T, y @ y.T)
+    return cka_grams(checked_matmul(x, x.T), checked_matmul(y, y.T))
 
 
 def cka_grams(k, l):
@@ -69,10 +79,10 @@ def main():
                 bootstrap_indices = rng.integers(0, len(keys), size=(BOOTSTRAPS, len(keys)))
                 curves = []
                 for layer in range(acts.shape[1]):
-                    x_train = np.asarray(acts[train, layer, activation_position], dtype=np.float32)
-                    x_test = np.asarray(acts[test, layer, activation_position], dtype=np.float32)
+                    x_train = np.asarray(acts[train, layer, activation_position], dtype=np.float64)
+                    x_test = np.asarray(acts[test, layer, activation_position], dtype=np.float64)
                     beta = np.linalg.lstsq(nuisance(rows, meta, train), x_train, rcond=None)[0]
-                    residual = x_test - nuisance(rows, meta, test) @ beta
+                    residual = x_test - checked_matmul(nuisance(rows, meta, test), beta)
                     mats = {form: np.stack([residual[lookup[f"mech-{whole:02d}-{digit}-{target_position}-{form}"]]
                                              for whole, digit in keys]) for form in FORMS}
                     effect, rsa, cka_eq, cka_near = statistic(mats)

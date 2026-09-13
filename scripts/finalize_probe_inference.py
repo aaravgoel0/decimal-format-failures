@@ -6,13 +6,29 @@ from scipy.stats import rankdata
 
 SEED_PERM=73191; SEED_BOOT=73192; NPERM=1000; NBOOT=10000
 
+def checked_matmul(left,right):
+    # Apple's Accelerate backend can leave spurious floating-point status flags
+    # after a finite matrix product. Check the product itself and fail on any
+    # real non-finite value.
+    with np.errstate(divide='ignore',over='ignore',invalid='ignore'):
+        result=left@right
+    if not np.isfinite(result).all():
+        raise FloatingPointError('non-finite probe matrix product')
+    return result
+
 def corr(a,b):
     a=rankdata(a); b=rankdata(b); a=a-a.mean(); b=b-b.mean()
     den=np.sqrt((a*a).sum()*(b*b).sum()); return float((a*b).sum()/den) if den else 0.0
+def r2(y,p):
+    denominator=((y-y.mean())**2).sum()
+    return float(1-((y-p)**2).sum()/denominator) if denominator else float('nan')
 def bal(y,p): return float(.5*((p[y==1]>=0).mean()+(p[y==-1]<0).mean()))
 def design(x,z):
     mu=x.mean(0); sd=x.std(0); sd[sd<1e-6]=1
-    x=(x-mu)/sd; z=(z-mu)/sd; return x,z,z@x.T,x@x.T
+    x=(x-mu)/sd; z=(z-mu)/sd
+    cross=checked_matmul(z,x.T)
+    gram=checked_matmul(x,x.T)
+    return x,z,cross,gram
 def indices(rows,split,forms,negative_forms=()):
     return np.array([i for i,r in enumerate(rows) if r['split']==split and (r['form'] in forms or r['form'] in negative_forms)])
 
@@ -45,29 +61,42 @@ def main():
             train_negative=test_negative=set()
         tr=indices(rows,'train',train_forms,train_negative); te=indices(rows,'test',test_forms,test_negative)
         layer=s['selected_layer']; alpha=next(q['alpha'] for q in s['layers'] if q['layer']==layer)
-        x=np.asarray(acts[tr,layer,pos],np.float32); z=np.asarray(acts[te,layer,pos],np.float32); x,z,cross,gram=design(x,z)
+        # Form Gram and cross-products in float64. Float32 can emit overflow
+        # status warnings for the largest Gemma residual coordinates.
+        x=np.asarray(acts[tr,layer,pos],np.float64); z=np.asarray(acts[te,layer,pos],np.float64); x,z,cross,gram=design(x,z)
         if s['task']=='value':
             raw=np.array([rows[i]['value'] for i in tr]); ym=raw.mean(); ys=raw.std(); y=(raw-ym)/ys; yt=np.array([rows[i]['value'] for i in te])
             intercept=y.mean(); centered=y-intercept
-            pred=(cross@np.linalg.solve(gram+alpha*np.eye(len(tr)),centered)+intercept)*ys+ym; metric=corr(yt,pred)
+            weights=np.linalg.solve(gram+alpha*np.eye(len(tr)),centered)
+            pred=(checked_matmul(cross,weights)+intercept)*ys+ym; metric=corr(yt,pred); r2_metric=r2(yt,pred)
         else:
             y=np.array([1 if rows[i]['is_equivalent'] else -1 for i in tr],float); yt=np.array([1 if rows[i]['is_equivalent'] else -1 for i in te])
             intercept=y.mean(); centered=y-intercept
-            pred=cross@np.linalg.solve(gram+alpha*np.eye(len(tr)),centered)+intercept; metric=bal(yt,pred)
+            weights=np.linalg.solve(gram+alpha*np.eye(len(tr)),centered)
+            pred=checked_matmul(cross,weights)+intercept; metric=bal(yt,pred)
         perms=grouped_permutations(rows,tr,y,s['task'],rngp,NPERM)
         perm_intercepts=perms.mean(0,keepdims=True)
-        pp=cross@np.linalg.solve(gram+alpha*np.eye(len(tr)),perms-perm_intercepts)+perm_intercepts
-        if s['task']=='value': null=np.array([corr(yt,pp[:,j]) for j in range(NPERM)])
+        weights=np.linalg.solve(gram+alpha*np.eye(len(tr)),perms-perm_intercepts)
+        pp=checked_matmul(cross,weights)+perm_intercepts
+        if s['task']=='value':
+            null=np.array([corr(yt,pp[:,j]) for j in range(NPERM)])
+            null_r2=np.array([r2(yt,pp[:,j]*ys+ym) for j in range(NPERM)])
         else: null=np.array([bal(yt,pp[:,j]) for j in range(NPERM)])
         keys=np.array([(rows[i]['whole'],rows[i]['digit']) for i in te]); unique=list(dict.fromkeys(map(tuple,keys))); groups=[np.where(np.all(keys==k,axis=1))[0] for k in unique]
-        boots=[]
+        boots=[]; boots_r2=[]
         for _ in range(NBOOT):
             chosen=rngb.integers(0,len(groups),len(groups)); ix=np.concatenate([groups[j] for j in chosen])
-            boots.append(corr(yt[ix],pred[ix]) if s['task']=='value' else bal(yt[ix],pred[ix]))
+            if s['task']=='value':
+                boots.append(corr(yt[ix],pred[ix])); boots_r2.append(r2(yt[ix],pred[ix]))
+            else: boots.append(bal(yt[ix],pred[ix]))
         result={k:v for k,v in s.items() if k!='layers'}; result.update({'alpha':alpha,'observed_metric':metric,'permutation_p':float((1+(null>=metric).sum())/(NPERM+1)),
             'permutation_mean':float(null.mean()),'bootstrap_95_ci':[float(np.quantile(boots,.025)),float(np.quantile(boots,.975))],
             'n_train_rows':len(tr),'n_test_rows':len(te),'n_test_values':len(groups),
             'permutation_scheme':'grouped training-label permutation at fixed validation-selected layer and alpha'})
+        if s['task']=='value':
+            result.update({'observed_r2':r2_metric,
+                           'r2_permutation_p':float((1+(null_r2>=r2_metric).sum())/(NPERM+1)),
+                           'r2_bootstrap_95_ci':[float(np.nanquantile(boots_r2,.025)),float(np.nanquantile(boots_r2,.975))]})
         out.append(result); print(s['model'],s['position'],s['direction'],s['task'],metric,result['permutation_p'],result['bootstrap_95_ci'],flush=True)
     Path('results/cross_format_probe_inference.json').write_text(json.dumps(out,indent=2)+'\n')
 

@@ -15,7 +15,7 @@ def main():
             for padded_position in (1, 2):
                 wholes = list(range(21, 100))
                 rng.shuffle(wholes)
-            for cell_index, whole in enumerate(wholes[:20]):
+                for cell_index, whole in enumerate(wholes[:20]):
                     canonical = f"{whole}.{digit}"
                     padded = canonical + "0" * zeros
                     a, b = ((padded, canonical) if padded_position == 1

@@ -15,22 +15,29 @@ bootstraps over numerical values.
 
 Value probes often transferred across canonical and padded forms, but not
 uniformly. At the validation-selected numeral-final layer, canonical-to-padded
-Spearman correlations were 0.763 for Llama, 0.098 for Qwen, and 0.404 for Gemma;
-the Qwen interval crossed zero despite a nominal permutation p-value of 0.049.
-Reverse-transfer correlations were 0.637, 0.443, and 0.598. At the answer
+Spearman correlations were 0.763 for Llama, 0.103 for Qwen, and 0.404 for Gemma;
+the Qwen interval crossed zero despite a nominal permutation p-value of 0.047.
+Reverse-transfer correlations were 0.638, 0.443, and 0.598. At the answer
 position, canonical-to-padded correlations were 0.644, 0.572, and 0.637, while
 reverse transfer was 0.255, 0.830, and 0.596. Llama's answer-position reverse
 interval crossed zero. These are exploratory full-curve results, not evidence
 for a single privileged layer.
 
+These Spearman correlations describe rank order, not calibrated numerical
+decoding. Every corresponding held-out R-squared point estimate was negative,
+ranging from -248.57 to -7.35. The exact R-squared estimates, grouped bootstrap
+intervals, and permutation summaries are stored with each value-probe result in
+`results/cross_format_probe_inference.json`.
+
 Equality transfer was strongly directional under the stricter surface-form
-controls. Padded-to-canonical test accuracy was 1.000 for all three models,
-while canonical-to-padded transfer was weaker and usually
-permutation-nonsignificant. The permutation tests keep the validation-selected
-layer and penalty fixed, so their p-values are nominal rather than
-selection-adjusted. This dependence on direction and readout position argues
-against reducing the result to “the models encode equality” without
-qualification.
+controls. At the answer position, padded-to-canonical test accuracy was 1.000
+for all three models. At the numeral-final position it was 1.000 for Llama,
+0.658 for Qwen, and 0.725 for Gemma. Canonical-to-padded transfer was weaker
+and permutation-nonsignificant in five of six position-model comparisons. The
+permutation tests keep the validation-selected layer and penalty fixed, so
+their p-values are nominal rather than selection-adjusted. This dependence on
+direction and readout position argues against reducing the result to “the
+models encode equality” without qualification.
 
 The exact Llama greedy first-token behavior parsed on all 300 test prompts.
 It labeled every canonical and nearby-unequal test row correctly, but every

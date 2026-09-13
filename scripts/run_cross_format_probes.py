@@ -7,11 +7,24 @@ from scipy.stats import spearmanr
 ALPHAS=[1e-4,1e-3,1e-2,1e-1,1,10,100]
 MODELS=['meta-llama-Meta-Llama-3.1-8B-Instruct','Qwen-Qwen3-4B-Instruct-2507','google-gemma-2-9b-it']
 
+def checked_matmul(left,right):
+    # Apple's Accelerate backend can leave spurious floating-point status flags
+    # after a finite matrix product. Check the product itself and fail on any
+    # real non-finite value.
+    with np.errstate(divide='ignore',over='ignore',invalid='ignore'):
+        result=left@right
+    if not np.isfinite(result).all():
+        raise FloatingPointError('non-finite probe matrix product')
+    return result
+
 def ridge_predict(x,y,z,alpha):
     mu=x.mean(0); scale=x.std(0); scale[scale<1e-6]=1
     x=(x-mu)/scale; z=(z-mu)/scale
     intercept=y.mean(); centered=y-intercept
-    return z@x.T@np.linalg.solve(x@x.T+alpha*np.eye(len(x)),centered)+intercept
+    cross=checked_matmul(z,x.T)
+    gram=checked_matmul(x,x.T)
+    weights=np.linalg.solve(gram+alpha*np.eye(len(x)),centered)
+    return checked_matmul(cross,weights)+intercept
 
 def balanced(y,p):
     return .5*((p[y==1]>=0).mean()+(p[y==-1]<0).mean())
@@ -45,7 +58,9 @@ def main():
                 else:
                     train_negative=eval_negative=set()
                 tr=select('train',train_forms,train_negative); va=select('validation',eval_forms,eval_negative); te=select('test',eval_forms,eval_negative)
-                x=np.asarray(acts[tr,layer,position],dtype=np.float32); xv=np.asarray(acts[va,layer,position],dtype=np.float32); xt=np.asarray(acts[te,layer,position],dtype=np.float32)
+                # Float64 avoids overflow/status warnings in the Gram products
+                # for checkpoints with large residual-stream coordinates.
+                x=np.asarray(acts[tr,layer,position],dtype=np.float64); xv=np.asarray(acts[va,layer,position],dtype=np.float64); xt=np.asarray(acts[te,layer,position],dtype=np.float64)
                 if task=='value':
                     y=np.array([rows[i]['value'] for i in tr]); yv=np.array([rows[i]['value'] for i in va]); yt=np.array([rows[i]['value'] for i in te]); ym=y.mean(); ys=y.std(); y=(y-ym)/ys
                     scores=[]

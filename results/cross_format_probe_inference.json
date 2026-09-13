@@ -10,7 +10,7 @@
     "alpha": 100,
     "observed_metric": 0.7625057492373097,
     "permutation_p": 0.000999000999000999,
-    "permutation_mean": -0.003057805369544794,
+    "permutation_mean": -0.0030569993380973985,
     "bootstrap_95_ci": [
       0.5591226316579594,
       0.8630717135134325
@@ -18,7 +18,13 @@
     "n_train_rows": 120,
     "n_test_rows": 120,
     "n_test_values": 30,
-    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha"
+    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha",
+    "observed_r2": -48.511819592839935,
+    "r2_permutation_p": 0.26873126873126874,
+    "r2_bootstrap_95_ci": [
+      -75.78877707887364,
+      -36.806229603337115
+    ]
   },
   {
     "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
@@ -30,8 +36,8 @@
     "negative_control_transfer": "near_minus_to_near_plus",
     "alpha": 0.0001,
     "observed_metric": 0.6666666666666666,
-    "permutation_p": 0.21878121878121878,
-    "permutation_mean": 0.5033875,
+    "permutation_p": 0.21978021978021978,
+    "permutation_mean": 0.503175,
     "bootstrap_95_ci": [
       0.625,
       0.7083333333333334
@@ -47,20 +53,26 @@
     "direction": "padded_to_canonical",
     "task": "value",
     "selected_layer": 0,
-    "test_metric": 0.6368867822558547,
+    "test_metric": 0.6377762889349832,
     "negative_control_transfer": null,
     "alpha": 10,
-    "observed_metric": 0.6368867822558547,
+    "observed_metric": 0.6377762889349831,
     "permutation_p": 0.000999000999000999,
-    "permutation_mean": 0.0050502853590857506,
+    "permutation_mean": 0.005024267288721247,
     "bootstrap_95_ci": [
       0.36766626572034267,
-      0.8058053834432355
+      0.8069238471334144
     ],
     "n_train_rows": 240,
     "n_test_rows": 60,
     "n_test_values": 30,
-    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha"
+    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha",
+    "observed_r2": -7.3505500190057464,
+    "r2_permutation_p": 0.015984015984015984,
+    "r2_bootstrap_95_ci": [
+      -12.233335247378522,
+      -5.002393791238645
+    ]
   },
   {
     "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
@@ -72,8 +84,8 @@
     "negative_control_transfer": "near_plus_to_near_minus",
     "alpha": 0.0001,
     "observed_metric": 1.0,
-    "permutation_p": 0.016983016983016984,
-    "permutation_mean": 0.505025,
+    "permutation_p": 0.015984015984015984,
+    "permutation_mean": 0.5034333333333333,
     "bootstrap_95_ci": [
       1.0,
       1.0
@@ -94,7 +106,7 @@
     "alpha": 100,
     "observed_metric": 0.6435744194645298,
     "permutation_p": 0.001998001998001998,
-    "permutation_mean": -0.0024669843186029892,
+    "permutation_mean": -0.002469596972260068,
     "bootstrap_95_ci": [
       0.3884109991043654,
       0.8012593767666921
@@ -102,7 +114,13 @@
     "n_train_rows": 120,
     "n_test_rows": 120,
     "n_test_values": 30,
-    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha"
+    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha",
+    "observed_r2": -31.739924195039144,
+    "r2_permutation_p": 0.04695304695304695,
+    "r2_bootstrap_95_ci": [
+      -49.1724433851015,
+      -24.05380091047558
+    ]
   },
   {
     "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
@@ -115,7 +133,7 @@
     "alpha": 0.0001,
     "observed_metric": 0.5,
     "permutation_p": 0.5254745254745254,
-    "permutation_mean": 0.4982541666666667,
+    "permutation_mean": 0.49825,
     "bootstrap_95_ci": [
       0.5,
       0.5
@@ -136,7 +154,7 @@
     "alpha": 10,
     "observed_metric": 0.25517241379310346,
     "permutation_p": 0.22477522477522477,
-    "permutation_mean": -0.00709143492769744,
+    "permutation_mean": -0.007072747497219131,
     "bootstrap_95_ci": [
       -0.13543974560185426,
       0.6059970754996183
@@ -144,7 +162,13 @@
     "n_train_rows": 240,
     "n_test_rows": 60,
     "n_test_values": 30,
-    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha"
+    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha",
+    "observed_r2": -67.62143971714434,
+    "r2_permutation_p": 0.26073926073926074,
+    "r2_bootstrap_95_ci": [
+      -103.68979675407259,
+      -51.90854962711122
+    ]
   },
   {
     "model": "meta-llama-Meta-Llama-3.1-8B-Instruct",
@@ -157,7 +181,7 @@
     "alpha": 100,
     "observed_metric": 1.0,
     "permutation_p": 0.000999000999000999,
-    "permutation_mean": 0.4553083333333333,
+    "permutation_mean": 0.4553333333333333,
     "bootstrap_95_ci": [
       1.0,
       1.0
@@ -173,20 +197,26 @@
     "direction": "canonical_to_padded",
     "task": "value",
     "selected_layer": 28,
-    "test_metric": 0.09794671795262375,
+    "test_metric": 0.10331099620598821,
     "negative_control_transfer": null,
-    "alpha": 0.001,
-    "observed_metric": 0.09794671795262373,
-    "permutation_p": 0.04895104895104895,
-    "permutation_mean": 0.00027071538957393706,
+    "alpha": 1,
+    "observed_metric": 0.1033109962059882,
+    "permutation_p": 0.04695304695304695,
+    "permutation_mean": 0.00037260888220002106,
     "bootstrap_95_ci": [
-      -0.14307106779999415,
-      0.32189413002302747
+      -0.1396619625408666,
+      0.32803258678293706
     ],
     "n_train_rows": 120,
     "n_test_rows": 120,
     "n_test_values": 30,
-    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha"
+    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha",
+    "observed_r2": -31.76260701087606,
+    "r2_permutation_p": 0.09090909090909091,
+    "r2_bootstrap_95_ci": [
+      -49.840499552448094,
+      -23.85761956488038
+    ]
   },
   {
     "model": "Qwen-Qwen3-4B-Instruct-2507",
@@ -199,7 +229,7 @@
     "alpha": 0.0001,
     "observed_metric": 0.7458333333333333,
     "permutation_p": 0.06593406593406594,
-    "permutation_mean": 0.503525,
+    "permutation_mean": 0.5035333333333334,
     "bootstrap_95_ci": [
       0.7375,
       0.75
@@ -220,7 +250,7 @@
     "alpha": 1,
     "observed_metric": 0.44264076120121465,
     "permutation_p": 0.017982017982017984,
-    "permutation_mean": 0.005777679445942908,
+    "permutation_mean": 0.005792133929478743,
     "bootstrap_95_ci": [
       0.06244928136511184,
       0.7302938360592233
@@ -228,7 +258,13 @@
     "n_train_rows": 240,
     "n_test_rows": 60,
     "n_test_values": 30,
-    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha"
+    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha",
+    "observed_r2": -48.45585927967291,
+    "r2_permutation_p": 0.003996003996003996,
+    "r2_bootstrap_95_ci": [
+      -73.37345921024956,
+      -38.04667576050773
+    ]
   },
   {
     "model": "Qwen-Qwen3-4B-Instruct-2507",
@@ -241,7 +277,7 @@
     "alpha": 100,
     "observed_metric": 0.6583333333333333,
     "permutation_p": 0.19480519480519481,
-    "permutation_mean": 0.4835833333333333,
+    "permutation_mean": 0.48356666666666664,
     "bootstrap_95_ci": [
       0.6166666666666667,
       0.7
@@ -262,7 +298,7 @@
     "alpha": 100,
     "observed_metric": 0.5719487973975855,
     "permutation_p": 0.007992007992007992,
-    "permutation_mean": 0.008658084071869456,
+    "permutation_mean": 0.008660001870830504,
     "bootstrap_95_ci": [
       0.38123349547388674,
       0.6930460876734795
@@ -270,7 +306,13 @@
     "n_train_rows": 120,
     "n_test_rows": 120,
     "n_test_values": 30,
-    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha"
+    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha",
+    "observed_r2": -62.92949725163794,
+    "r2_permutation_p": 0.4075924075924076,
+    "r2_bootstrap_95_ci": [
+      -95.37897988127057,
+      -48.85076997261381
+    ]
   },
   {
     "model": "Qwen-Qwen3-4B-Instruct-2507",
@@ -283,7 +325,7 @@
     "alpha": 100,
     "observed_metric": 0.8083333333333333,
     "permutation_p": 0.07292707292707293,
-    "permutation_mean": 0.49207083333333335,
+    "permutation_mean": 0.4920833333333334,
     "bootstrap_95_ci": [
       0.775,
       0.8458333333333333
@@ -304,7 +346,7 @@
     "alpha": 100,
     "observed_metric": 0.8300333704115684,
     "permutation_p": 0.000999000999000999,
-    "permutation_mean": 0.001141268075639601,
+    "permutation_mean": 0.001170634037819801,
     "bootstrap_95_ci": [
       0.6260854459207114,
       0.9307579764560827
@@ -312,7 +354,13 @@
     "n_train_rows": 240,
     "n_test_rows": 60,
     "n_test_values": 30,
-    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha"
+    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha",
+    "observed_r2": -78.05363371647509,
+    "r2_permutation_p": 0.5264735264735265,
+    "r2_bootstrap_95_ci": [
+      -116.26734147803282,
+      -61.224983350231284
+    ]
   },
   {
     "model": "Qwen-Qwen3-4B-Instruct-2507",
@@ -325,7 +373,7 @@
     "alpha": 0.0001,
     "observed_metric": 1.0,
     "permutation_p": 0.000999000999000999,
-    "permutation_mean": 0.45631666666666665,
+    "permutation_mean": 0.45630833333333326,
     "bootstrap_95_ci": [
       1.0,
       1.0
@@ -346,7 +394,7 @@
     "alpha": 10,
     "observed_metric": 0.4041830795876999,
     "permutation_p": 0.001998001998001998,
-    "permutation_mean": 0.004359879687344613,
+    "permutation_mean": 0.004360157629223026,
     "bootstrap_95_ci": [
       0.08784310344019002,
       0.6307668939302616
@@ -354,7 +402,13 @@
     "n_train_rows": 120,
     "n_test_rows": 120,
     "n_test_values": 30,
-    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha"
+    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha",
+    "observed_r2": -248.5683014164889,
+    "r2_permutation_p": 0.6423576423576424,
+    "r2_bootstrap_95_ci": [
+      -371.11293858589846,
+      -193.9537512518439
+    ]
   },
   {
     "model": "google-gemma-2-9b-it",
@@ -366,8 +420,8 @@
     "negative_control_transfer": "near_minus_to_near_plus",
     "alpha": 0.0001,
     "observed_metric": 0.75,
-    "permutation_p": 0.04095904095904096,
-    "permutation_mean": 0.5005541666666666,
+    "permutation_p": 0.04195804195804196,
+    "permutation_mean": 0.500475,
     "bootstrap_95_ci": [
       0.75,
       0.75
@@ -388,7 +442,7 @@
     "alpha": 10,
     "observed_metric": 0.59774848837421,
     "permutation_p": 0.014985014985014986,
-    "permutation_mean": -0.010142822285430094,
+    "permutation_mean": -0.010136484550341305,
     "bootstrap_95_ci": [
       0.3023130481920094,
       0.7841770192697376
@@ -396,7 +450,13 @@
     "n_train_rows": 240,
     "n_test_rows": 60,
     "n_test_values": 30,
-    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha"
+    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha",
+    "observed_r2": -58.75286053815242,
+    "r2_permutation_p": 0.38161838161838163,
+    "r2_bootstrap_95_ci": [
+      -91.87787956050063,
+      -44.150074862220286
+    ]
   },
   {
     "model": "google-gemma-2-9b-it",
@@ -409,7 +469,7 @@
     "alpha": 0.0001,
     "observed_metric": 0.725,
     "permutation_p": 0.16983016983016982,
-    "permutation_mean": 0.49825,
+    "permutation_mean": 0.4980833333333333,
     "bootstrap_95_ci": [
       0.65,
       0.8
@@ -430,7 +490,7 @@
     "alpha": 100,
     "observed_metric": 0.6365702841285305,
     "permutation_p": 0.000999000999000999,
-    "permutation_mean": -0.002980287379655501,
+    "permutation_mean": -0.002979898261025724,
     "bootstrap_95_ci": [
       0.38902566737931327,
       0.7858503007327475
@@ -438,7 +498,13 @@
     "n_train_rows": 120,
     "n_test_rows": 120,
     "n_test_values": 30,
-    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha"
+    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha",
+    "observed_r2": -58.64145863066701,
+    "r2_permutation_p": 0.24575424575424576,
+    "r2_bootstrap_95_ci": [
+      -87.95395040344098,
+      -45.78984972209836
+    ]
   },
   {
     "model": "google-gemma-2-9b-it",
@@ -450,8 +516,8 @@
     "negative_control_transfer": "near_minus_to_near_plus",
     "alpha": 100,
     "observed_metric": 0.7666666666666666,
-    "permutation_p": 0.15484515484515485,
-    "permutation_mean": 0.5043500000000001,
+    "permutation_p": 0.15584415584415584,
+    "permutation_mean": 0.5043375,
     "bootstrap_95_ci": [
       0.7541666666666667,
       0.7833333333333333
@@ -472,7 +538,7 @@
     "alpha": 100,
     "observed_metric": 0.5959955506117909,
     "permutation_p": 0.00999000999000999,
-    "permutation_mean": -0.003186206896551723,
+    "permutation_mean": -0.0031857619577308105,
     "bootstrap_95_ci": [
       0.3018515534891426,
       0.7820659976402609
@@ -480,7 +546,13 @@
     "n_train_rows": 240,
     "n_test_rows": 60,
     "n_test_values": 30,
-    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha"
+    "permutation_scheme": "grouped training-label permutation at fixed validation-selected layer and alpha",
+    "observed_r2": -81.80440991347193,
+    "r2_permutation_p": 0.5824175824175825,
+    "r2_bootstrap_95_ci": [
+      -124.03694405191219,
+      -62.158995635979565
+    ]
   },
   {
     "model": "google-gemma-2-9b-it",
@@ -493,7 +565,7 @@
     "alpha": 0.0001,
     "observed_metric": 1.0,
     "permutation_p": 0.001998001998001998,
-    "permutation_mean": 0.49538333333333334,
+    "permutation_mean": 0.4953916666666667,
     "bootstrap_95_ci": [
       1.0,
       1.0

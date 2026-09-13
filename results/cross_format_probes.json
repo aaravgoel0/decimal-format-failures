@@ -9,7 +9,7 @@
         "layer": 0,
         "alpha": 100,
         "validation_metric": 0.1911684239722322,
-        "metric": 0.10700762318887669
+        "metric": 0.1074245360064957
       },
       {
         "layer": 1,
@@ -21,7 +21,7 @@
         "layer": 2,
         "alpha": 0.0001,
         "validation_metric": 0.27430083980546077,
-        "metric": 0.5001564102035938
+        "metric": 0.500184204391435
       },
       {
         "layer": 3,
@@ -79,9 +79,9 @@
       },
       {
         "layer": 12,
-        "alpha": 0.0001,
-        "validation_metric": 0.16901645626274264,
-        "metric": 0.5422090164074302
+        "alpha": 1,
+        "validation_metric": 0.1676267468706793,
+        "metric": 0.5445993165617792
       },
       {
         "layer": 13,
@@ -116,8 +116,8 @@
       {
         "layer": 18,
         "alpha": 0.0001,
-        "validation_metric": 0.04372025747431248,
-        "metric": 0.20703890522959542
+        "validation_metric": 0.04302540277828081,
+        "metric": 0.20701111104175418
       },
       {
         "layer": 19,
@@ -127,21 +127,21 @@
       },
       {
         "layer": 20,
-        "alpha": 0.01,
+        "alpha": 0.0001,
         "validation_metric": 0.12018206822563708,
         "metric": 0.37130255537148144
       },
       {
         "layer": 21,
         "alpha": 0.0001,
-        "validation_metric": 0.10333879039382948,
+        "validation_metric": 0.10358893808440088,
         "metric": 0.24030854807559163
       },
       {
         "layer": 22,
         "alpha": 0.0001,
-        "validation_metric": 0.06114721325078667,
-        "metric": 0.27574613757320665
+        "validation_metric": 0.061341772565675544,
+        "metric": 0.27532922475558763
       },
       {
         "layer": 23,
@@ -157,9 +157,9 @@
       },
       {
         "layer": 25,
-        "alpha": 0.0001,
-        "validation_metric": 0.026460066824885872,
-        "metric": 0.17418617520121824
+        "alpha": 0.1,
+        "validation_metric": 0.026599037764092205,
+        "metric": 0.17399161588632936
       },
       {
         "layer": 26,
@@ -182,7 +182,7 @@
       {
         "layer": 29,
         "alpha": 100,
-        "validation_metric": -0.01762151509136307,
+        "validation_metric": -0.017426955776474205,
         "metric": 0.08760728007567255
       },
       {
@@ -216,7 +216,7 @@
       },
       {
         "layer": 1,
-        "alpha": 0.0001,
+        "alpha": 0.01,
         "validation_metric": 0.5666666666666667,
         "metric": 0.55
       },
@@ -414,8 +414,8 @@
       {
         "layer": 0,
         "alpha": 10,
-        "validation_metric": 0.45109107465293347,
-        "metric": 0.6368867822558547
+        "validation_metric": 0.4519805813320617,
+        "metric": 0.6377762889349832
       },
       {
         "layer": 1,
@@ -438,7 +438,7 @@
       {
         "layer": 4,
         "alpha": 1,
-        "validation_metric": 0.06382210422745473,
+        "validation_metric": 0.06548992925082026,
         "metric": 0.6099792052122242
       },
       {
@@ -474,7 +474,7 @@
       {
         "layer": 10,
         "alpha": 0.0001,
-        "validation_metric": 0.24450314842538837,
+        "validation_metric": 0.24517027843473457,
         "metric": 0.7012648281577646
       },
       {
@@ -517,7 +517,7 @@
         "layer": 17,
         "alpha": 100,
         "validation_metric": 0.1468797903910587,
-        "metric": 0.7257262618337926
+        "metric": 0.723947248475536
       },
       {
         "layer": 18,
@@ -605,7 +605,7 @@
       }
     ],
     "selected_layer": 0,
-    "test_metric": 0.6368867822558547,
+    "test_metric": 0.6377762889349832,
     "negative_control_transfer": null
   },
   {
@@ -970,7 +970,7 @@
       {
         "layer": 25,
         "alpha": 10,
-        "validation_metric": 0.014369595113934867,
+        "validation_metric": 0.014564154428823736,
         "metric": 0.1707952842845837
       },
       {
@@ -1304,7 +1304,7 @@
       {
         "layer": 13,
         "alpha": 10,
-        "validation_metric": -0.453615127919911,
+        "validation_metric": -0.4513904338153504,
         "metric": 0.2275862068965517
       },
       {
@@ -1315,13 +1315,13 @@
       },
       {
         "layer": 15,
-        "alpha": 10,
-        "validation_metric": -0.45494994438264735,
-        "metric": 0.5906562847608453
+        "alpha": 0.1,
+        "validation_metric": -0.4527252502780868,
+        "metric": 0.6173526140155728
       },
       {
         "layer": 16,
-        "alpha": 0.1,
+        "alpha": 0.01,
         "validation_metric": -0.19065628476084537,
         "metric": 0.521245828698554
       },
@@ -1329,7 +1329,7 @@
         "layer": 17,
         "alpha": 10,
         "validation_metric": -0.4091212458286986,
-        "metric": 0.33303670745272523
+        "metric": 0.335706340378198
       },
       {
         "layer": 18,
@@ -1339,8 +1339,8 @@
       },
       {
         "layer": 19,
-        "alpha": 0.01,
-        "validation_metric": -0.15061179087875418,
+        "alpha": 0.0001,
+        "validation_metric": -0.1568409343715239,
         "metric": 0.4131256952169076
       },
       {
@@ -1371,7 +1371,7 @@
         "layer": 24,
         "alpha": 0.0001,
         "validation_metric": -0.22224694104560622,
-        "metric": 0.24226918798665184
+        "metric": 0.23959955506117908
       },
       {
         "layer": 25,
@@ -1590,8 +1590,8 @@
       },
       {
         "layer": 27,
-        "alpha": 0.01,
-        "validation_metric": 0.5666666666666667,
+        "alpha": 0.0001,
+        "validation_metric": 0.55,
         "metric": 0.5166666666666667
       },
       {
@@ -1632,14 +1632,14 @@
       {
         "layer": 0,
         "alpha": 0.0001,
-        "validation_metric": 0.08343815189948255,
-        "metric": 0.08780183939056141
+        "validation_metric": 0.08382727052926028,
+        "metric": 0.08852448827443433
       },
       {
         "layer": 1,
-        "alpha": 0.0001,
-        "validation_metric": 0.11073204435960643,
-        "metric": 0.13221695156090554
+        "alpha": 0.001,
+        "validation_metric": 0.11092660367449528,
+        "metric": 0.13199459805817543
       },
       {
         "layer": 2,
@@ -1656,14 +1656,14 @@
       {
         "layer": 4,
         "alpha": 0.1,
-        "validation_metric": 0.12532399297627142,
-        "metric": 0.15536951003268068
+        "validation_metric": 0.12562972904252534,
+        "metric": 0.15489700883937915
       },
       {
         "layer": 5,
         "alpha": 0.0001,
         "validation_metric": 0.04335893303237601,
-        "metric": 0.10447835209532141
+        "metric": 0.10436717534395634
       },
       {
         "layer": 6,
@@ -1674,7 +1674,7 @@
       {
         "layer": 7,
         "alpha": 1,
-        "validation_metric": -0.0035020676679996007,
+        "validation_metric": -0.002862801347650467,
         "metric": 0.16670953867191748
       },
       {
@@ -1710,7 +1710,7 @@
       {
         "layer": 13,
         "alpha": 100,
-        "validation_metric": 0.05945176779246941,
+        "validation_metric": 0.059785298046564614,
         "metric": 0.13246709925147696
       },
       {
@@ -1740,7 +1740,7 @@
       {
         "layer": 18,
         "alpha": 10,
-        "validation_metric": 0.016204011511458467,
+        "validation_metric": 0.016231805699299735,
         "metric": 0.22126952940432398
       },
       {
@@ -1769,8 +1769,8 @@
       },
       {
         "layer": 23,
-        "alpha": 0.001,
-        "validation_metric": 0.14530801403414217,
+        "alpha": 0.0001,
+        "validation_metric": 0.14536360240982468,
         "metric": 0.19341975318737475
       },
       {
@@ -1799,9 +1799,9 @@
       },
       {
         "layer": 28,
-        "alpha": 0.001,
-        "validation_metric": 0.23185911497184658,
-        "metric": 0.09794671795262375
+        "alpha": 1,
+        "validation_metric": 0.23163676146911646,
+        "metric": 0.10331099620598821
       },
       {
         "layer": 29,
@@ -1825,7 +1825,7 @@
         "layer": 32,
         "alpha": 1,
         "validation_metric": 0.08382727052926028,
-        "metric": 0.06467707510662754
+        "metric": 0.06476045767015133
       },
       {
         "layer": 33,
@@ -1847,7 +1847,7 @@
       }
     ],
     "selected_layer": 28,
-    "test_metric": 0.09794671795262375,
+    "test_metric": 0.10331099620598821,
     "negative_control_transfer": null
   },
   {
@@ -2098,14 +2098,14 @@
       {
         "layer": 2,
         "alpha": 1,
-        "validation_metric": 0.47755389835700013,
+        "validation_metric": 0.47788746336167315,
         "metric": 0.4426407612012147
       },
       {
         "layer": 3,
-        "alpha": 0.01,
-        "validation_metric": 0.16711606734122725,
-        "metric": 0.2427241350671318
+        "alpha": 0.0001,
+        "validation_metric": 0.16544824231786173,
+        "metric": 0.2453926551045167
       },
       {
         "layer": 4,
@@ -2127,14 +2127,14 @@
       },
       {
         "layer": 7,
-        "alpha": 0.001,
-        "validation_metric": -0.381820742015818,
-        "metric": 0.0807227311308922
+        "alpha": 0.0001,
+        "validation_metric": -0.38004172865756136,
+        "metric": 0.08083391946578324
       },
       {
         "layer": 8,
-        "alpha": 0.001,
-        "validation_metric": -0.3852675803974401,
+        "alpha": 0.0001,
+        "validation_metric": -0.3869354054208057,
         "metric": -0.2836414423070331
       },
       {
@@ -2158,14 +2158,14 @@
       {
         "layer": 12,
         "alpha": 1,
-        "validation_metric": -0.03635858550936881,
+        "validation_metric": -0.03602502050469569,
         "metric": 0.20814456291601957
       },
       {
         "layer": 13,
         "alpha": 1,
         "validation_metric": 0.0007783183442372527,
-        "metric": -0.061931902534307116
+        "metric": -0.06471161090658302
       },
       {
         "layer": 14,
@@ -2176,7 +2176,7 @@
       {
         "layer": 15,
         "alpha": 100,
-        "validation_metric": 0.024906187015592086,
+        "validation_metric": 0.023460738662008616,
         "metric": -0.031243922104381143
       },
       {
@@ -2187,14 +2187,14 @@
       },
       {
         "layer": 17,
-        "alpha": 0.0001,
-        "validation_metric": -0.1099652632072347,
-        "metric": -0.0701598393162438
+        "alpha": 0.1,
+        "validation_metric": -0.1096316982025616,
+        "metric": -0.07349548936297487
       },
       {
         "layer": 18,
-        "alpha": 0.001,
-        "validation_metric": -0.12775539678980047,
+        "alpha": 0.0001,
+        "validation_metric": -0.12797777345958256,
         "metric": -0.04692147732401723
       },
       {
@@ -2206,7 +2206,7 @@
       {
         "layer": 20,
         "alpha": 0.1,
-        "validation_metric": -0.11307853658418372,
+        "validation_metric": -0.11419041993309408,
         "metric": -0.09495483799694483
       },
       {
@@ -2229,15 +2229,15 @@
       },
       {
         "layer": 24,
-        "alpha": 0.001,
-        "validation_metric": -0.21359279132568035,
-        "metric": -0.09317582463868825
+        "alpha": 0.1,
+        "validation_metric": -0.21170258963253272,
+        "metric": -0.09050730460130339
       },
       {
         "layer": 25,
-        "alpha": 0.001,
+        "alpha": 0.0001,
         "validation_metric": -0.13009035182251222,
-        "metric": -0.05959694750159535
+        "metric": -0.06093120752028778
       },
       {
         "layer": 26,
@@ -2254,7 +2254,7 @@
       {
         "layer": 28,
         "alpha": 100,
-        "validation_metric": -0.2518415785281968,
+        "validation_metric": -0.2512856368537416,
         "metric": -0.22082003309359766
       },
       {
@@ -2273,12 +2273,12 @@
         "layer": 31,
         "alpha": 0.0001,
         "validation_metric": -0.15143851212159118,
-        "metric": -0.031799863778836326
+        "metric": -0.03024322709036182
       },
       {
         "layer": 32,
         "alpha": 0.1,
-        "validation_metric": -0.025795693694720376,
+        "validation_metric": -0.026351635369175553,
         "metric": -0.021792913638643076
       },
       {
@@ -2349,7 +2349,7 @@
       {
         "layer": 6,
         "alpha": 0.0001,
-        "validation_metric": 0.525,
+        "validation_metric": 0.5333333333333333,
         "metric": 0.49166666666666664
       },
       {
@@ -2504,7 +2504,7 @@
       },
       {
         "layer": 32,
-        "alpha": 0.001,
+        "alpha": 0.0001,
         "validation_metric": 0.55,
         "metric": 0.5166666666666667
       },
@@ -2679,7 +2679,7 @@
         "layer": 23,
         "alpha": 100,
         "validation_metric": 0.12329501726385893,
-        "metric": 0.08896919527989462
+        "metric": 0.08899698946773589
       },
       {
         "layer": 24,
@@ -3077,7 +3077,7 @@
       },
       {
         "layer": 14,
-        "alpha": 1,
+        "alpha": 0.1,
         "validation_metric": 0.5065628476084538,
         "metric": 0.5568409343715238
       },
@@ -3157,7 +3157,7 @@
         "layer": 27,
         "alpha": 0.0001,
         "validation_metric": 0.2872080088987764,
-        "metric": 0.5790878754171301
+        "metric": 0.5764182424916574
       },
       {
         "layer": 28,
@@ -3448,7 +3448,7 @@
       {
         "layer": 0,
         "alpha": 10,
-        "validation_metric": 0.368022841206212,
+        "validation_metric": 0.36852313658735475,
         "metric": 0.40418307958769994
       },
       {
@@ -3461,7 +3461,7 @@
         "layer": 2,
         "alpha": 100,
         "validation_metric": -0.13535769478696866,
-        "metric": 0.15498039140290296
+        "metric": 0.1550359797785855
       },
       {
         "layer": 3,
@@ -3485,7 +3485,7 @@
         "layer": 6,
         "alpha": 0.0001,
         "validation_metric": -0.24097560858378203,
-        "metric": 0.30106664269660055
+        "metric": 0.30076090663034666
       },
       {
         "layer": 7,
@@ -3550,20 +3550,20 @@
       {
         "layer": 17,
         "alpha": 10,
-        "validation_metric": -0.017760486030569404,
+        "validation_metric": -0.017816074406251936,
         "metric": -0.01745474996431547
       },
       {
         "layer": 18,
         "alpha": 0.0001,
-        "validation_metric": -0.0002779418784126667,
+        "validation_metric": 0.0002779418784126667,
         "metric": -0.022846822405521203
       },
       {
         "layer": 19,
-        "alpha": 0.0001,
-        "validation_metric": -0.031212872945742473,
-        "metric": -0.047111148390947
+        "alpha": 0.1,
+        "validation_metric": -0.031574197387678936,
+        "metric": -0.04672202976116927
       },
       {
         "layer": 20,
@@ -3573,27 +3573,27 @@
       },
       {
         "layer": 21,
-        "alpha": 0.001,
-        "validation_metric": -0.02557065281396534,
-        "metric": -0.009727965744443333
+        "alpha": 0.1,
+        "validation_metric": -0.02562624118964787,
+        "metric": -0.009783554120125867
       },
       {
         "layer": 22,
-        "alpha": 0.0001,
-        "validation_metric": -0.004224716551872534,
-        "metric": -0.04113539800507467
+        "alpha": 1,
+        "validation_metric": -0.012118265898792268,
+        "metric": -0.040996427065868334
       },
       {
         "layer": 23,
         "alpha": 0.0001,
         "validation_metric": -0.02782198202910794,
-        "metric": -0.07732343057440387
+        "metric": -0.07646181075132462
       },
       {
         "layer": 24,
         "alpha": 0.0001,
-        "validation_metric": -0.04574923318672494,
-        "metric": -0.06917973353691274
+        "validation_metric": -0.0457770273745662,
+        "metric": -0.06954105797884921
       },
       {
         "layer": 25,
@@ -3603,8 +3603,8 @@
       },
       {
         "layer": 26,
-        "alpha": 0.001,
-        "validation_metric": -0.029211691421171273,
+        "alpha": 0.0001,
+        "validation_metric": -0.029350662360377606,
         "metric": -0.06890179165850008
       },
       {
@@ -3629,11 +3629,11 @@
         "layer": 30,
         "alpha": 0.0001,
         "validation_metric": 0.12115486480008143,
-        "metric": 0.16431923851756858
+        "metric": 0.16415247339052097
       },
       {
         "layer": 31,
-        "alpha": 0.001,
+        "alpha": 0.0001,
         "validation_metric": 0.0847166845401808,
         "metric": 0.10700762318887669
       },
@@ -3980,14 +3980,14 @@
       {
         "layer": 1,
         "alpha": 10,
-        "validation_metric": 0.255733170249383,
-        "metric": 0.24872830515124777
+        "validation_metric": 0.2565114885936203,
+        "metric": 0.24883949348613876
       },
       {
         "layer": 2,
-        "alpha": 0.0001,
-        "validation_metric": 0.021792913638643076,
-        "metric": 0.09929118305769524
+        "alpha": 0.01,
+        "validation_metric": 0.029576097081015607,
+        "metric": 0.10863100318854227
       },
       {
         "layer": 3,
@@ -4010,7 +4010,7 @@
       {
         "layer": 6,
         "alpha": 0.1,
-        "validation_metric": -0.18701877928672272,
+        "validation_metric": -0.18657402594715858,
         "metric": 0.22059765642381565
       },
       {
@@ -4023,7 +4023,7 @@
         "layer": 8,
         "alpha": 1,
         "validation_metric": -0.1360945219066282,
-        "metric": -0.05748436913866567
+        "metric": -0.055816544115300126
       },
       {
         "layer": 9,
@@ -4034,7 +4034,7 @@
       {
         "layer": 10,
         "alpha": 100,
-        "validation_metric": 0.2751911288553143,
+        "validation_metric": 0.27552469385998746,
         "metric": 0.2327171849269386
       },
       {
@@ -4051,7 +4051,7 @@
       },
       {
         "layer": 13,
-        "alpha": 0.001,
+        "alpha": 0.0001,
         "validation_metric": 0.4595413881046521,
         "metric": 0.20692149123221817
       },
@@ -4113,19 +4113,19 @@
         "layer": 23,
         "alpha": 1,
         "validation_metric": 0.19969424946430084,
-        "metric": 0.09128562294554063
+        "metric": 0.09039611626641235
       },
       {
         "layer": 24,
         "alpha": 0.0001,
-        "validation_metric": 0.1164141866309148,
+        "validation_metric": 0.11552467995178649,
         "metric": 0.07527450272123144
       },
       {
         "layer": 25,
         "alpha": 1,
-        "validation_metric": 0.015788743554527127,
-        "metric": 0.0388047288769716
+        "validation_metric": 0.014009730196270548,
+        "metric": 0.038026410532734346
       },
       {
         "layer": 26,
@@ -4154,12 +4154,12 @@
       {
         "layer": 30,
         "alpha": 0.0001,
-        "validation_metric": 0.08984017459195717,
-        "metric": 0.23627521164345172
+        "validation_metric": 0.08817234956859163,
+        "metric": 0.234162633280522
       },
       {
         "layer": 31,
-        "alpha": 0.01,
+        "alpha": 0.0001,
         "validation_metric": -0.020458653619950643,
         "metric": 0.07772064608883424
       },
@@ -4167,7 +4167,7 @@
         "layer": 32,
         "alpha": 100,
         "validation_metric": 0.1764558874720743,
-        "metric": 0.3993884989286017
+        "metric": 0.39994444060305684
       },
       {
         "layer": 33,
@@ -4250,7 +4250,7 @@
         "layer": 2,
         "alpha": 0.0001,
         "validation_metric": 0.3,
-        "metric": 0.2833333333333333
+        "metric": 0.2916666666666667
       },
       {
         "layer": 3,
@@ -4681,7 +4681,7 @@
         "layer": 30,
         "alpha": 100,
         "validation_metric": -0.05186395451180361,
-        "metric": -0.05228086732942261
+        "metric": -0.05269778014704161
       },
       {
         "layer": 31,
@@ -4709,7 +4709,7 @@
       },
       {
         "layer": 35,
-        "alpha": 0.001,
+        "alpha": 0.0001,
         "validation_metric": -0.0322690520837106,
         "metric": -0.06951326379100795
       },
@@ -4735,7 +4735,7 @@
         "layer": 39,
         "alpha": 100,
         "validation_metric": -0.08699580794316468,
-        "metric": 0.11837544601595476
+        "metric": 0.11793073901049449
       },
       {
         "layer": 40,
@@ -5103,14 +5103,14 @@
       },
       {
         "layer": 13,
-        "alpha": 0.0001,
+        "alpha": 1,
         "validation_metric": 0.43848720800889873,
         "metric": 0.632035595105673
       },
       {
         "layer": 14,
-        "alpha": 10,
-        "validation_metric": 0.4482758620689655,
+        "alpha": 0.0001,
+        "validation_metric": 0.4473859844271412,
         "metric": 0.6427141268075639
       },
       {
@@ -5181,9 +5181,9 @@
       },
       {
         "layer": 26,
-        "alpha": 0.1,
+        "alpha": 0.0001,
         "validation_metric": 0.38375973303670746,
-        "metric": 0.13681868743047831
+        "metric": 0.13637374860956616
       },
       {
         "layer": 27,
@@ -5199,20 +5199,20 @@
       },
       {
         "layer": 29,
-        "alpha": 0.0001,
-        "validation_metric": 0.33303670745272523,
-        "metric": 0.7899888765294771
+        "alpha": 0.1,
+        "validation_metric": 0.33348164627363736,
+        "metric": 0.7904338153503893
       },
       {
         "layer": 30,
         "alpha": 0.0001,
-        "validation_metric": 0.3668520578420467,
-        "metric": 0.6244716351501668
+        "validation_metric": 0.37130144605116794,
+        "metric": 0.6302558398220245
       },
       {
         "layer": 31,
         "alpha": 10,
-        "validation_metric": 0.06963292547274749,
+        "validation_metric": 0.06162402669632925,
         "metric": 0.5421579532814238
       },
       {
@@ -5242,12 +5242,12 @@
       {
         "layer": 36,
         "alpha": 0.0001,
-        "validation_metric": 0.18442714126807563,
+        "validation_metric": 0.17953281423804227,
         "metric": 0.2551724137931034
       },
       {
         "layer": 37,
-        "alpha": 0.01,
+        "alpha": 0.0001,
         "validation_metric": 0.3058954393770857,
         "metric": 0.22847608453837595
       },
