@@ -1,0 +1,1980 @@
+{
+  "models": [
+    {
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "overall_accuracy": 0.6133333333333333,
+      "invalid_or_nonexact_responses": 232,
+      "constrained_accuracy": 0.8683333333333333,
+      "exact_constrained_agreement": 1.0,
+      "paired_order": {
+        "n_pairs": 300,
+        "padded_first_accuracy": 0.5633333333333334,
+        "padded_second_accuracy": 0.6633333333333333,
+        "paired_first_minus_second": -0.1,
+        "paired_bootstrap_95_ci": [
+          -0.13333333333333333,
+          -0.06666666666666667
+        ],
+        "first_only_correct": 0,
+        "second_only_correct": 30,
+        "mcnemar_p_two_sided": 1.862645149230957e-09
+      },
+      "constrained_paired_order": {
+        "n_pairs": 300,
+        "padded_first_accuracy": 0.7366666666666667,
+        "padded_second_accuracy": 1.0,
+        "paired_first_minus_second": -0.2633333333333333,
+        "paired_bootstrap_95_ci": [
+          -0.31333333333333335,
+          -0.21333333333333335
+        ],
+        "first_only_correct": 0,
+        "second_only_correct": 79,
+        "mcnemar_p_two_sided": 3.308722450212111e-24
+      },
+      "strata": [
+        {
+          "n_pairs": 150,
+          "padded_first_accuracy": 0.9933333333333333,
+          "padded_second_accuracy": 0.9933333333333333,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "template_index",
+          "value": 0
+        },
+        {
+          "n_pairs": 150,
+          "padded_first_accuracy": 0.13333333333333333,
+          "padded_second_accuracy": 0.3333333333333333,
+          "paired_first_minus_second": -0.2,
+          "paired_bootstrap_95_ci": [
+            -0.26666666666666666,
+            -0.14
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 30,
+          "mcnemar_p_two_sided": 1.862645149230957e-09,
+          "field": "template_index",
+          "value": 1
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.7,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.3,
+          "paired_bootstrap_95_ci": [
+            -0.39,
+            -0.21
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 30,
+          "mcnemar_p_two_sided": 1.862645149230957e-09,
+          "field": "answer",
+          "value": 1
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.49,
+          "padded_second_accuracy": 0.49,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "answer",
+          "value": 2
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.5,
+          "padded_second_accuracy": 0.5,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "answer",
+          "value": 3
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.6333333333333333,
+          "padded_second_accuracy": 0.6666666666666666,
+          "paired_first_minus_second": -0.03333333333333333,
+          "paired_bootstrap_95_ci": [
+            -0.1,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 1,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 0
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.5,
+          "padded_second_accuracy": 0.6666666666666666,
+          "paired_first_minus_second": -0.16666666666666666,
+          "paired_bootstrap_95_ci": [
+            -0.3,
+            -0.03333333333333333
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 5,
+          "mcnemar_p_two_sided": 0.0625,
+          "field": "digit",
+          "value": 1
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.5666666666666667,
+          "padded_second_accuracy": 0.6666666666666666,
+          "paired_first_minus_second": -0.1,
+          "paired_bootstrap_95_ci": [
+            -0.23333333333333334,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 3,
+          "mcnemar_p_two_sided": 0.25,
+          "field": "digit",
+          "value": 2
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.5333333333333333,
+          "padded_second_accuracy": 0.6666666666666666,
+          "paired_first_minus_second": -0.13333333333333333,
+          "paired_bootstrap_95_ci": [
+            -0.26666666666666666,
+            -0.03333333333333333
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 4,
+          "mcnemar_p_two_sided": 0.125,
+          "field": "digit",
+          "value": 3
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.6,
+          "padded_second_accuracy": 0.6666666666666666,
+          "paired_first_minus_second": -0.06666666666666667,
+          "paired_bootstrap_95_ci": [
+            -0.16666666666666666,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 2,
+          "mcnemar_p_two_sided": 0.5,
+          "field": "digit",
+          "value": 4
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.6,
+          "padded_second_accuracy": 0.6666666666666666,
+          "paired_first_minus_second": -0.06666666666666667,
+          "paired_bootstrap_95_ci": [
+            -0.16666666666666666,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 2,
+          "mcnemar_p_two_sided": 0.5,
+          "field": "digit",
+          "value": 5
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.5666666666666667,
+          "padded_second_accuracy": 0.6666666666666666,
+          "paired_first_minus_second": -0.1,
+          "paired_bootstrap_95_ci": [
+            -0.2,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 3,
+          "mcnemar_p_two_sided": 0.25,
+          "field": "digit",
+          "value": 6
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.5666666666666667,
+          "padded_second_accuracy": 0.6666666666666666,
+          "paired_first_minus_second": -0.1,
+          "paired_bootstrap_95_ci": [
+            -0.23333333333333334,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 3,
+          "mcnemar_p_two_sided": 0.25,
+          "field": "digit",
+          "value": 7
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.5666666666666667,
+          "padded_second_accuracy": 0.6666666666666666,
+          "paired_first_minus_second": -0.1,
+          "paired_bootstrap_95_ci": [
+            -0.23333333333333334,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 3,
+          "mcnemar_p_two_sided": 0.25,
+          "field": "digit",
+          "value": 8
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.5,
+          "padded_second_accuracy": 0.6333333333333333,
+          "paired_first_minus_second": -0.13333333333333333,
+          "paired_bootstrap_95_ci": [
+            -0.26666666666666666,
+            -0.03333333333333333
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 4,
+          "mcnemar_p_two_sided": 0.125,
+          "field": "digit",
+          "value": 9
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.5166666666666667,
+          "padded_second_accuracy": 0.6666666666666666,
+          "paired_first_minus_second": -0.15,
+          "paired_bootstrap_95_ci": [
+            -0.25,
+            -0.06666666666666667
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 9,
+          "mcnemar_p_two_sided": 0.00390625,
+          "field": "zeros",
+          "value": 1
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.5,
+          "padded_second_accuracy": 0.6666666666666666,
+          "paired_first_minus_second": -0.16666666666666666,
+          "paired_bootstrap_95_ci": [
+            -0.26666666666666666,
+            -0.08333333333333333
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 10,
+          "mcnemar_p_two_sided": 0.001953125,
+          "field": "zeros",
+          "value": 2
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.5666666666666667,
+          "padded_second_accuracy": 0.6666666666666666,
+          "paired_first_minus_second": -0.1,
+          "paired_bootstrap_95_ci": [
+            -0.18333333333333332,
+            -0.03333333333333333
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 6,
+          "mcnemar_p_two_sided": 0.03125,
+          "field": "zeros",
+          "value": 3
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.6166666666666667,
+          "padded_second_accuracy": 0.6666666666666666,
+          "paired_first_minus_second": -0.05,
+          "paired_bootstrap_95_ci": [
+            -0.11666666666666667,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 3,
+          "mcnemar_p_two_sided": 0.25,
+          "field": "zeros",
+          "value": 4
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.6166666666666667,
+          "padded_second_accuracy": 0.65,
+          "paired_first_minus_second": -0.03333333333333333,
+          "paired_bootstrap_95_ci": [
+            -0.08333333333333333,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 2,
+          "mcnemar_p_two_sided": 0.5,
+          "field": "zeros",
+          "value": 5
+        }
+      ],
+      "constrained_strata": [
+        {
+          "n_pairs": 150,
+          "padded_first_accuracy": 1.0,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "template_index",
+          "value": 0
+        },
+        {
+          "n_pairs": 150,
+          "padded_first_accuracy": 0.47333333333333333,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.5266666666666666,
+          "paired_bootstrap_95_ci": [
+            -0.6066666666666667,
+            -0.44666666666666666
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 79,
+          "mcnemar_p_two_sided": 3.308722450212111e-24,
+          "field": "template_index",
+          "value": 1
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.7,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.3,
+          "paired_bootstrap_95_ci": [
+            -0.39,
+            -0.21
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 30,
+          "mcnemar_p_two_sided": 1.862645149230957e-09,
+          "field": "answer",
+          "value": 1
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.74,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.26,
+          "paired_bootstrap_95_ci": [
+            -0.35,
+            -0.18
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 26,
+          "mcnemar_p_two_sided": 2.9802322387695312e-08,
+          "field": "answer",
+          "value": 2
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.77,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.23,
+          "paired_bootstrap_95_ci": [
+            -0.31,
+            -0.15
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 23,
+          "mcnemar_p_two_sided": 2.384185791015625e-07,
+          "field": "answer",
+          "value": 3
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.9666666666666667,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.03333333333333333,
+          "paired_bootstrap_95_ci": [
+            -0.1,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 1,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 0
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.5333333333333333,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.4666666666666667,
+          "paired_bootstrap_95_ci": [
+            -0.6333333333333333,
+            -0.3
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 14,
+          "mcnemar_p_two_sided": 0.0001220703125,
+          "field": "digit",
+          "value": 1
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.7666666666666667,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.23333333333333334,
+          "paired_bootstrap_95_ci": [
+            -0.4,
+            -0.1
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 7,
+          "mcnemar_p_two_sided": 0.015625,
+          "field": "digit",
+          "value": 2
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.7,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.3,
+          "paired_bootstrap_95_ci": [
+            -0.4666666666666667,
+            -0.13333333333333333
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 9,
+          "mcnemar_p_two_sided": 0.00390625,
+          "field": "digit",
+          "value": 3
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.7666666666666667,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.23333333333333334,
+          "paired_bootstrap_95_ci": [
+            -0.4,
+            -0.1
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 7,
+          "mcnemar_p_two_sided": 0.015625,
+          "field": "digit",
+          "value": 4
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.7666666666666667,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.23333333333333334,
+          "paired_bootstrap_95_ci": [
+            -0.4,
+            -0.1
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 7,
+          "mcnemar_p_two_sided": 0.015625,
+          "field": "digit",
+          "value": 5
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.7666666666666667,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.23333333333333334,
+          "paired_bootstrap_95_ci": [
+            -0.4,
+            -0.1
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 7,
+          "mcnemar_p_two_sided": 0.015625,
+          "field": "digit",
+          "value": 6
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.7333333333333333,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.26666666666666666,
+          "paired_bootstrap_95_ci": [
+            -0.43333333333333335,
+            -0.13333333333333333
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 8,
+          "mcnemar_p_two_sided": 0.0078125,
+          "field": "digit",
+          "value": 7
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.7666666666666667,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.23333333333333334,
+          "paired_bootstrap_95_ci": [
+            -0.4,
+            -0.1
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 7,
+          "mcnemar_p_two_sided": 0.015625,
+          "field": "digit",
+          "value": 8
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.6,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.4,
+          "paired_bootstrap_95_ci": [
+            -0.5666666666666667,
+            -0.23333333333333334
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 12,
+          "mcnemar_p_two_sided": 0.00048828125,
+          "field": "digit",
+          "value": 9
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.55,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.45,
+          "paired_bootstrap_95_ci": [
+            -0.5666666666666667,
+            -0.3333333333333333
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 27,
+          "mcnemar_p_two_sided": 1.4901161193847656e-08,
+          "field": "zeros",
+          "value": 1
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.5333333333333333,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.4666666666666667,
+          "paired_bootstrap_95_ci": [
+            -0.6,
+            -0.35
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 28,
+          "mcnemar_p_two_sided": 7.450580596923828e-09,
+          "field": "zeros",
+          "value": 2
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.7833333333333333,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.21666666666666667,
+          "paired_bootstrap_95_ci": [
+            -0.31666666666666665,
+            -0.11666666666666667
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 13,
+          "mcnemar_p_two_sided": 0.000244140625,
+          "field": "zeros",
+          "value": 3
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.8666666666666667,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.13333333333333333,
+          "paired_bootstrap_95_ci": [
+            -0.23333333333333334,
+            -0.05
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 8,
+          "mcnemar_p_two_sided": 0.0078125,
+          "field": "zeros",
+          "value": 4
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.95,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.05,
+          "paired_bootstrap_95_ci": [
+            -0.11666666666666667,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 3,
+          "mcnemar_p_two_sided": 0.25,
+          "field": "zeros",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "model": "google/gemma-2-9b-it",
+      "revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+      "overall_accuracy": 0.0,
+      "invalid_or_nonexact_responses": 600,
+      "constrained_accuracy": 0.65,
+      "exact_constrained_agreement": 0.9983333333333333,
+      "paired_order": {
+        "n_pairs": 300,
+        "padded_first_accuracy": 0.0,
+        "padded_second_accuracy": 0.0,
+        "paired_first_minus_second": 0.0,
+        "paired_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "first_only_correct": 0,
+        "second_only_correct": 0,
+        "mcnemar_p_two_sided": 1.0
+      },
+      "constrained_paired_order": {
+        "n_pairs": 300,
+        "padded_first_accuracy": 0.3,
+        "padded_second_accuracy": 1.0,
+        "paired_first_minus_second": -0.7,
+        "paired_bootstrap_95_ci": [
+          -0.75,
+          -0.65
+        ],
+        "first_only_correct": 0,
+        "second_only_correct": 210,
+        "mcnemar_p_two_sided": 1.2154326714572542e-63
+      },
+      "strata": [
+        {
+          "n_pairs": 150,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "template_index",
+          "value": 0
+        },
+        {
+          "n_pairs": 150,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "template_index",
+          "value": 1
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "answer",
+          "value": 1
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "answer",
+          "value": 2
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "answer",
+          "value": 3
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 0
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 1
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 2
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 3
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 4
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 5
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 6
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 7
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 8
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 9
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "zeros",
+          "value": 1
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "zeros",
+          "value": 2
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "zeros",
+          "value": 3
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "zeros",
+          "value": 4
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "zeros",
+          "value": 5
+        }
+      ],
+      "constrained_strata": [
+        {
+          "n_pairs": 150,
+          "padded_first_accuracy": 0.47333333333333333,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.5266666666666666,
+          "paired_bootstrap_95_ci": [
+            -0.6066666666666667,
+            -0.44666666666666666
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 79,
+          "mcnemar_p_two_sided": 3.308722450212111e-24,
+          "field": "template_index",
+          "value": 0
+        },
+        {
+          "n_pairs": 150,
+          "padded_first_accuracy": 0.12666666666666668,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.8733333333333333,
+          "paired_bootstrap_95_ci": [
+            -0.9266666666666666,
+            -0.82
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 131,
+          "mcnemar_p_two_sided": 7.346839692639297e-40,
+          "field": "template_index",
+          "value": 1
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.33,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.67,
+          "paired_bootstrap_95_ci": [
+            -0.76,
+            -0.58
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 67,
+          "mcnemar_p_two_sided": 1.3552527156068805e-20,
+          "field": "answer",
+          "value": 1
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.29,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.71,
+          "paired_bootstrap_95_ci": [
+            -0.8,
+            -0.62
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 71,
+          "mcnemar_p_two_sided": 8.470329472543003e-22,
+          "field": "answer",
+          "value": 2
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.28,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.72,
+          "paired_bootstrap_95_ci": [
+            -0.8,
+            -0.63
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 72,
+          "mcnemar_p_two_sided": 4.235164736271502e-22,
+          "field": "answer",
+          "value": 3
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 1.0,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 0
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -1.0,
+          "paired_bootstrap_95_ci": [
+            -1.0,
+            -1.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 30,
+          "mcnemar_p_two_sided": 1.862645149230957e-09,
+          "field": "digit",
+          "value": 1
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.3,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.7,
+          "paired_bootstrap_95_ci": [
+            -0.8666666666666667,
+            -0.5333333333333333
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 21,
+          "mcnemar_p_two_sided": 9.5367431640625e-07,
+          "field": "digit",
+          "value": 2
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.26666666666666666,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.7333333333333333,
+          "paired_bootstrap_95_ci": [
+            -0.8666666666666667,
+            -0.5666666666666667
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 22,
+          "mcnemar_p_two_sided": 4.76837158203125e-07,
+          "field": "digit",
+          "value": 3
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.3333333333333333,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.6666666666666666,
+          "paired_bootstrap_95_ci": [
+            -0.8333333333333334,
+            -0.5
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 20,
+          "mcnemar_p_two_sided": 1.9073486328125e-06,
+          "field": "digit",
+          "value": 4
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.26666666666666666,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.7333333333333333,
+          "paired_bootstrap_95_ci": [
+            -0.8666666666666667,
+            -0.5666666666666667
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 22,
+          "mcnemar_p_two_sided": 4.76837158203125e-07,
+          "field": "digit",
+          "value": 5
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.3333333333333333,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.6666666666666666,
+          "paired_bootstrap_95_ci": [
+            -0.8333333333333334,
+            -0.5
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 20,
+          "mcnemar_p_two_sided": 1.9073486328125e-06,
+          "field": "digit",
+          "value": 6
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.23333333333333334,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.7666666666666667,
+          "paired_bootstrap_95_ci": [
+            -0.9,
+            -0.6
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 23,
+          "mcnemar_p_two_sided": 2.384185791015625e-07,
+          "field": "digit",
+          "value": 7
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.23333333333333334,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.7666666666666667,
+          "paired_bootstrap_95_ci": [
+            -0.9,
+            -0.6
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 23,
+          "mcnemar_p_two_sided": 2.384185791015625e-07,
+          "field": "digit",
+          "value": 8
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.03333333333333333,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.9666666666666667,
+          "paired_bootstrap_95_ci": [
+            -1.0,
+            -0.9
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 29,
+          "mcnemar_p_two_sided": 3.725290298461914e-09,
+          "field": "digit",
+          "value": 9
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.1,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.9,
+          "paired_bootstrap_95_ci": [
+            -0.9666666666666667,
+            -0.8166666666666667
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 54,
+          "mcnemar_p_two_sided": 1.1102230246251565e-16,
+          "field": "zeros",
+          "value": 1
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.1,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.9,
+          "paired_bootstrap_95_ci": [
+            -0.9666666666666667,
+            -0.8166666666666667
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 54,
+          "mcnemar_p_two_sided": 1.1102230246251565e-16,
+          "field": "zeros",
+          "value": 2
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.31666666666666665,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.6833333333333333,
+          "paired_bootstrap_95_ci": [
+            -0.8,
+            -0.5666666666666667
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 41,
+          "mcnemar_p_two_sided": 9.094947017729282e-13,
+          "field": "zeros",
+          "value": 3
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.48333333333333334,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.5166666666666667,
+          "paired_bootstrap_95_ci": [
+            -0.65,
+            -0.4
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 31,
+          "mcnemar_p_two_sided": 9.313225746154785e-10,
+          "field": "zeros",
+          "value": 4
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.5,
+          "padded_second_accuracy": 1.0,
+          "paired_first_minus_second": -0.5,
+          "paired_bootstrap_95_ci": [
+            -0.6333333333333333,
+            -0.36666666666666664
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 30,
+          "mcnemar_p_two_sided": 1.862645149230957e-09,
+          "field": "zeros",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "overall_accuracy": 0.0,
+      "invalid_or_nonexact_responses": 600,
+      "constrained_accuracy": 0.21,
+      "exact_constrained_agreement": 0.685,
+      "paired_order": {
+        "n_pairs": 300,
+        "padded_first_accuracy": 0.0,
+        "padded_second_accuracy": 0.0,
+        "paired_first_minus_second": 0.0,
+        "paired_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "first_only_correct": 0,
+        "second_only_correct": 0,
+        "mcnemar_p_two_sided": 1.0
+      },
+      "constrained_paired_order": {
+        "n_pairs": 300,
+        "padded_first_accuracy": 0.23,
+        "padded_second_accuracy": 0.19,
+        "paired_first_minus_second": 0.04,
+        "paired_bootstrap_95_ci": [
+          0.0033333333333333335,
+          0.07666666666666666
+        ],
+        "first_only_correct": 22,
+        "second_only_correct": 10,
+        "mcnemar_p_two_sided": 0.050102459732443094
+      },
+      "strata": [
+        {
+          "n_pairs": 150,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "template_index",
+          "value": 0
+        },
+        {
+          "n_pairs": 150,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "template_index",
+          "value": 1
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "answer",
+          "value": 1
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "answer",
+          "value": 2
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "answer",
+          "value": 3
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 0
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 1
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 2
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 3
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 4
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 5
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 6
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 7
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 8
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 9
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "zeros",
+          "value": 1
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "zeros",
+          "value": 2
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "zeros",
+          "value": 3
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "zeros",
+          "value": 4
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.0,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "zeros",
+          "value": 5
+        }
+      ],
+      "constrained_strata": [
+        {
+          "n_pairs": 150,
+          "padded_first_accuracy": 0.37333333333333335,
+          "padded_second_accuracy": 0.35333333333333333,
+          "paired_first_minus_second": 0.02,
+          "paired_bootstrap_95_ci": [
+            -0.04,
+            0.08
+          ],
+          "first_only_correct": 13,
+          "second_only_correct": 10,
+          "mcnemar_p_two_sided": 0.6776394844055176,
+          "field": "template_index",
+          "value": 0
+        },
+        {
+          "n_pairs": 150,
+          "padded_first_accuracy": 0.08666666666666667,
+          "padded_second_accuracy": 0.02666666666666667,
+          "paired_first_minus_second": 0.06,
+          "paired_bootstrap_95_ci": [
+            0.02666666666666667,
+            0.1
+          ],
+          "first_only_correct": 9,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 0.00390625,
+          "field": "template_index",
+          "value": 1
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.12,
+          "padded_second_accuracy": 0.07,
+          "paired_first_minus_second": 0.05,
+          "paired_bootstrap_95_ci": [
+            -0.02,
+            0.12
+          ],
+          "first_only_correct": 9,
+          "second_only_correct": 4,
+          "mcnemar_p_two_sided": 0.266845703125,
+          "field": "answer",
+          "value": 1
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.07,
+          "padded_second_accuracy": 0.09,
+          "paired_first_minus_second": -0.02,
+          "paired_bootstrap_95_ci": [
+            -0.08,
+            0.03
+          ],
+          "first_only_correct": 3,
+          "second_only_correct": 5,
+          "mcnemar_p_two_sided": 0.7265625,
+          "field": "answer",
+          "value": 2
+        },
+        {
+          "n_pairs": 100,
+          "padded_first_accuracy": 0.5,
+          "padded_second_accuracy": 0.41,
+          "paired_first_minus_second": 0.09,
+          "paired_bootstrap_95_ci": [
+            0.03,
+            0.16
+          ],
+          "first_only_correct": 10,
+          "second_only_correct": 1,
+          "mcnemar_p_two_sided": 0.01171875,
+          "field": "answer",
+          "value": 3
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.9,
+          "padded_second_accuracy": 0.5666666666666667,
+          "paired_first_minus_second": 0.3333333333333333,
+          "paired_bootstrap_95_ci": [
+            0.13333333333333333,
+            0.5333333333333333
+          ],
+          "first_only_correct": 11,
+          "second_only_correct": 1,
+          "mcnemar_p_two_sided": 0.00634765625,
+          "field": "digit",
+          "value": 0
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.06666666666666667,
+          "padded_second_accuracy": 0.03333333333333333,
+          "paired_first_minus_second": 0.03333333333333333,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.1
+          ],
+          "first_only_correct": 1,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 1
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.16666666666666666,
+          "padded_second_accuracy": 0.26666666666666666,
+          "paired_first_minus_second": -0.1,
+          "paired_bootstrap_95_ci": [
+            -0.2,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 3,
+          "mcnemar_p_two_sided": 0.25,
+          "field": "digit",
+          "value": 2
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.16666666666666666,
+          "padded_second_accuracy": 0.2,
+          "paired_first_minus_second": -0.03333333333333333,
+          "paired_bootstrap_95_ci": [
+            -0.1,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 1,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 3
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.16666666666666666,
+          "padded_second_accuracy": 0.13333333333333333,
+          "paired_first_minus_second": 0.03333333333333333,
+          "paired_bootstrap_95_ci": [
+            -0.06666666666666667,
+            0.13333333333333333
+          ],
+          "first_only_correct": 2,
+          "second_only_correct": 1,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 4
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.2,
+          "padded_second_accuracy": 0.23333333333333334,
+          "paired_first_minus_second": -0.03333333333333333,
+          "paired_bootstrap_95_ci": [
+            -0.13333333333333333,
+            0.06666666666666667
+          ],
+          "first_only_correct": 1,
+          "second_only_correct": 2,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 5
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.16666666666666666,
+          "padded_second_accuracy": 0.16666666666666666,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "first_only_correct": 0,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 6
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.16666666666666666,
+          "padded_second_accuracy": 0.13333333333333333,
+          "paired_first_minus_second": 0.03333333333333333,
+          "paired_bootstrap_95_ci": [
+            0.0,
+            0.1
+          ],
+          "first_only_correct": 1,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 7
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.16666666666666666,
+          "padded_second_accuracy": 0.16666666666666666,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            -0.13333333333333333,
+            0.13333333333333333
+          ],
+          "first_only_correct": 2,
+          "second_only_correct": 2,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "digit",
+          "value": 8
+        },
+        {
+          "n_pairs": 30,
+          "padded_first_accuracy": 0.13333333333333333,
+          "padded_second_accuracy": 0.0,
+          "paired_first_minus_second": 0.13333333333333333,
+          "paired_bootstrap_95_ci": [
+            0.03333333333333333,
+            0.26666666666666666
+          ],
+          "first_only_correct": 4,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 0.125,
+          "field": "digit",
+          "value": 9
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.25,
+          "padded_second_accuracy": 0.15,
+          "paired_first_minus_second": 0.1,
+          "paired_bootstrap_95_ci": [
+            0.03333333333333333,
+            0.18333333333333332
+          ],
+          "first_only_correct": 6,
+          "second_only_correct": 0,
+          "mcnemar_p_two_sided": 0.03125,
+          "field": "zeros",
+          "value": 1
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.23333333333333334,
+          "padded_second_accuracy": 0.2,
+          "paired_first_minus_second": 0.03333333333333333,
+          "paired_bootstrap_95_ci": [
+            -0.05,
+            0.11666666666666667
+          ],
+          "first_only_correct": 4,
+          "second_only_correct": 2,
+          "mcnemar_p_two_sided": 0.6875,
+          "field": "zeros",
+          "value": 2
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.21666666666666667,
+          "padded_second_accuracy": 0.21666666666666667,
+          "paired_first_minus_second": 0.0,
+          "paired_bootstrap_95_ci": [
+            -0.1,
+            0.08333333333333333
+          ],
+          "first_only_correct": 4,
+          "second_only_correct": 4,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "zeros",
+          "value": 3
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.25,
+          "padded_second_accuracy": 0.23333333333333334,
+          "paired_first_minus_second": 0.016666666666666666,
+          "paired_bootstrap_95_ci": [
+            -0.06666666666666667,
+            0.1
+          ],
+          "first_only_correct": 4,
+          "second_only_correct": 3,
+          "mcnemar_p_two_sided": 1.0,
+          "field": "zeros",
+          "value": 4
+        },
+        {
+          "n_pairs": 60,
+          "padded_first_accuracy": 0.2,
+          "padded_second_accuracy": 0.15,
+          "paired_first_minus_second": 0.05,
+          "paired_bootstrap_95_ci": [
+            -0.016666666666666666,
+            0.13333333333333333
+          ],
+          "first_only_correct": 4,
+          "second_only_correct": 1,
+          "mcnemar_p_two_sided": 0.375,
+          "field": "zeros",
+          "value": 5
+        }
+      ]
+    }
+  ],
+  "cross_model_order_effects": [
+    {
+      "outcome": "strict_exact",
+      "left_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "right_model": "google/gemma-2-9b-it",
+      "difference_in_order_effects": -0.1,
+      "paired_bootstrap_95_ci": [
+        -0.1334166666666666,
+        -0.06666666666666667
+      ]
+    },
+    {
+      "outcome": "strict_exact",
+      "left_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "right_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "difference_in_order_effects": -0.1,
+      "paired_bootstrap_95_ci": [
+        -0.13666666666666666,
+        -0.06666666666666667
+      ]
+    },
+    {
+      "outcome": "strict_exact",
+      "left_model": "google/gemma-2-9b-it",
+      "right_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "difference_in_order_effects": 0.0,
+      "paired_bootstrap_95_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "outcome": "constrained_label",
+      "left_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "right_model": "google/gemma-2-9b-it",
+      "difference_in_order_effects": 0.43666666666666665,
+      "paired_bootstrap_95_ci": [
+        0.38,
+        0.49333333333333335
+      ]
+    },
+    {
+      "outcome": "constrained_label",
+      "left_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "right_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "difference_in_order_effects": -0.30333333333333334,
+      "paired_bootstrap_95_ci": [
+        -0.36333333333333334,
+        -0.24333333333333335
+      ]
+    },
+    {
+      "outcome": "constrained_label",
+      "left_model": "google/gemma-2-9b-it",
+      "right_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "difference_in_order_effects": -0.74,
+      "paired_bootstrap_95_ci": [
+        -0.8,
+        -0.6766666666666666
+      ]
+    }
+  ]
+}

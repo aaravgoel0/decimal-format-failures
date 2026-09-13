@@ -45,14 +45,18 @@ def geometry_figure():
             ax = axes[row, col]
             for item in data:
                 if item["activation_position"] != position or item["target_position"] != target: continue
-                ax.plot([v["layer"] for v in item["layers"]], [v["equivalence_minus_nearby_cosine"] for v in item["layers"]],
-                        color=COLORS[item["model"]], label=LABELS[item["model"]])
+                layers = [v["layer"] for v in item["layers"]]
+                values = [v["residualized_rsa"] for v in item["layers"]]
+                lows = [v["residualized_rsa_bootstrap_95_ci"][0] for v in item["layers"]]
+                highs = [v["residualized_rsa_bootstrap_95_ci"][1] for v in item["layers"]]
+                ax.plot(layers, values, color=COLORS[item["model"]], label=LABELS[item["model"]])
+                ax.fill_between(layers, lows, highs, color=COLORS[item["model"]], alpha=.10, linewidth=0)
             ax.axhline(0, color="#888", linewidth=.8, linestyle=":")
             ax.set_title(f"{'Numeral-final' if position == 'numeral_final' else 'Answer'} · target {'first' if target == 1 else 'second'}")
             if row == 1: ax.set_xlabel("Layer (zero-based)")
-            if col == 0: ax.set_ylabel("Equivalent − nearby cosine")
+            if col == 0: ax.set_ylabel("Residualized RSA (Spearman rho)")
     axes[0, 0].legend(frameon=False, fontsize=8)
-    fig.suptitle("Held-out residualized representation geometry")
+    fig.suptitle("Held-out residualized representation geometry with 95% bootstrap intervals")
     fig.savefig("figures/mechanistic_geometry_layers.png", dpi=200)
     plt.close(fig)
 

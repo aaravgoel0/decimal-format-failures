@@ -7,6 +7,8 @@ import re
 import time
 from pathlib import Path
 
+import mlx
+import mlx_lm
 from mlx_lm import generate, load
 
 from evaluate import PROMPTS, parse_answer
@@ -39,6 +41,8 @@ def main():
                 completed.add(previous["id"])
 
     model, tokenizer = load(args.model, revision=args.revision)
+    if getattr(model.args, "quantization", None) is not None:
+        raise RuntimeError("evaluate_mlx.py requires unquantized checkpoint weights")
     system = "You are a helpful assistant that compares numbers."
     template_mode = "system-role"
     try:
@@ -72,7 +76,10 @@ def main():
         result = dict(row)
         result.update({
             "model": args.model, "model_revision": args.revision,
-            "backend": "mlx-lm", "chat_template_mode": template_mode,
+            "backend": "mlx-lm", "mlx_version": getattr(mlx, "__version__", "unknown"),
+            "mlx_lm_version": getattr(mlx_lm, "__version__", "unknown"),
+            "checkpoint_precision": "native-unquantized",
+            "chat_template_mode": template_mode,
             "prompt_variant": args.prompt_variant, "raw_response": raw,
             "prediction": prediction, "parse_status": parse_status,
             "correct": prediction == row["answer"], "error": error,

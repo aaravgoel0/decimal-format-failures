@@ -13,6 +13,9 @@ The unpublished LessWrong draft is intentionally not included here.
   sensitive to decimal formatting, prompt wording, and numeral presentation
   order.
 - Qwen3 4B and Gemma 2 9B are much more accurate on matched decimal tasks.
+- In a new fully paired test with equality-label position controlled, Qwen and
+  Gemma still showed large padded-first disadvantages under constrained-label
+  scoring. Llama was poor in both orders and strongly label biased.
 - Qwen passes the fixed-site causal-generalization criterion on two new prompt
   templates and an incompatible-value donor test.
 - Gemma passes the donor test, but its easy-source rescue does not generalize
@@ -37,7 +40,7 @@ The quantized behavioral controls use Ollama's `llama3.1:8b` package (ID
 `667b0c1932bc6ffc593ed1d03f895bf2dc8dc6df21db3042284a6f4416b06a29`)
 and `gemma2:9b` package (ID `ff02c3702f32`, weight SHA-256
 `ff1d1fc78170d787ee1201778e2dd65ea211654ca5fb7d69b5a2e7b123a50373`).
-They are reported separately from the official full-precision checkpoints.
+They are reported separately from the official unquantized checkpoints.
 Gemma's official template rejects a system role, so the same instruction was
 prepended to the user message and this mode is recorded in every output row.
 All runs use greedy decoding.
@@ -72,6 +75,8 @@ python scripts/confirmatory_analysis.py
 python scripts/analyze_causal_generalization.py
 python scripts/analyze_token_decomposition.py
 python scripts/analyze_format_robustness.py
+python scripts/validate_paired_generalization.py
+python scripts/analyze_paired_generalization.py
 ```
 
 The three activation arrays total about 1.7 GB and are excluded from the public

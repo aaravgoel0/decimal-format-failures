@@ -2,7 +2,7 @@
 
 ## Scope and controls
 
-All analyses use the exact commit-pinned, full-precision Llama 3.1 8B, Qwen3
+All analyses use the exact commit-pinned, official unquantized Llama 3.1 8B, Qwen3
 4B Instruct 2507, and Gemma 2 9B checkpoints listed in `README.md`. The fixed
 1,200-row activation set separates training (whole numbers 21–40), validation
 (41–50), and test values (51–60).
@@ -16,18 +16,21 @@ bootstraps over numerical values.
 Value probes often transferred across canonical and padded forms, but not
 uniformly. At the validation-selected numeral-final layer, canonical-to-padded
 Spearman correlations were 0.763 for Llama, 0.098 for Qwen, and 0.404 for Gemma;
-the Qwen interval crossed zero despite a nominal permutation p-value of 0.040.
+the Qwen interval crossed zero despite a nominal permutation p-value of 0.049.
 Reverse-transfer correlations were 0.637, 0.443, and 0.598. At the answer
 position, canonical-to-padded correlations were 0.644, 0.572, and 0.637, while
 reverse transfer was 0.255, 0.830, and 0.596. Llama's answer-position reverse
 interval crossed zero. These are exploratory full-curve results, not evidence
 for a single privileged layer.
 
-Equality probes were near-perfect at some answer-position layers in Qwen and
-Gemma, but numeral-final reverse transfer was at chance for Qwen and weak,
-permutation-nonsignificant for Llama and Gemma. This dependence on direction
-and readout position argues against reducing the result to “the models encode
-equality” without qualification.
+Equality transfer was strongly directional under the stricter surface-form
+controls. Padded-to-canonical test accuracy was 1.000 for all three models,
+while canonical-to-padded transfer was weaker and usually
+permutation-nonsignificant. The permutation tests keep the validation-selected
+layer and penalty fixed, so their p-values are nominal rather than
+selection-adjusted. This dependence on direction and readout position argues
+against reducing the result to “the models encode equality” without
+qualification.
 
 The exact Llama greedy first-token behavior parsed on all 300 test prompts.
 It labeled every canonical and nearby-unequal test row correctly, but every
@@ -41,14 +44,14 @@ bootstrap intervals are in `results/llama_probe_behavior_breakdown.json`.
 
 After nuisance regression fitted only on training wholes (token count,
 absolute numeral position, prompt order, whole number, and fractional digit),
-canonical–padded cosine similarity was compared with canonical–nearby-unequal
-similarity on held-out values. The analysis was run separately for target-first
-and target-second prompts.
+residualized representational similarity was compared for equivalent and
+nearby-unequal values on held-out wholes. The analysis was run separately for
+target-first and target-second prompts.
 
-Qwen and Gemma had positive equivalence-minus-nearby intervals in both prompt
+Qwen and Gemma had positive residualized RSA intervals in both prompt
 orders at every layer, at both the numeral-final and answer positions. Llama did
 not pass that criterion at the numeral-final position in both orders; it did
-pass at the answer position from layers 9 and 15–31. This is evidence
+pass at the answer position at layer 9 and layers 16–31. This is evidence
 that Qwen and Gemma's residual geometry tracks numerical equivalence beyond the
 specified surface-form controls, while Llama's numeral-local geometry does not
 show the same controlled, order-stable pattern. RSA and linear CKA curves are
@@ -109,11 +112,14 @@ for short tokens; Gemma's were +4.076 and +0.722. Incompatible-donor corruption
 was concentrated in the short numeral for both models: -43.283 for Qwen and
 -8.499 for Gemma, while padded-donor effects were approximately zero.
 
-For Qwen, the pooled joint effect was statistically compatible with the sum of
-the two component contrasts. For Gemma easy-source rescue, joint minus component
-sum was -3.631 (-4.752 to -2.538). This is reported as descriptive
-non-additivity, not a factorial interaction, because the necessary two-factor
-intervention was not run.
+The saved aligned intervention rows contain all four conditions needed for an
+exploratory two-by-two factorial contrast: baseline, padded-only, short-only,
+and both. Qwen's pooled joint-minus-component interaction was -1.368 (-1.814
+to -0.960) for easy-source rescue. Gemma's was -3.253 (-4.093 to -2.401). In
+the incompatible-donor condition, the interaction was exactly zero for both
+models because the padded component had no measurable effect and the short
+component equaled the joint patch. These contrasts were designed after the
+joint outcomes were inspected and are exploratory rather than confirmatory.
 
 ## Broad-format robustness
 

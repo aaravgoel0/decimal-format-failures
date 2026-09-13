@@ -10,7 +10,8 @@ MODELS=['meta-llama-Meta-Llama-3.1-8B-Instruct','Qwen-Qwen3-4B-Instruct-2507','g
 def ridge_predict(x,y,z,alpha):
     mu=x.mean(0); scale=x.std(0); scale[scale<1e-6]=1
     x=(x-mu)/scale; z=(z-mu)/scale
-    return z@x.T@np.linalg.solve(x@x.T+alpha*np.eye(len(x)),y)
+    intercept=y.mean(); centered=y-intercept
+    return z@x.T@np.linalg.solve(x@x.T+alpha*np.eye(len(x)),centered)+intercept
 
 def balanced(y,p):
     return .5*((p[y==1]>=0).mean()+(p[y==-1]<0).mean())
@@ -32,13 +33,18 @@ def main():
             for task in ('value','equality'):
               curves=[]
               for layer in range(acts.shape[1]):
-                def select(split,forms,include_near=False):
+                def select(split,forms,negative_forms=()):
                     idx=[]
                     for i,r in enumerate(rows):
-                        ok=r['split']==split and (r['form'] in forms or (include_near and r['form'] in {'near_minus','near_plus'}))
+                        ok=r['split']==split and (r['form'] in forms or r['form'] in negative_forms)
                         if ok: idx.append(i)
                     return np.array(idx)
-                near=task=='equality'; tr=select('train',train_forms,near); va=select('validation',eval_forms,near); te=select('test',eval_forms,near)
+                if task=='equality':
+                    train_negative={'near_minus'} if direction.startswith('canonical') else {'near_plus'}
+                    eval_negative={'near_plus'} if direction.startswith('canonical') else {'near_minus'}
+                else:
+                    train_negative=eval_negative=set()
+                tr=select('train',train_forms,train_negative); va=select('validation',eval_forms,eval_negative); te=select('test',eval_forms,eval_negative)
                 x=np.asarray(acts[tr,layer,position],dtype=np.float32); xv=np.asarray(acts[va,layer,position],dtype=np.float32); xt=np.asarray(acts[te,layer,position],dtype=np.float32)
                 if task=='value':
                     y=np.array([rows[i]['value'] for i in tr]); yv=np.array([rows[i]['value'] for i in va]); yt=np.array([rows[i]['value'] for i in te]); ym=y.mean(); ys=y.std(); y=(y-ym)/ys
@@ -52,7 +58,9 @@ def main():
                 curves.append({'layer':layer,'alpha':alpha,'validation_metric':float(max(scores)),'metric':metric,'case_values':case.tolist()})
               best=max(curves,key=lambda q:q['validation_metric']); vals=np.array(best.pop('case_values'),dtype=float)
               for q in curves: q.pop('case_values',None)
-              output.append({'model':model,'position':name,'direction':direction,'task':task,'layers':curves,'selected_layer':best['layer'],'test_metric':best['metric']})
+              output.append({'model':model,'position':name,'direction':direction,'task':task,'layers':curves,'selected_layer':best['layer'],'test_metric':best['metric'],
+                             'negative_control_transfer':('near_minus_to_near_plus' if task=='equality' and direction.startswith('canonical') else
+                                                          'near_plus_to_near_minus' if task=='equality' else None)})
               print(model,name,direction,task,best['layer'],best['metric'],flush=True)
     Path('results/cross_format_probes.json').write_text(json.dumps(output,indent=2)+'\n')
 

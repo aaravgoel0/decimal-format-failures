@@ -30,8 +30,9 @@ def main():
                     analyses.append({"source":source,"component":component,"template":template or "pooled",
                                      "n":len(vals),"aligned_minus_random":float(np.mean(vals)),
                                      "bootstrap_95_ci":ci(vals,83100+model_index*100+len(analyses))})
-        # The addendum explicitly calls for a descriptive comparison with the
-        # already-run joint patch.  This is not a factorial interaction test.
+        # Keep the registered matched-random comparison. The random sites for
+        # the component and joint patches were sampled independently, so this
+        # contrast is descriptive rather than a factorial interaction.
         nonadditivity=[]
         for source in ("easy", "donor"):
             joint_aligned=f"{source}_number_tokens"; joint_random=f"{source}_random_positions"
@@ -47,6 +48,27 @@ def main():
                                       "joint_minus_component_sum":float(np.mean(values)),
                                       "bootstrap_95_ci":ci(values,83500+model_index*100+len(nonadditivity)),
                                       "interpretation":"descriptive; not a formal factorial interaction"})
+
+        # The aligned interventions themselves do contain all four cells of a
+        # 2x2 design: neither numeral (the hard baseline), padded only, short
+        # only, and both numerals. This post-outcome analysis estimates the
+        # factorial interaction on the aligned sites without mixing in the
+        # independently sampled random positions.
+        factorial=[]
+        for source in ("easy", "donor"):
+            for template in (None,"relation_statements","direct_choice"):
+                selected=[c for c in cases if template is None or by[c,f"{source}_padded_tokens"]["template"]==template]
+                values=[]
+                for c in selected:
+                    baseline=float(joint_by[c,f"{source}_number_tokens"]["hard_margin"])
+                    both=float(joint_by[c,f"{source}_number_tokens"]["patched_margin"])
+                    padded=float(by[c,f"{source}_padded_tokens"]["patched_margin"])
+                    short=float(by[c,f"{source}_short_tokens"]["patched_margin"])
+                    values.append(both-padded-short+baseline)
+                factorial.append({"source":source,"template":template or "pooled","n":len(values),
+                                  "aligned_factorial_interaction":float(np.mean(values)),
+                                  "bootstrap_95_ci":ci(values,83700+model_index*100+len(factorial)),
+                                  "interpretation":"exploratory post-outcome 2x2 aligned-site interaction"})
 
         strata=[]
         for field in ("zeros","digit","patched_token_count"):
@@ -72,7 +94,8 @@ def main():
                                             "n":len(vals),"mean_contrast":float(np.mean(vals))})
         output.append({"model":rows[0]["model"],"revision":rows[0]["revision"],
                        "fixed_layer_zero_based":int(rows[0]["layer"]),"analyses":analyses,
-                       "joint_minus_component_sum":nonadditivity,"strata":strata})
+                       "joint_minus_component_sum":nonadditivity,
+                       "aligned_factorial_interactions":factorial,"strata":strata})
     Path("results/token_decomposition_analysis.json").write_text(json.dumps(output,indent=2)+"\n")
     print(json.dumps(output,indent=2))
 

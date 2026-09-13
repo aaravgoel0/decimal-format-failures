@@ -205,6 +205,74 @@
         "interpretation": "descriptive; not a formal factorial interaction"
       }
     ],
+    "aligned_factorial_interactions": [
+      {
+        "source": "easy",
+        "template": "pooled",
+        "n": 100,
+        "aligned_factorial_interaction": -1.3675,
+        "bootstrap_95_ci": [
+          -1.81375,
+          -0.96
+        ],
+        "interpretation": "exploratory post-outcome 2x2 aligned-site interaction"
+      },
+      {
+        "source": "easy",
+        "template": "relation_statements",
+        "n": 50,
+        "aligned_factorial_interaction": -0.575,
+        "bootstrap_95_ci": [
+          -0.745,
+          -0.41
+        ],
+        "interpretation": "exploratory post-outcome 2x2 aligned-site interaction"
+      },
+      {
+        "source": "easy",
+        "template": "direct_choice",
+        "n": 50,
+        "aligned_factorial_interaction": -2.16,
+        "bootstrap_95_ci": [
+          -2.955,
+          -1.425
+        ],
+        "interpretation": "exploratory post-outcome 2x2 aligned-site interaction"
+      },
+      {
+        "source": "donor",
+        "template": "pooled",
+        "n": 100,
+        "aligned_factorial_interaction": 0.0,
+        "bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "interpretation": "exploratory post-outcome 2x2 aligned-site interaction"
+      },
+      {
+        "source": "donor",
+        "template": "relation_statements",
+        "n": 50,
+        "aligned_factorial_interaction": 0.0,
+        "bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "interpretation": "exploratory post-outcome 2x2 aligned-site interaction"
+      },
+      {
+        "source": "donor",
+        "template": "direct_choice",
+        "n": 50,
+        "aligned_factorial_interaction": 0.0,
+        "bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "interpretation": "exploratory post-outcome 2x2 aligned-site interaction"
+      }
+    ],
     "strata": [
       {
         "field": "zeros",
@@ -1308,6 +1376,74 @@
           0.39
         ],
         "interpretation": "descriptive; not a formal factorial interaction"
+      }
+    ],
+    "aligned_factorial_interactions": [
+      {
+        "source": "easy",
+        "template": "pooled",
+        "n": 100,
+        "aligned_factorial_interaction": -3.2525,
+        "bootstrap_95_ci": [
+          -4.093140624999999,
+          -2.400609375
+        ],
+        "interpretation": "exploratory post-outcome 2x2 aligned-site interaction"
+      },
+      {
+        "source": "easy",
+        "template": "relation_statements",
+        "n": 50,
+        "aligned_factorial_interaction": -0.2225,
+        "bootstrap_95_ci": [
+          -0.8575,
+          0.46753124999999957
+        ],
+        "interpretation": "exploratory post-outcome 2x2 aligned-site interaction"
+      },
+      {
+        "source": "easy",
+        "template": "direct_choice",
+        "n": 50,
+        "aligned_factorial_interaction": -6.2825,
+        "bootstrap_95_ci": [
+          -7.295,
+          -5.24875
+        ],
+        "interpretation": "exploratory post-outcome 2x2 aligned-site interaction"
+      },
+      {
+        "source": "donor",
+        "template": "pooled",
+        "n": 100,
+        "aligned_factorial_interaction": 0.0,
+        "bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "interpretation": "exploratory post-outcome 2x2 aligned-site interaction"
+      },
+      {
+        "source": "donor",
+        "template": "relation_statements",
+        "n": 50,
+        "aligned_factorial_interaction": 0.0,
+        "bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "interpretation": "exploratory post-outcome 2x2 aligned-site interaction"
+      },
+      {
+        "source": "donor",
+        "template": "direct_choice",
+        "n": 50,
+        "aligned_factorial_interaction": 0.0,
+        "bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "interpretation": "exploratory post-outcome 2x2 aligned-site interaction"
       }
     ],
     "strata": [

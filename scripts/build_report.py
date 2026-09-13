@@ -27,15 +27,15 @@ RUNS = {
     ("Gemma 2 9B", "Integer", 0): RESULTS / "gemma2-9b__integers__p0.jsonl",
     ("Gemma 2 9B", "Misleading", 0): RESULTS / "gemma2-9b__misleading__p0.jsonl",
     ("Gemma 2 9B", "Zero-padding", 0): RESULTS / "gemma2-9b__zero_padding__p0.jsonl",
-    ("Llama 3.1 8B full precision", "Integer", 0): RESULTS / "meta-llama-Meta-Llama-3.1-8B-Instruct__integers__p0__mlx.jsonl",
-    ("Llama 3.1 8B full precision", "Misleading", 0): RESULTS / "meta-llama-Meta-Llama-3.1-8B-Instruct__misleading__p0__mlx.jsonl",
-    ("Llama 3.1 8B full precision", "Zero-padding held-out", 0): RESULTS / "meta-llama-Meta-Llama-3.1-8B-Instruct__confirmatory_zero_padding__p0__mlx.jsonl",
-    ("Llama 3.1 8B full precision", "Zero-padding held-out", 1): RESULTS / "meta-llama-Meta-Llama-3.1-8B-Instruct__confirmatory_zero_padding__p1__mlx.jsonl",
-    ("Llama 3.1 8B full precision", "Zero-padding held-out", 2): RESULTS / "meta-llama-Meta-Llama-3.1-8B-Instruct__confirmatory_zero_padding__p2__mlx.jsonl",
+    ("Llama 3.1 8B official", "Integer", 0): RESULTS / "meta-llama-Meta-Llama-3.1-8B-Instruct__integers__p0__mlx.jsonl",
+    ("Llama 3.1 8B official", "Misleading", 0): RESULTS / "meta-llama-Meta-Llama-3.1-8B-Instruct__misleading__p0__mlx.jsonl",
+    ("Llama 3.1 8B official", "Zero-padding held-out", 0): RESULTS / "meta-llama-Meta-Llama-3.1-8B-Instruct__confirmatory_zero_padding__p0__mlx.jsonl",
+    ("Llama 3.1 8B official", "Zero-padding held-out", 1): RESULTS / "meta-llama-Meta-Llama-3.1-8B-Instruct__confirmatory_zero_padding__p1__mlx.jsonl",
+    ("Llama 3.1 8B official", "Zero-padding held-out", 2): RESULTS / "meta-llama-Meta-Llama-3.1-8B-Instruct__confirmatory_zero_padding__p2__mlx.jsonl",
     ("Qwen3 4B Instruct 2507", "Zero-padding held-out", 0): RESULTS / "Qwen-Qwen3-4B-Instruct-2507__confirmatory_zero_padding__p0__mlx.jsonl",
-    ("Gemma 2 9B full precision", "Integer", 0): RESULTS / "google-gemma-2-9b-it__integers__p0__mlx.jsonl",
-    ("Gemma 2 9B full precision", "Misleading", 0): RESULTS / "google-gemma-2-9b-it__misleading__p0__mlx.jsonl",
-    ("Gemma 2 9B full precision", "Zero-padding held-out", 0): RESULTS / "google-gemma-2-9b-it__confirmatory_zero_padding__p0__mlx.jsonl",
+    ("Gemma 2 9B official", "Integer", 0): RESULTS / "google-gemma-2-9b-it__integers__p0__mlx.jsonl",
+    ("Gemma 2 9B official", "Misleading", 0): RESULTS / "google-gemma-2-9b-it__misleading__p0__mlx.jsonl",
+    ("Gemma 2 9B official", "Zero-padding held-out", 0): RESULTS / "google-gemma-2-9b-it__confirmatory_zero_padding__p0__mlx.jsonl",
 }
 
 
@@ -85,7 +85,7 @@ def summarize(model, task, prompt, path):
 
 
 def make_cross_model_plot(rows):
-    models = ["Llama 3.1 8B full precision", "Qwen3 4B Instruct 2507", "Gemma 2 9B full precision"]
+    models = ["Llama 3.1 8B official", "Qwen3 4B Instruct 2507", "Gemma 2 9B official"]
     model_labels = ["Llama 3.1 8B", "Qwen3 4B", "Gemma 2 9B"]
     tasks = ["Integer", "Misleading", "Zero-padding held-out"]
     task_labels = ["Integer (n=1,000)", "Misleading decimal (n=1,000)",
@@ -116,7 +116,7 @@ def make_cross_model_plot(rows):
 
 
 def make_prompt_plot(rows):
-    vals = [next(r for r in rows if r["model"] == "Llama 3.1 8B full precision" and
+    vals = [next(r for r in rows if r["model"] == "Llama 3.1 8B official" and
                  r["task"] == "Zero-padding held-out" and r["prompt_variant"] == p)
             for p in range(3)]
     labels = ["Primary prompt", "Compare values", "Select statement"]
@@ -126,7 +126,7 @@ def make_prompt_plot(rows):
     ax.bar_label(bars, labels=[f"{y:.1f}%" for y in ys], padding=4, fontsize=11)
     ax.set_ylim(0, 66)
     ax.set_ylabel("Accuracy on equal zero-padded pairs")
-    ax.set_title("Full-precision Llama changes sharply with prompt wording")
+    ax.set_title("Official Llama changes sharply with prompt wording")
     ax.spines[["top", "right"]].set_visible(False)
     fig.tight_layout()
     fig.savefig(FIGURES / "llama_prompt_sensitivity.png", dpi=200)

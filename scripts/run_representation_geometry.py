@@ -45,6 +45,14 @@ def interval(values):
     return [float(np.quantile(values, .025)), float(np.quantile(values, .975))]
 
 
+def rsa_from_pairwise(eq, near):
+    """RSA between numerical-equivalence labels and residual cosine similarity."""
+    return float(spearmanr(
+        np.r_[np.ones(len(eq)), np.zeros(len(near))],
+        np.r_[eq, near],
+    ).statistic)
+
+
 def main():
     rows = [json.loads(line) for line in open("data/mechanistic_values.jsonl")]
     output = []
@@ -76,9 +84,18 @@ def main():
                     # The prespecified claim criterion is the paired equivalence-minus-nearby
                     # effect; bootstrap it over numerical values, preserving all forms.
                     boot_effect = np.mean(eq_values[bootstrap_indices] - near_values[bootstrap_indices], axis=1)
+                    # The frozen plan names residualized RSA as the primary
+                    # statistic and separately requires an equivalence-minus-
+                    # nearby interval for a geometry claim. Preserve both
+                    # instead of silently treating RSA as descriptive only.
+                    boot_rsa = np.asarray([
+                        rsa_from_pairwise(eq_values[ix], near_values[ix])
+                        for ix in bootstrap_indices
+                    ])
                     curves.append({"layer": layer, "equivalence_minus_nearby_cosine": effect,
                                    "cosine_bootstrap_95_ci": interval(boot_effect),
                                    "residualized_rsa": rsa,
+                                   "residualized_rsa_bootstrap_95_ci": interval(boot_rsa),
                                    "linear_cka_equivalent": cka_eq, "linear_cka_nearby": cka_near,
                                    "cka_difference": cka_eq - cka_near})
                 output.append({"model": model, "activation_position": position_name,

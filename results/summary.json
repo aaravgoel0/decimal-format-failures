@@ -231,7 +231,7 @@
     "source": "results/gemma2-9b__zero_padding__p0.jsonl"
   },
   {
-    "model": "Llama 3.1 8B full precision",
+    "model": "Llama 3.1 8B official",
     "task": "Integer",
     "prompt_variant": 0,
     "n": 1000,
@@ -252,7 +252,7 @@
     "source": "results/meta-llama-Meta-Llama-3.1-8B-Instruct__integers__p0__mlx.jsonl"
   },
   {
-    "model": "Llama 3.1 8B full precision",
+    "model": "Llama 3.1 8B official",
     "task": "Misleading",
     "prompt_variant": 0,
     "n": 1000,
@@ -273,7 +273,7 @@
     "source": "results/meta-llama-Meta-Llama-3.1-8B-Instruct__misleading__p0__mlx.jsonl"
   },
   {
-    "model": "Llama 3.1 8B full precision",
+    "model": "Llama 3.1 8B official",
     "task": "Zero-padding held-out",
     "prompt_variant": 0,
     "n": 2000,
@@ -294,7 +294,7 @@
     "source": "results/meta-llama-Meta-Llama-3.1-8B-Instruct__confirmatory_zero_padding__p0__mlx.jsonl"
   },
   {
-    "model": "Llama 3.1 8B full precision",
+    "model": "Llama 3.1 8B official",
     "task": "Zero-padding held-out",
     "prompt_variant": 1,
     "n": 2000,
@@ -315,7 +315,7 @@
     "source": "results/meta-llama-Meta-Llama-3.1-8B-Instruct__confirmatory_zero_padding__p1__mlx.jsonl"
   },
   {
-    "model": "Llama 3.1 8B full precision",
+    "model": "Llama 3.1 8B official",
     "task": "Zero-padding held-out",
     "prompt_variant": 2,
     "n": 2000,
@@ -357,7 +357,7 @@
     "source": "results/Qwen-Qwen3-4B-Instruct-2507__confirmatory_zero_padding__p0__mlx.jsonl"
   },
   {
-    "model": "Gemma 2 9B full precision",
+    "model": "Gemma 2 9B official",
     "task": "Integer",
     "prompt_variant": 0,
     "n": 1000,
@@ -378,7 +378,7 @@
     "source": "results/google-gemma-2-9b-it__integers__p0__mlx.jsonl"
   },
   {
-    "model": "Gemma 2 9B full precision",
+    "model": "Gemma 2 9B official",
     "task": "Misleading",
     "prompt_variant": 0,
     "n": 1000,
@@ -399,7 +399,7 @@
     "source": "results/google-gemma-2-9b-it__misleading__p0__mlx.jsonl"
   },
   {
-    "model": "Gemma 2 9B full precision",
+    "model": "Gemma 2 9B official",
     "task": "Zero-padding held-out",
     "prompt_variant": 0,
     "n": 2000,

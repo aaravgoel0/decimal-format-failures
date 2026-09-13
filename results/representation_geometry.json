@@ -14,6 +14,10 @@
           -0.008373827959998475
         ],
         "residualized_rsa": -0.2887152367183091,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.5777676966515967,
+          0.0
+        ],
         "linear_cka_equivalent": 0.9424604891912807,
         "linear_cka_nearby": 0.9361836334372606,
         "cka_difference": 0.006276855754020039
@@ -26,6 +30,10 @@
           -0.04020441167401898
         ],
         "residualized_rsa": -0.5273864990721113,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.6686355459516274,
+          -0.39296949633185474
+        ],
         "linear_cka_equivalent": 0.9525058562501014,
         "linear_cka_nearby": 0.9420939113956663,
         "cka_difference": 0.010411944854435085
@@ -38,6 +46,10 @@
           -0.0004568708081610197
         ],
         "residualized_rsa": -0.09431364399464763,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.2657145682594619,
+          0.0731798369283413
+        ],
         "linear_cka_equivalent": 0.93929370866592,
         "linear_cka_nearby": 0.9386009739197934,
         "cka_difference": 0.0006927347461266331
@@ -50,6 +62,10 @@
           0.013037072472495657
         ],
         "residualized_rsa": 0.04619443787492945,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.09434779521939851,
+          0.18877499854690166
+        ],
         "linear_cka_equivalent": 0.9363838070708825,
         "linear_cka_nearby": 0.9473646224846032,
         "cka_difference": -0.010980815413720646
@@ -62,6 +78,10 @@
           -0.09188787912247579
         ],
         "residualized_rsa": -0.7891549803633783,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.849414216894264,
+          -0.7182164965906632
+        ],
         "linear_cka_equivalent": 0.9396686459279375,
         "linear_cka_nearby": 0.9579440728017983,
         "cka_difference": -0.018275426873860745
@@ -74,6 +94,10 @@
           -0.14353457745463485
         ],
         "residualized_rsa": -0.84689802770704,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8667721125194675,
+          -0.8109129011858903
+        ],
         "linear_cka_equivalent": 0.9084367156064626,
         "linear_cka_nearby": 0.9476511870914757,
         "cka_difference": -0.039214471485013114
@@ -86,6 +110,10 @@
           -0.19698775356803516
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.8922702812231171,
         "linear_cka_nearby": 0.9391798496292457,
         "cka_difference": -0.04690956840612859
@@ -98,6 +126,10 @@
           -0.19376235803118738
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.8879903574626997,
         "linear_cka_nearby": 0.9378478819525662,
         "cka_difference": -0.04985752448986647
@@ -110,6 +142,10 @@
           -0.18661379337909004
         ],
         "residualized_rsa": -0.8622961736653499,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.866916860013452,
+          -0.8491767917116891
+        ],
         "linear_cka_equivalent": 0.8850117897900415,
         "linear_cka_nearby": 0.9374550450057659,
         "cka_difference": -0.05244325521572446
@@ -122,6 +158,10 @@
           -0.16571015341622614
         ],
         "residualized_rsa": -0.8584466371757724,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8668933336356446,
+          -0.8360227585892226
+        ],
         "linear_cka_equivalent": 0.8969605017596399,
         "linear_cka_nearby": 0.9466739688785452,
         "cka_difference": -0.04971346711890523
@@ -134,6 +174,10 @@
           -0.20350550084807648
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9008165343258023,
         "linear_cka_nearby": 0.9488207309482777,
         "cka_difference": -0.04800419662247535
@@ -146,6 +190,10 @@
           -0.19329320797086408
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.903557364177993,
         "linear_cka_nearby": 0.9599784271420178,
         "cka_difference": -0.056421062964024715
@@ -158,6 +206,10 @@
           -0.19559384369517913
         ],
         "residualized_rsa": -0.8603714054205612,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.866892730395188,
+          -0.8435871854845285
+        ],
         "linear_cka_equivalent": 0.9239192694632364,
         "linear_cka_nearby": 0.9652116850559631,
         "cka_difference": -0.04129241559272667
@@ -170,6 +222,10 @@
           -0.1565707117391215
         ],
         "residualized_rsa": -0.8430484912174626,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8667479949854814,
+          -0.8010597945274067
+        ],
         "linear_cka_equivalent": 0.9310832345721622,
         "linear_cka_nearby": 0.9535951048721036,
         "cka_difference": -0.022511870299941394
@@ -182,6 +238,10 @@
           -0.14299668201729174
         ],
         "residualized_rsa": -0.8007035898321105,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8533851677454254,
+          -0.7337843668512644
+        ],
         "linear_cka_equivalent": 0.9531162859897591,
         "linear_cka_nearby": 0.9694808795321901,
         "cka_difference": -0.016364593542431027
@@ -194,6 +254,10 @@
           -0.1928874984868564
         ],
         "residualized_rsa": -0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8669651252953432,
+          -0.8550724050058589
+        ],
         "linear_cka_equivalent": 0.9404458834157996,
         "linear_cka_nearby": 0.9582383131904715,
         "cka_difference": -0.01779242977467188
@@ -206,6 +270,10 @@
           -0.20656502420996262
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9359108866532628,
         "linear_cka_nearby": 0.9553611277803109,
         "cka_difference": -0.019450241127048074
@@ -218,6 +286,10 @@
           -0.21096342563022988
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9349861443773524,
         "linear_cka_nearby": 0.956936667964053,
         "cka_difference": -0.021950523586700577
@@ -230,6 +302,10 @@
           -0.15122152329555508
         ],
         "residualized_rsa": -0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8669651252953432,
+          -0.8551437690770078
+        ],
         "linear_cka_equivalent": 0.936043414986918,
         "linear_cka_nearby": 0.9596998502408751,
         "cka_difference": -0.02365643525395711
@@ -242,6 +318,10 @@
           -0.14888301358822603
         ],
         "residualized_rsa": -0.8584466371757724,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.866916860013452,
+          -0.8375767834661696
+        ],
         "linear_cka_equivalent": 0.9300294226519945,
         "linear_cka_nearby": 0.9624329392409174,
         "cka_difference": -0.03240351658892293
@@ -254,6 +334,10 @@
           -0.17511093439617625
         ],
         "residualized_rsa": -0.8603714054205612,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.866916860013452,
+          -0.843446990436166
+        ],
         "linear_cka_equivalent": 0.9357597736164018,
         "linear_cka_nearby": 0.9646368692136169,
         "cka_difference": -0.028877095597215074
@@ -266,6 +350,10 @@
           -0.22369805854579855
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9512159867365041,
         "linear_cka_nearby": 0.9740387771537291,
         "cka_difference": -0.022822790417225014
@@ -278,6 +366,10 @@
           -0.20946867964450658
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9521246370251211,
         "linear_cka_nearby": 0.9751254897430637,
         "cka_difference": -0.02300085271794261
@@ -290,6 +382,10 @@
           -0.21982417011280592
         ],
         "residualized_rsa": -0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8669651252953432,
+          -0.8551437690770078
+        ],
         "linear_cka_equivalent": 0.953416353536746,
         "linear_cka_nearby": 0.9742355795174404,
         "cka_difference": -0.02081922598069441
@@ -302,6 +398,10 @@
           -0.22996407415055983
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.954057457916324,
         "linear_cka_nearby": 0.9735126923255211,
         "cka_difference": -0.019455234409197053
@@ -314,6 +414,10 @@
           -0.26398261197574985
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9483121055309373,
         "linear_cka_nearby": 0.9676840898730559,
         "cka_difference": -0.01937198434211862
@@ -326,6 +430,10 @@
           -0.3297590920778619
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9416324918967658,
         "linear_cka_nearby": 0.9669386344297732,
         "cka_difference": -0.025306142533007447
@@ -338,6 +446,10 @@
           -0.3314922795574661
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9364118069241791,
         "linear_cka_nearby": 0.963459525591926,
         "cka_difference": -0.02704771866774691
@@ -350,6 +462,10 @@
           -0.3261331187008804
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9337351827045759,
         "linear_cka_nearby": 0.9592990702065107,
         "cka_difference": -0.025563887501934834
@@ -362,6 +478,10 @@
           -0.3523003027836058
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.927914593170298,
         "linear_cka_nearby": 0.9530604276985664,
         "cka_difference": -0.02514583452826835
@@ -374,6 +494,10 @@
           -0.3759784319910013
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9163836838972419,
         "linear_cka_nearby": 0.9437527479770169,
         "cka_difference": -0.02736906407977502
@@ -386,6 +510,10 @@
           -0.6204969298809194
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.8049707733547171,
         "linear_cka_nearby": 0.8862501710859252,
         "cka_difference": -0.08127939773120807
@@ -407,6 +535,10 @@
           -0.010902231383099927
         ],
         "residualized_rsa": -0.2887152367183091,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.5777355546974314,
+          0.0
+        ],
         "linear_cka_equivalent": 0.9424792943643319,
         "linear_cka_nearby": 0.9366926908272347,
         "cka_difference": 0.005786603537097146
@@ -419,6 +551,10 @@
           -0.030419101302810087
         ],
         "residualized_rsa": -0.44654623279098477,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.6007956813771936,
+          -0.2869336122507691
+        ],
         "linear_cka_equivalent": 0.9539230313052635,
         "linear_cka_nearby": 0.9441608104093515,
         "cka_difference": 0.009762220895911944
@@ -431,6 +567,10 @@
           0.0012045902278425013
         ],
         "residualized_rsa": -0.1251099359112673,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.32165287625320527,
+          0.0751119945407773
+        ],
         "linear_cka_equivalent": 0.9323004425034358,
         "linear_cka_nearby": 0.9335061754999638,
         "cka_difference": -0.0012057329965280417
@@ -443,6 +583,10 @@
           0.0647625720222523
         ],
         "residualized_rsa": 0.37148027124422445,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.23105534319937737,
+          0.5314583229466542
+        ],
         "linear_cka_equivalent": 0.9293054967584942,
         "linear_cka_nearby": 0.934022864042662,
         "cka_difference": -0.004717367284167828
@@ -455,6 +599,10 @@
           -0.0948310478390563
         ],
         "residualized_rsa": -0.7872302121185896,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8472753717703102,
+          -0.7066648898063307
+        ],
         "linear_cka_equivalent": 0.9387516217080094,
         "linear_cka_nearby": 0.942564951426044,
         "cka_difference": -0.003813329718034608
@@ -467,6 +615,10 @@
           -0.06981194621761247
         ],
         "residualized_rsa": -0.6447973620042237,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.7933142763777085,
+          -0.45050225107280245
+        ],
         "linear_cka_equivalent": 0.8853575527029405,
         "linear_cka_nearby": 0.9083361669338461,
         "cka_difference": -0.022978614230905636
@@ -479,6 +631,10 @@
           -0.07432918407485233
         ],
         "residualized_rsa": -0.7044651775926742,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8202253722865955,
+          -0.5546569887855328
+        ],
         "linear_cka_equivalent": 0.8790382839280724,
         "linear_cka_nearby": 0.9015255564302929,
         "cka_difference": -0.02248727250222049
@@ -491,6 +647,10 @@
           -0.0527167224171696
         ],
         "residualized_rsa": -0.5812800099261957,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.7301778026052295,
+          -0.40461498406844376
+        ],
         "linear_cka_equivalent": 0.8801071889049357,
         "linear_cka_nearby": 0.9136111436133618,
         "cka_difference": -0.033503954708426154
@@ -503,6 +663,10 @@
           -0.023366923999659863
         ],
         "residualized_rsa": -0.3657059665098582,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.5661505308138002,
+          -0.14833487509953935
+        ],
         "linear_cka_equivalent": 0.8779744536268561,
         "linear_cka_nearby": 0.9104479043347438,
         "cka_difference": -0.03247345070788765
@@ -515,6 +679,10 @@
           0.02862260080182607
         ],
         "residualized_rsa": -0.0076990729791549094,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.20023794264688247,
+          0.19257851823247712
+        ],
         "linear_cka_equivalent": 0.8885822355510419,
         "linear_cka_nearby": 0.9107973162208145,
         "cka_difference": -0.022215080669772624
@@ -527,6 +695,10 @@
           0.007755547377965068
         ],
         "residualized_rsa": -0.15013192309352072,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.3486650824478533,
+          0.06162182648313471
+        ],
         "linear_cka_equivalent": 0.8891327241876203,
         "linear_cka_nearby": 0.9055018204586576,
         "cka_difference": -0.01636909627103722
@@ -539,6 +711,10 @@
           0.04149013008600022
         ],
         "residualized_rsa": 0.08276503452591527,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.09821251747081983,
+          0.26585468874664714
+        ],
         "linear_cka_equivalent": 0.8962709275950609,
         "linear_cka_nearby": 0.9080967745197637,
         "cka_difference": -0.011825846924702788
@@ -551,6 +727,10 @@
           0.036496495989033
         ],
         "residualized_rsa": 0.0038495364895774547,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.19646356230761083,
+          0.20798523362556323
+        ],
         "linear_cka_equivalent": 0.915405609675477,
         "linear_cka_nearby": 0.9166324862436155,
         "cka_difference": -0.0012268765681384686
@@ -563,6 +743,10 @@
           0.022417676866343893
         ],
         "residualized_rsa": -0.05966781558845056,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.26400151223051266,
+          0.15214983182801536
+        ],
         "linear_cka_equivalent": 0.8886870417467119,
         "linear_cka_nearby": 0.9103560861910631,
         "cka_difference": -0.02166904444435125
@@ -575,6 +759,10 @@
           -0.03967302897065035
         ],
         "residualized_rsa": -0.41190040438478764,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.5970112581607379,
+          -0.23882360331902652
+        ],
         "linear_cka_equivalent": 0.9174308447806176,
         "linear_cka_nearby": 0.9320821244769697,
         "cka_difference": -0.014651279696352049
@@ -587,6 +775,10 @@
           -0.11644427524862053
         ],
         "residualized_rsa": -0.7814559073842233,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8453726684965227,
+          -0.7085899146411581
+        ],
         "linear_cka_equivalent": 0.9022034492451898,
         "linear_cka_nearby": 0.9238942319689314,
         "cka_difference": -0.021690782723741586
@@ -599,6 +791,10 @@
           -0.09774770274525327
         ],
         "residualized_rsa": -0.7352614695092938,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8207732553516202,
+          -0.6451196438460141
+        ],
         "linear_cka_equivalent": 0.9013228070160269,
         "linear_cka_nearby": 0.9196624798489018,
         "cka_difference": -0.018339672832874965
@@ -611,6 +807,10 @@
           -0.10720891116971826
         ],
         "residualized_rsa": -0.7737568344050685,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8415681246759252,
+          -0.6970358492381235
+        ],
         "linear_cka_equivalent": 0.8747089903821248,
         "linear_cka_nearby": 0.9118907264349787,
         "cka_difference": -0.03718173605285391
@@ -623,6 +823,10 @@
           -0.07640439905095779
         ],
         "residualized_rsa": -0.706389945837463,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8049782062117544,
+          -0.6085650450041699
+        ],
         "linear_cka_equivalent": 0.887929629705589,
         "linear_cka_nearby": 0.9191646375373616,
         "cka_difference": -0.031235007831772577
@@ -635,6 +839,10 @@
           -0.07694905033284649
         ],
         "residualized_rsa": -0.6948413363687306,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.797297242505463,
+          -0.5969934065206792
+        ],
         "linear_cka_equivalent": 0.8902900690076905,
         "linear_cka_nearby": 0.9221794909732624,
         "cka_difference": -0.031889421965571874
@@ -647,6 +855,10 @@
           -0.09425874372940199
         ],
         "residualized_rsa": -0.7795311391394346,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8435877721975887,
+          -0.7049937783168675
+        ],
         "linear_cka_equivalent": 0.9041578825233189,
         "linear_cka_nearby": 0.9270921349819488,
         "cka_difference": -0.0229342524586299
@@ -659,6 +871,10 @@
           -0.14846917054342335
         ],
         "residualized_rsa": -0.8526723324414062,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8667962320667992,
+          -0.8247144824957232
+        ],
         "linear_cka_equivalent": 0.9271872886328736,
         "linear_cka_nearby": 0.9528216789423063,
         "cka_difference": -0.02563439030943271
@@ -671,6 +887,10 @@
           -0.14346096505106865
         ],
         "residualized_rsa": -0.84689802770704,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8666762572481888,
+          -0.812771780519138
+        ],
         "linear_cka_equivalent": 0.9305893776247647,
         "linear_cka_nearby": 0.954375075321622,
         "cka_difference": -0.023785697696857344
@@ -683,6 +903,10 @@
           -0.15593853545910927
         ],
         "residualized_rsa": -0.8565218689309837,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8668444772026208,
+          -0.8338875988854866
+        ],
         "linear_cka_equivalent": 0.9325901146517731,
         "linear_cka_nearby": 0.9546869116066593,
         "cka_difference": -0.0220967969548862
@@ -695,6 +919,10 @@
           -0.17034450391469055
         ],
         "residualized_rsa": -0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8669657286869479,
+          -0.8551199790679874
+        ],
         "linear_cka_equivalent": 0.9348995948881422,
         "linear_cka_nearby": 0.9547158053073461,
         "cka_difference": -0.019816210419203895
@@ -707,6 +935,10 @@
           -0.22127518729305812
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9343200110999125,
         "linear_cka_nearby": 0.9532636338324938,
         "cka_difference": -0.018943622732581322
@@ -719,6 +951,10 @@
           -0.2755140850617878
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9354147189896883,
         "linear_cka_nearby": 0.9492416341909276,
         "cka_difference": -0.013826915201239243
@@ -731,6 +967,10 @@
           -0.2957928250269311
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9342311297184562,
         "linear_cka_nearby": 0.9435857819492407,
         "cka_difference": -0.009354652230784466
@@ -743,6 +983,10 @@
           -0.2835568245372839
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9279369065766723,
         "linear_cka_nearby": 0.9366562626635313,
         "cka_difference": -0.008719356086859031
@@ -755,6 +999,10 @@
           -0.29918134631756155
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9306255647003319,
         "linear_cka_nearby": 0.9358710208822756,
         "cka_difference": -0.0052454561819437195
@@ -767,6 +1015,10 @@
           -0.30217113684875335
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.9178734899194161,
         "linear_cka_nearby": 0.9336981484807767,
         "cka_difference": -0.015824658561360616
@@ -779,6 +1031,10 @@
           -0.42988725585945203
         ],
         "residualized_rsa": -0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670375383357948,
+          -0.8663623880283541
+        ],
         "linear_cka_equivalent": 0.8403850086456846,
         "linear_cka_nearby": 0.9165198230268511,
         "cka_difference": -0.07613481438116654
@@ -800,6 +1056,10 @@
           0.03353863264394938
         ],
         "residualized_rsa": 0.20017589745802764,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.09050428886451789,
+          0.3370405322903104
+        ],
         "linear_cka_equivalent": 0.9391964358110921,
         "linear_cka_nearby": 0.9466064217594197,
         "cka_difference": -0.007409985948327535
@@ -812,6 +1072,10 @@
           -0.042510615895096596
         ],
         "residualized_rsa": -0.5254617308273226,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.6893553609235586,
+          -0.3909667455553638
+        ],
         "linear_cka_equivalent": 0.9596593661978599,
         "linear_cka_nearby": 0.9501893510390397,
         "cka_difference": 0.009470015158820178
@@ -824,6 +1088,10 @@
           -0.0673978088305926
         ],
         "residualized_rsa": -0.6351735207802801,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.7531286577669152,
+          -0.5315906460715977
+        ],
         "linear_cka_equivalent": 0.9274734780105118,
         "linear_cka_nearby": 0.9380568973164419,
         "cka_difference": -0.010583419305930097
@@ -836,6 +1104,10 @@
           -0.12818822430422808
         ],
         "residualized_rsa": -0.769907297915491,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8434241200804451,
+          -0.6895265178498114
+        ],
         "linear_cka_equivalent": 0.8834933355799972,
         "linear_cka_nearby": 0.9233129651111616,
         "cka_difference": -0.03981962953116436
@@ -848,6 +1120,10 @@
           -0.15514146722568464
         ],
         "residualized_rsa": -0.8141769675456317,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8581104440446684,
+          -0.756769904760756
+        ],
         "linear_cka_equivalent": 0.878834129884108,
         "linear_cka_nearby": 0.9347161949078744,
         "cka_difference": -0.05588206502376636
@@ -860,6 +1136,10 @@
           -0.15175722447713372
         ],
         "residualized_rsa": -0.7660577614259135,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.845561409974582,
+          -0.6797827888884864
+        ],
         "linear_cka_equivalent": 0.8781194518561455,
         "linear_cka_nearby": 0.937409222516318,
         "cka_difference": -0.05928977066017249
@@ -872,6 +1152,10 @@
           -0.14445778032701817
         ],
         "residualized_rsa": -0.7853054438738007,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8513871135928307,
+          -0.7087283745592919
+        ],
         "linear_cka_equivalent": 0.8750988094455494,
         "linear_cka_nearby": 0.9377530837377448,
         "cka_difference": -0.06265427429219539
@@ -884,6 +1168,10 @@
           -0.03293017272686285
         ],
         "residualized_rsa": -0.25406940831211206,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.3620478660451926,
+          -0.1849627296421518
+        ],
         "linear_cka_equivalent": 0.8374143950980656,
         "linear_cka_nearby": 0.9235246513195254,
         "cka_difference": -0.08611025622145985
@@ -896,6 +1184,10 @@
           0.0005012174539611172
         ],
         "residualized_rsa": -0.12318516766647855,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.26969245420185317,
+          0.017338433755024377
+        ],
         "linear_cka_equivalent": 0.8083110681026396,
         "linear_cka_nearby": 0.9192714603898233,
         "cka_difference": -0.11096039228718368
@@ -908,6 +1200,10 @@
           0.08497514670958377
         ],
         "residualized_rsa": 0.3522325887963371,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.23114550108749757,
+          0.4991474660130872
+        ],
         "linear_cka_equivalent": 0.7066429784203654,
         "linear_cka_nearby": 0.8594379641645937,
         "cka_difference": -0.15279498574422834
@@ -920,6 +1216,10 @@
           0.014564604136106166
         ],
         "residualized_rsa": -0.15398145958309817,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.3677745925861151,
+          0.06933405235686385
+        ],
         "linear_cka_equivalent": 0.6378776792068106,
         "linear_cka_nearby": 0.8115787665380293,
         "cka_difference": -0.1737010873312187
@@ -932,6 +1232,10 @@
           -0.10033511459215289
         ],
         "residualized_rsa": -0.7333367012645051,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8511035461681925,
+          -0.5873808187540246
+        ],
         "linear_cka_equivalent": 0.6735278235488005,
         "linear_cka_nearby": 0.8207832840754594,
         "cka_difference": -0.14725546052665894
@@ -944,6 +1248,10 @@
           0.013906480802647652
         ],
         "residualized_rsa": -0.13858331362478837,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.3792955535750327,
+          0.1078380463622158
+        ],
         "linear_cka_equivalent": 0.7007085486946182,
         "linear_cka_nearby": 0.8044364152133587,
         "cka_difference": -0.10372786651874055
@@ -956,6 +1264,10 @@
           0.0665601981183737
         ],
         "residualized_rsa": 0.4542453057701397,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.22720473666438626,
+          0.6472443266556192
+        ],
         "linear_cka_equivalent": 0.666868302187728,
         "linear_cka_nearby": 0.7740941383734175,
         "cka_difference": -0.10722583618568948
@@ -968,6 +1280,10 @@
           0.06577051979245188
         ],
         "residualized_rsa": 0.31181245565577387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.03274194561631815,
+          0.5623292732388333
+        ],
         "linear_cka_equivalent": 0.713976522822889,
         "linear_cka_nearby": 0.7515402719642064,
         "cka_difference": -0.037563749141317326
@@ -980,6 +1296,10 @@
           0.15383268596740166
         ],
         "residualized_rsa": 0.7006156411030968,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.5372342967971911,
+          0.8146977799990412
+        ],
         "linear_cka_equivalent": 0.6854765674435589,
         "linear_cka_nearby": 0.7091511673657478,
         "cka_difference": -0.0236745999221889
@@ -992,6 +1312,10 @@
           0.19257395121985876
         ],
         "residualized_rsa": 0.7410357742436601,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.5969925763254255,
+          0.8356751373047347
+        ],
         "linear_cka_equivalent": 0.6356604892923592,
         "linear_cka_nearby": 0.6691907929841416,
         "cka_difference": -0.03353030369178245
@@ -1004,6 +1328,10 @@
           0.2671996608434506
         ],
         "residualized_rsa": 0.8488227959518287,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7992230812554761,
+          0.866868602791671
+        ],
         "linear_cka_equivalent": 0.5765049995402347,
         "linear_cka_nearby": 0.6400155445997975,
         "cka_difference": -0.06351054505956277
@@ -1016,6 +1344,10 @@
           0.5327239527063502
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.4256115021771909,
         "linear_cka_nearby": 0.5346675779238638,
         "cka_difference": -0.10905607574667286
@@ -1028,6 +1360,10 @@
           0.5644034092675617
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.4113949347014352,
         "linear_cka_nearby": 0.4899726020196466,
         "cka_difference": -0.07857766731821142
@@ -1040,6 +1376,10 @@
           0.5205330162968156
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.40775957942045093,
         "linear_cka_nearby": 0.46544992607072133,
         "cka_difference": -0.0576903466502704
@@ -1052,6 +1392,10 @@
           0.5192828927432268
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.4059347156765473,
         "linear_cka_nearby": 0.4646225200885481,
         "cka_difference": -0.05868780441200078
@@ -1064,6 +1408,10 @@
           0.481350556931223
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.40133364893194434,
         "linear_cka_nearby": 0.45495790324342955,
         "cka_difference": -0.05362425431148521
@@ -1076,6 +1424,10 @@
           0.4577599881418787
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.43624450587325786,
         "linear_cka_nearby": 0.4841242968676146,
         "cka_difference": -0.04787979099435674
@@ -1088,6 +1440,10 @@
           0.409488852421854
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.43744679982650514,
         "linear_cka_nearby": 0.46821765243672714,
         "cka_difference": -0.030770852610222
@@ -1100,6 +1456,10 @@
           0.4217910296624978
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.4237022943606207,
         "linear_cka_nearby": 0.46677368936771535,
         "cka_difference": -0.04307139500709467
@@ -1112,6 +1472,10 @@
           0.41125524202301067
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.42175348103715404,
         "linear_cka_nearby": 0.47347775316382995,
         "cka_difference": -0.05172427212667591
@@ -1124,6 +1488,10 @@
           0.41655916208037375
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.42118081409872365,
         "linear_cka_nearby": 0.469477036993808,
         "cka_difference": -0.04829622289508434
@@ -1136,6 +1504,10 @@
           0.38514816304521415
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.4259897681095452,
         "linear_cka_nearby": 0.46104618483847837,
         "cka_difference": -0.03505641672893317
@@ -1148,6 +1520,10 @@
           0.37951065590425526
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.41954627230705177,
         "linear_cka_nearby": 0.44155256371423746,
         "cka_difference": -0.022006291407185685
@@ -1160,6 +1536,10 @@
           0.36331045493213776
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.4373564915451015,
         "linear_cka_nearby": 0.4508817243392257,
         "cka_difference": -0.013525232794124209
@@ -1172,6 +1552,10 @@
           0.3192637459320144
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.43992717726027486,
         "linear_cka_nearby": 0.4407132271080598,
         "cka_difference": -0.0007860498477849642
@@ -1193,6 +1577,10 @@
           0.010462891223452906
         ],
         "residualized_rsa": -0.013473377713521093,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.14642505679986498,
+          0.12708794820700622
+        ],
         "linear_cka_equivalent": 0.945318170370276,
         "linear_cka_nearby": 0.932907970073461,
         "cka_difference": 0.012410200296814944
@@ -1205,6 +1593,10 @@
           -0.06704239406087997
         ],
         "residualized_rsa": -0.6005276923740829,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.7472046507420114,
+          -0.47388751012087327
+        ],
         "linear_cka_equivalent": 0.9499026556139456,
         "linear_cka_nearby": 0.9478905384117378,
         "cka_difference": 0.0020121172022078415
@@ -1217,6 +1609,10 @@
           -0.0554033302175017
         ],
         "residualized_rsa": -0.6909917998791532,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8072425467229944,
+          -0.5757132969564254
+        ],
         "linear_cka_equivalent": 0.9396785080089181,
         "linear_cka_nearby": 0.9439365225024936,
         "cka_difference": -0.004258014493575546
@@ -1229,6 +1625,10 @@
           -0.12144529145090585
         ],
         "residualized_rsa": -0.8218760405247866,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8608026323093929,
+          -0.768409661255265
+        ],
         "linear_cka_equivalent": 0.9203535145523528,
         "linear_cka_nearby": 0.9522251897754002,
         "cka_difference": -0.03187167522304735
@@ -1241,6 +1641,10 @@
           -0.11483791539933688
         ],
         "residualized_rsa": -0.7776063708946458,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8454202829459552,
+          -0.698982257123227
+        ],
         "linear_cka_equivalent": 0.9290754203807616,
         "linear_cka_nearby": 0.9420296424736078,
         "cka_difference": -0.012954222092846135
@@ -1253,6 +1657,10 @@
           -0.1058608786603988
         ],
         "residualized_rsa": -0.6717441174312659,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.7818470373570743,
+          -0.5700482700039059
+        ],
         "linear_cka_equivalent": 0.93185080346356,
         "linear_cka_nearby": 0.9449266722727654,
         "cka_difference": -0.013075868809205415
@@ -1265,6 +1673,10 @@
           -0.08995123849682617
         ],
         "residualized_rsa": -0.6236249113115477,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.7414278107840381,
+          -0.5239006458900193
+        ],
         "linear_cka_equivalent": 0.9486867827626311,
         "linear_cka_nearby": 0.9558930900040368,
         "cka_difference": -0.007206307241405696
@@ -1277,6 +1689,10 @@
           0.006533560133024848
         ],
         "residualized_rsa": -0.04042013314056327,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.16753876736223083,
+          0.0712580159203636
+        ],
         "linear_cka_equivalent": 0.8982658914493244,
         "linear_cka_nearby": 0.9223339234577279,
         "cka_difference": -0.02406803200840346
@@ -1289,6 +1705,10 @@
           0.01245997476216495
         ],
         "residualized_rsa": 0.013473377713521093,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.12710182203343492,
+          0.15213702940365695
+        ],
         "linear_cka_equivalent": 0.8858071921232884,
         "linear_cka_nearby": 0.9053827362139291,
         "cka_difference": -0.019575544090640662
@@ -1301,6 +1721,10 @@
           0.04191813192564602
         ],
         "residualized_rsa": 0.24059603059859092,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.12903478558552328,
+          0.3754863364711551
+        ],
         "linear_cka_equivalent": 0.7930404262988542,
         "linear_cka_nearby": 0.856996424101586,
         "cka_difference": -0.06395599780273187
@@ -1313,6 +1737,10 @@
           -0.23758103457173724
         ],
         "residualized_rsa": -0.8507475641966176,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8668203536277569,
+          -0.8202242320085501
+        ],
         "linear_cka_equivalent": 0.5540812525542025,
         "linear_cka_nearby": 0.7657242540696519,
         "cka_difference": -0.21164300151544946
@@ -1325,6 +1753,10 @@
           -0.23911944849252692
         ],
         "residualized_rsa": -0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.8670133986395879,
+          -0.8551199790679874
+        ],
         "linear_cka_equivalent": 0.5505539160324944,
         "linear_cka_nearby": 0.7451453061967918,
         "cka_difference": -0.19459139016429738
@@ -1337,6 +1769,10 @@
           -0.11402155150525592
         ],
         "residualized_rsa": -0.833424649993519,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.866651544977395,
+          -0.7818687840238573
+        ],
         "linear_cka_equivalent": 0.5577885436427705,
         "linear_cka_nearby": 0.6830190131513167,
         "cka_difference": -0.12523046950854622
@@ -1349,6 +1785,10 @@
           0.03196984898357625
         ],
         "residualized_rsa": 0.03849536489577454,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.2522920696679931,
+          0.3254848568974997
+        ],
         "linear_cka_equivalent": 0.5855329749610976,
         "linear_cka_nearby": 0.6798737874880945,
         "cka_difference": -0.09434081252699689
@@ -1361,6 +1801,10 @@
           0.0511246429001861
         ],
         "residualized_rsa": 0.09431364399464763,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.18105906350406653,
+          0.35626059726451387
+        ],
         "linear_cka_equivalent": 0.5987454574707984,
         "linear_cka_nearby": 0.6272205142899951,
         "cka_difference": -0.02847505681919671
@@ -1373,6 +1817,10 @@
           0.09085980889052803
         ],
         "residualized_rsa": 0.20787497043718256,
+        "residualized_rsa_bootstrap_95_ci": [
+          -0.04814469652052379,
+          0.4276593456725755
+        ],
         "linear_cka_equivalent": 0.5436187672625075,
         "linear_cka_nearby": 0.6389303613859382,
         "cka_difference": -0.09531159412343071
@@ -1385,6 +1833,10 @@
           0.18233770339981023
         ],
         "residualized_rsa": 0.5312360355616887,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.3580921077358236,
+          0.6875631640835631
+        ],
         "linear_cka_equivalent": 0.49506361245103814,
         "linear_cka_nearby": 0.6197079365451963,
         "cka_difference": -0.12464432409415815
@@ -1397,6 +1849,10 @@
           0.3231504644729541
         ],
         "residualized_rsa": 0.7641329931811248,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.6451550840330735,
+          0.8476998236050155
+        ],
         "linear_cka_equivalent": 0.4717760933200649,
         "linear_cka_nearby": 0.5226545365273212,
         "cka_difference": -0.05087844320725626
@@ -1409,6 +1865,10 @@
           0.7253106756385531
         ],
         "residualized_rsa": 0.8276503452591527,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7452990779877212,
+          0.8669409916467437
+        ],
         "linear_cka_equivalent": 0.3956169194732623,
         "linear_cka_nearby": 0.4481223245418132,
         "cka_difference": -0.05250540506855095
@@ -1421,6 +1881,10 @@
           0.6942464836363779
         ],
         "residualized_rsa": 0.8218760405247866,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7164718065239796,
+          0.8669409916467437
+        ],
         "linear_cka_equivalent": 0.40234155088551465,
         "linear_cka_nearby": 0.4092078993909638,
         "cka_difference": -0.006866348505449149
@@ -1433,6 +1897,10 @@
           0.5814302357055801
         ],
         "residualized_rsa": 0.8180265040352092,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.71069380808427,
+          0.866868602791671
+        ],
         "linear_cka_equivalent": 0.41001999354484997,
         "linear_cka_nearby": 0.36751191859938726,
         "cka_difference": 0.042508074945462715
@@ -1445,6 +1913,10 @@
           0.5919440514785583
         ],
         "residualized_rsa": 0.819951272279998,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7110484912125352,
+          0.8669409916467437
+        ],
         "linear_cka_equivalent": 0.40788019229579175,
         "linear_cka_nearby": 0.37296076204762907,
         "cka_difference": 0.034919430248162686
@@ -1457,6 +1929,10 @@
           0.5740426058097986
         ],
         "residualized_rsa": 0.819951272279998,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7110484912125352,
+          0.8669409916467437
+        ],
         "linear_cka_equivalent": 0.40739774708785004,
         "linear_cka_nearby": 0.3690291092439533,
         "cka_difference": 0.038368637843896714
@@ -1469,6 +1945,10 @@
           0.5332755023532955
         ],
         "residualized_rsa": 0.819951272279998,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7110484912125352,
+          0.8669409916467437
+        ],
         "linear_cka_equivalent": 0.41621399455116187,
         "linear_cka_nearby": 0.3890416609743595,
         "cka_difference": 0.027172333576802377
@@ -1481,6 +1961,10 @@
           0.5441136144188911
         ],
         "residualized_rsa": 0.8218760405247866,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7164718065239796,
+          0.8669409916467437
+        ],
         "linear_cka_equivalent": 0.4141348056342389,
         "linear_cka_nearby": 0.3788694859060083,
         "cka_difference": 0.035265319728230604
@@ -1493,6 +1977,10 @@
           0.5474337257487802
         ],
         "residualized_rsa": 0.819951272279998,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7110484912125352,
+          0.8669409916467437
+        ],
         "linear_cka_equivalent": 0.4092966683278595,
         "linear_cka_nearby": 0.37435396065737325,
         "cka_difference": 0.03494270767048624
@@ -1505,6 +1993,10 @@
           0.5416913119868432
         ],
         "residualized_rsa": 0.819951272279998,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7110484912125352,
+          0.8669409916467437
+        ],
         "linear_cka_equivalent": 0.40102048360502607,
         "linear_cka_nearby": 0.37892827154688247,
         "cka_difference": 0.0220922120581436
@@ -1517,6 +2009,10 @@
           0.5331426414866888
         ],
         "residualized_rsa": 0.8218760405247866,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7164718065239796,
+          0.8669409916467437
+        ],
         "linear_cka_equivalent": 0.3986141163051655,
         "linear_cka_nearby": 0.38745214385890947,
         "cka_difference": 0.011161972446256052
@@ -1529,6 +2025,10 @@
           0.501131354078359
         ],
         "residualized_rsa": 0.819951272279998,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7110484912125352,
+          0.8669409916467437
+        ],
         "linear_cka_equivalent": 0.3969758668093877,
         "linear_cka_nearby": 0.39089143973684254,
         "cka_difference": 0.00608442707254514
@@ -1541,6 +2041,10 @@
           0.48006541076242626
         ],
         "residualized_rsa": 0.8161017357904204,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7066845409482765,
+          0.8668444772026208
+        ],
         "linear_cka_equivalent": 0.40082486243756477,
         "linear_cka_nearby": 0.37403059525678345,
         "cka_difference": 0.026794267180781317
@@ -1553,6 +2057,10 @@
           0.43674729037401383
         ],
         "residualized_rsa": 0.8103274310560543,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.6991373249563557,
+          0.8667721125194675
+        ],
         "linear_cka_equivalent": 0.4109573368346151,
         "linear_cka_nearby": 0.394971491912707,
         "cka_difference": 0.015985844921908132
@@ -1565,6 +2073,10 @@
           0.31707980258364926
         ],
         "residualized_rsa": 0.7140890188166178,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.5583154050394168,
+          0.8260934874760524
+        ],
         "linear_cka_equivalent": 0.4367577126727733,
         "linear_cka_nearby": 0.40140470382021654,
         "cka_difference": 0.035353008852556767
@@ -1586,6 +2098,10 @@
           0.5407074288352826
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8521104484301867,
         "linear_cka_nearby": 0.8236856245553484,
         "cka_difference": 0.028424823874838245
@@ -1598,6 +2114,10 @@
           0.472559817839771
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8830609871653516,
         "linear_cka_nearby": 0.9401340236758244,
         "cka_difference": -0.0570730365104728
@@ -1610,6 +2130,10 @@
           0.49201759939575607
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.858806411536581,
         "linear_cka_nearby": 0.9330770137800125,
         "cka_difference": -0.07427060224343152
@@ -1622,6 +2146,10 @@
           0.4760357560100237
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8312966027083533,
         "linear_cka_nearby": 0.9094012515520087,
         "cka_difference": -0.07810464884365542
@@ -1634,6 +2162,10 @@
           0.4408126892225647
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8217892608200768,
         "linear_cka_nearby": 0.8899808627016751,
         "cka_difference": -0.06819160188159834
@@ -1646,6 +2178,10 @@
           0.4303477285876959
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8176723472608947,
         "linear_cka_nearby": 0.9336818581407234,
         "cka_difference": -0.11600951087982869
@@ -1658,6 +2194,10 @@
           0.22679999117255467
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.869355118065451,
         "linear_cka_nearby": 0.9370032102499268,
         "cka_difference": -0.06764809218447587
@@ -1670,6 +2210,10 @@
           0.2317414000630853
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8466794277006335,
         "linear_cka_nearby": 0.9433486218084586,
         "cka_difference": -0.09666919410782504
@@ -1682,6 +2226,10 @@
           0.2468618026685322
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8538045822280083,
         "linear_cka_nearby": 0.948824367508879,
         "cka_difference": -0.09501978528087074
@@ -1694,6 +2242,10 @@
           0.2953313568997469
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8584411854257568,
         "linear_cka_nearby": 0.9415106604758539,
         "cka_difference": -0.0830694750500971
@@ -1706,6 +2258,10 @@
           0.37727887466065807
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8589240940476024,
         "linear_cka_nearby": 0.905700224859499,
         "cka_difference": -0.04677613081189658
@@ -1718,6 +2274,10 @@
           0.3927540665466114
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8533791735864842,
         "linear_cka_nearby": 0.8944394335720969,
         "cka_difference": -0.04106025998561269
@@ -1730,6 +2290,10 @@
           0.379638251882483
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8732181994927302,
         "linear_cka_nearby": 0.8991811141504754,
         "cka_difference": -0.02596291465774525
@@ -1742,6 +2306,10 @@
           0.43942864367715995
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8445183515877246,
         "linear_cka_nearby": 0.8647198487201506,
         "cka_difference": -0.020201497132426027
@@ -1754,6 +2322,10 @@
           0.4385831541138777
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8419458199857632,
         "linear_cka_nearby": 0.8541927527986524,
         "cka_difference": -0.012246932812889133
@@ -1766,6 +2338,10 @@
           0.4567326948129383
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8364790774648465,
         "linear_cka_nearby": 0.8403757879085509,
         "cka_difference": -0.003896710443704432
@@ -1778,6 +2354,10 @@
           0.47282647055245053
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8312677213094786,
         "linear_cka_nearby": 0.832771123532074,
         "cka_difference": -0.0015034022225954846
@@ -1790,6 +2370,10 @@
           0.4940552599037564
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8330928467710863,
         "linear_cka_nearby": 0.8211574313085882,
         "cka_difference": 0.0119354154624981
@@ -1802,6 +2386,10 @@
           0.5064235839501822
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.840419768965283,
         "linear_cka_nearby": 0.8159867225452502,
         "cka_difference": 0.024433046420032856
@@ -1814,6 +2402,10 @@
           0.5281953109974875
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.824369056831413,
         "linear_cka_nearby": 0.8116757195763014,
         "cka_difference": 0.01269333725511168
@@ -1826,6 +2418,10 @@
           0.4851706875546877
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8687773513738939,
         "linear_cka_nearby": 0.8682946345324942,
         "cka_difference": 0.0004827168413996663
@@ -1838,6 +2434,10 @@
           0.47333407330812144
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8665294687187767,
         "linear_cka_nearby": 0.8675522089681716,
         "cka_difference": -0.001022740249394971
@@ -1850,6 +2450,10 @@
           0.486687378440575
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.878509174446163,
         "linear_cka_nearby": 0.9177766837893437,
         "cka_difference": -0.039267509343180684
@@ -1862,6 +2466,10 @@
           0.5194350608542017
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8822831974980847,
         "linear_cka_nearby": 0.891577205526882,
         "cka_difference": -0.009294008028797318
@@ -1874,6 +2482,10 @@
           0.5289098937740686
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8835578462965786,
         "linear_cka_nearby": 0.8479277180317453,
         "cka_difference": 0.03563012826483336
@@ -1886,6 +2498,10 @@
           0.5140973804182767
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8769995961114587,
         "linear_cka_nearby": 0.792964207353867,
         "cka_difference": 0.08403538875759176
@@ -1898,6 +2514,10 @@
           0.5274640053929647
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8774144143649516,
         "linear_cka_nearby": 0.7830836535690653,
         "cka_difference": 0.09433076079588631
@@ -1910,6 +2530,10 @@
           0.5374593750469789
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8735024800764992,
         "linear_cka_nearby": 0.7490265650727334,
         "cka_difference": 0.12447591500376587
@@ -1922,6 +2546,10 @@
           0.5063776185344436
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8723039656029847,
         "linear_cka_nearby": 0.7506226331822771,
         "cka_difference": 0.12168133242070767
@@ -1934,6 +2562,10 @@
           0.48887447365785425
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8793070483705598,
         "linear_cka_nearby": 0.7502537304014757,
         "cka_difference": 0.12905331796908415
@@ -1946,6 +2578,10 @@
           0.4680516341500365
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8849540152928859,
         "linear_cka_nearby": 0.7385839206494773,
         "cka_difference": 0.14637009464340855
@@ -1958,6 +2594,10 @@
           0.4690421754430188
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8877972202145257,
         "linear_cka_nearby": 0.7240787570846925,
         "cka_difference": 0.16371846312983318
@@ -1970,6 +2610,10 @@
           0.4623402449667048
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8999593090094047,
         "linear_cka_nearby": 0.7161130397548854,
         "cka_difference": 0.1838462692545193
@@ -1982,6 +2626,10 @@
           0.5116267002240982
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.904792112302754,
         "linear_cka_nearby": 0.6828009166554136,
         "cka_difference": 0.22199119564734038
@@ -1994,6 +2642,10 @@
           0.48237412196081986
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9060614908325438,
         "linear_cka_nearby": 0.694993914319291,
         "cka_difference": 0.2110675765132528
@@ -2006,6 +2658,10 @@
           0.42924309702177643
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.7796708370447264,
         "linear_cka_nearby": 0.660923737502898,
         "cka_difference": 0.11874709954182838
@@ -2027,6 +2683,10 @@
           0.5349074772485782
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8531527007586054,
         "linear_cka_nearby": 0.8252651425442981,
         "cka_difference": 0.02788755821430733
@@ -2039,6 +2699,10 @@
           0.47018592014030514
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8837031899834389,
         "linear_cka_nearby": 0.943170484243899,
         "cka_difference": -0.05946729426046016
@@ -2051,6 +2715,10 @@
           0.4978319256511419
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8571689074905994,
         "linear_cka_nearby": 0.9313814313728348,
         "cka_difference": -0.07421252388223543
@@ -2063,6 +2731,10 @@
           0.5162662775665995
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8260878467018729,
         "linear_cka_nearby": 0.901239382157949,
         "cka_difference": -0.07515153545607611
@@ -2075,6 +2747,10 @@
           0.47951741688501914
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8208401815177118,
         "linear_cka_nearby": 0.8774723586424285,
         "cka_difference": -0.05663217712471669
@@ -2087,6 +2763,10 @@
           0.4809453759099633
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8362314510128873,
         "linear_cka_nearby": 0.9468543728572518,
         "cka_difference": -0.11062292184436451
@@ -2099,6 +2779,10 @@
           0.29488564789181965
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8884037385817807,
         "linear_cka_nearby": 0.9554844599381678,
         "cka_difference": -0.0670807213563871
@@ -2111,6 +2795,10 @@
           0.3771872788804504
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8793819771363304,
         "linear_cka_nearby": 0.9477463317602433,
         "cka_difference": -0.06836435462391288
@@ -2123,6 +2811,10 @@
           0.4391761062589828
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8895511030893375,
         "linear_cka_nearby": 0.9463586018163908,
         "cka_difference": -0.05680749872705326
@@ -2135,6 +2827,10 @@
           0.45953916499534164
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8835343610489822,
         "linear_cka_nearby": 0.9411917815368314,
         "cka_difference": -0.057657420487849165
@@ -2147,6 +2843,10 @@
           0.5513228022379275
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8710589039370573,
         "linear_cka_nearby": 0.8945929166521579,
         "cka_difference": -0.023534012715100583
@@ -2159,6 +2859,10 @@
           0.6122437028493645
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8669723325212217,
         "linear_cka_nearby": 0.8878364924015704,
         "cka_difference": -0.02086415988034862
@@ -2171,6 +2875,10 @@
           0.5640728087487613
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8758783048908336,
         "linear_cka_nearby": 0.9004925408233275,
         "cka_difference": -0.0246142359324939
@@ -2183,6 +2891,10 @@
           0.6595104338510646
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8488302707553779,
         "linear_cka_nearby": 0.8746414283200901,
         "cka_difference": -0.025811157564712195
@@ -2195,6 +2907,10 @@
           0.717167395033229
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8441293086217156,
         "linear_cka_nearby": 0.8652704388401544,
         "cka_difference": -0.021141130218438775
@@ -2207,6 +2923,10 @@
           0.7113569067810392
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.844970372366002,
         "linear_cka_nearby": 0.8496561163413741,
         "cka_difference": -0.004685743975372025
@@ -2219,6 +2939,10 @@
           0.7315542180429662
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8406722830989186,
         "linear_cka_nearby": 0.8396001405182757,
         "cka_difference": 0.0010721425806429208
@@ -2231,6 +2955,10 @@
           0.7754173807715018
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.838877213144753,
         "linear_cka_nearby": 0.8316985766126164,
         "cka_difference": 0.007178636532136684
@@ -2243,6 +2971,10 @@
           0.8166007417087939
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.847652775294036,
         "linear_cka_nearby": 0.8366887471002246,
         "cka_difference": 0.010964028193811481
@@ -2255,6 +2987,10 @@
           0.7927144651013034
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8547112968098427,
         "linear_cka_nearby": 0.8296506212345416,
         "cka_difference": 0.025060675575301117
@@ -2267,6 +3003,10 @@
           0.7377903513404931
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8621628596978189,
         "linear_cka_nearby": 0.8681124671677968,
         "cka_difference": -0.005949607469977858
@@ -2279,6 +3019,10 @@
           0.7267050185213965
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8474527698432669,
         "linear_cka_nearby": 0.8577059014675665,
         "cka_difference": -0.010253131624299638
@@ -2291,6 +3035,10 @@
           0.6981600676876848
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.842704833800366,
         "linear_cka_nearby": 0.9075910785452045,
         "cka_difference": -0.0648862447448385
@@ -2303,6 +3051,10 @@
           0.7416441761680945
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8693145979064142,
         "linear_cka_nearby": 0.8940253233210064,
         "cka_difference": -0.024710725414592183
@@ -2315,6 +3067,10 @@
           0.7436417507753253
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8851323829097726,
         "linear_cka_nearby": 0.9000141780429488,
         "cka_difference": -0.014881795133176223
@@ -2327,6 +3083,10 @@
           0.7323999034668446
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8894279825895037,
         "linear_cka_nearby": 0.886900405574326,
         "cka_difference": 0.0025275770151776955
@@ -2339,6 +3099,10 @@
           0.743008895581055
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.894985394757822,
         "linear_cka_nearby": 0.8855274662065824,
         "cka_difference": 0.009457928551239614
@@ -2351,6 +3115,10 @@
           0.755114707570395
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.9038374690494295,
         "linear_cka_nearby": 0.8848060300491885,
         "cka_difference": 0.01903143900024107
@@ -2363,6 +3131,10 @@
           0.7464666548666261
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8572063491247928,
         "linear_cka_nearby": 0.8761513372735867,
         "cka_difference": -0.018944988148793973
@@ -2375,6 +3147,10 @@
           0.7362367402859525
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8602074162273363,
         "linear_cka_nearby": 0.8707884581307794,
         "cka_difference": -0.010581041903443111
@@ -2387,6 +3163,10 @@
           0.7459623233401883
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8803487247935171,
         "linear_cka_nearby": 0.8837529036217373,
         "cka_difference": -0.0034041788282201946
@@ -2399,6 +3179,10 @@
           0.7641700286137816
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8872810101465006,
         "linear_cka_nearby": 0.8868967341207289,
         "cka_difference": 0.0003842760257717348
@@ -2411,6 +3195,10 @@
           0.7776216202216079
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.9082518712647603,
         "linear_cka_nearby": 0.8805396891215181,
         "cka_difference": 0.027712182143242114
@@ -2423,6 +3211,10 @@
           0.8344605655090992
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.919332613454739,
         "linear_cka_nearby": 0.8759085534656059,
         "cka_difference": 0.043424059989133124
@@ -2435,6 +3227,10 @@
           0.838021091850885
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.9283501761409343,
         "linear_cka_nearby": 0.8768997956202544,
         "cka_difference": 0.05145038052067985
@@ -2447,6 +3243,10 @@
           0.8154667176307826
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670375383357948
+        ],
         "linear_cka_equivalent": 0.8863596188905829,
         "linear_cka_nearby": 0.8064312051880262,
         "cka_difference": 0.07992841370255666
@@ -2468,6 +3268,10 @@
           0.11762164389694504
         ],
         "residualized_rsa": 0.5331608038064775,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.42952148541718493,
+          0.6799539617607901
+        ],
         "linear_cka_equivalent": 0.6925048756104195,
         "linear_cka_nearby": 0.6401603772316535,
         "cka_difference": 0.05234449837876598
@@ -2480,6 +3284,10 @@
           0.08419281399762342
         ],
         "residualized_rsa": 0.36378119826506955,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.23688459089276634,
+          0.514213250019921
+        ],
         "linear_cka_equivalent": 0.6482914075332666,
         "linear_cka_nearby": 0.5593097095977179,
         "cka_difference": 0.08898169793554878
@@ -2492,6 +3300,10 @@
           0.08034446832743718
         ],
         "residualized_rsa": 0.5350855720512663,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.421723495218083,
+          0.6798035876835539
+        ],
         "linear_cka_equivalent": 0.7477261213640246,
         "linear_cka_nearby": 0.7178826363350039,
         "cka_difference": 0.029843485029020678
@@ -2504,6 +3316,10 @@
           0.09658961598072824
         ],
         "residualized_rsa": 0.3695555029994356,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.2676990327819065,
+          0.5161107877665513
+        ],
         "linear_cka_equivalent": 0.7083030169978278,
         "linear_cka_nearby": 0.6862423953410963,
         "cka_difference": 0.022060621656731505
@@ -2516,6 +3332,10 @@
           0.062056205256449365
         ],
         "residualized_rsa": 0.22327311639549238,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.07125603375048824,
+          0.39470994158392764
+        ],
         "linear_cka_equivalent": 0.5538898452835825,
         "linear_cka_nearby": 0.5221602999165603,
         "cka_difference": 0.031729545367022216
@@ -2528,6 +3348,10 @@
           0.11962614858422503
         ],
         "residualized_rsa": 0.6351735207802801,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.5124859154420973,
+          0.7664209338854882
+        ],
         "linear_cka_equivalent": 0.7528790184416423,
         "linear_cka_nearby": 0.7198035553581017,
         "cka_difference": 0.03307546308354059
@@ -2540,6 +3364,10 @@
           0.11514628937772882
         ],
         "residualized_rsa": 0.6178506065771815,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.45463486256171926,
+          0.7606639895469073
+        ],
         "linear_cka_equivalent": 0.7408729599821555,
         "linear_cka_nearby": 0.6770691319666069,
         "cka_difference": 0.06380382801554862
@@ -2552,6 +3380,10 @@
           0.12032738032713824
         ],
         "residualized_rsa": 0.6351735207802801,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.5123005403166996,
+          0.756855155101646
+        ],
         "linear_cka_equivalent": 0.6550908213203799,
         "linear_cka_nearby": 0.6443376094662405,
         "cka_difference": 0.010753211854139355
@@ -2564,6 +3396,10 @@
           0.21289952288032157
         ],
         "residualized_rsa": 0.8507475641966176,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8144004204815312,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.694318666407695,
         "linear_cka_nearby": 0.6975957336226561,
         "cka_difference": -0.003277067214961127
@@ -2576,6 +3412,10 @@
           0.2250354378825539
         ],
         "residualized_rsa": 0.84689802770704,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8127938283034091,
+          0.8666274375059381
+        ],
         "linear_cka_equivalent": 0.6646190505332434,
         "linear_cka_nearby": 0.6634558697011266,
         "cka_difference": 0.0011631808321168613
@@ -2588,6 +3428,10 @@
           0.19279290995884468
         ],
         "residualized_rsa": 0.7429605424884489,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.6508791844005116,
+          0.8316859285403031
+        ],
         "linear_cka_equivalent": 0.6407901878596977,
         "linear_cka_nearby": 0.6328657145266763,
         "cka_difference": 0.007924473333021376
@@ -2600,6 +3444,10 @@
           0.21771708872366927
         ],
         "residualized_rsa": 0.783380675629012,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7109099186467281,
+          0.8452557240230408
+        ],
         "linear_cka_equivalent": 0.6499373511997318,
         "linear_cka_nearby": 0.6521971141114623,
         "cka_difference": -0.0022597629117304674
@@ -2612,6 +3460,10 @@
           0.32296716579568197
         ],
         "residualized_rsa": 0.8507475641966176,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8203839172220737,
+          0.8667962320667992
+        ],
         "linear_cka_equivalent": 0.7023325200350683,
         "linear_cka_nearby": 0.6738595269335594,
         "cka_difference": 0.02847299310150886
@@ -2624,6 +3476,10 @@
           0.377274900605224
         ],
         "residualized_rsa": 0.8565218689309837,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8338417910729388,
+          0.866868602791671
+        ],
         "linear_cka_equivalent": 0.720249016859416,
         "linear_cka_nearby": 0.7061797457919239,
         "cka_difference": 0.014069271067492117
@@ -2636,6 +3492,10 @@
           0.4431832788755698
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.7642972091067887,
         "linear_cka_nearby": 0.7429915744032584,
         "cka_difference": 0.021305634703530307
@@ -2648,6 +3508,10 @@
           0.46889154863421373
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.7500499078144969,
         "linear_cka_nearby": 0.7316389554744428,
         "cka_difference": 0.018410952340054076
@@ -2660,6 +3524,10 @@
           0.5321069794225494
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.7478137077886897,
         "linear_cka_nearby": 0.7327693177369562,
         "cka_difference": 0.015044390051733525
@@ -2672,6 +3540,10 @@
           0.6032078703225143
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.7237669148914017,
         "linear_cka_nearby": 0.6896725289024233,
         "cka_difference": 0.034094385988978404
@@ -2684,6 +3556,10 @@
           0.7612852539335386
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.7549809070420647,
         "linear_cka_nearby": 0.6928173326708678,
         "cka_difference": 0.062163574371196906
@@ -2696,6 +3572,10 @@
           0.8088168616709229
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.7557734846517454,
         "linear_cka_nearby": 0.7461506484931124,
         "cka_difference": 0.009622836158633019
@@ -2708,6 +3588,10 @@
           0.8899545815960753
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.7072042183022242,
         "linear_cka_nearby": 0.7751358291832227,
         "cka_difference": -0.06793161088099842
@@ -2720,6 +3604,10 @@
           0.9498311155928699
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.6280318562325746,
         "linear_cka_nearby": 0.7850649601859783,
         "cka_difference": -0.15703310395340364
@@ -2732,6 +3620,10 @@
           1.0793191186481637
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.39834675618829735,
         "linear_cka_nearby": 0.7026047335213648,
         "cka_difference": -0.3042579773330674
@@ -2744,6 +3636,10 @@
           1.2212740368844581
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.383480433354562,
         "linear_cka_nearby": 0.682686670957794,
         "cka_difference": -0.299206237603232
@@ -2756,6 +3652,10 @@
           1.2554836282698791
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.3884620274177846,
         "linear_cka_nearby": 0.6800070550451727,
         "cka_difference": -0.29154502762738804
@@ -2768,6 +3668,10 @@
           1.25190155079451
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.4152272207338492,
         "linear_cka_nearby": 0.7069046203096304,
         "cka_difference": -0.2916773995757812
@@ -2780,6 +3684,10 @@
           1.4774639252523682
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.3352710172804876,
         "linear_cka_nearby": 0.6575288117619746,
         "cka_difference": -0.32225779448148706
@@ -2792,6 +3700,10 @@
           1.4628695738221194
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.37034937765952314,
         "linear_cka_nearby": 0.7538050022666414,
         "cka_difference": -0.38345562460711824
@@ -2804,6 +3716,10 @@
           1.4210343171743451
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.3922986321743104,
         "linear_cka_nearby": 0.7639384179595214,
         "cka_difference": -0.37163978578521106
@@ -2816,6 +3732,10 @@
           1.461734553330957
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.3835914176965485,
         "linear_cka_nearby": 0.7658027470837474,
         "cka_difference": -0.38221132938719893
@@ -2828,6 +3748,10 @@
           1.4696828902549217
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.38512381863126793,
         "linear_cka_nearby": 0.7768574660285928,
         "cka_difference": -0.3917336473973249
@@ -2840,6 +3764,10 @@
           1.5069474617727272
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.37235742486093926,
         "linear_cka_nearby": 0.7934074460325897,
         "cka_difference": -0.42105002117165047
@@ -2852,6 +3780,10 @@
           1.3792992579029264
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.3910802436867243,
         "linear_cka_nearby": 0.8012970862995722,
         "cka_difference": -0.4102168426128479
@@ -2864,6 +3796,10 @@
           1.3760259682778775
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.3896665519243815,
         "linear_cka_nearby": 0.7776222502521711,
         "cka_difference": -0.38795569832778964
@@ -2876,6 +3812,10 @@
           1.2728609506123012
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.406305816029071,
         "linear_cka_nearby": 0.7488993266545458,
         "cka_difference": -0.34259351062547483
@@ -2888,6 +3828,10 @@
           1.293528108258252
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.4113438508325711,
         "linear_cka_nearby": 0.7403854278649122,
         "cka_difference": -0.32904157703234116
@@ -2909,6 +3853,10 @@
           0.1403625391248313
         ],
         "residualized_rsa": 0.6082267653532379,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.5257974923225486,
+          0.7201234873939022
+        ],
         "linear_cka_equivalent": 0.7556946172740417,
         "linear_cka_nearby": 0.6875250811176004,
         "cka_difference": 0.06816953615644139
@@ -2921,6 +3869,10 @@
           0.09859187141169642
         ],
         "residualized_rsa": 0.43114808683267497,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.2715055048329891,
+          0.5852620956711627
+        ],
         "linear_cka_equivalent": 0.6272888263944709,
         "linear_cka_nearby": 0.6123907870641219,
         "cka_difference": 0.014898039330349055
@@ -2933,6 +3885,10 @@
           0.07572695993818185
         ],
         "residualized_rsa": 0.5100635848690128,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.3660807329777031,
+          0.6739324995033524
+        ],
         "linear_cka_equivalent": 0.7646368822477602,
         "linear_cka_nearby": 0.7744400241843341,
         "cka_difference": -0.009803141936573945
@@ -2945,6 +3901,10 @@
           0.10882674281453518
         ],
         "residualized_rsa": 0.5735809369470408,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.4315301467934376,
+          0.7280490716443847
+        ],
         "linear_cka_equivalent": 0.7497605648929375,
         "linear_cka_nearby": 0.6966543587607377,
         "cka_difference": 0.05310620613219985
@@ -2957,6 +3917,10 @@
           0.09155849646925532
         ],
         "residualized_rsa": 0.5293112673169,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.37177867159115485,
+          0.6914540124876563
+        ],
         "linear_cka_equivalent": 0.6704765490469229,
         "linear_cka_nearby": 0.6403800244622582,
         "cka_difference": 0.03009652458466472
@@ -2969,6 +3933,10 @@
           0.12355646841909611
         ],
         "residualized_rsa": 0.833424649993519,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7758782006485438,
+          0.8667721125194675
+        ],
         "linear_cka_equivalent": 0.7990388859987009,
         "linear_cka_nearby": 0.739934238812366,
         "cka_difference": 0.0591046471863349
@@ -2981,6 +3949,10 @@
           0.1236002681088891
         ],
         "residualized_rsa": 0.7525843837123926,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.6220454836951782,
+          0.8454902495739784
+        ],
         "linear_cka_equivalent": 0.7401583692602212,
         "linear_cka_nearby": 0.7122291755019621,
         "cka_difference": 0.027929193758259085
@@ -2993,6 +3965,10 @@
           0.14426770497561464
         ],
         "residualized_rsa": 0.6755936539208434,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.5643637756213994,
+          0.7955484578850303
+        ],
         "linear_cka_equivalent": 0.6587898139913878,
         "linear_cka_nearby": 0.6429036116115778,
         "cka_difference": 0.015886202379809977
@@ -3005,6 +3981,10 @@
           0.19125762269845653
         ],
         "residualized_rsa": 0.783380675629012,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.6875053100899434,
+          0.8568552478578124
+        ],
         "linear_cka_equivalent": 0.6037070700623455,
         "linear_cka_nearby": 0.6534305117665973,
         "cka_difference": -0.0497234417042518
@@ -3017,6 +3997,10 @@
           0.18841475751154346
         ],
         "residualized_rsa": 0.7506596154676037,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.6567470947506358,
+          0.8433537613489092
+        ],
         "linear_cka_equivalent": 0.6692797482615251,
         "linear_cka_nearby": 0.681041817933528,
         "cka_difference": -0.011762069672002884
@@ -3029,6 +4013,10 @@
           0.17351875657294943
         ],
         "residualized_rsa": 0.6948413363687306,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.5816028980679374,
+          0.7992014064295476
+        ],
         "linear_cka_equivalent": 0.6766454659142926,
         "linear_cka_nearby": 0.6415818755564248,
         "cka_difference": 0.03506359035786788
@@ -3041,6 +4029,10 @@
           0.19556943583864056
         ],
         "residualized_rsa": 0.7371862377540827,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.641076497533369,
+          0.8223102728526774
+        ],
         "linear_cka_equivalent": 0.7221219044640381,
         "linear_cka_nearby": 0.6486667101953245,
         "cka_difference": 0.07345519426871361
@@ -3053,6 +4045,10 @@
           0.3229301752270671
         ],
         "residualized_rsa": 0.8622961736653499,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8492712654052242,
+          0.8669409916467437
+        ],
         "linear_cka_equivalent": 0.7949919668977192,
         "linear_cka_nearby": 0.6803486238036853,
         "cka_difference": 0.1146433430940339
@@ -3065,6 +4061,10 @@
           0.39323928743980674
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8039902525284937,
         "linear_cka_nearby": 0.6733784599122694,
         "cka_difference": 0.13061179261622424
@@ -3077,6 +4077,10 @@
           0.5293080549644087
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8316471966823358,
         "linear_cka_nearby": 0.7039064921971201,
         "cka_difference": 0.12774070448521568
@@ -3089,6 +4093,10 @@
           0.6408895350733064
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8161542768343895,
         "linear_cka_nearby": 0.6973236762322426,
         "cka_difference": 0.1188306006021469
@@ -3101,6 +4109,10 @@
           0.788520086952253
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8061495242339188,
         "linear_cka_nearby": 0.733768126144638,
         "cka_difference": 0.07238139808928079
@@ -3113,6 +4125,10 @@
           0.8150677063069465
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.7905783068065637,
         "linear_cka_nearby": 0.7386334402078966,
         "cka_difference": 0.05194486659866715
@@ -3125,6 +4141,10 @@
           1.0063856613311608
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8198227829009591,
         "linear_cka_nearby": 0.7747447025031825,
         "cka_difference": 0.04507808039777661
@@ -3137,6 +4157,10 @@
           1.2498526382189996
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.7967436087553558,
         "linear_cka_nearby": 0.8323808440763607,
         "cka_difference": -0.035637235321004934
@@ -3149,6 +4173,10 @@
           1.3513887167688685
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.7563325349332737,
         "linear_cka_nearby": 0.8122164411263018,
         "cka_difference": -0.05588390619302808
@@ -3161,6 +4189,10 @@
           1.5070161227131302
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.7158429868485722,
         "linear_cka_nearby": 0.7723095451011621,
         "cka_difference": -0.05646655825258995
@@ -3173,6 +4205,10 @@
           1.581448743035996
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.7650641858951677,
         "linear_cka_nearby": 0.6830942011677766,
         "cka_difference": 0.08196998472739103
@@ -3185,6 +4221,10 @@
           1.6967037901336657
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.7737203519084404,
         "linear_cka_nearby": 0.6820703585442063,
         "cka_difference": 0.09164999336423407
@@ -3197,6 +4237,10 @@
           1.7126213554205
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.7947648939110008,
         "linear_cka_nearby": 0.6785249548254859,
         "cka_difference": 0.11623993908551489
@@ -3209,6 +4253,10 @@
           1.6964449617064288
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.7988323483203112,
         "linear_cka_nearby": 0.671612437264606,
         "cka_difference": 0.1272199110557053
@@ -3221,6 +4269,10 @@
           1.825696884711844
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.830474093366538,
         "linear_cka_nearby": 0.6927683993114773,
         "cka_difference": 0.13770569405506072
@@ -3233,6 +4285,10 @@
           1.8256986764597565
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8267944907290058,
         "linear_cka_nearby": 0.6944299239046827,
         "cka_difference": 0.13236456682432307
@@ -3245,6 +4301,10 @@
           1.8025218389561979
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8380170835594412,
         "linear_cka_nearby": 0.695359014105942,
         "cka_difference": 0.14265806945349913
@@ -3257,6 +4317,10 @@
           1.8229660426388354
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8571937503121265,
         "linear_cka_nearby": 0.6942702975840072,
         "cka_difference": 0.16292345272811937
@@ -3269,6 +4333,10 @@
           1.8296515546959777
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8674660258728821,
         "linear_cka_nearby": 0.6898516520020113,
         "cka_difference": 0.17761437387087087
@@ -3281,6 +4349,10 @@
           1.8473867929651853
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8791567840286125,
         "linear_cka_nearby": 0.6906349346467975,
         "cka_difference": 0.18852184938181504
@@ -3293,6 +4365,10 @@
           1.7238848482806066
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9378710272837935,
         "linear_cka_nearby": 0.6789974618317415,
         "cka_difference": 0.258873565452052
@@ -3305,6 +4381,10 @@
           1.736092382836718
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9404483597845334,
         "linear_cka_nearby": 0.6729897192724744,
         "cka_difference": 0.26745864051205903
@@ -3317,6 +4397,10 @@
           1.6450098322919007
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9320581255045363,
         "linear_cka_nearby": 0.6835310645181142,
         "cka_difference": 0.24852706098642208
@@ -3329,6 +4413,10 @@
           1.6681685619426516
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8669254719402668,
         "linear_cka_nearby": 0.6201331658853096,
         "cka_difference": 0.24679230605495717
@@ -3350,6 +4438,10 @@
           0.39566398708806527
         ],
         "residualized_rsa": 0.6736688856760547,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.4332775635802223,
+          0.8184359381200901
+        ],
         "linear_cka_equivalent": 0.6617966043592607,
         "linear_cka_nearby": 0.7015737404643172,
         "cka_difference": -0.03977713610505651
@@ -3362,6 +4454,10 @@
           0.4528076689841054
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8421368236031745,
         "linear_cka_nearby": 0.9399008524301415,
         "cka_difference": -0.097764028826967
@@ -3374,6 +4470,10 @@
           0.4041695669245051
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8595177786848986,
         "linear_cka_nearby": 0.9150568164956967,
         "cka_difference": -0.05553903781079805
@@ -3386,6 +4486,10 @@
           0.23408044657616964
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8782742297427601,
         "linear_cka_nearby": 0.9121611366448029,
         "cka_difference": -0.03388690690204277
@@ -3398,6 +4502,10 @@
           0.2394352443812526
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8817225489134727,
         "linear_cka_nearby": 0.9190859847224181,
         "cka_difference": -0.03736343580894541
@@ -3410,6 +4518,10 @@
           0.27107283042564073
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8728629732881334,
         "linear_cka_nearby": 0.8933143543906024,
         "cka_difference": -0.020451381102468913
@@ -3422,6 +4534,10 @@
           0.24665080437677384
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8550724050058589,
+          0.866989260959531
+        ],
         "linear_cka_equivalent": 0.8742294980904488,
         "linear_cka_nearby": 0.8925483816283224,
         "cka_difference": -0.018318883537873587
@@ -3434,6 +4550,10 @@
           0.2898526126372245
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8579166999223067,
         "linear_cka_nearby": 0.8893105035725013,
         "cka_difference": -0.03139380365019462
@@ -3446,6 +4566,10 @@
           0.36816793928865776
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8224225929535048,
         "linear_cka_nearby": 0.854760463610708,
         "cka_difference": -0.03233787065720317
@@ -3458,6 +4582,10 @@
           0.398866089009852
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8333552702309712,
         "linear_cka_nearby": 0.8742276336086063,
         "cka_difference": -0.04087236337763511
@@ -3470,6 +4598,10 @@
           0.3960097309866886
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8359883906340102,
         "linear_cka_nearby": 0.8808275520964197,
         "cka_difference": -0.044839161462409516
@@ -3482,6 +4614,10 @@
           0.38353036411131286
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8475125818157356,
         "linear_cka_nearby": 0.894913918533252,
         "cka_difference": -0.04740133671751634
@@ -3494,6 +4630,10 @@
           0.34798792139321394
         ],
         "residualized_rsa": 0.8603714054205612,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8318235215158989,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.8540576894570246,
         "linear_cka_nearby": 0.8953406544695184,
         "cka_difference": -0.04128296501249373
@@ -3506,6 +4646,10 @@
           0.4350444273823324
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8491295666863927,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.8353598592472933,
         "linear_cka_nearby": 0.8917503309781637,
         "cka_difference": -0.05639047173087042
@@ -3518,6 +4662,10 @@
           0.44488515620947877
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8491295666863927,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.8239731203266927,
         "linear_cka_nearby": 0.8832796989866583,
         "cka_difference": -0.05930657865996558
@@ -3530,6 +4678,10 @@
           0.46718585867355095
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8491295666863927,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.8114621852085125,
         "linear_cka_nearby": 0.866773184230959,
         "cka_difference": -0.055310999022446405
@@ -3542,6 +4694,10 @@
           0.4667583439828046
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8491295666863927,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.798035029982207,
         "linear_cka_nearby": 0.861557967285018,
         "cka_difference": -0.063522937302811
@@ -3554,6 +4710,10 @@
           0.45356839911364094
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8491295666863927,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.7947080373445058,
         "linear_cka_nearby": 0.8677360544479062,
         "cka_difference": -0.07302801710340046
@@ -3566,6 +4726,10 @@
           0.4697134536206369
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8491295666863927,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.7972246686470068,
         "linear_cka_nearby": 0.8658818765798514,
         "cka_difference": -0.06865720793284458
@@ -3578,6 +4742,10 @@
           0.481484691001701
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8491295666863927,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.7960006542511613,
         "linear_cka_nearby": 0.8663587724136161,
         "cka_difference": -0.07035811816245485
@@ -3590,6 +4758,10 @@
           0.4803198974485404
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8491295666863927,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.7974857789246312,
         "linear_cka_nearby": 0.8683036678909944,
         "cka_difference": -0.07081788896636321
@@ -3602,6 +4774,10 @@
           0.5055906519668069
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8491295666863927,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.794808043459515,
         "linear_cka_nearby": 0.8670297465430997,
         "cka_difference": -0.07222170308358478
@@ -3614,6 +4790,10 @@
           0.48792639448717984
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8491295666863927,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.8063527913995038,
         "linear_cka_nearby": 0.8724522059691495,
         "cka_difference": -0.06609941456964574
@@ -3626,6 +4806,10 @@
           0.46840245961547405
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8491295666863927,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.8269102039663273,
         "linear_cka_nearby": 0.8839956838656702,
         "cka_difference": -0.05708547989934287
@@ -3638,6 +4822,10 @@
           0.4803177339672307
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8491295666863927,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.8308430860371483,
         "linear_cka_nearby": 0.8858785380982729,
         "cka_difference": -0.05503545206112459
@@ -3650,6 +4838,10 @@
           0.48151181344398153
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8491295666863927,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.8605836711665908,
         "linear_cka_nearby": 0.9007143830634283,
         "cka_difference": -0.04013071189683748
@@ -3662,6 +4854,10 @@
           0.5139266571044561
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8274575503681982,
         "linear_cka_nearby": 0.8969429546728023,
         "cka_difference": -0.06948540430460404
@@ -3674,6 +4870,10 @@
           0.5187872150031176
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8841710753144267,
         "linear_cka_nearby": 0.9208644495323867,
         "cka_difference": -0.03669337421795993
@@ -3686,6 +4886,10 @@
           0.5028782263960376
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8827870814536529,
         "linear_cka_nearby": 0.9250729589867552,
         "cka_difference": -0.04228587753310231
@@ -3698,6 +4902,10 @@
           0.40732909635916004
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9157894190226805,
         "linear_cka_nearby": 0.9229437495731518,
         "cka_difference": -0.007154330550471322
@@ -3710,6 +4918,10 @@
           0.40549102649900576
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9117158365191684,
         "linear_cka_nearby": 0.9175287103950183,
         "cka_difference": -0.005812873875849833
@@ -3722,6 +4934,10 @@
           0.4027552296342991
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9155012651059707,
         "linear_cka_nearby": 0.9248747624347329,
         "cka_difference": -0.009373497328762137
@@ -3734,6 +4950,10 @@
           0.3871738789120719
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9041878585820522,
         "linear_cka_nearby": 0.9135011298466154,
         "cka_difference": -0.009313271264563161
@@ -3746,6 +4966,10 @@
           0.3790417152322018
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9288433694918112,
         "linear_cka_nearby": 0.9629057708886755,
         "cka_difference": -0.03406240139686423
@@ -3758,6 +4982,10 @@
           0.37907676765859905
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9414199001540517,
         "linear_cka_nearby": 0.9596437658088736,
         "cka_difference": -0.018223865654821814
@@ -3770,6 +4998,10 @@
           0.37878740686218243
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9487015961986796,
         "linear_cka_nearby": 0.9720879948430603,
         "cka_difference": -0.023386398644380746
@@ -3782,6 +5014,10 @@
           0.3691436841649631
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9506360104971638,
         "linear_cka_nearby": 0.9752520035549408,
         "cka_difference": -0.024615993057776953
@@ -3794,6 +5030,10 @@
           0.37085582937793254
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9522359816658004,
         "linear_cka_nearby": 0.9704625525043359,
         "cka_difference": -0.018226570838535516
@@ -3806,6 +5046,10 @@
           0.35189096032038275
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9500526688748027,
         "linear_cka_nearby": 0.9664085765168032,
         "cka_difference": -0.016355907642000567
@@ -3818,6 +5062,10 @@
           0.3383874358879386
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9598017818102059,
         "linear_cka_nearby": 0.9617515035227058,
         "cka_difference": -0.0019497217124998523
@@ -3830,6 +5078,10 @@
           0.31709976569833065
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9682537700930347,
         "linear_cka_nearby": 0.9558179822040116,
         "cka_difference": 0.012435787889023109
@@ -3842,6 +5094,10 @@
           0.2930302868457205
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.9618996081122211,
         "linear_cka_nearby": 0.9504482140436364,
         "cka_difference": 0.011451394068584642
@@ -3863,6 +5119,10 @@
           0.39755138216225167
         ],
         "residualized_rsa": 0.6736688856760547,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.4332414174561973,
+          0.8184131756515309
+        ],
         "linear_cka_equivalent": 0.6608987375121553,
         "linear_cka_nearby": 0.6997809689993111,
         "cka_difference": -0.03888223148715575
@@ -3875,6 +5135,10 @@
           0.45165256290720046
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8383129362980597,
         "linear_cka_nearby": 0.9403336317748088,
         "cka_difference": -0.10202069547674908
@@ -3887,6 +5151,10 @@
           0.39923260301520397
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8562191943018339,
         "linear_cka_nearby": 0.9121599286385424,
         "cka_difference": -0.05594073433670854
@@ -3899,6 +5167,10 @@
           0.240627608743179
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8788102562012191,
         "linear_cka_nearby": 0.9130908073647237,
         "cka_difference": -0.03428055116350459
@@ -3911,6 +5183,10 @@
           0.2544757014628078
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8860435804269566,
         "linear_cka_nearby": 0.9248782509940696,
         "cka_difference": -0.03883467056711298
@@ -3923,6 +5199,10 @@
           0.29500425541870207
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8766609988344682,
         "linear_cka_nearby": 0.9061836870604393,
         "cka_difference": -0.02952268822597104
@@ -3935,6 +5215,10 @@
           0.2950302140790195
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8841726333730786,
         "linear_cka_nearby": 0.9092672060952132,
         "cka_difference": -0.025094572722134556
@@ -3947,6 +5231,10 @@
           0.34238626484874246
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8662562187611997,
         "linear_cka_nearby": 0.9070707949480533,
         "cka_difference": -0.04081457618685358
@@ -3959,6 +5247,10 @@
           0.4187703029081128
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8309326311983805,
         "linear_cka_nearby": 0.8686359368307045,
         "cka_difference": -0.03770330563232405
@@ -3971,6 +5263,10 @@
           0.44684400078806435
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.844880661147406,
         "linear_cka_nearby": 0.883189133896503,
         "cka_difference": -0.03830847274909699
@@ -3983,6 +5279,10 @@
           0.4648416206712842
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8533771545570716,
         "linear_cka_nearby": 0.8940172566501483,
         "cka_difference": -0.04064010209307667
@@ -3995,6 +5295,10 @@
           0.4821968071661459
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8736926157929482,
         "linear_cka_nearby": 0.910770598461911,
         "cka_difference": -0.03707798266896278
@@ -4007,6 +5311,10 @@
           0.5116338752456041
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8767124925764634,
         "linear_cka_nearby": 0.90528297475103,
         "cka_difference": -0.02857048217456659
@@ -4019,6 +5327,10 @@
           0.6286624786453883
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8687605703035739,
         "linear_cka_nearby": 0.9119739147741643,
         "cka_difference": -0.04321334447059044
@@ -4031,6 +5343,10 @@
           0.6547586117480728
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8579272969721566,
         "linear_cka_nearby": 0.9117215197385198,
         "cka_difference": -0.05379422276636314
@@ -4043,6 +5359,10 @@
           0.6999256519013087
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8595446864975629,
         "linear_cka_nearby": 0.9114813314818083,
         "cka_difference": -0.05193664498424544
@@ -4055,6 +5375,10 @@
           0.7648500014384653
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8522290647251769,
         "linear_cka_nearby": 0.9122170547388757,
         "cka_difference": -0.05998799001369881
@@ -4067,6 +5391,10 @@
           0.7750122189136737
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8575265552245774,
         "linear_cka_nearby": 0.9189457862419872,
         "cka_difference": -0.06141923101740976
@@ -4079,6 +5407,10 @@
           0.7645291373004106
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8570906950731902,
         "linear_cka_nearby": 0.9210154371421421,
         "cka_difference": -0.06392474206895182
@@ -4091,6 +5423,10 @@
           0.7695080451992736
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8534784671237213,
         "linear_cka_nearby": 0.9172008500703841,
         "cka_difference": -0.06372238294666277
@@ -4103,6 +5439,10 @@
           0.7833610482155712
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8513258611600087,
         "linear_cka_nearby": 0.9198531335778948,
         "cka_difference": -0.06852727241788603
@@ -4115,6 +5455,10 @@
           0.8150182846259978
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8421500245321795,
         "linear_cka_nearby": 0.9211629403772088,
         "cka_difference": -0.07901291584502934
@@ -4127,6 +5471,10 @@
           0.8265822296025881
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8575311479114136,
         "linear_cka_nearby": 0.9250939899867435,
         "cka_difference": -0.06756284207532992
@@ -4139,6 +5487,10 @@
           0.7935146426783259
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8536276720066693,
         "linear_cka_nearby": 0.9257946239993957,
         "cka_difference": -0.07216695199272638
@@ -4151,6 +5503,10 @@
           0.7936765282699548
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8486293699169263,
         "linear_cka_nearby": 0.9271847920520673,
         "cka_difference": -0.078555422135141
@@ -4163,6 +5519,10 @@
           0.7713194811505935
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.858643976714123,
         "linear_cka_nearby": 0.9300335225196288,
         "cka_difference": -0.07138954580550583
@@ -4175,6 +5535,10 @@
           0.7702589999965387
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8491694161870329,
         "linear_cka_nearby": 0.9182854365845977,
         "cka_difference": -0.06911602039756481
@@ -4187,6 +5551,10 @@
           0.6630023652742728
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.8876560323524256,
         "linear_cka_nearby": 0.9337827726811434,
         "cka_difference": -0.046126740328717775
@@ -4199,6 +5567,10 @@
           0.6989641788583812
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.9001378921540324,
         "linear_cka_nearby": 0.9425079246530936,
         "cka_difference": -0.04237003249906124
@@ -4211,6 +5583,10 @@
           0.6970235991600872
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.9271011759867354,
         "linear_cka_nearby": 0.941321644987541,
         "cka_difference": -0.014220469000805647
@@ -4223,6 +5599,10 @@
           0.6847871071471977
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.9245815227620741,
         "linear_cka_nearby": 0.929595347222629,
         "cka_difference": -0.005013824460554983
@@ -4235,6 +5615,10 @@
           0.7180328048831436
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.9345016318912895,
         "linear_cka_nearby": 0.9387106862632,
         "cka_difference": -0.004209054371910437
@@ -4247,6 +5631,10 @@
           0.7033900517199331
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.9122093723588234,
         "linear_cka_nearby": 0.9110582085667009,
         "cka_difference": 0.0011511637921224338
@@ -4259,6 +5647,10 @@
           0.6874368019831887
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.9352468833712141,
         "linear_cka_nearby": 0.9454965967380264,
         "cka_difference": -0.010249713366812352
@@ -4271,6 +5663,10 @@
           0.7035564422490166
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.9457659034925345,
         "linear_cka_nearby": 0.9412118356905672,
         "cka_difference": 0.004554067801967321
@@ -4283,6 +5679,10 @@
           0.7172279129266942
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.958842066287912,
         "linear_cka_nearby": 0.9553459410063139,
         "cka_difference": 0.0034961252815981503
@@ -4295,6 +5695,10 @@
           0.7165464611568937
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.9626074892927847,
         "linear_cka_nearby": 0.9624615889091004,
         "cka_difference": 0.00014590038368433866
@@ -4307,6 +5711,10 @@
           0.7385388570276208
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.9676369511105333,
         "linear_cka_nearby": 0.9679078736785796,
         "cka_difference": -0.00027092256804628345
@@ -4319,6 +5727,10 @@
           0.771785741435872
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.9718048963325641,
         "linear_cka_nearby": 0.9634032499871273,
         "cka_difference": 0.00840164634543672
@@ -4331,6 +5743,10 @@
           0.7537586123729644
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.9719747559651413,
         "linear_cka_nearby": 0.9591248693265733,
         "cka_difference": 0.012849886638568009
@@ -4343,6 +5759,10 @@
           0.7958954647077396
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.9716279475031144,
         "linear_cka_nearby": 0.9554007660290755,
         "cka_difference": 0.0162271814740389
@@ -4355,6 +5775,10 @@
           0.8027120873974114
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670622836416655
+        ],
         "linear_cka_equivalent": 0.9685583750970345,
         "linear_cka_nearby": 0.9487082577249271,
         "cka_difference": 0.0198501173721074
@@ -4376,6 +5800,10 @@
           0.3453886822728094
         ],
         "residualized_rsa": 0.8218760405247866,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7605571713646171,
+          0.8666033320461473
+        ],
         "linear_cka_equivalent": 0.33395994076657787,
         "linear_cka_nearby": 0.3981165176821361,
         "cka_difference": -0.0641565769155582
@@ -4388,6 +5816,10 @@
           0.22397744783721218
         ],
         "residualized_rsa": 0.769907297915491,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.6568380086970228,
+          0.8549297304468959
+        ],
         "linear_cka_equivalent": 0.41297361552751466,
         "linear_cka_nearby": 0.47523179429535295,
         "cka_difference": -0.06225817876783829
@@ -4400,6 +5832,10 @@
           0.1688597544459656
         ],
         "residualized_rsa": 0.5543332544991535,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.3833677668098805,
+          0.7201840660047636
+        ],
         "linear_cka_equivalent": 0.5571181191781109,
         "linear_cka_nearby": 0.6113454598270756,
         "cka_difference": -0.05422734064896462
@@ -4412,6 +5848,10 @@
           0.16136102378902353
         ],
         "residualized_rsa": 0.5273864990721113,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.3389193386227517,
+          0.6951891144973
+        ],
         "linear_cka_equivalent": 0.5961200343968208,
         "linear_cka_nearby": 0.6119523530538135,
         "cka_difference": -0.01583231865699264
@@ -4424,6 +5864,10 @@
           0.0521996470451577
         ],
         "residualized_rsa": 0.571656168702252,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.45058266412295145,
+          0.716953674932399
+        ],
         "linear_cka_equivalent": 0.937514181641222,
         "linear_cka_nearby": 0.9403531124028804,
         "cka_difference": -0.0028389307616584203
@@ -4436,6 +5880,10 @@
           0.051016343818462616
         ],
         "residualized_rsa": 0.5293112673169,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.42364917327843954,
+          0.6682851005709436
+        ],
         "linear_cka_equivalent": 0.9221080073599217,
         "linear_cka_nearby": 0.9219308801107082,
         "cka_difference": 0.00017712724921348233
@@ -4448,6 +5896,10 @@
           0.04436000239942022
         ],
         "residualized_rsa": 0.719863323550984,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.6296441933696734,
+          0.808829776576404
+        ],
         "linear_cka_equivalent": 0.9424486715285811,
         "linear_cka_nearby": 0.9286968164427802,
         "cka_difference": 0.013751855085800901
@@ -4460,6 +5912,10 @@
           0.04473987448210144
         ],
         "residualized_rsa": 0.6929165681239419,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.5968601936815939,
+          0.7935338629764429
+        ],
         "linear_cka_equivalent": 0.9355862103507455,
         "linear_cka_nearby": 0.9185588530042825,
         "cka_difference": 0.01702735734646299
@@ -4472,6 +5928,10 @@
           0.057824388840205056
         ],
         "residualized_rsa": 0.8257255770143641,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.772260801739215,
+          0.8651119927041291
+        ],
         "linear_cka_equivalent": 0.9481788653428438,
         "linear_cka_nearby": 0.8744329795785646,
         "cka_difference": 0.0737458857642792
@@ -4484,6 +5944,10 @@
           0.0860636486187933
         ],
         "residualized_rsa": 0.8180265040352092,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7512024975168718,
+          0.8665792285977425
+        ],
         "linear_cka_equivalent": 0.9444038479803794,
         "linear_cka_nearby": 0.8978870533095988,
         "cka_difference": 0.046516794670780515
@@ -4496,6 +5960,10 @@
           0.10276826230546898
         ],
         "residualized_rsa": 0.8238008087695753,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7628427783007232,
+          0.8665792285977425
+        ],
         "linear_cka_equivalent": 0.945380585177827,
         "linear_cka_nearby": 0.9089501924856584,
         "cka_difference": 0.03643039269216852
@@ -4508,6 +5976,10 @@
           0.12357890222824795
         ],
         "residualized_rsa": 0.8372741864830964,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7856547984788028,
+          0.8667721125194675
+        ],
         "linear_cka_equivalent": 0.9316184972268673,
         "linear_cka_nearby": 0.8950892573815559,
         "cka_difference": 0.03652923984531142
@@ -4520,6 +5992,10 @@
           0.15329296490574196
         ],
         "residualized_rsa": 0.84689802770704,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8030077511686786,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.9068574280555954,
         "linear_cka_nearby": 0.8707122729475097,
         "cka_difference": 0.03614515510808569
@@ -4532,6 +6008,10 @@
           0.2551085824751974
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8800994759514768,
         "linear_cka_nearby": 0.8618962461620745,
         "cka_difference": 0.018203229789402253
@@ -4544,6 +6024,10 @@
           0.3606977882277496
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8450000810902855,
         "linear_cka_nearby": 0.841539114292652,
         "cka_difference": 0.0034609667976334135
@@ -4556,6 +6040,10 @@
           0.5120345494812402
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.7601907625353919,
         "linear_cka_nearby": 0.7847950260444845,
         "cka_difference": -0.024604263509092617
@@ -4568,6 +6056,10 @@
           0.5730660387467194
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.6809926279501138,
         "linear_cka_nearby": 0.7435753519510682,
         "cka_difference": -0.06258272400095433
@@ -4580,6 +6072,10 @@
           0.6674646041347437
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.6411415367314697,
         "linear_cka_nearby": 0.7245633692832245,
         "cka_difference": -0.08342183255175484
@@ -4592,6 +6088,10 @@
           0.6973536170338145
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.6090926067164988,
         "linear_cka_nearby": 0.7174063535529719,
         "cka_difference": -0.1083137468364731
@@ -4604,6 +6104,10 @@
           0.7951476761760201
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.6521362318293785,
         "linear_cka_nearby": 0.7378906355378084,
         "cka_difference": -0.0857544037084299
@@ -4616,6 +6120,10 @@
           0.8527575574574068
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.718466629314255,
         "linear_cka_nearby": 0.7596152083701968,
         "cka_difference": -0.041148579055941825
@@ -4628,6 +6136,10 @@
           0.8873393987614193
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.6786708563050405,
         "linear_cka_nearby": 0.7286832796309007,
         "cka_difference": -0.0500124233258602
@@ -4640,6 +6152,10 @@
           0.9603346059153229
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.5557181191612934,
         "linear_cka_nearby": 0.6936373161002707,
         "cka_difference": -0.13791919693897725
@@ -4652,6 +6168,10 @@
           1.070718047910449
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.39884435762953296,
         "linear_cka_nearby": 0.6540842895634672,
         "cka_difference": -0.25523993193393424
@@ -4664,6 +6184,10 @@
           1.0632015042017975
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.32321181379455305,
         "linear_cka_nearby": 0.6128716363178957,
         "cka_difference": -0.2896598225233426
@@ -4676,6 +6200,10 @@
           1.0857521345587746
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.22638544921272827,
         "linear_cka_nearby": 0.5731155884999941,
         "cka_difference": -0.3467301392872658
@@ -4688,6 +6216,10 @@
           1.0508304295174173
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.18175811080411833,
         "linear_cka_nearby": 0.5440504533239785,
         "cka_difference": -0.3622923425198602
@@ -4700,6 +6232,10 @@
           1.040057896599654
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.1274650143078367,
         "linear_cka_nearby": 0.5140466237209179,
         "cka_difference": -0.38658160941308123
@@ -4712,6 +6248,10 @@
           1.06042881119226
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.11154771183457463,
         "linear_cka_nearby": 0.5353685629953716,
         "cka_difference": -0.423820851160797
@@ -4724,6 +6264,10 @@
           1.0614471108468895
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.10810365952812745,
         "linear_cka_nearby": 0.5298390332738696,
         "cka_difference": -0.42173537374574216
@@ -4736,6 +6280,10 @@
           1.060365613104277
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.10514982985689046,
         "linear_cka_nearby": 0.5195293206493699,
         "cka_difference": -0.4143794907924794
@@ -4748,6 +6296,10 @@
           1.0417919777213356
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.10112002709097559,
         "linear_cka_nearby": 0.5189575442832328,
         "cka_difference": -0.41783751719225726
@@ -4760,6 +6312,10 @@
           1.0283033781406072
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.09990717353052082,
         "linear_cka_nearby": 0.5202672227304785,
         "cka_difference": -0.42036004919995773
@@ -4772,6 +6328,10 @@
           1.030933438585065
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.09492103878572283,
         "linear_cka_nearby": 0.5120349158703371,
         "cka_difference": -0.4171138770846143
@@ -4784,6 +6344,10 @@
           1.0067570134493744
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.11513273082091365,
         "linear_cka_nearby": 0.5425683349251513,
         "cka_difference": -0.4274356041042377
@@ -4796,6 +6360,10 @@
           0.9988427884685865
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.11608970210325564,
         "linear_cka_nearby": 0.5539077759858538,
         "cka_difference": -0.4378180738825982
@@ -4808,6 +6376,10 @@
           0.9971833420485257
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.11535577507444114,
         "linear_cka_nearby": 0.5489925806657034,
         "cka_difference": -0.4336368055912623
@@ -4820,6 +6392,10 @@
           0.999327740376221
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.13248530650210738,
         "linear_cka_nearby": 0.5662691082310218,
         "cka_difference": -0.43378380172891445
@@ -4832,6 +6408,10 @@
           1.0095580569325326
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.12763741889726257,
         "linear_cka_nearby": 0.5628276993520348,
         "cka_difference": -0.43519028045477226
@@ -4844,6 +6424,10 @@
           0.9665314768150507
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.19691670716901666,
         "linear_cka_nearby": 0.585743471045441,
         "cka_difference": -0.38882676387642434
@@ -4856,6 +6440,10 @@
           0.9342102982909339
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.20864288892829483,
         "linear_cka_nearby": 0.5769384551574651,
         "cka_difference": -0.36829556622917026
@@ -4868,6 +6456,10 @@
           0.8583690262840614
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.24296044010805146,
         "linear_cka_nearby": 0.5854413487823609,
         "cka_difference": -0.3424809086743094
@@ -4889,6 +6481,10 @@
           0.17430202828881136
         ],
         "residualized_rsa": 0.4253737820983088,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.22727378753351357,
+          0.6008788224153728
+        ],
         "linear_cka_equivalent": 0.47711991847369684,
         "linear_cka_nearby": 0.33193395235362844,
         "cka_difference": 0.1451859661200684
@@ -4901,6 +6497,10 @@
           0.1758641507470453
         ],
         "residualized_rsa": 0.7179385553061954,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.6104059931351598,
+          0.8202937976732644
+        ],
         "linear_cka_equivalent": 0.4191937105916199,
         "linear_cka_nearby": 0.43522918706544567,
         "cka_difference": -0.01603547647382575
@@ -4913,6 +6513,10 @@
           0.10266104896449413
         ],
         "residualized_rsa": 0.5254617308273226,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.369791642952122,
+          0.6781254090853978
+        ],
         "linear_cka_equivalent": 0.5129448138549761,
         "linear_cka_nearby": 0.5201256546994033,
         "cka_difference": -0.007180840844427161
@@ -4925,6 +6529,10 @@
           0.08634254612427297
         ],
         "residualized_rsa": 0.4715682199732382,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.28111752961751874,
+          0.6491539383085635
+        ],
         "linear_cka_equivalent": 0.5262948682326091,
         "linear_cka_nearby": 0.5896141227767581,
         "cka_difference": -0.063319254544149
@@ -4937,6 +6545,10 @@
           0.023844225330014956
         ],
         "residualized_rsa": 0.5639570957230972,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.3870822833593887,
+          0.7280293226812226
+        ],
         "linear_cka_equivalent": 0.9249883450433012,
         "linear_cka_nearby": 0.9281367987253086,
         "cka_difference": -0.003148453682007446
@@ -4949,6 +6561,10 @@
           0.02235006121794012
         ],
         "residualized_rsa": 0.44269669630140734,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.3196536680085325,
+          0.5834484053873218
+        ],
         "linear_cka_equivalent": 0.9055840011588572,
         "linear_cka_nearby": 0.9069646296511804,
         "cka_difference": -0.0013806284923232326
@@ -4961,6 +6577,10 @@
           0.021864363734777625
         ],
         "residualized_rsa": 0.5601075592335197,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.4467315302415587,
+          0.6836727562546845
+        ],
         "linear_cka_equivalent": 0.9400336728194079,
         "linear_cka_nearby": 0.946420191187396,
         "cka_difference": -0.006386518367988092
@@ -4973,6 +6593,10 @@
           0.024757231430253566
         ],
         "residualized_rsa": 0.4792672929523932,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.36592946628334544,
+          0.6127116021531749
+        ],
         "linear_cka_equivalent": 0.927580379453449,
         "linear_cka_nearby": 0.9185093833474655,
         "cka_difference": 0.009070996105983498
@@ -4985,6 +6609,10 @@
           0.12786026494567634
         ],
         "residualized_rsa": 0.8642209419101387,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8550248388831059,
+          0.8670133986395879
+        ],
         "linear_cka_equivalent": 0.9570847169891787,
         "linear_cka_nearby": 0.8484588943690405,
         "cka_difference": 0.1086258226201382
@@ -4997,6 +6625,10 @@
           0.14900493441411736
         ],
         "residualized_rsa": 0.8526723324414062,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8242589850056478,
+          0.8668203536277569
+        ],
         "linear_cka_equivalent": 0.941940149682198,
         "linear_cka_nearby": 0.8787468496280821,
         "cka_difference": 0.06319330005411583
@@ -5009,6 +6641,10 @@
           0.13736615795806867
         ],
         "residualized_rsa": 0.8372741864830964,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7915857862402031,
+          0.866651544977395
+        ],
         "linear_cka_equivalent": 0.9413857226392428,
         "linear_cka_nearby": 0.9065256703585789,
         "cka_difference": 0.03486005228066391
@@ -5021,6 +6657,10 @@
           0.14913233806502732
         ],
         "residualized_rsa": 0.8372741864830964,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7934014270717108,
+          0.8666274375059381
+        ],
         "linear_cka_equivalent": 0.918606532829887,
         "linear_cka_nearby": 0.906129535343175,
         "cka_difference": 0.01247699748671205
@@ -5033,6 +6673,10 @@
           0.14948537649455518
         ],
         "residualized_rsa": 0.8372741864830964,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.7895719247531563,
+          0.8666997659564268
+        ],
         "linear_cka_equivalent": 0.9033815826811669,
         "linear_cka_nearby": 0.9102079638453666,
         "cka_difference": -0.006826381164199757
@@ -5045,6 +6689,10 @@
           0.22504694023571165
         ],
         "residualized_rsa": 0.8603714054205612,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8434235336610676,
+          0.866916860013452
+        ],
         "linear_cka_equivalent": 0.8987351507754844,
         "linear_cka_nearby": 0.9047095300244192,
         "cka_difference": -0.005974379248934847
@@ -5057,6 +6705,10 @@
           0.3649094229539801
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8719609120483673,
         "linear_cka_nearby": 0.8859957250504259,
         "cka_difference": -0.014034813002058555
@@ -5069,6 +6721,10 @@
           0.569237083069586
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.8022257876087171,
         "linear_cka_nearby": 0.8453290261569846,
         "cka_difference": -0.043103238548267475
@@ -5081,6 +6737,10 @@
           0.6596285037729296
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.7734925864340059,
         "linear_cka_nearby": 0.8237331743055714,
         "cka_difference": -0.05024058787156549
@@ -5093,6 +6753,10 @@
           0.8344306312909896
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.7320624531949789,
         "linear_cka_nearby": 0.7692571898964559,
         "cka_difference": -0.037194736701476994
@@ -5105,6 +6769,10 @@
           0.9110600712754905
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.7296252276835258,
         "linear_cka_nearby": 0.7398549264836972,
         "cka_difference": -0.010229698800171438
@@ -5117,6 +6785,10 @@
           1.0021703624985716
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.727443802563518,
         "linear_cka_nearby": 0.7740619891520926,
         "cka_difference": -0.04661818658857453
@@ -5129,6 +6801,10 @@
           1.092594180307067
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.765764247279188,
         "linear_cka_nearby": 0.8153611166961041,
         "cka_difference": -0.0495968694169161
@@ -5141,6 +6817,10 @@
           1.1884782976231145
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.7639900558542558,
         "linear_cka_nearby": 0.7719914606149768,
         "cka_difference": -0.008001404760720976
@@ -5153,6 +6833,10 @@
           1.341926111366796
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.6918969848135721,
         "linear_cka_nearby": 0.742996294685339,
         "cka_difference": -0.05109930987176692
@@ -5165,6 +6849,10 @@
           1.5856506916792332
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.5774237498732192,
         "linear_cka_nearby": 0.5538274958299161,
         "cka_difference": 0.023596254043303122
@@ -5177,6 +6865,10 @@
           1.6731062065389317
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.5240010299369231,
         "linear_cka_nearby": 0.47879675793043264,
         "cka_difference": 0.045204272006490465
@@ -5189,6 +6881,10 @@
           1.7315385228073585
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.49658281877660626,
         "linear_cka_nearby": 0.42160507817210724,
         "cka_difference": 0.07497774060449902
@@ -5201,6 +6897,10 @@
           1.769484948683738
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.5009139229416237,
         "linear_cka_nearby": 0.4283298188191287,
         "cka_difference": 0.07258410412249505
@@ -5213,6 +6913,10 @@
           1.8227534606839872
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.516887914405445,
         "linear_cka_nearby": 0.4477769645687114,
         "cka_difference": 0.0691109498367336
@@ -5225,6 +6929,10 @@
           1.8863969723386285
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.5721488823098353,
         "linear_cka_nearby": 0.46606540067930313,
         "cka_difference": 0.10608348163053216
@@ -5237,6 +6945,10 @@
           1.8812239623572555
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.5608359055191724,
         "linear_cka_nearby": 0.45798165894343934,
         "cka_difference": 0.10285424657573305
@@ -5249,6 +6961,10 @@
           1.882799728213739
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.5891709966897334,
         "linear_cka_nearby": 0.449664634270573,
         "cka_difference": 0.13950636241916037
@@ -5261,6 +6977,10 @@
           1.8765059942791522
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.6022897574053991,
         "linear_cka_nearby": 0.43554061123334087,
         "cka_difference": 0.16674914617205827
@@ -5273,6 +6993,10 @@
           1.8951349144873906
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.6044914553128633,
         "linear_cka_nearby": 0.4294165861352055,
         "cka_difference": 0.1750748691776578
@@ -5285,6 +7009,10 @@
           1.9042113562929395
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.6013317175663204,
         "linear_cka_nearby": 0.41747212698654856,
         "cka_difference": 0.18385959057977186
@@ -5297,6 +7025,10 @@
           1.9025132492522903
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.6008867859932997,
         "linear_cka_nearby": 0.4321979009386756,
         "cka_difference": 0.1686888850546241
@@ -5309,6 +7041,10 @@
           1.9019346735998
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.5882899353280613,
         "linear_cka_nearby": 0.43134346585184713,
         "cka_difference": 0.15694646947621416
@@ -5321,6 +7057,10 @@
           1.897557706685972
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.5799306216316464,
         "linear_cka_nearby": 0.434404188011145,
         "cka_difference": 0.14552643362050144
@@ -5333,6 +7073,10 @@
           1.899436529485812
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.621595745569598,
         "linear_cka_nearby": 0.4395154956871887,
         "cka_difference": 0.18208024988240928
@@ -5345,6 +7089,10 @@
           1.8984417509735572
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.6307325541401108,
         "linear_cka_nearby": 0.4435284378913883,
         "cka_difference": 0.18720411624872246
@@ -5357,6 +7105,10 @@
           1.8581465907122352
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.6712915454304771,
         "linear_cka_nearby": 0.4650932876322601,
         "cka_difference": 0.206198257798217
@@ -5369,6 +7121,10 @@
           1.816208550034471
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.6148537961489651,
         "linear_cka_nearby": 0.4599597393120707,
         "cka_difference": 0.1548940568368944
@@ -5381,6 +7137,10 @@
           1.8059404918540072
         ],
         "residualized_rsa": 0.8661457101549275,
+        "residualized_rsa_bootstrap_95_ci": [
+          0.8663623880283541,
+          0.8670616800484318
+        ],
         "linear_cka_equivalent": 0.47528812610201177,
         "linear_cka_nearby": 0.4218925136519692,
         "cka_difference": 0.05339561245004254

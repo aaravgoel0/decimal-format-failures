@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
-"""Compare pinned full-precision MLX runs with matched quantized Ollama runs."""
+"""Compare pinned official unquantized runs with matched quantized runs."""
 import json, math
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parents[1]
+
 PAIRS = {
     "Llama 3.1 8B": (
-        Path("results/llama3.1-8b__confirmatory_zero_padding__p0.jsonl"),
-        Path("results/meta-llama-Meta-Llama-3.1-8B-Instruct__confirmatory_zero_padding__p0__mlx.jsonl"),
+        ROOT / "results/llama3.1-8b__confirmatory_zero_padding__p0.jsonl",
+        ROOT / "results/meta-llama-Meta-Llama-3.1-8B-Instruct__confirmatory_zero_padding__p0__mlx.jsonl",
         "0e9e39f249a16976918f6564b8830bc894c89659",
     ),
     "Gemma 2 9B": (
-        Path("results/gemma2-9b__confirmatory_zero_padding__p0.jsonl"),
-        Path("results/google-gemma-2-9b-it__confirmatory_zero_padding__p0__mlx.jsonl"),
+        ROOT / "results/gemma2-9b__confirmatory_zero_padding__p0.jsonl",
+        ROOT / "results/google-gemma-2-9b-it__confirmatory_zero_padding__p0__mlx.jsonl",
         "11c9b309abf73637e4b6f9a3fa1e92e615547819",
     ),
 }
@@ -52,7 +54,7 @@ def main():
             subset=[r for r in full.values() if r["padded_position"]==pos]
             row[f"full_padded_position_{pos}_accuracy"]=sum(r["correct"] for r in subset)/len(subset)
         output.append(row)
-    Path("results/full_precision_analysis.json").write_text(json.dumps(output,indent=2)+"\n")
+    (ROOT / "results/full_precision_analysis.json").write_text(json.dumps(output,indent=2)+"\n")
     for row in output: print(row)
 
 if __name__=="__main__": main()

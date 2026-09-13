@@ -10,17 +10,17 @@ import matplotlib.pyplot as plt
 
 ROOT = Path(__file__).resolve().parents[1]
 payload = json.loads((ROOT / "results" / "summary.json").read_text())
-models = ["Llama 3.1 8B full precision", "Qwen3 4B Instruct 2507",
-          "Gemma 2 9B full precision"]
+models = ["Llama 3.1 8B official", "Qwen3 4B Instruct 2507",
+          "Gemma 2 9B official"]
 data = [next(row for row in payload if row["model"] == model and
              row["task"] == "Zero-padding held-out" and
              row["prompt_variant"] == 0) for model in models]
 figures = ROOT / "figures"
 figures.mkdir(exist_ok=True)
 
-short = {"Llama 3.1 8B full precision": "Llama 3.1 8B",
+short = {"Llama 3.1 8B official": "Llama 3.1 8B",
          "Qwen3 4B Instruct 2507": "Qwen3 4B Instruct 2507",
-         "Gemma 2 9B full precision": "Gemma 2 9B"}
+         "Gemma 2 9B official": "Gemma 2 9B"}
 labels = [short[x["model"]] for x in data]
 colors = ["#4062BB", "#59A14F", "#E15759"]
 
