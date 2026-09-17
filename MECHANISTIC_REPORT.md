@@ -128,6 +128,26 @@ models because the padded component had no measurable effect and the short
 component equaled the joint patch. These contrasts were designed after the
 joint outcomes were inspected and are exploratory rather than confirmatory.
 
+## Final many-random-site causal confirmation
+
+A final frozen test applied the already selected layer for each model to 150
+new cases, whole numbers 701-850, and three new prompt templates. It evaluated
+canonical-only, padded-only, and joint aligned patches against 50 unique
+equal-size random non-numeral position sets per component and case. Intervals
+use 10,000 case bootstraps.
+
+| Model | Canonical-only contrast | Padded-only contrast | Joint contrast | Joint 95% CI | Joint criterion |
+|---|---:|---:|---:|---:|---:|
+| Llama 3.1 8B | -0.857 | +0.572 | -0.229 | [-0.316, -0.148] | Fail |
+| Qwen3 4B | +0.308 | +0.441 | +0.480 | [+0.414, +0.545] | Pass |
+| Gemma 2 9B | -0.922 | +2.254 | -0.026 | [-0.685, +0.668] | Fail |
+
+Qwen's joint contrast is positive in all three new templates and passes the
+prespecified criterion. Gemma and Llama have positive padded-only contrasts,
+but their canonical-only contrasts are negative, so the joint intervention
+cancels or reverses the component effect. These results rule out using a
+positive component patch alone as evidence for a complete localized mechanism.
+
 ## Broad-format robustness
 
 A separate fixed 500-case dataset balanced negative decimals, leading zeros,
@@ -154,11 +174,12 @@ limitation rather than an excluded result.
 
 The blocks converge on a comparative result, not a universal decimal circuit.
 Qwen has the strongest generalization evidence: controlled geometry, the
-original held-out patch, both new prompt templates, and selective donor
-corruption all agree. Gemma has controlled geometry and selective corruption,
-but its positive easy-source patch is prompt-contingent on untouched prompts.
-Llama's numeral-final geometry is not stable across prompt order and its
-aligned patches fail the random-position control. Late answer-position signals
-in all models must not be mistaken for a numeral-specific mechanism. Full layer
-curves, raw case rows, selection logic, permutations, and bootstrap outputs are
-retained in `results/`.
+original held-out patch, both earlier new prompt templates, selective donor
+corruption, and the final joint-patch test agree. Gemma has controlled geometry
+and selective corruption, but its easy-source rescue is prompt-contingent and
+its final joint patch is null. Llama's numeral-final geometry is not stable
+across prompt order, and its final joint patch is negative relative to random
+sites. Late answer-position signals and positive component patches must not be
+mistaken for a complete numeral-specific mechanism. Full layer curves, raw case
+rows, selection logic, permutations, and bootstrap outputs are retained in
+`results/`.

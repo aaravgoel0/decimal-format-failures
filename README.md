@@ -16,10 +16,17 @@ The unpublished LessWrong draft is intentionally not included here.
 - In a new fully paired test with equality-label position controlled, Qwen and
   Gemma still showed large padded-first disadvantages under constrained-label
   scoring. Llama was poor in both orders and strongly label biased.
+- In a fresh ten-template confirmation with 1,500 paired items per model, the
+  pooled padded-first effect was negative for all three models. Only Gemma met
+  the strict requirement that every template-level interval point in the same
+  direction.
 - Qwen passes the fixed-site causal-generalization criterion on two new prompt
   templates and an incompatible-value donor test.
 - Gemma passes the donor test, but its easy-source rescue does not generalize
   across both new prompt templates.
+- In a final 150-case test with 50 matched random-site controls per component
+  and case, only Qwen's joint numeral patch passes. Gemma and Llama have
+  positive padded-only effects that cancel or reverse under joint patching.
 - Canonicalization improves average broad-format accuracy in all three models,
   but harms some format families and is not a universal fix.
 
@@ -77,6 +84,11 @@ python scripts/analyze_token_decomposition.py
 python scripts/analyze_format_robustness.py
 python scripts/validate_paired_generalization.py
 python scripts/analyze_paired_generalization.py
+python scripts/analyze_prompt_robustness_confirmation.py
+python scripts/finalize_prompt_robustness_analysis.py
+python scripts/analyze_causal_random_site_confirmation.py
+python scripts/validate_final_confirmation.py
+python scripts/build_final_confirmation_figures.py
 ```
 
 The three activation arrays total about 1.7 GB and are excluded from the public

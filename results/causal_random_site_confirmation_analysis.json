@@ -1,0 +1,1152 @@
+{
+  "models": [
+    {
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "fixed_layer_zero_based": 2,
+      "hard_accuracy": 1.0,
+      "easy_accuracy": 1.0,
+      "components": {
+        "short": {
+          "n_cases": 150,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.33,
+          "aligned_bootstrap_95_ci": [
+            0.26916666666666667,
+            0.39
+          ],
+          "random_case_mean_effect": 0.02205,
+          "random_mean_bootstrap_95_ci": [
+            -0.0012345833333333347,
+            0.04501708333333333
+          ],
+          "aligned_minus_random": 0.30794999999999995,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.25584874999999996,
+            0.3621016666666666
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 102,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.68,
+          "prespecified_primary_passed": false
+        },
+        "padded": {
+          "n_cases": 150,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.4666666666666667,
+          "aligned_bootstrap_95_ci": [
+            0.40166666666666667,
+            0.5333333333333333
+          ],
+          "random_case_mean_effect": 0.026083333333333333,
+          "random_mean_bootstrap_95_ci": [
+            0.0030825000000000006,
+            0.0496
+          ],
+          "aligned_minus_random": 0.4405833333333334,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.38204875000000005,
+            0.5020345833333333
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 118,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.7866666666666666,
+          "prespecified_primary_passed": false
+        },
+        "joint": {
+          "n_cases": 150,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.5116666666666667,
+          "aligned_bootstrap_95_ci": [
+            0.44083333333333335,
+            0.5841666666666666
+          ],
+          "random_case_mean_effect": 0.03216666666666668,
+          "random_mean_bootstrap_95_ci": [
+            0.00913291666666667,
+            0.05441666666666666
+          ],
+          "aligned_minus_random": 0.4795000000000001,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.41423125,
+            0.5447170833333331
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 120,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.8,
+          "prespecified_primary_passed": true
+        }
+      },
+      "component_comparisons": [
+        {
+          "left": "short",
+          "right": "padded",
+          "aligned_effect_difference": -0.13666666666666666,
+          "aligned_effect_difference_bootstrap_95_ci": [
+            -0.21,
+            -0.07
+          ],
+          "centered_difference": -0.13263333333333335,
+          "centered_difference_bootstrap_95_ci": [
+            -0.20538416666666667,
+            -0.06589916666666669
+          ]
+        },
+        {
+          "left": "joint",
+          "right": "short",
+          "aligned_effect_difference": 0.18166666666666667,
+          "aligned_effect_difference_bootstrap_95_ci": [
+            0.13166666666666665,
+            0.23166666666666666
+          ],
+          "centered_difference": 0.17154999999999998,
+          "centered_difference_bootstrap_95_ci": [
+            0.12201458333333334,
+            0.22113375000000002
+          ]
+        },
+        {
+          "left": "joint",
+          "right": "padded",
+          "aligned_effect_difference": 0.045,
+          "aligned_effect_difference_bootstrap_95_ci": [
+            -0.028333333333333332,
+            0.115
+          ],
+          "centered_difference": 0.03891666666666666,
+          "centered_difference_bootstrap_95_ci": [
+            -0.03558416666666667,
+            0.10695083333333333
+          ]
+        }
+      ],
+      "template_strata": [
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.2775,
+          "aligned_bootstrap_95_ci": [
+            0.17993750000000006,
+            0.38
+          ],
+          "random_case_mean_effect": 0.012850000000000002,
+          "random_mean_bootstrap_95_ci": [
+            -0.023249999999999996,
+            0.04765
+          ],
+          "aligned_minus_random": 0.26465,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.18099625000000003,
+            0.35314999999999996
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 30,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.6,
+          "prespecified_primary_passed": false,
+          "template_index": 0,
+          "component": "short"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.435,
+          "aligned_bootstrap_95_ci": [
+            0.36,
+            0.5075
+          ],
+          "random_case_mean_effect": 0.015900000000000004,
+          "random_mean_bootstrap_95_ci": [
+            -0.020851249999999998,
+            0.0506
+          ],
+          "aligned_minus_random": 0.41910000000000003,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.3602000000000001,
+            0.47725
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 45,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.9,
+          "prespecified_primary_passed": false,
+          "template_index": 0,
+          "component": "padded"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.6175,
+          "aligned_bootstrap_95_ci": [
+            0.5125,
+            0.725
+          ],
+          "random_case_mean_effect": 0.02335,
+          "random_mean_bootstrap_95_ci": [
+            -0.009649999999999995,
+            0.055601249999999984
+          ],
+          "aligned_minus_random": 0.59415,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.5018987500000001,
+            0.6872012499999998
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 48,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.96,
+          "prespecified_primary_passed": true,
+          "template_index": 0,
+          "component": "joint"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.2125,
+          "aligned_bootstrap_95_ci": [
+            0.0875,
+            0.3425
+          ],
+          "random_case_mean_effect": -0.0127,
+          "random_mean_bootstrap_95_ci": [
+            -0.059152500000000004,
+            0.034851249999999986
+          ],
+          "aligned_minus_random": 0.22520000000000004,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.11434875,
+            0.33650125
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 25,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.5,
+          "prespecified_primary_passed": false,
+          "template_index": 1,
+          "component": "short"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.43,
+          "aligned_bootstrap_95_ci": [
+            0.285,
+            0.5875
+          ],
+          "random_case_mean_effect": -0.0072999999999999975,
+          "random_mean_bootstrap_95_ci": [
+            -0.05375125,
+            0.04050124999999998
+          ],
+          "aligned_minus_random": 0.43729999999999997,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.30094875,
+            0.5855499999999999
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 31,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.62,
+          "prespecified_primary_passed": false,
+          "template_index": 1,
+          "component": "padded"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.22,
+          "aligned_bootstrap_95_ci": [
+            0.1025,
+            0.345
+          ],
+          "random_case_mean_effect": -0.00775,
+          "random_mean_bootstrap_95_ci": [
+            -0.05540124999999999,
+            0.03855
+          ],
+          "aligned_minus_random": 0.22775,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.11794624999999999,
+            0.34525249999999996
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 25,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.5,
+          "prespecified_primary_passed": true,
+          "template_index": 1,
+          "component": "joint"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.5,
+          "aligned_bootstrap_95_ci": [
+            0.4325,
+            0.57
+          ],
+          "random_case_mean_effect": 0.066,
+          "random_mean_bootstrap_95_ci": [
+            0.0334,
+            0.1001
+          ],
+          "aligned_minus_random": 0.434,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.3703975,
+            0.50025
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 47,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.94,
+          "prespecified_primary_passed": false,
+          "template_index": 2,
+          "component": "short"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.535,
+          "aligned_bootstrap_95_ci": [
+            0.44,
+            0.63
+          ],
+          "random_case_mean_effect": 0.06965,
+          "random_mean_bootstrap_95_ci": [
+            0.037000000000000005,
+            0.10275000000000001
+          ],
+          "aligned_minus_random": 0.46535,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.38165000000000004,
+            0.55545
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 42,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.84,
+          "prespecified_primary_passed": false,
+          "template_index": 2,
+          "component": "padded"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.6975,
+          "aligned_bootstrap_95_ci": [
+            0.5975,
+            0.8
+          ],
+          "random_case_mean_effect": 0.0809,
+          "random_mean_bootstrap_95_ci": [
+            0.0483975,
+            0.11430125
+          ],
+          "aligned_minus_random": 0.6165999999999999,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.5167962500000001,
+            0.7194025000000001
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 47,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.94,
+          "prespecified_primary_passed": true,
+          "template_index": 2,
+          "component": "joint"
+        }
+      ]
+    },
+    {
+      "model": "google/gemma-2-9b-it",
+      "revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+      "fixed_layer_zero_based": 7,
+      "hard_accuracy": 0.8666666666666667,
+      "easy_accuracy": 1.0,
+      "components": {
+        "short": {
+          "n_cases": 150,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": -0.9229166666666667,
+          "aligned_bootstrap_95_ci": [
+            -1.3125,
+            -0.5129062500000001
+          ],
+          "random_case_mean_effect": -0.0006416666666666656,
+          "random_mean_bootstrap_95_ci": [
+            -0.01585,
+            0.014733541666666662
+          ],
+          "aligned_minus_random": -0.9222750000000001,
+          "aligned_minus_random_bootstrap_95_ci": [
+            -1.3150702083333332,
+            -0.5110322916666667
+          ],
+          "randomization_p_one_sided": 1.0,
+          "aligned_incorrect_to_correct_flips": 9,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 34,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.22666666666666666,
+          "prespecified_primary_passed": false
+        },
+        "padded": {
+          "n_cases": 150,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 2.245,
+          "aligned_bootstrap_95_ci": [
+            1.8228854166666668,
+            2.6879166666666667
+          ],
+          "random_case_mean_effect": -0.008475000000000002,
+          "random_mean_bootstrap_95_ci": [
+            -0.02514395833333333,
+            0.008233958333333326
+          ],
+          "aligned_minus_random": 2.253475,
+          "aligned_minus_random_bootstrap_95_ci": [
+            1.8380714583333335,
+            2.698839583333333
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 20,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 144,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.96,
+          "prespecified_primary_passed": false
+        },
+        "joint": {
+          "n_cases": 150,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": -0.05416666666666667,
+          "aligned_bootstrap_95_ci": [
+            -0.72459375,
+            0.6379166666666667
+          ],
+          "random_case_mean_effect": -0.028583333333333336,
+          "random_mean_bootstrap_95_ci": [
+            -0.04894229166666666,
+            -0.008058333333333334
+          ],
+          "aligned_minus_random": -0.025583333333333347,
+          "aligned_minus_random_bootstrap_95_ci": [
+            -0.6847139583333334,
+            0.6683327083333332
+          ],
+          "randomization_p_one_sided": 0.9035096490350965,
+          "aligned_incorrect_to_correct_flips": 19,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 67,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.44666666666666666,
+          "prespecified_primary_passed": false
+        }
+      },
+      "component_comparisons": [
+        {
+          "left": "short",
+          "right": "padded",
+          "aligned_effect_difference": -3.1679166666666667,
+          "aligned_effect_difference_bootstrap_95_ci": [
+            -3.6045833333333333,
+            -2.7549895833333333
+          ],
+          "centered_difference": -3.17575,
+          "centered_difference_bootstrap_95_ci": [
+            -3.616959375,
+            -2.761763333333333
+          ]
+        },
+        {
+          "left": "joint",
+          "right": "short",
+          "aligned_effect_difference": 0.86875,
+          "aligned_effect_difference_bootstrap_95_ci": [
+            0.44875,
+            1.29125
+          ],
+          "centered_difference": 0.8966916666666667,
+          "centered_difference_bootstrap_95_ci": [
+            0.4829570833333333,
+            1.3349341666666665
+          ]
+        },
+        {
+          "left": "joint",
+          "right": "padded",
+          "aligned_effect_difference": -2.299166666666667,
+          "aligned_effect_difference_bootstrap_95_ci": [
+            -2.7433541666666663,
+            -1.8741145833333341
+          ],
+          "centered_difference": -2.2790583333333334,
+          "centered_difference_bootstrap_95_ci": [
+            -2.7195758333333333,
+            -1.852468125
+          ]
+        }
+      ],
+      "template_strata": [
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": -1.89625,
+          "aligned_bootstrap_95_ci": [
+            -2.35375,
+            -1.45125
+          ],
+          "random_case_mean_effect": -0.0024499999999999986,
+          "random_mean_bootstrap_95_ci": [
+            -0.029725625000000002,
+            0.026975000000000002
+          ],
+          "aligned_minus_random": -1.8938,
+          "aligned_minus_random_bootstrap_95_ci": [
+            -2.3499543750000003,
+            -1.4607443750000002
+          ],
+          "randomization_p_one_sided": 1.0,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 3,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.06,
+          "prespecified_primary_passed": false,
+          "template_index": 0,
+          "component": "short"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 2.30875,
+          "aligned_bootstrap_95_ci": [
+            1.74125,
+            2.97503125
+          ],
+          "random_case_mean_effect": -0.007975,
+          "random_mean_bootstrap_95_ci": [
+            -0.03725125,
+            0.02375124999999998
+          ],
+          "aligned_minus_random": 2.316725,
+          "aligned_minus_random_bootstrap_95_ci": [
+            1.7388750000000002,
+            3.0172393749999995
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 5,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 50,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 1.0,
+          "prespecified_primary_passed": false,
+          "template_index": 0,
+          "component": "padded"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": -1.10625,
+          "aligned_bootstrap_95_ci": [
+            -2.13,
+            -0.09246875000000046
+          ],
+          "random_case_mean_effect": -0.03585,
+          "random_mean_bootstrap_95_ci": [
+            -0.072125,
+            0.003374999999999997
+          ],
+          "aligned_minus_random": -1.0703999999999998,
+          "aligned_minus_random_bootstrap_95_ci": [
+            -2.05357875,
+            -0.08312000000000058
+          ],
+          "randomization_p_one_sided": 1.0,
+          "aligned_incorrect_to_correct_flips": 5,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 16,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.32,
+          "prespecified_primary_passed": false,
+          "template_index": 0,
+          "component": "joint"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 1.3425,
+          "aligned_bootstrap_95_ci": [
+            0.66,
+            2.08375
+          ],
+          "random_case_mean_effect": -0.006875,
+          "random_mean_bootstrap_95_ci": [
+            -0.03255062499999999,
+            0.018600624999999992
+          ],
+          "aligned_minus_random": 1.349375,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.683840625,
+            2.083235
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 9,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 28,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.56,
+          "prespecified_primary_passed": false,
+          "template_index": 1,
+          "component": "short"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 2.98,
+          "aligned_bootstrap_95_ci": [
+            2.17375,
+            3.8887812499999996
+          ],
+          "random_case_mean_effect": -0.024824999999999996,
+          "random_mean_bootstrap_95_ci": [
+            -0.05187749999999999,
+            0.002124999999999999
+          ],
+          "aligned_minus_random": 3.0048250000000003,
+          "aligned_minus_random_bootstrap_95_ci": [
+            2.2146225,
+            3.8856599999999997
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 10,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 50,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 1.0,
+          "prespecified_primary_passed": false,
+          "template_index": 1,
+          "component": "padded"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 2.985,
+          "aligned_bootstrap_95_ci": [
+            1.97875,
+            4.0925
+          ],
+          "random_case_mean_effect": -0.0568,
+          "random_mean_bootstrap_95_ci": [
+            -0.086675625,
+            -0.028175
+          ],
+          "aligned_minus_random": 3.0418000000000003,
+          "aligned_minus_random_bootstrap_95_ci": [
+            2.01513875,
+            4.139053124999999
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 10,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 43,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.86,
+          "prespecified_primary_passed": true,
+          "template_index": 1,
+          "component": "joint"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": -2.215,
+          "aligned_bootstrap_95_ci": [
+            -2.59,
+            -1.8574687500000004
+          ],
+          "random_case_mean_effect": 0.0074,
+          "random_mean_bootstrap_95_ci": [
+            -0.0187525,
+            0.03230062499999999
+          ],
+          "aligned_minus_random": -2.2224,
+          "aligned_minus_random_bootstrap_95_ci": [
+            -2.601694375,
+            -1.8654956249999997
+          ],
+          "randomization_p_one_sided": 1.0,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 3,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.06,
+          "prespecified_primary_passed": false,
+          "template_index": 2,
+          "component": "short"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 1.44625,
+          "aligned_bootstrap_95_ci": [
+            0.82496875,
+            2.20253125
+          ],
+          "random_case_mean_effect": 0.007375,
+          "random_mean_bootstrap_95_ci": [
+            -0.0202,
+            0.03357562499999999
+          ],
+          "aligned_minus_random": 1.4388750000000001,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.7914931249999999,
+            2.190271874999999
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 5,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 44,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.88,
+          "prespecified_primary_passed": false,
+          "template_index": 2,
+          "component": "padded"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": -2.04125,
+          "aligned_bootstrap_95_ci": [
+            -2.9475,
+            -1.13
+          ],
+          "random_case_mean_effect": 0.006900000000000001,
+          "random_mean_bootstrap_95_ci": [
+            -0.03165,
+            0.042201874999999965
+          ],
+          "aligned_minus_random": -2.04815,
+          "aligned_minus_random_bootstrap_95_ci": [
+            -2.953204375,
+            -1.1353225
+          ],
+          "randomization_p_one_sided": 1.0,
+          "aligned_incorrect_to_correct_flips": 4,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.0,
+          "cases_aligned_at_or_above_random_95th_percentile": 8,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.16,
+          "prespecified_primary_passed": false,
+          "template_index": 2,
+          "component": "joint"
+        }
+      ]
+    },
+    {
+      "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "fixed_layer_zero_based": 8,
+      "hard_accuracy": 0.66,
+      "easy_accuracy": 0.56,
+      "components": {
+        "short": {
+          "n_cases": 150,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": -0.8575,
+          "aligned_bootstrap_95_ci": [
+            -0.9516666666666667,
+            -0.7616666666666667
+          ],
+          "random_case_mean_effect": -0.0008166666666666665,
+          "random_mean_bootstrap_95_ci": [
+            -0.013333750000000002,
+            0.011499999999999998
+          ],
+          "aligned_minus_random": -0.8566833333333334,
+          "aligned_minus_random_bootstrap_95_ci": [
+            -0.9513166666666666,
+            -0.7609483333333333
+          ],
+          "randomization_p_one_sided": 1.0,
+          "aligned_incorrect_to_correct_flips": 1,
+          "random_incorrect_to_correct_flips_mean_per_draw": 2.88,
+          "cases_aligned_at_or_above_random_95th_percentile": 11,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.07333333333333333,
+          "prespecified_primary_passed": false
+        },
+        "padded": {
+          "n_cases": 150,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.5733333333333334,
+          "aligned_bootstrap_95_ci": [
+            0.5083333333333333,
+            0.6375
+          ],
+          "random_case_mean_effect": 0.001083333333333334,
+          "random_mean_bootstrap_95_ci": [
+            -0.01128333333333333,
+            0.013749999999999997
+          ],
+          "aligned_minus_random": 0.57225,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.5085329166666668,
+            0.6338666666666667
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 37,
+          "random_incorrect_to_correct_flips_mean_per_draw": 3.42,
+          "cases_aligned_at_or_above_random_95th_percentile": 128,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.8533333333333334,
+          "prespecified_primary_passed": false
+        },
+        "joint": {
+          "n_cases": 150,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": -0.22833333333333333,
+          "aligned_bootstrap_95_ci": [
+            -0.315,
+            -0.1425
+          ],
+          "random_case_mean_effect": 0.001066666666666666,
+          "random_mean_bootstrap_95_ci": [
+            -0.012450416666666667,
+            0.014483333333333329
+          ],
+          "aligned_minus_random": -0.22940000000000002,
+          "aligned_minus_random_bootstrap_95_ci": [
+            -0.31618541666666666,
+            -0.14821583333333338
+          ],
+          "randomization_p_one_sided": 1.0,
+          "aligned_incorrect_to_correct_flips": 7,
+          "random_incorrect_to_correct_flips_mean_per_draw": 3.64,
+          "cases_aligned_at_or_above_random_95th_percentile": 32,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.21333333333333335,
+          "prespecified_primary_passed": false
+        }
+      },
+      "component_comparisons": [
+        {
+          "left": "short",
+          "right": "padded",
+          "aligned_effect_difference": -1.4308333333333334,
+          "aligned_effect_difference_bootstrap_95_ci": [
+            -1.5633333333333332,
+            -1.2941666666666667
+          ],
+          "centered_difference": -1.4289333333333332,
+          "centered_difference_bootstrap_95_ci": [
+            -1.5586408333333335,
+            -1.297365
+          ]
+        },
+        {
+          "left": "joint",
+          "right": "short",
+          "aligned_effect_difference": 0.6291666666666667,
+          "aligned_effect_difference_bootstrap_95_ci": [
+            0.5308333333333334,
+            0.7266666666666667
+          ],
+          "centered_difference": 0.6272833333333333,
+          "centered_difference_bootstrap_95_ci": [
+            0.5286124999999999,
+            0.7235354166666667
+          ]
+        },
+        {
+          "left": "joint",
+          "right": "padded",
+          "aligned_effect_difference": -0.8016666666666666,
+          "aligned_effect_difference_bootstrap_95_ci": [
+            -0.8841666666666667,
+            -0.7233333333333334
+          ],
+          "centered_difference": -0.80165,
+          "centered_difference_bootstrap_95_ci": [
+            -0.8837333333333334,
+            -0.7204141666666667
+          ]
+        }
+      ],
+      "template_strata": [
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": -1.345,
+          "aligned_bootstrap_95_ci": [
+            -1.455,
+            -1.2325
+          ],
+          "random_case_mean_effect": 0.009750000000000002,
+          "random_mean_bootstrap_95_ci": [
+            -0.012751250000000004,
+            0.03215
+          ],
+          "aligned_minus_random": -1.35475,
+          "aligned_minus_random_bootstrap_95_ci": [
+            -1.4676512499999999,
+            -1.2361000000000002
+          ],
+          "randomization_p_one_sided": 1.0,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.94,
+          "cases_aligned_at_or_above_random_95th_percentile": 0,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.0,
+          "prespecified_primary_passed": false,
+          "template_index": 0,
+          "component": "short"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.5775,
+          "aligned_bootstrap_95_ci": [
+            0.4675,
+            0.685
+          ],
+          "random_case_mean_effect": 0.01435,
+          "random_mean_bootstrap_95_ci": [
+            -0.007951250000000002,
+            0.03620124999999998
+          ],
+          "aligned_minus_random": 0.56315,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.45513875,
+            0.6691524999999999
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 5,
+          "random_incorrect_to_correct_flips_mean_per_draw": 1.24,
+          "cases_aligned_at_or_above_random_95th_percentile": 37,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.74,
+          "prespecified_primary_passed": false,
+          "template_index": 0,
+          "component": "padded"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": -0.63,
+          "aligned_bootstrap_95_ci": [
+            -0.7825,
+            -0.4775
+          ],
+          "random_case_mean_effect": 0.025349999999999994,
+          "random_mean_bootstrap_95_ci": [
+            0.002248750000000001,
+            0.04834999999999999
+          ],
+          "aligned_minus_random": -0.65535,
+          "aligned_minus_random_bootstrap_95_ci": [
+            -0.8036574999999999,
+            -0.5066975
+          ],
+          "randomization_p_one_sided": 1.0,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 1.18,
+          "cases_aligned_at_or_above_random_95th_percentile": 0,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.0,
+          "prespecified_primary_passed": false,
+          "template_index": 0,
+          "component": "joint"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": -0.2425,
+          "aligned_bootstrap_95_ci": [
+            -0.345,
+            -0.1475
+          ],
+          "random_case_mean_effect": 0.01565,
+          "random_mean_bootstrap_95_ci": [
+            -0.0057,
+            0.03625124999999998
+          ],
+          "aligned_minus_random": -0.25815,
+          "aligned_minus_random_bootstrap_95_ci": [
+            -0.35905000000000004,
+            -0.16084375000000012
+          ],
+          "randomization_p_one_sided": 1.0,
+          "aligned_incorrect_to_correct_flips": 1,
+          "random_incorrect_to_correct_flips_mean_per_draw": 1.26,
+          "cases_aligned_at_or_above_random_95th_percentile": 10,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.2,
+          "prespecified_primary_passed": false,
+          "template_index": 1,
+          "component": "short"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.41,
+          "aligned_bootstrap_95_ci": [
+            0.3275,
+            0.49006249999999907
+          ],
+          "random_case_mean_effect": 0.01815,
+          "random_mean_bootstrap_95_ci": [
+            -0.0033999999999999985,
+            0.03969999999999999
+          ],
+          "aligned_minus_random": 0.39185000000000003,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.3207475,
+            0.46175249999999995
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 7,
+          "random_incorrect_to_correct_flips_mean_per_draw": 1.32,
+          "cases_aligned_at_or_above_random_95th_percentile": 46,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.92,
+          "prespecified_primary_passed": false,
+          "template_index": 1,
+          "component": "padded"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.0575,
+          "aligned_bootstrap_95_ci": [
+            -0.06,
+            0.165
+          ],
+          "random_case_mean_effect": 0.024,
+          "random_mean_bootstrap_95_ci": [
+            0.002198749999999999,
+            0.045149999999999996
+          ],
+          "aligned_minus_random": 0.0335,
+          "aligned_minus_random_bootstrap_95_ci": [
+            -0.07724999999999999,
+            0.13435249999999999
+          ],
+          "randomization_p_one_sided": 0.047995200479952004,
+          "aligned_incorrect_to_correct_flips": 5,
+          "random_incorrect_to_correct_flips_mean_per_draw": 1.32,
+          "cases_aligned_at_or_above_random_95th_percentile": 19,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.38,
+          "prespecified_primary_passed": false,
+          "template_index": 1,
+          "component": "joint"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": -0.985,
+          "aligned_bootstrap_95_ci": [
+            -1.085,
+            -0.88
+          ],
+          "random_case_mean_effect": -0.027849999999999996,
+          "random_mean_bootstrap_95_ci": [
+            -0.04595,
+            -0.010050000000000002
+          ],
+          "aligned_minus_random": -0.9571500000000002,
+          "aligned_minus_random_bootstrap_95_ci": [
+            -1.0568024999999999,
+            -0.8495912500000004
+          ],
+          "randomization_p_one_sided": 1.0,
+          "aligned_incorrect_to_correct_flips": 0,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.68,
+          "cases_aligned_at_or_above_random_95th_percentile": 1,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.02,
+          "prespecified_primary_passed": false,
+          "template_index": 2,
+          "component": "short"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": 0.7325,
+          "aligned_bootstrap_95_ci": [
+            0.6025,
+            0.8475
+          ],
+          "random_case_mean_effect": -0.02925,
+          "random_mean_bootstrap_95_ci": [
+            -0.04815125000000001,
+            -0.010150000000000001
+          ],
+          "aligned_minus_random": 0.7617499999999999,
+          "aligned_minus_random_bootstrap_95_ci": [
+            0.6368987500000001,
+            0.87155125
+          ],
+          "randomization_p_one_sided": 9.999000099990002e-05,
+          "aligned_incorrect_to_correct_flips": 25,
+          "random_incorrect_to_correct_flips_mean_per_draw": 0.86,
+          "cases_aligned_at_or_above_random_95th_percentile": 45,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.9,
+          "prespecified_primary_passed": false,
+          "template_index": 2,
+          "component": "padded"
+        },
+        {
+          "n_cases": 50,
+          "random_sets_per_case": 50,
+          "aligned_mean_effect": -0.1125,
+          "aligned_bootstrap_95_ci": [
+            -0.21,
+            -0.015
+          ],
+          "random_case_mean_effect": -0.046150000000000004,
+          "random_mean_bootstrap_95_ci": [
+            -0.0642,
+            -0.026949999999999998
+          ],
+          "aligned_minus_random": -0.06634999999999999,
+          "aligned_minus_random_bootstrap_95_ci": [
+            -0.15930000000000002,
+            0.02245499999999993
+          ],
+          "randomization_p_one_sided": 0.9972002799720028,
+          "aligned_incorrect_to_correct_flips": 2,
+          "random_incorrect_to_correct_flips_mean_per_draw": 1.14,
+          "cases_aligned_at_or_above_random_95th_percentile": 13,
+          "fraction_cases_aligned_at_or_above_random_95th_percentile": 0.26,
+          "prespecified_primary_passed": false,
+          "template_index": 2,
+          "component": "joint"
+        }
+      ]
+    }
+  ],
+  "cross_model_joint_comparisons": [
+    {
+      "left_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "right_model": "google/gemma-2-9b-it",
+      "joint_centered_difference": 0.5050833333333332,
+      "bootstrap_95_ci": [
+        -0.21074812499999998,
+        1.2112264583333332
+      ]
+    },
+    {
+      "left_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "right_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "joint_centered_difference": 0.7088999999999999,
+      "bootstrap_95_ci": [
+        0.5987991666666667,
+        0.8207691666666665
+      ]
+    },
+    {
+      "left_model": "google/gemma-2-9b-it",
+      "right_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "joint_centered_difference": 0.20381666666666665,
+      "bootstrap_95_ci": [
+        -0.5018800000000001,
+        0.9241554166666663
+      ]
+    }
+  ]
+}

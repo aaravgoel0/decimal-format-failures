@@ -1,0 +1,31 @@
+{
+  "frozen_at": "2026-09-13",
+  "status": "prompt files frozen before prompt inspection; causal runner refrozen on 2026-09-14 before any causal outcome; all amendments documented",
+  "freeze_history": {
+    "pre_prompt_outcome_amendment_sha256": "a243d0155123e9897cd1f1ff3df9964958955f5ece10fcdc67aa46d984cf43ba",
+    "pre_prompt_outcome_causal_runner_sha256": "692f23e6e0a584c2ff63f008191eff2a0f7df5d83daeb1e25be8e618095404f3",
+    "causal_execution_refrozen_at": "2026-09-14 before any causal outcome",
+    "pre_gemma_sort_amendment_sha256": "3a71aaa3c14cdd6b832352aafa38924d4c728ab877525e1ce748679bed8d511a",
+    "pre_gemma_sort_runner_sha256": "711562e1c66c229cd929bbc9ca67483d4f5d23d534da7ad5e3477355657962ba",
+    "gemma_pending_case_order_optimized_after_completed_cases": 19,
+    "pre_wired_limit_amendment_sha256": "8ff869161c3d3070be2d9f2d91e703787b088830dd4714ad64361840b3be459e",
+    "pre_wired_limit_runner_sha256": "85f1b845a8b2949ac700d24192c81ee88a45bf6c7b6d4067df43051180f92e70",
+    "gemma_wired_limit_added_after_completed_cases": 105,
+    "gemma_wired_limit_completed_rows": 0,
+    "gemma_wired_limit_removed_before_resumption": true
+  },
+  "files": {
+    "PROMPT_ROBUSTNESS_CONFIRMATION_PROTOCOL.md": "4b1bc555e20ad93455eef898133f51063aba5657986dc2fd78e55c0aa3f7e74d",
+    "CAUSAL_RANDOM_SITE_CONFIRMATION_PROTOCOL.md": "2547f7fb56b125a13917b0673605d559f1dc1d7cb289e920f3e9c83b666b2c14",
+    "scripts/make_prompt_robustness_confirmation_dataset.py": "e917182f8274f63ef1def0587150ea7bde845231ec902095ff86d392ff13551b",
+    "scripts/make_causal_random_site_confirmation_dataset.py": "2cdaf3b1b6b31b4815f3b0c2cc134e5e597af8ef7a51bea03a9def2e0be277bc",
+    "FINAL_CONFIRMATION_OPERATIONAL_AMENDMENT.md": "7a878de18751a3009bc2d17d37ebdabe2f97045540048d2529eb552823f4f8ed",
+    "scripts/evaluate_prompt_robustness_confirmation.py": "54ea2202a078e0cac8a93f305409f243423c34fa0b7168b2f2b57dd6412fdea6",
+    "scripts/analyze_prompt_robustness_confirmation.py": "f44b1ecd88855442c540b8f578952fc1ef86e21488a64836c45e6d7b383dd09a",
+    "scripts/run_causal_random_site_confirmation.py": "85f1b845a8b2949ac700d24192c81ee88a45bf6c7b6d4067df43051180f92e70",
+    "scripts/analyze_causal_random_site_confirmation.py": "3543cbc86912f0eeb3276e9657a9832a1db76040efbc267bf0afc0cacfecf498",
+    "scripts/validate_final_confirmation.py": "51a3c30eb5b6bc58d10dedc1ede50d86f782d61b1c4e89e48c7e910cb19de43a",
+    "data/prompt_robustness_confirmation.jsonl": "961ff3a2ca0a4649896ad667255628e876c0991e46651d2db0592fbf767843ba",
+    "data/causal_random_site_confirmation.jsonl": "584d52d3087c06533e243054c5b179b16e84e062e69c6ceb52acacb312bdd5b9"
+  }
+}

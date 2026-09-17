@@ -3,7 +3,7 @@
 ## Scope
 
 This report covers unequal integers, misleading decimal pairs, equal
-zero-padded decimal pairs, two additional prompt variants, held-out tests,
+zero-padded decimal pairs, prompt-robustness confirmations, held-out tests,
 unquantized-checkpoint controls, representation analyses, and causal interventions.
 
 ## Primary results
@@ -68,6 +68,24 @@ were 47.33% and 12.67%. Five transient Gemma Metal out-of-memory attempts were
 preserved in a separate error log and rerun under identical settings. The final
 files contain 600 unique valid rows per model.
 
+## Fresh ten-template prompt confirmation
+
+A final frozen dataset contains 1,500 paired items and 3,000 prompts per model.
+It crosses ten new prompt templates, all three equality-label positions, ten
+fractional digits, five padding lengths, and both numeral orders. The outcome
+is the argmax over the exact next-token logits for labels 1, 2, and 3.
+
+| Model | Padded first | Padded second | Paired effect | 95% paired bootstrap CI | Templates with a negative interval |
+|---|---:|---:|---:|---:|---:|
+| Llama 3.1 8B | 11.33% | 25.67% | -14.33 points | -16.40 to -12.33 | 7/10 |
+| Qwen3 4B | 87.27% | 100.00% | -12.73 points | -14.47 to -11.07 | 7/10 |
+| Gemma 2 9B | 60.33% | 100.00% | -39.67 points | -42.13 to -37.20 | 10/10 |
+
+The pooled order effect is negative for every model and at every equality-label
+position. Only Gemma passes the prespecified cross-template criterion. Qwen and
+Llama each have seven template-level intervals below zero, so their pooled
+effects should not be described as template-invariant.
+
 ## Initial held-out analysis
 
 A fixed 2,000-row factorial dataset used unseen whole-number components
@@ -131,8 +149,8 @@ successfully retried before analysis.
 ## Further analyses
 
 See `MECHANISTIC_REPORT.md` for the cross-format probes, representation
-geometry, causal interventions, donor tests, token decomposition, and
-broad-format robustness results.
+geometry, causal interventions, donor tests, token decomposition, final
+many-random-site confirmation, and broad-format robustness results.
 
 ## Interpretation boundary
 
