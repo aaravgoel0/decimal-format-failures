@@ -1,0 +1,17 @@
+{
+  "frozen_at": "2026-09-17",
+  "status": "frozen before any model output",
+  "source_commits": {
+    "openai/grade-school-math": "3101c7d5072418e28b9008a6636bde82a006892c",
+    "czyssrs/FinQA": "0f16e2867befa6840783e58be38c9efb9229d742"
+  },
+  "files": {
+    "DOWNSTREAM_INVARIANCE_PROTOCOL.md": "ab5f305fbefda9858d99b43a5d711ed1e2000ac391b80cadd962462fc4292ac2",
+    "scripts/make_downstream_invariance_dataset.py": "490570feb7c672bf596c76437ccf11cb5e99172d062b1a64bab1f88988831deb",
+    "scripts/evaluate_downstream_invariance.py": "928bf6a61a623e9658b5a5da97f209e62017f893169f5db9afa41bb470fc9e0e",
+    "data/downstream_format_invariance.jsonl": "48c2f38e942fb890822352741e9aac61018e7f24434a40a72fe70d2b85706ed3"
+  },
+  "dataset_rows": 400,
+  "base_items": 200,
+  "items_per_domain": 100
+}

@@ -1,11 +1,11 @@
 # Decimal comparison failures in language models
 
 This repository contains the code, datasets, model outputs, model revisions,
-held-out tests, cross-format probes, representation analyses, causal
-interventions, and figures for a study of decimal comparison behavior in
+held-out tests, downstream evaluations, cross-format probes, representation
+analyses, causal interventions, and figures for a study of decimal comparison behavior in
 Llama 3.1 8B, Qwen3 4B, and Gemma 2 9B.
 
-The unpublished LessWrong draft is intentionally not included here.
+The manuscript is intentionally kept separate from this artifact repository.
 
 ## Main findings
 
@@ -29,6 +29,13 @@ The unpublished LessWrong draft is intentionally not included here.
   positive padded-only effects that cancel or reverse under joint patching.
 - Canonicalization improves average broad-format accuracy in all three models,
   but harms some format families and is not a universal fix.
+- On 200 decimal-bearing GSM8K and FinQA problems, canonical and padded versions
+  produced different numeric predictions in 58% to 77% of matched pairs. No
+  model-domain accuracy contrast passed the six-test multiplicity correction.
+- A frozen Qwen decomposition selected four attention heads at layer 2 using 30
+  discovery cases. Their joint aligned-minus-random margin effect was 0.646 on
+  90 held-out cases, with a 95% bootstrap interval of [0.486, 0.820], and the
+  interval remained positive in all three unseen templates.
 
 See `RESULTS_REPORT.md` for the complete result summary and
 `MECHANISTIC_REPORT.md` for the mechanistic evidence and claim boundaries.
@@ -60,6 +67,10 @@ All runs use greedy decoding.
 - `figures/`: publication figures.
 - `activations/`: row metadata for the regenerable activation arrays.
 
+The transformed GSM8K and FinQA subset retains the upstream MIT notices in
+`THIRD_PARTY_NOTICES.md`. That notice does not set a license for the rest of
+this repository.
+
 ## Setup
 
 Analysis and MLX inference were run on Apple silicon with Python 3.12.
@@ -89,6 +100,10 @@ python scripts/finalize_prompt_robustness_analysis.py
 python scripts/analyze_causal_random_site_confirmation.py
 python scripts/validate_final_confirmation.py
 python scripts/build_final_confirmation_figures.py
+python scripts/analyze_downstream_invariance.py
+python scripts/analyze_qwen_component_causal.py
+python scripts/build_downstream_figure.py
+python scripts/build_qwen_component_figure.py
 ```
 
 The three activation arrays total about 1.7 GB and are excluded from the public

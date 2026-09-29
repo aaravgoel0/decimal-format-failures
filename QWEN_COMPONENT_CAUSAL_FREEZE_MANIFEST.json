@@ -1,0 +1,20 @@
+{
+  "frozen_at": "2026-09-17",
+  "status": "frozen before discovery or held-out model outcomes",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "layer_zero_based": 2,
+  "files": {
+    "QWEN_COMPONENT_CAUSAL_PROTOCOL.md": "39663120775dba4e3115c4afafcc88b2c0ecd4111e41c71d1ecdfa41de048bf9",
+    "data/qwen_component_causal.jsonl": "c9973e4a0ccf4cac33bb4f459484b713469d43f7c8d112f444823ce1d8c3f387",
+    "scripts/make_qwen_component_causal_dataset.py": "931cebbceb3ecb57c402338900e377be9a5e88aba831a15f93379fd7c95c9aa3",
+    "scripts/qwen_component_utils.py": "221c6f448cd4c25893df0b2e3b23f674f44712ba039665913e349b287eaa59b0",
+    "scripts/run_qwen_head_discovery.py": "384856289a9166ae9ff6c52f2cc91627befc53747f1839f17efd260e4acffcf0",
+    "scripts/select_qwen_component_heads.py": "cdbe004c76a309c14751ec2b8d6f84a66fcd267c8de0aa0511d60f94a63f3272",
+    "scripts/run_qwen_component_heldout.py": "83132857fb9873053f5f8c0bf45501317fbabbf0f5f0fa08f7c5aff9da9069a0",
+    "scripts/analyze_qwen_component_causal.py": "f5a8ebd97f45ba1eecd2f6204d5d95da7348d2ea80008728995cb572eda701cd"
+  },
+  "dataset_rows": 120,
+  "discovery_rows": 30,
+  "heldout_rows": 90
+}

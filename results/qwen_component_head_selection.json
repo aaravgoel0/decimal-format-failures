@@ -1,0 +1,141 @@
+{
+  "selection_rule": "top four heads by discovery mean aligned effect minus case random mean",
+  "selected_heads": [
+    31,
+    25,
+    21,
+    6
+  ],
+  "head_ranking": [
+    {
+      "head": 31,
+      "discovery_centered_mean": 0.555
+    },
+    {
+      "head": 25,
+      "discovery_centered_mean": 0.16583333333333333
+    },
+    {
+      "head": 21,
+      "discovery_centered_mean": 0.0775
+    },
+    {
+      "head": 6,
+      "discovery_centered_mean": 0.07083333333333333
+    },
+    {
+      "head": 5,
+      "discovery_centered_mean": 0.05
+    },
+    {
+      "head": 15,
+      "discovery_centered_mean": 0.0325
+    },
+    {
+      "head": 4,
+      "discovery_centered_mean": 0.03166666666666666
+    },
+    {
+      "head": 16,
+      "discovery_centered_mean": 0.03166666666666666
+    },
+    {
+      "head": 0,
+      "discovery_centered_mean": 0.025833333333333337
+    },
+    {
+      "head": 13,
+      "discovery_centered_mean": 0.025
+    },
+    {
+      "head": 3,
+      "discovery_centered_mean": 0.020833333333333336
+    },
+    {
+      "head": 19,
+      "discovery_centered_mean": 0.018333333333333333
+    },
+    {
+      "head": 12,
+      "discovery_centered_mean": 0.0175
+    },
+    {
+      "head": 9,
+      "discovery_centered_mean": 0.01333333333333333
+    },
+    {
+      "head": 1,
+      "discovery_centered_mean": 0.011666666666666667
+    },
+    {
+      "head": 22,
+      "discovery_centered_mean": 0.009166666666666667
+    },
+    {
+      "head": 24,
+      "discovery_centered_mean": 0.009166666666666667
+    },
+    {
+      "head": 17,
+      "discovery_centered_mean": 0.008333333333333333
+    },
+    {
+      "head": 14,
+      "discovery_centered_mean": 0.004166666666666667
+    },
+    {
+      "head": 27,
+      "discovery_centered_mean": 0.003333333333333333
+    },
+    {
+      "head": 18,
+      "discovery_centered_mean": -0.0016666666666666676
+    },
+    {
+      "head": 2,
+      "discovery_centered_mean": -0.0016666666666666724
+    },
+    {
+      "head": 30,
+      "discovery_centered_mean": -0.004166666666666668
+    },
+    {
+      "head": 10,
+      "discovery_centered_mean": -0.019166666666666665
+    },
+    {
+      "head": 20,
+      "discovery_centered_mean": -0.024166666666666663
+    },
+    {
+      "head": 8,
+      "discovery_centered_mean": -0.025
+    },
+    {
+      "head": 26,
+      "discovery_centered_mean": -0.05083333333333333
+    },
+    {
+      "head": 11,
+      "discovery_centered_mean": -0.05999999999999999
+    },
+    {
+      "head": 29,
+      "discovery_centered_mean": -0.06499999999999999
+    },
+    {
+      "head": 28,
+      "discovery_centered_mean": -0.065
+    },
+    {
+      "head": 7,
+      "discovery_centered_mean": -0.06666666666666667
+    },
+    {
+      "head": 23,
+      "discovery_centered_mean": -0.07333333333333333
+    }
+  ],
+  "n_discovery_cases": 30,
+  "heldout_outcomes_inspected": false
+}

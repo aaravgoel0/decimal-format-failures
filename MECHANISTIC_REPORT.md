@@ -148,6 +148,32 @@ but their canonical-only contrasts are negative, so the joint intervention
 cancels or reverses the component effect. These results rule out using a
 positive component patch alone as evidence for a complete localized mechanism.
 
+## Qwen attention-head and MLP decomposition
+
+A frozen follow-up decomposed Qwen's zero-based layer 2 on 120 new cases with
+whole numbers 1001-1120 and three new prompt templates. Before outcome
+analysis, an exact manual reconstruction of the block matched the native block
+with maximum absolute error 0.0. All 120 numeral alignments were validated.
+The 30-case discovery split ranked all 32 heads and froze heads 31, 25, 21, and
+6. The untouched 90-case split used 20 unique equal-size random-position sets
+per case and intervention.
+
+| Intervention | Aligned effect | Random mean | Aligned minus random | 95% bootstrap CI |
+|---|---:|---:|---:|---:|
+| Four selected heads | +0.636 | -0.010 | +0.646 | [+0.486, +0.820] |
+| Full attention output | +0.436 | +0.004 | +0.432 | [+0.220, +0.643] |
+| MLP output | +0.275 | +0.012 | +0.263 | [+0.180, +0.351] |
+| Whole block | +0.018 | -2.138 | +2.156 | [+1.765, +2.547] |
+
+The selected-head contrast is positive in each of the three unseen templates,
+with lower interval bounds of 0.151, 0.741, and 0.295. This is the cleanest
+component-level localization in the study. It changes the correct-label margin
+but produces no incorrect-to-correct flips because held-out hard-order baseline
+accuracy is 98.9%. The whole-block contrast is not direct rescue: its aligned
+effect is close to zero and its large centered contrast is driven by harmful
+random patches. Full-attention effects also reverse on one template. These
+boundaries rule out interpreting the layer as a complete numerical circuit.
+
 ## Broad-format robustness
 
 A separate fixed 500-case dataset balanced negative decimals, leading zeros,
@@ -175,7 +201,8 @@ limitation rather than an excluded result.
 The blocks converge on a comparative result, not a universal decimal circuit.
 Qwen has the strongest generalization evidence: controlled geometry, the
 original held-out patch, both earlier new prompt templates, selective donor
-corruption, and the final joint-patch test agree. Gemma has controlled geometry
+corruption, the final joint-patch test, and the held-out four-head intervention
+agree. Gemma has controlled geometry
 and selective corruption, but its easy-source rescue is prompt-contingent and
 its final joint patch is null. Llama's numeral-final geometry is not stable
 across prompt order, and its final joint patch is negative relative to random

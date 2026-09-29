@@ -1,0 +1,19 @@
+{
+  "completed_at": "2026-09-18",
+  "analyzed_at": "2026-09-28",
+  "models": 3,
+  "planned_generations": 1200,
+  "successful_generations": 1198,
+  "excluded_complete_pairs": ["google/gemma-2-9b-it:finqa-036"],
+  "primary_model_domain_cells_passed_after_holm": 0,
+  "files": {
+    "scripts/evaluate_downstream_invariance_frozen.py": "928bf6a61a623e9658b5a5da97f209e62017f893169f5db9afa41bb470fc9e0e",
+    "DOWNSTREAM_INVARIANCE_OPERATIONAL_AMENDMENT.md": "85d2802df8d65edeefa870de9cc55bfaf053b3e29a8efc8bd4d428748e77856d",
+    "results/downstream_format_invariance_Qwen-Qwen3-4B-Instruct-2507.jsonl": "1ccb439481de1e0dd982260221ab733c2bc208505f926c7040624994109c4dbc",
+    "results/downstream_format_invariance_google-gemma-2-9b-it.jsonl": "4361e620230b5c91e70ed54b4c00e4257186d980cf6d503a2989cf29c457a451",
+    "results/downstream_format_invariance_meta-llama-Meta-Llama-3.1-8B-Instruct.jsonl": "d3d2aee6fe6d64482596191e9ce013ad4660a4d5c176553cefc09664fcaaef66",
+    "scripts/analyze_downstream_invariance.py": "e00c913910acb2b7bf14abd8b2fc86b621f7a26766ebea1e3eea5cac2596fa0e",
+    "results/downstream_format_invariance_analysis.json": "9e40cf58b7489f9c597a52916482e82e406ced6b5fb837f7e5abb4e0a81ad9c1",
+    "figures/downstream_format_invariance.png": "3a7b5729f440f44bf6959e3978283df831ee0c1cee194f6b7366065e1c792ddf"
+  }
+}

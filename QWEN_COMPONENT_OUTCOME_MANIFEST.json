@@ -1,0 +1,16 @@
+{
+  "completed_at": "2026-09-28",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "heldout_rows": 90,
+  "random_sets_per_case": 20,
+  "selected_heads": [31, 25, 21, 6],
+  "prespecified_selected_head_passed": true,
+  "files": {
+    "scripts/validate_qwen_component.py": "5769ee6371a31927f6594d540d88d543dd5a51ba4a472ae4ede3785bc92fbbdc",
+    "scripts/analyze_qwen_component_causal.py": "15f769cb93bdd415e0472657b5a8433f507fd3678ab805e86080a91d89bf6a92",
+    "results/qwen_component_heldout.jsonl": "4017ae19f5fe99efea0c7a29885ee85c5c3d2ef634c46286883c94aedfcc7fa6",
+    "results/qwen_component_causal_analysis.json": "daff3eef7b520816cd9b1140bbf4a4c6a43e069ce3b46a85dfcf30682f58ae71",
+    "figures/qwen_component_causal.png": "f0b4bf3422fb9d567cc68dbe3f4f3680dc157e2762aee2bedf706758c623dec9"
+  }
+}

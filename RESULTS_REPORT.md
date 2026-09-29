@@ -146,11 +146,34 @@ misleading decimals (95% CI 94.3–96.8%), with 1,000 unique valid rows in each
 final result file. Four transient Metal out-of-memory rows were removed and
 successfully retried before analysis.
 
+## Downstream value-preserving pairs
+
+The downstream test transforms 100 decimal-bearing GSM8K problems and 100
+decimal-bearing FinQA problems into matched canonical and zero-padded versions.
+Only decimal surface form changes. The primary family contains the six
+model-domain paired accuracy contrasts and uses Holm correction.
+
+| Model | Domain | Pairs | Canonical accuracy | Padded accuracy | Numeric disagreement |
+|---|---|---:|---:|---:|---:|
+| Llama 3.1 8B | GSM8K | 100 | 18.0% | 20.0% | 69.0% |
+| Llama 3.1 8B | FinQA | 100 | 12.0% | 8.0% | 70.0% |
+| Qwen3 4B | GSM8K | 100 | 30.0% | 20.0% | 67.0% |
+| Qwen3 4B | FinQA | 100 | 8.0% | 6.0% | 58.0% |
+| Gemma 2 9B | GSM8K | 100 | 5.0% | 2.0% | 77.0% |
+| Gemma 2 9B | FinQA | 99 | 12.1% | 4.0% | 72.7% |
+
+No primary accuracy contrast passed the multiplicity correction. The large
+disagreement rates therefore establish prediction instability, not a uniform
+accuracy penalty. Gemma's two conditions for one FinQA base item failed with a
+reproducible Metal out-of-memory error. The matched pair was excluded under a
+documented execution-only amendment, and the two failed rows remain preserved.
+
 ## Further analyses
 
 See `MECHANISTIC_REPORT.md` for the cross-format probes, representation
 geometry, causal interventions, donor tests, token decomposition, final
-many-random-site confirmation, and broad-format robustness results.
+many-random-site confirmation, Qwen component decomposition, and broad-format
+robustness results.
 
 ## Interpretation boundary
 

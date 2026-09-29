@@ -1,0 +1,14 @@
+{
+  "frozen_at": "2026-09-28",
+  "status": "frozen after discovery and before any held-out execution",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "layer_zero_based": 2,
+  "selection_rule": "top four heads by discovery mean aligned effect minus case random mean",
+  "selected_heads": [31, 25, 21, 6],
+  "files": {
+    "results/qwen_component_head_discovery.jsonl": "9d59a0b4a50df497c51db404a4eae318443a9bd804281300f4f3c1e0cfb44550",
+    "results/qwen_component_head_selection.json": "748d8517b52e07ece1ae5a80aeb7576101c107ba2fb374110d5dc7fc614ca317"
+  },
+  "heldout_rows_inspected": 0
+}
