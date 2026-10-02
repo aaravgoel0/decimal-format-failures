@@ -74,9 +74,9 @@ All runs use greedy decoding.
 - `figures/`: publication figures.
 - `activations/`: row metadata for the regenerable activation arrays.
 
-The transformed GSM8K and FinQA subset retains the upstream MIT notices in
-`THIRD_PARTY_NOTICES.md`. That notice does not set a license for the rest of
-this repository.
+The transformed GSM8K, FinQA, and TAT-QA subsets retain the upstream MIT
+notices in `THIRD_PARTY_NOTICES.md`. That notice does not set a license for the
+rest of this repository.
 
 ## Setup
 

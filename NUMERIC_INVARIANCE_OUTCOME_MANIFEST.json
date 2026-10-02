@@ -26,6 +26,12 @@
     "gemma_delta": 0.17,
     "all_models_passed": true
   },
+  "secondary_scale_control": {
+    "status": "not_executed",
+    "reason": "hardware_safe_loading_configuration_not_established",
+    "outputs_inspected": false,
+    "included_in_claims": false
+  },
   "sha256": {
     "protocol": "ff46e5eebbd8046234ec185fc39d6c028331423d5e41f4a1b369081b0347d8b5",
     "operational_amendment": "3e81873a6e46fdbe22cd6cd8adea12f84f7a1485ab6f0538b903e091c667786c",
@@ -39,7 +45,8 @@
     "selective_results": "0c34c722371ded54466de275b819095570b64cf3676383edad8dd3ea2e0f5a19",
     "downstream_figure": "0398da7ae6aa29ba0a2046716f9dbb7e76ae833bfd47e318a117cad4344bf1ea",
     "selective_figure": "9b9c9684fbab81fa00cb270acbcbf4431033c4d10f74c862b4bb9800a2ed5bdf",
-    "anonymous_pdf": "9595a5f9d98463f7808e572091d34dba211de9739d160c3126174e8b7cd6e77b",
-    "authored_pdf": "2e285bbf0b045abc79983289a79e7c8cf488bc03ffba5c273fc0213c17e9dd64"
+    "secondary_scale_deviation": "4c01507db6c55bee289f99e75a9eddaf4867fd91c090ba211f2b232166a009b1",
+    "anonymous_pdf": "3b8b7191da78aacc425f0d5dfe143b4a9af4148ae79a32806b3ed8f29c1a0fbe",
+    "authored_pdf": "128af3594f5e4893ed9a11568137519cfdc73831a49fa43829ec9f152eedd3bc"
   }
 }
