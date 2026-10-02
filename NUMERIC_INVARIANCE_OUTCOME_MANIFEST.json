@@ -1,0 +1,45 @@
+{
+  "completed_at": "2026-10-02",
+  "primary_models": {
+    "llama": {
+      "usable_bases": 213,
+      "pooled_disagreement": 0.8309859154929577,
+      "pooled_robust_accuracy": 0.09859154929577464
+    },
+    "qwen": {
+      "usable_bases": 213,
+      "pooled_disagreement": 0.7605633802816901,
+      "pooled_robust_accuracy": 0.15492957746478872
+    },
+    "gemma": {
+      "usable_bases": 200,
+      "excluded_tatqa_bases": 13,
+      "pooled_disagreement": 0.83,
+      "pooled_robust_accuracy": 0.11
+    }
+  },
+  "holm_family_size": 27,
+  "holm_significant_accuracy_contrasts": 7,
+  "selective_normalization": {
+    "llama_delta": 0.18833333333333332,
+    "qwen_delta": 0.15166666666666667,
+    "gemma_delta": 0.17,
+    "all_models_passed": true
+  },
+  "sha256": {
+    "protocol": "ff46e5eebbd8046234ec185fc39d6c028331423d5e41f4a1b369081b0347d8b5",
+    "operational_amendment": "3e81873a6e46fdbe22cd6cd8adea12f84f7a1485ab6f0538b903e091c667786c",
+    "downstream_dataset": "46d56b96ed9bca23f5a27b3436b2e6641f375adaa4b3fa8f0e2e506a07f211d0",
+    "selective_dataset": "5e39c2f836ceec334c5669305fa42f5e7bd2c2431f0f08de5eda23e4e5952b57",
+    "downstream_evaluator": "ad9ca6b649c43d8c5058006dba5f0df0ada25802010feacacd0cc59ac8ae0e77",
+    "downstream_analysis": "f7b71f84d6d38af3b5c8bf059f129c3fa76280f2317dbeda4d0224e8e86f56c1",
+    "selective_evaluator": "0a585b7babde8bf88c0fdf18607be2c5e33f312be443125406b66f9efee3ad3f",
+    "selective_analysis": "5ec54c57ba0d823abaa1f2beba25cb703eb3c8bb2bca0ce4e7f05f31e3331cca",
+    "downstream_results": "8d8694b117b4ef0e036feb8800d976bc9229b68cb15154d17b3cde6006de0da7",
+    "selective_results": "0c34c722371ded54466de275b819095570b64cf3676383edad8dd3ea2e0f5a19",
+    "downstream_figure": "0398da7ae6aa29ba0a2046716f9dbb7e76ae833bfd47e318a117cad4344bf1ea",
+    "selective_figure": "9b9c9684fbab81fa00cb270acbcbf4431033c4d10f74c862b4bb9800a2ed5bdf",
+    "anonymous_pdf": "9595a5f9d98463f7808e572091d34dba211de9739d160c3126174e8b7cd6e77b",
+    "authored_pdf": "2e285bbf0b045abc79983289a79e7c8cf488bc03ffba5c273fc0213c17e9dd64"
+  }
+}

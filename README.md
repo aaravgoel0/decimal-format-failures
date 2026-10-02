@@ -1,14 +1,21 @@
-# Decimal comparison failures in language models
+# Numerical format sensitivity in language models
 
 This repository contains the code, datasets, model outputs, model revisions,
-held-out tests, downstream evaluations, cross-format probes, representation
-analyses, causal interventions, and figures for a study of decimal comparison behavior in
-Llama 3.1 8B, Qwen3 4B, and Gemma 2 9B.
+held-out tests, downstream evaluations, mitigation tests, cross-format probes,
+representation analyses, causal interventions, and figures for a study of
+numerical format sensitivity in Llama 3.1 8B, Qwen3 4B, and Gemma 2 9B.
 
 The manuscript is intentionally kept separate from this artifact repository.
 
 ## Main findings
 
+- On 213 untouched GSM8K, FinQA, and TAT-QA problems, four exact-value numeral
+  forms produced different normalized predictions on 76.1% to 83.1% of pooled
+  items. Seven of 27 prespecified domain-level accuracy contrasts survived Holm
+  correction.
+- A selective policy that normalizes leading-zero and scientific notation while
+  preserving negative decimals, long fractions, and signed zero improved fresh
+  600-case accuracy by 15.2 to 18.8 points across all three models.
 - Llama 3.1 8B compares ordinary integers almost perfectly but is highly
   sensitive to decimal formatting, prompt wording, and numeral presentation
   order.
@@ -29,7 +36,7 @@ The manuscript is intentionally kept separate from this artifact repository.
   positive padded-only effects that cancel or reverse under joint patching.
 - Canonicalization improves average broad-format accuracy in all three models,
   but harms some format families and is not a universal fix.
-- On 200 decimal-bearing GSM8K and FinQA problems, canonical and padded versions
+- In the earlier 200-problem GSM8K and FinQA test, canonical and padded versions
   produced different numeric predictions in 58% to 77% of matched pairs. No
   model-domain accuracy contrast passed the six-test multiplicity correction.
 - A frozen Qwen decomposition selected four attention heads at layer 2 using 30
@@ -104,6 +111,9 @@ python scripts/analyze_downstream_invariance.py
 python scripts/analyze_qwen_component_causal.py
 python scripts/build_downstream_figure.py
 python scripts/build_qwen_component_figure.py
+python scripts/analyze_numeric_invariance.py
+python scripts/analyze_selective_normalization.py
+python scripts/build_numeric_invariance_figures.py
 ```
 
 The three activation arrays total about 1.7 GB and are excluded from the public

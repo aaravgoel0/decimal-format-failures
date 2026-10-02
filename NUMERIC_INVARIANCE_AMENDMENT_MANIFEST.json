@@ -1,0 +1,26 @@
+{
+  "recorded_before_model_outputs": true,
+  "operational_amendment_sha256": "3e81873a6e46fdbe22cd6cd8adea12f84f7a1485ab6f0538b903e091c667786c",
+  "resume_corrected_evaluator_sha256": "ad9ca6b649c43d8c5058006dba5f0df0ada25802010feacacd0cc59ac8ae0e77",
+  "amended_generator_sha256": "e30ca306e584f51e83b30697977f13b540a0b1c23b2ab2450ad43252571df123",
+  "downstream_dataset_sha256": "46d56b96ed9bca23f5a27b3436b2e6641f375adaa4b3fa8f0e2e506a07f211d0",
+  "selective_confirmation_dataset_sha256": "5e39c2f836ceec334c5669305fa42f5e7bd2c2431f0f08de5eda23e4e5952b57",
+  "analysis_sha256": {
+    "downstream": "f7b71f84d6d38af3b5c8bf059f129c3fa76280f2317dbeda4d0224e8e86f56c1",
+    "selective_normalization": "5ec54c57ba0d823abaa1f2beba25cb703eb3c8bb2bca0ce4e7f05f31e3331cca"
+  },
+  "source_sha256": {
+    "gsm8k_test": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14",
+    "finqa_test": "831dbfb2e785dbc227f895ce3f24046433467aec67b09db2bd6ac7692a8a30dc",
+    "tatqa_dev": "8da095a819af6db3c14877c6df2d4d29960e41d1a63dd1fa853507bd2a616af5",
+    "tatqa_license": "46e27ffbc49c3fd44a9595c2213f8a5f4319a81b53238e49ce1eec39e7e25662"
+  },
+  "base_items": {
+    "gsm8k": 13,
+    "finqa": 100,
+    "tatqa": 100,
+    "total": 213
+  },
+  "forms_per_item": 4,
+  "total_prompts": 852
+}
