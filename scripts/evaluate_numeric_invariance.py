@@ -35,6 +35,14 @@ def parse_prediction(raw):
     return value, is_percent, "ok"
 
 
+def numerically_equal(left, right):
+    """Compare parsed numeric strings by value, not textual formatting."""
+    try:
+        return Decimal(str(left)) == Decimal(str(right))
+    except (InvalidOperation, TypeError, ValueError):
+        return False
+
+
 def build_user(row):
     suffix = ("The expected answer is a percentage. Include the percent sign."
               if row["answer_is_percent"] else
@@ -98,8 +106,8 @@ def main():
             value, is_percent, parse_status = parse_prediction(raw)
         except Exception as exc:
             raw, value, is_percent, parse_status, error = "", None, None, "error", repr(exc)
-        correct = (parse_status == "ok" and value == row["answer_value"] and
-                   (not row["answer_is_percent"] or is_percent))
+        correct = (parse_status == "ok" and numerically_equal(value, row["answer_value"]) and
+                   bool(is_percent) == bool(row["answer_is_percent"]))
         result = dict(row)
         result.update({
             "model": args.model,

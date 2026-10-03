@@ -9,7 +9,7 @@ from pathlib import Path
 
 from huggingface_hub import InferenceClient, __version__ as hf_hub_version
 
-from evaluate_numeric_invariance import SYSTEM, build_user, parse_prediction
+from evaluate_numeric_invariance import SYSTEM, build_user, numerically_equal, parse_prediction
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -180,8 +180,8 @@ def main():
             value, is_percent, parse_status = None, None, "error"
         correct = (
             parse_status == "ok"
-            and value == row["answer_value"]
-            and (not row["answer_is_percent"] or is_percent)
+            and numerically_equal(value, row["answer_value"])
+            and bool(is_percent) == bool(row["answer_is_percent"])
         )
         record = dict(row)
         record.update({

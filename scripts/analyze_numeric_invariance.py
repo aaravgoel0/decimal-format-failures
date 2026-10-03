@@ -5,6 +5,7 @@ import argparse
 import json
 import math
 from collections import Counter, defaultdict
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
 import numpy as np
@@ -62,15 +63,27 @@ def holm(records):
 def normalized_prediction(row):
     if row.get("parse_status") != "ok":
         return None
-    percent = bool(row.get("prediction_is_percent")) if row["answer_is_percent"] else False
-    return row.get("prediction_value"), percent
+    percent = bool(row.get("prediction_is_percent"))
+    try:
+        value = Decimal(str(row.get("prediction_value")))
+    except (InvalidOperation, TypeError, ValueError):
+        return None
+    return value, percent
 
 
 def tuple_correct(prediction, reference):
     if prediction is None:
         return False
     value, is_percent = prediction
-    return value == reference["answer_value"] and (not reference["answer_is_percent"] or is_percent)
+    try:
+        equal = Decimal(str(value)) == Decimal(str(reference["answer_value"]))
+    except (InvalidOperation, TypeError, ValueError):
+        equal = False
+    return equal and bool(is_percent) == bool(reference["answer_is_percent"])
+
+
+def row_correct(row):
+    return tuple_correct(normalized_prediction(row), row)
 
 
 def load_model(key, model, revision):
@@ -127,7 +140,7 @@ def main():
                         if domain == "pooled" or next(iter(forms.values()))["domain"] == domain]
             domain_report = {"n": len(selected), "forms": {}, "paired_vs_canonical": {}}
             for form in FORMS:
-                correct = [bool(forms[form]["correct"]) for forms in selected]
+                correct = [row_correct(forms[form]) for forms in selected]
                 successes = sum(correct)
                 domain_report["forms"][form] = {
                     "correct": successes,
@@ -135,9 +148,9 @@ def main():
                     "wilson95": wilson(successes, len(correct)),
                     "parse_failures": sum(forms[form]["parse_status"] != "ok" for forms in selected),
                 }
-            canonical = [bool(forms["canonical"]["correct"]) for forms in selected]
+            canonical = [row_correct(forms["canonical"]) for forms in selected]
             for form in FORMS[1:]:
-                comparison = [bool(forms[form]["correct"]) for forms in selected]
+                comparison = [row_correct(forms[form]) for forms in selected]
                 record = {
                     "model": key,
                     "domain": domain,
@@ -157,7 +170,7 @@ def main():
             domain_report["any_prediction_disagreement"] = disagreement_count / len(predictions)
             domain_report["disagreement_wilson95"] = wilson(disagreement_count, len(predictions))
             domain_report["robust_accuracy"] = sum(
-                all(forms[form]["correct"] for form in FORMS) for forms in selected) / len(selected)
+                all(row_correct(forms[form]) for form in FORMS) for forms in selected) / len(selected)
             domain_report["mean_unique_predictions"] = float(np.mean([len(set(items)) for items in predictions]))
 
             plurality_correct = []

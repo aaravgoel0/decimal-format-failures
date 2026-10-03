@@ -6,6 +6,7 @@ import json
 import math
 import re
 from collections import defaultdict
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
 import numpy as np
@@ -95,8 +96,22 @@ def holm(records):
 def prediction(row):
     if row.get("parse_status") != "ok":
         return None
-    percent = bool(row.get("prediction_is_percent")) if row["answer_is_percent"] else False
-    return row.get("prediction_value"), percent
+    percent = bool(row.get("prediction_is_percent"))
+    try:
+        value = Decimal(str(row.get("prediction_value")))
+    except (InvalidOperation, TypeError, ValueError):
+        return None
+    return value, percent
+
+
+def row_correct(row):
+    if row.get("parse_status") != "ok":
+        return False
+    try:
+        equal = Decimal(str(row.get("prediction_value"))) == Decimal(str(row["answer_value"]))
+    except (InvalidOperation, TypeError, ValueError):
+        equal = False
+    return equal and bool(row.get("prediction_is_percent")) == bool(row["answer_is_percent"])
 
 
 def load_primary(model, revision):
@@ -117,45 +132,45 @@ def load_primary(model, revision):
 
 def summarize_policy(selected, policy):
     source_map = POLICY_SOURCE[policy]
-    row_correct = []
+    row_outcomes = []
     base_robust = []
     base_disagreement = []
     base_unique = []
     for forms in selected:
         rows = [forms[source_map[form]] for form in NONCANONICAL]
-        correctness = [bool(row["correct"]) for row in rows]
+        correctness = [row_correct(row) for row in rows]
         predictions = [prediction(row) for row in rows]
-        row_correct.extend(correctness)
+        row_outcomes.extend(correctness)
         base_robust.append(all(correctness))
         base_disagreement.append(len(set(predictions)) > 1)
         base_unique.append(len(set(predictions)))
-    successes = sum(row_correct)
+    successes = sum(row_outcomes)
     return {
         "correct": successes,
-        "total": len(row_correct),
-        "accuracy": successes / len(row_correct),
-        "wilson95_row_descriptive": wilson(successes, len(row_correct)),
+        "total": len(row_outcomes),
+        "accuracy": successes / len(row_outcomes),
+        "wilson95_row_descriptive": wilson(successes, len(row_outcomes)),
         "robust_accuracy": float(np.mean(base_robust)),
         "prediction_disagreement": float(np.mean(base_disagreement)),
         "mean_unique_predictions": float(np.mean(base_unique)),
     }
 
 
-def comparison(selected, rng, bootstraps, randomizations):
-    original_rows = []
-    selective_rows = []
+def comparison(selected, baseline_policy, comparison_policy, rng, bootstraps, randomizations):
+    baseline_rows = []
+    comparison_rows = []
     base_deltas = []
     for forms in selected:
-        old = [bool(forms[POLICY_SOURCE["original"][form]]["correct"]) for form in NONCANONICAL]
-        new = [bool(forms[POLICY_SOURCE["selective"][form]]["correct"]) for form in NONCANONICAL]
-        original_rows.extend(old)
-        selective_rows.extend(new)
+        old = [row_correct(forms[POLICY_SOURCE[baseline_policy][form]]) for form in NONCANONICAL]
+        new = [row_correct(forms[POLICY_SOURCE[comparison_policy][form]]) for form in NONCANONICAL]
+        baseline_rows.extend(old)
+        comparison_rows.extend(new)
         base_deltas.append(float(np.mean(new) - np.mean(old)))
     return {
         "delta_accuracy": float(np.mean(base_deltas)),
         "cluster_bootstrap95": clustered_bootstrap(base_deltas, rng, bootstraps),
         "base_sign_flip_p_raw": sign_flip_test(base_deltas, rng, randomizations),
-        "mcnemar_row_sensitivity": mcnemar(original_rows, selective_rows),
+        "mcnemar_row_sensitivity": mcnemar(baseline_rows, comparison_rows),
         "base_deltas": base_deltas,
     }
 
@@ -167,6 +182,7 @@ def main():
     parser.add_argument("--seed", type=int, default=842019)
     args = parser.parse_args()
     rng = np.random.default_rng(args.seed)
+    secondary_rng = np.random.default_rng(args.seed + 1)
     report = {
         "seed": args.seed,
         "bootstraps": args.bootstraps,
@@ -191,7 +207,7 @@ def main():
         }
         for form in FORMS:
             form_rows = [forms[form] for forms in groups.values()]
-            successes = sum(bool(row["correct"]) for row in form_rows)
+            successes = sum(row_correct(row) for row in form_rows)
             model_report["form_accuracy"][form] = {
                 "correct": successes,
                 "total": len(form_rows),
@@ -212,14 +228,18 @@ def main():
                     policy: summarize_policy(selected, policy) for policy in POLICY_SOURCE
                 },
                 "selective_vs_original": comparison(
-                    selected, rng, args.bootstraps, args.randomizations
+                    selected, "original", "selective", rng, args.bootstraps, args.randomizations
+                ),
+                "blanket_vs_selective_secondary": comparison(
+                    selected, "selective", "blanket", secondary_rng,
+                    args.bootstraps, args.randomizations
                 ),
                 "by_input_form": {},
             }
             for form in NONCANONICAL:
-                old = [bool(forms[form]["correct"]) for forms in selected]
+                old = [row_correct(forms[form]) for forms in selected]
                 source_form = POLICY_SOURCE["selective"][form]
-                new = [bool(forms[source_form]["correct"]) for forms in selected]
+                new = [row_correct(forms[source_form]) for forms in selected]
                 deltas = [int(after) - int(before) for before, after in zip(old, new)]
                 domain_report["by_input_form"][form] = {
                     "delta_accuracy": float(np.mean(deltas)),
@@ -244,6 +264,7 @@ def main():
         )
         for domain_report in model_report["domains"].values():
             domain_report["selective_vs_original"].pop("base_deltas")
+            domain_report["blanket_vs_selective_secondary"].pop("base_deltas")
         report["models"][key] = model_report
 
     output = ROOT / "results/downstream_mitigation_analysis.json"

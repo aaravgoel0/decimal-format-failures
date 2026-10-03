@@ -1,7 +1,7 @@
 {
   "analysis": {
     "path": "results/downstream_mitigation_analysis_postcrash.json",
-    "sha256": "93d94148f0f5fd734895f44f24b4abe6fed4a7dd8772dd0a58e7bd36f20b1ba8"
+    "sha256": "361b8df46f3f633ba172db838278b2b0cb1b23c1774ae20a534b3bd37d29ef16"
   },
   "dataset": {
     "base_problems": 200,
@@ -11,7 +11,7 @@
   },
   "figure": {
     "path": "figures/downstream_mitigation_confirmation.png",
-    "sha256": "adfb0aad5614c329397095e1b9d686b3b33670bd4137b5131d215b6bc21e4cc5"
+    "sha256": "7cfc3c60ad1eed21f67f8048bf0cd5034210aac50859f97f2ebc88adf836a7ea"
   },
   "hosted_scale_control": {
     "pilot_path": "results/downstream_mitigation_hosted_pilot.json",
@@ -37,15 +37,19 @@
     },
     "qwen": {
       "complete_rows": 800,
-      "pooled_delta": 0.03833333333333334,
-      "pooled_interval_95": [0.015, 0.06333333333333332],
+      "pooled_delta": 0.045,
+      "pooled_interval_95": [0.020000000000000004, 0.07],
       "prespecified_pass": true,
       "sha256": "98281ce62b0090e798b76c99ad0c4cc9da7549e2e201a97158eca54245418b01"
     }
   },
   "paper_pdfs": {
-    "anonymous_sha256": "6b4ff181679ea14730d213c6c3c33f324fbb668b9873943d08dbb11c66df0c3b",
-    "preprint_sha256": "7efdedeee06b5efeb3d61ca426b0dc9c26c2a565d73890f8cd5bb1758e7b54ac"
+    "anonymous_sha256": "ae6d6a4eebbc8326e7cfa3ce5caf84692262c7cf3b863b71fd6aa0467bc094d8",
+    "preprint_sha256": "642458a912955248812a5d8d2ce673ff731f69baf5592b0ea3d89ccd6e402653"
+  },
+  "scoring_correction": {
+    "note_sha256": "ae61edb40bcb89aded6c147d49499fc8828b509d618de1f45bc8bf2bd51842bb",
+    "audit_sha256": "53cf050f9d55dc1376cec55a3fb7aee591af72586a1dd1d2e97c7b9a77e4e098"
   },
   "status": "two complete confirmatory models; incomplete Gemma excluded"
 }

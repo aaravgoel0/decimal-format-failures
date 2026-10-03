@@ -4,6 +4,7 @@
 import json
 import math
 from collections import defaultdict
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
 import numpy as np
@@ -40,22 +41,45 @@ def mcnemar(first_only, second_only):
     return min(1.0, 2 * tail)
 
 
+def normalized_prediction(row):
+    if row.get("parse_status") != "ok":
+        return None
+    try:
+        value = Decimal(str(row.get("prediction_value")))
+    except (InvalidOperation, TypeError, ValueError):
+        return None
+    percent = bool(row.get("prediction_is_percent"))
+    return value, percent
+
+
+def row_correct(row):
+    prediction = normalized_prediction(row)
+    if prediction is None:
+        return False
+    value, is_percent = prediction
+    try:
+        equal = value == Decimal(str(row["answer_value"]))
+    except (InvalidOperation, TypeError, ValueError):
+        equal = False
+    return equal and bool(is_percent) == bool(row["answer_is_percent"])
+
+
 def summarize(rows, rng):
     by_base = defaultdict(dict)
     for row in rows:
         by_base[row["base_id"]][row["condition"]] = row
     assert all(set(pair) == {"canonical", "padded"} for pair in by_base.values())
     pairs = list(by_base.values())
-    canonical = np.array([pair["canonical"]["correct"] for pair in pairs], dtype=float)
-    padded = np.array([pair["padded"]["correct"] for pair in pairs], dtype=float)
+    canonical = np.array([row_correct(pair["canonical"]) for pair in pairs], dtype=float)
+    padded = np.array([row_correct(pair["padded"]) for pair in pairs], dtype=float)
     effect = padded - canonical
     damage = int(np.sum((canonical == 1) & (padded == 0)))
     gain = int(np.sum((canonical == 0) & (padded == 1)))
     disagreements = []
     for pair in pairs:
         left, right = pair["canonical"], pair["padded"]
-        left_prediction = (left.get("prediction_value"), left.get("prediction_is_percent"))
-        right_prediction = (right.get("prediction_value"), right.get("prediction_is_percent"))
+        left_prediction = normalized_prediction(left)
+        right_prediction = normalized_prediction(right)
         disagreements.append(left_prediction != right_prediction)
     disagreements = np.asarray(disagreements, dtype=float)
     return {

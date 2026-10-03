@@ -1,0 +1,474 @@
+{
+  "files": {
+    "four_format_gemma": {
+      "exact_match": 200,
+      "format_equivalent_rescued": 49,
+      "numeric_mismatch": 548,
+      "parse_failure": 43,
+      "path": "results/numeric_invariance_google-gemma-2-9b-it.jsonl",
+      "rescored_correct": 249,
+      "rows": 852,
+      "stored_correct": 200,
+      "unit_mismatch": 12
+    },
+    "four_format_llama": {
+      "exact_match": 195,
+      "format_equivalent_rescued": 18,
+      "numeric_mismatch": 632,
+      "path": "results/numeric_invariance_meta-llama-Llama-3.1-8B-Instruct.jsonl",
+      "rescored_correct": 213,
+      "rows": 852,
+      "stored_correct": 199,
+      "unit_mismatch": 7
+    },
+    "four_format_qwen": {
+      "exact_match": 265,
+      "format_equivalent_rescued": 32,
+      "numeric_mismatch": 548,
+      "parse_failure": 4,
+      "path": "results/numeric_invariance_Qwen-Qwen3-4B-Instruct-2507.jsonl",
+      "rescored_correct": 297,
+      "rows": 852,
+      "stored_correct": 265,
+      "unit_mismatch": 3
+    },
+    "mitigation_llama": {
+      "exact_match": 179,
+      "format_equivalent_rescued": 21,
+      "numeric_mismatch": 593,
+      "path": "results/downstream_mitigation_meta-llama-Llama-3.1-8B-Instruct.jsonl",
+      "rescored_correct": 200,
+      "rows": 800,
+      "stored_correct": 182,
+      "unit_mismatch": 7
+    },
+    "mitigation_qwen": {
+      "exact_match": 200,
+      "format_equivalent_rescued": 38,
+      "numeric_mismatch": 555,
+      "parse_failure": 4,
+      "path": "results/downstream_mitigation_Qwen-Qwen3-4B-Instruct-2507.jsonl",
+      "rescored_correct": 238,
+      "rows": 800,
+      "stored_correct": 203,
+      "unit_mismatch": 3
+    }
+  },
+  "scoring_rule": {
+    "extraction": "last numeric token after removing commas and currency symbols",
+    "numeric_comparison": "exact Decimal equality; textual precision is ignored",
+    "rounding_tolerance": "none",
+    "scientific_notation": "accepted and compared by exact decimal value",
+    "units": "the percent marker must match the reference"
+  },
+  "spot_audit_candidates": {
+    "close_but_not_equal": [
+      {
+        "category": "numeric_mismatch",
+        "gold": "78.41",
+        "gold_percent": true,
+        "id": "finqa-mitigation-006-leading_zero",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "78.4",
+        "prediction_percent": true,
+        "raw_response": "(17944 / 22885) * 100 = 78.4%"
+      },
+      {
+        "category": "numeric_mismatch",
+        "gold": "78.41",
+        "gold_percent": true,
+        "id": "finqa-mitigation-006-scientific",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "78.4",
+        "prediction_percent": true,
+        "raw_response": "(17944 / 22885) * 100 = 78.4%"
+      },
+      {
+        "category": "numeric_mismatch",
+        "gold": "5.8",
+        "gold_percent": false,
+        "id": "finqa-mitigation-016-scientific",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "ok",
+        "prediction": "5.7964",
+        "prediction_percent": false,
+        "raw_response": "5.7964"
+      },
+      {
+        "category": "numeric_mismatch",
+        "gold": "0.86",
+        "gold_percent": false,
+        "id": "finqa-mitigation-021-canonical",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "ok",
+        "prediction": "0.8573",
+        "prediction_percent": false,
+        "raw_response": "0.8573"
+      },
+      {
+        "category": "numeric_mismatch",
+        "gold": "0.86",
+        "gold_percent": false,
+        "id": "finqa-mitigation-021-canonical",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "0.857",
+        "prediction_percent": false,
+        "raw_response": "130.66 / 152.42 = 0.857"
+      },
+      {
+        "category": "numeric_mismatch",
+        "gold": "0.86",
+        "gold_percent": false,
+        "id": "finqa-mitigation-021-leading_zero",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "0.858",
+        "prediction_percent": false,
+        "raw_response": "0.858"
+      }
+    ],
+    "currency_or_comma_response": [
+      {
+        "category": "numeric_mismatch",
+        "gold": "65464368.80",
+        "gold_percent": false,
+        "id": "finqa-mitigation-012-canonical",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "5065111880",
+        "prediction_percent": false,
+        "raw_response": "$5,065,111,880"
+      },
+      {
+        "category": "numeric_mismatch",
+        "gold": "65464368.80",
+        "gold_percent": false,
+        "id": "finqa-mitigation-012-padded",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "ok",
+        "prediction": "61233333.8",
+        "prediction_percent": false,
+        "raw_response": "4218065 * (15.52 - 1) = 4218065 * 14.52 = 61233333.8\n\nThe cash impact would be $61,233,333.80.\n\n61233333.8"
+      },
+      {
+        "category": "numeric_mismatch",
+        "gold": "65464368.80",
+        "gold_percent": false,
+        "id": "finqa-mitigation-012-padded",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "5065111000",
+        "prediction_percent": false,
+        "raw_response": "$5,065,111,000"
+      },
+      {
+        "category": "numeric_mismatch",
+        "gold": "65464368.80",
+        "gold_percent": false,
+        "id": "finqa-mitigation-012-scientific",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "5000000",
+        "prediction_percent": false,
+        "raw_response": "$5,000,000"
+      },
+      {
+        "category": "numeric_mismatch",
+        "gold": "92.8",
+        "gold_percent": true,
+        "id": "finqa-mitigation-014-canonical",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "92.7",
+        "prediction_percent": true,
+        "raw_response": "$ 765 million / $ 824 million * 100% = 92.7%"
+      },
+      {
+        "category": "numeric_mismatch",
+        "gold": "92.8",
+        "gold_percent": true,
+        "id": "finqa-mitigation-014-scientific",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "92.7",
+        "prediction_percent": true,
+        "raw_response": "$ 765 million / $ 824 million * 100% = 92.7%"
+      }
+    ],
+    "format_equivalent_rescued": [
+      {
+        "category": "format_equivalent_rescued",
+        "gold": "55",
+        "gold_percent": true,
+        "id": "finqa-mitigation-000-canonical",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "ok",
+        "prediction": "55.0",
+        "prediction_percent": true,
+        "raw_response": "178.8 - 123.8 = 55.0%"
+      },
+      {
+        "category": "format_equivalent_rescued",
+        "gold": "55",
+        "gold_percent": true,
+        "id": "finqa-mitigation-000-leading_zero",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "ok",
+        "prediction": "55.0",
+        "prediction_percent": true,
+        "raw_response": "178.8 - 123.8 = 55.0%"
+      },
+      {
+        "category": "format_equivalent_rescued",
+        "gold": "55",
+        "gold_percent": true,
+        "id": "finqa-mitigation-000-padded",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "ok",
+        "prediction": "55.0",
+        "prediction_percent": true,
+        "raw_response": "178.8 - 123.8 = 55.0%"
+      },
+      {
+        "category": "format_equivalent_rescued",
+        "gold": "3.30",
+        "gold_percent": true,
+        "id": "finqa-mitigation-004-canonical",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "ok",
+        "prediction": "3.3",
+        "prediction_percent": true,
+        "raw_response": "3.3%"
+      },
+      {
+        "category": "format_equivalent_rescued",
+        "gold": "3.30",
+        "gold_percent": true,
+        "id": "finqa-mitigation-004-canonical",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "3.3",
+        "prediction_percent": true,
+        "raw_response": "8.0% - 4.7% = 3.3%"
+      },
+      {
+        "category": "format_equivalent_rescued",
+        "gold": "3.30",
+        "gold_percent": true,
+        "id": "finqa-mitigation-004-padded",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "ok",
+        "prediction": "3.300",
+        "prediction_percent": true,
+        "raw_response": "3.300%"
+      }
+    ],
+    "parse_failure": [
+      {
+        "category": "parse_failure",
+        "gold": "98.27",
+        "gold_percent": true,
+        "id": "finqa-mitigation-020-canonical",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "no-number",
+        "prediction": null,
+        "prediction_percent": false,
+        "raw_response": "%"
+      },
+      {
+        "category": "parse_failure",
+        "gold": "98.27",
+        "gold_percent": true,
+        "id": "finqa-mitigation-020-leading_zero",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "no-number",
+        "prediction": null,
+        "prediction_percent": false,
+        "raw_response": "%"
+      },
+      {
+        "category": "parse_failure",
+        "gold": "98.27",
+        "gold_percent": true,
+        "id": "finqa-mitigation-020-padded",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "no-number",
+        "prediction": null,
+        "prediction_percent": false,
+        "raw_response": "%"
+      },
+      {
+        "category": "parse_failure",
+        "gold": "98.27",
+        "gold_percent": true,
+        "id": "finqa-mitigation-020-scientific",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "no-number",
+        "prediction": null,
+        "prediction_percent": false,
+        "raw_response": "%"
+      },
+      {
+        "category": "parse_failure",
+        "gold": "-3.3",
+        "gold_percent": true,
+        "id": "finqa-new-009-canonical",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "no-number",
+        "prediction": null,
+        "prediction_percent": false,
+        "raw_response": "%"
+      },
+      {
+        "category": "parse_failure",
+        "gold": "-3.3",
+        "gold_percent": true,
+        "id": "finqa-new-009-leading_zero",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "no-number",
+        "prediction": null,
+        "prediction_percent": false,
+        "raw_response": "%"
+      }
+    ],
+    "scientific_response": [
+      {
+        "category": "numeric_mismatch",
+        "gold": "-21",
+        "gold_percent": true,
+        "id": "finqa-mitigation-001-scientific",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "20.4",
+        "prediction_percent": true,
+        "raw_response": "((1.795e1 - 1.424e1) / 1.795e1) * 100 = 20.4%"
+      },
+      {
+        "category": "exact_match",
+        "gold": "214.36",
+        "gold_percent": true,
+        "id": "finqa-mitigation-013-scientific",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "214.36",
+        "prediction_percent": true,
+        "raw_response": "(3.1436e2 - 1e2) / 1e2 * 100% = 214.36%"
+      },
+      {
+        "category": "numeric_mismatch",
+        "gold": "98.27",
+        "gold_percent": true,
+        "id": "finqa-mitigation-020-scientific",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "234.16",
+        "prediction_percent": true,
+        "raw_response": "(3.4316e2 - 1e2) / (1e2) * 100 = 234.16%"
+      },
+      {
+        "category": "numeric_mismatch",
+        "gold": "46.34",
+        "gold_percent": true,
+        "id": "finqa-mitigation-024-scientific",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "-0.01",
+        "prediction_percent": true,
+        "raw_response": "-4.1e0 / 4.1e0 * 100% = -0.01%"
+      },
+      {
+        "category": "exact_match",
+        "gold": "3.39",
+        "gold_percent": false,
+        "id": "finqa-mitigation-031-scientific",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "3.39",
+        "prediction_percent": false,
+        "raw_response": "1.728e2 / 5.09e1 = 3.39"
+      },
+      {
+        "category": "exact_match",
+        "gold": "22.2",
+        "gold_percent": true,
+        "id": "finqa-mitigation-036-scientific",
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "parse_status": "ok",
+        "prediction": "22.2",
+        "prediction_percent": true,
+        "raw_response": "(1.8287e2 / 1.497e2) * 100 - 100 = 22.2%"
+      }
+    ],
+    "unit_mismatch": [
+      {
+        "category": "unit_mismatch",
+        "gold": "-5.1",
+        "gold_percent": true,
+        "id": "finqa-new-023-leading_zero",
+        "model": "google/gemma-2-9b-it",
+        "parse_status": "ok",
+        "prediction": "-5.1",
+        "prediction_percent": false,
+        "raw_response": "-5.1 \n<end_of_turn>"
+      },
+      {
+        "category": "unit_mismatch",
+        "gold": "3.8",
+        "gold_percent": true,
+        "id": "finqa-new-026-padded",
+        "model": "google/gemma-2-9b-it",
+        "parse_status": "ok",
+        "prediction": "3.8",
+        "prediction_percent": false,
+        "raw_response": "3.8 \n<end_of_turn>"
+      },
+      {
+        "category": "unit_mismatch",
+        "gold": "3.8",
+        "gold_percent": true,
+        "id": "finqa-new-026-scientific",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "ok",
+        "prediction": "3.8",
+        "prediction_percent": false,
+        "raw_response": "4.598e2 million is 459.8 million  \n4.429e2 million is 442.9 million  \n\nPercentage increase = [(459.8 - 442.9) / 442.9] * 100  \n= (16.9 / 442.9) * 100  \n\u2248 3.82%  \n\n3.8"
+      },
+      {
+        "category": "unit_mismatch",
+        "gold": "3.8",
+        "gold_percent": true,
+        "id": "finqa-new-026-scientific",
+        "model": "google/gemma-2-9b-it",
+        "parse_status": "ok",
+        "prediction": "3.80",
+        "prediction_percent": false,
+        "raw_response": "3.80 \n<end_of_turn>"
+      },
+      {
+        "category": "unit_mismatch",
+        "gold": "21.3",
+        "gold_percent": true,
+        "id": "finqa-new-039-leading_zero",
+        "model": "google/gemma-2-9b-it",
+        "parse_status": "ok",
+        "prediction": "21.3",
+        "prediction_percent": false,
+        "raw_response": "21.3 \n<end_of_turn>"
+      },
+      {
+        "category": "unit_mismatch",
+        "gold": "41.5",
+        "gold_percent": false,
+        "id": "tatqa-mitigation-040-canonical",
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "parse_status": "ok",
+        "prediction": "41.5",
+        "prediction_percent": true,
+        "raw_response": "41.5%"
+      }
+    ]
+  }
+}

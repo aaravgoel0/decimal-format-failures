@@ -10,17 +10,17 @@ The manuscript is intentionally kept separate from this artifact repository.
 ## Main findings
 
 - On 213 untouched GSM8K, FinQA, and TAT-QA problems, four exact-value numeral
-  forms produced different normalized predictions on 76.1% to 83.1% of pooled
-  items. Seven of 27 prespecified domain-level accuracy contrasts survived Holm
-  correction.
+  forms produced different normalized predictions on 69.5% to 80.3% of pooled
+  items after exact decimal scoring. Two of 27 prespecified domain-level
+  accuracy contrasts survived Holm correction.
 - A selective policy that normalizes leading-zero and scientific notation while
   preserving negative decimals, long fractions, and signed zero improved fresh
   600-case accuracy by 15.2 to 18.8 points across all three models.
 - On 200 further FinQA and TAT-QA problems, that frozen policy transferred for
-  Qwen (+3.83 points, 95% CI +1.50 to +6.33) but not Llama (+0.83 points,
-  95% CI -1.83 to +3.67). Gemma is excluded from this confirmation after
-  nonrandom Metal out-of-memory failures; the attempts and deviation record
-  are preserved.
+  Qwen (+4.50 points, 95% CI +2.00 to +7.00) but not Llama (+0.83 points,
+  95% CI -1.83 to +3.67). Blanket normalization was only 0.5 points higher
+  than selective normalization for either model, with intervals spanning zero.
+  Gemma is excluded because its confirmation run is incomplete.
 - Llama 3.1 8B compares ordinary integers almost perfectly but is highly
   sensitive to decimal formatting, prompt wording, and numeral presentation
   order.
@@ -42,7 +42,7 @@ The manuscript is intentionally kept separate from this artifact repository.
 - Canonicalization improves average broad-format accuracy in all three models,
   but harms some format families and is not a universal fix.
 - In the earlier 200-problem GSM8K and FinQA test, canonical and padded versions
-  produced different numeric predictions in 58% to 77% of matched pairs. No
+  produced different numeric predictions in 52% to 65% of matched pairs. No
   model-domain accuracy contrast passed the six-test multiplicity correction.
 - A frozen Qwen decomposition selected four attention heads at layer 2 using 30
   discovery cases. Their joint aligned-minus-random margin effect was 0.646 on
@@ -51,6 +51,10 @@ The manuscript is intentionally kept separate from this artifact repository.
 
 See `RESULTS_REPORT.md` for the complete result summary and
 `MECHANISTIC_REPORT.md` for the mechanistic evidence and claim boundaries.
+
+Downstream accuracy uses exact decimal equality, requires percent units to
+match, and applies no rounding tolerance. The scoring correction and audit are
+included with the reproducibility artifacts.
 
 ## Exact models
 

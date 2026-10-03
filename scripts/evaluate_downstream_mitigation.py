@@ -12,7 +12,7 @@ import mlx.core as mx
 import mlx_lm
 from mlx_lm import generate, load
 
-from evaluate_numeric_invariance import SYSTEM, build_user, parse_prediction
+from evaluate_numeric_invariance import SYSTEM, build_user, numerically_equal, parse_prediction
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -80,8 +80,8 @@ def main():
             raw, value, is_percent, parse_status, error = "", None, None, "error", repr(exc)
         correct = (
             parse_status == "ok"
-            and value == row["answer_value"]
-            and (not row["answer_is_percent"] or is_percent)
+            and numerically_equal(value, row["answer_value"])
+            and bool(is_percent) == bool(row["answer_is_percent"])
         )
         result = dict(row)
         result.update({

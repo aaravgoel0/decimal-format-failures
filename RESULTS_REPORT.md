@@ -150,23 +150,33 @@ successfully retried before analysis.
 
 The downstream test transforms 100 decimal-bearing GSM8K problems and 100
 decimal-bearing FinQA problems into matched canonical and zero-padded versions.
-Only decimal surface form changes. The primary family contains the six
-model-domain paired accuracy contrasts and uses Holm correction.
+Only decimal surface form changes. Exact decimal scoring accepts equivalent
+textual precision, requires the percent marker to match, and applies no
+rounding tolerance. The primary family contains the six model-domain paired
+accuracy contrasts and uses Holm correction.
 
 | Model | Domain | Pairs | Canonical accuracy | Padded accuracy | Numeric disagreement |
 |---|---|---:|---:|---:|---:|
-| Llama 3.1 8B | GSM8K | 100 | 18.0% | 20.0% | 69.0% |
-| Llama 3.1 8B | FinQA | 100 | 12.0% | 8.0% | 70.0% |
-| Qwen3 4B | GSM8K | 100 | 30.0% | 20.0% | 67.0% |
-| Qwen3 4B | FinQA | 100 | 8.0% | 6.0% | 58.0% |
-| Gemma 2 9B | GSM8K | 100 | 5.0% | 2.0% | 77.0% |
-| Gemma 2 9B | FinQA | 99 | 12.1% | 4.0% | 72.7% |
+| Llama 3.1 8B | GSM8K | 100 | 22.0% | 24.0% | 60.0% |
+| Llama 3.1 8B | FinQA | 100 | 13.0% | 14.0% | 65.0% |
+| Qwen3 4B | GSM8K | 100 | 32.0% | 22.0% | 61.0% |
+| Qwen3 4B | FinQA | 100 | 9.0% | 9.0% | 52.0% |
+| Gemma 2 9B | GSM8K | 100 | 8.0% | 9.0% | 55.0% |
+| Gemma 2 9B | FinQA | 99 | 13.1% | 10.1% | 63.6% |
 
 No primary accuracy contrast passed the multiplicity correction. The large
 disagreement rates therefore establish prediction instability, not a uniform
-accuracy penalty. Gemma's two conditions for one FinQA base item failed with a
-reproducible Metal out-of-memory error. The matched pair was excluded under a
-documented execution-only amendment, and the two failed rows remain preserved.
+accuracy penalty. One incomplete Gemma pair is excluded under the documented
+complete-pair rule.
+
+## Untouched four-format benchmark
+
+On 213 further GSM8K, FinQA, and TAT-QA problems, pooled disagreement across
+canonical, padded, leading-zero, and scientific forms is 80.3% for Llama,
+69.5% for Qwen, and 76.5% for Gemma. Four-form robust accuracy is 12.2%, 20.2%,
+and 17.0%, respectively. Two of 27 prespecified contrasts survive Holm
+correction: Qwen on TAT-QA under scientific notation and Gemma on FinQA under
+scientific notation. All other corrected intervals include zero.
 
 ## Fresh downstream mitigation confirmation
 
@@ -178,20 +188,19 @@ other two noncanonical forms to the byte-identical canonical prompt.
 
 | Model | Original | Selective | Blanket | Selective change | 95% base-clustered CI | Frozen criterion |
 |---|---:|---:|---:|---:|---:|---|
-| Llama 3.1 8B | 22.17% | 23.00% | 24.50% | +0.83 points | -1.83 to +3.67 | Fail |
-| Qwen3 4B | 23.50% | 27.33% | 31.00% | +3.83 points | +1.50 to +6.33 | Pass |
+| Llama 3.1 8B | 24.67% | 25.50% | 26.00% | +0.83 points | -1.83 to +3.67 | Fail |
+| Qwen3 4B | 28.50% | 33.00% | 33.50% | +4.50 points | +2.00 to +7.00 | Pass |
 
-Qwen's point estimate is positive in both sources: +3.0 points in FinQA and
+Qwen's point estimate is positive in both sources: +4.33 points in FinQA and
 +4.67 in TAT-QA. Both source-specific sign-flip tests have Holm-adjusted
-`p < 0.039`. Llama's interval crosses zero. The result therefore supports
-realistic-task transfer for Qwen, not a model-general mitigation claim.
+`p < 0.035`. Llama's interval crosses zero. Blanket normalization exceeds the
+selective policy by only 0.5 points for either model; both paired intervals are
+-0.83 to +1.83. The result supports realistic-task transfer for Qwen, not a
+model-general mitigation claim.
 
-The Gemma execution is excluded from outcome analysis. It preserved 752
-attempt lines, including 169 explicit Metal out-of-memory errors, before a
-host restart. Recovery leaves 637 unique prompt IDs and only 142 bases with
-all four successful forms. Missingness is nonrandom. The hosted Qwen2.5 72B
-pilot also failed its feasibility gate when provider credits were depleted;
-no study row was sent. Both deviations and all attempts are preserved.
+The Gemma execution is incomplete and excluded from outcome analysis because
+its missingness is nonrandom. The preserved attempts and deviation record are
+included in the supplement.
 
 ## Further analyses
 
