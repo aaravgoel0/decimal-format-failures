@@ -1,0 +1,195 @@
+{
+  "backend": "huggingface-inference-providers",
+  "completed_at": "2026-10-02T22:30:55.844339+00:00",
+  "decoding": "temperature-zero provider decoding",
+  "determinism_repeats": [
+    {
+      "attempts": 3,
+      "error": "HfHubHTTPError(\"Client error '402 Payment Required' for url 'https://router.huggingface.co/novita/v3/openai/chat/completions' (Request ID: Root=1-6ac03098-7919e83d0acf1efc38cc61ab;a8aa535c-bb55-4f8f-a3d2-c963bc296956)\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\\n\\nYou have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.\")",
+      "raw_response": "",
+      "repeat_index": 0,
+      "response_model": null,
+      "usage": {}
+    },
+    {
+      "attempts": 3,
+      "error": "HfHubHTTPError(\"Client error '402 Payment Required' for url 'https://router.huggingface.co/novita/v3/openai/chat/completions' (Request ID: Root=1-6ac0309c-2472ae525cbfcc461a420f16;6ccd1f02-5de2-4564-a15b-08633e0d9d84)\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\\n\\nYou have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.\")",
+      "raw_response": "",
+      "repeat_index": 1,
+      "response_model": null,
+      "usage": {}
+    },
+    {
+      "attempts": 3,
+      "error": "HfHubHTTPError(\"Client error '402 Payment Required' for url 'https://router.huggingface.co/novita/v3/openai/chat/completions' (Request ID: Root=1-6ac0309f-5864b0c831513de217b79f5a;408b6a5d-2df0-4dbe-aa38-407aafad8e61)\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\\n\\nYou have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.\")",
+      "raw_response": "",
+      "repeat_index": 2,
+      "response_model": null,
+      "usage": {}
+    }
+  ],
+  "huggingface_hub_version": "1.28.0",
+  "model": "Qwen/Qwen2.5-72B-Instruct",
+  "passed": false,
+  "pilots": [
+    {
+      "attempts": 1,
+      "elapsed_seconds": 0.9712,
+      "error": null,
+      "pilot_index": 0,
+      "prompt": "Reply with only the number: 2 + 3.",
+      "raw_response": "5",
+      "requested_at": "2026-10-02T22:30:34.999909+00:00",
+      "response_model": "qwen/qwen-2.5-72b-instruct",
+      "usage": {
+        "completion_tokens": 1,
+        "estimated_cost": null,
+        "prompt_tokens": 20,
+        "total_tokens": 21
+      }
+    },
+    {
+      "attempts": 1,
+      "elapsed_seconds": 1.65,
+      "error": null,
+      "pilot_index": 1,
+      "prompt": "Reply with only the number: 7 - 4.",
+      "raw_response": "3",
+      "requested_at": "2026-10-02T22:30:36.649888+00:00",
+      "response_model": "qwen/qwen-2.5-72b-instruct",
+      "usage": {
+        "completion_tokens": 1,
+        "estimated_cost": null,
+        "prompt_tokens": 20,
+        "total_tokens": 21
+      }
+    },
+    {
+      "attempts": 1,
+      "elapsed_seconds": 0.9203,
+      "error": null,
+      "pilot_index": 2,
+      "prompt": "Reply with only the number: 6 times 5.",
+      "raw_response": "30",
+      "requested_at": "2026-10-02T22:30:37.570173+00:00",
+      "response_model": "qwen/qwen-2.5-72b-instruct",
+      "usage": {
+        "completion_tokens": 2,
+        "estimated_cost": null,
+        "prompt_tokens": 20,
+        "total_tokens": 22
+      }
+    },
+    {
+      "attempts": 1,
+      "elapsed_seconds": 1.025,
+      "error": null,
+      "pilot_index": 3,
+      "prompt": "Reply with only the number: half of 18.",
+      "raw_response": "9",
+      "requested_at": "2026-10-02T22:30:38.595217+00:00",
+      "response_model": "qwen/qwen-2.5-72b-instruct",
+      "usage": {
+        "completion_tokens": 1,
+        "estimated_cost": null,
+        "prompt_tokens": 20,
+        "total_tokens": 21
+      }
+    },
+    {
+      "attempts": 1,
+      "elapsed_seconds": 0.5919,
+      "error": null,
+      "pilot_index": 4,
+      "prompt": "Reply with only the number: 12 divided by 3.",
+      "raw_response": "4",
+      "requested_at": "2026-10-02T22:30:39.187128+00:00",
+      "response_model": "qwen/qwen-2.5-72b-instruct",
+      "usage": {
+        "completion_tokens": 1,
+        "estimated_cost": null,
+        "prompt_tokens": 22,
+        "total_tokens": 23
+      }
+    },
+    {
+      "attempts": 1,
+      "elapsed_seconds": 0.7391,
+      "error": null,
+      "pilot_index": 5,
+      "prompt": "Reply with only the number: 9 + 8.",
+      "raw_response": "17",
+      "requested_at": "2026-10-02T22:30:39.926198+00:00",
+      "response_model": "qwen/qwen-2.5-72b-instruct",
+      "usage": {
+        "completion_tokens": 2,
+        "estimated_cost": null,
+        "prompt_tokens": 20,
+        "total_tokens": 22
+      }
+    },
+    {
+      "attempts": 1,
+      "elapsed_seconds": 0.4717,
+      "error": null,
+      "pilot_index": 6,
+      "prompt": "Reply with only the number: 15 - 6.",
+      "raw_response": "9",
+      "requested_at": "2026-10-02T22:30:40.397902+00:00",
+      "response_model": "qwen/qwen-2.5-72b-instruct",
+      "usage": {
+        "completion_tokens": 1,
+        "estimated_cost": null,
+        "prompt_tokens": 21,
+        "total_tokens": 22
+      }
+    },
+    {
+      "attempts": 1,
+      "elapsed_seconds": 0.54,
+      "error": null,
+      "pilot_index": 7,
+      "prompt": "Reply with only the number: 4 times 7.",
+      "raw_response": "28",
+      "requested_at": "2026-10-02T22:30:40.937884+00:00",
+      "response_model": "qwen/qwen-2.5-72b-instruct",
+      "usage": {
+        "completion_tokens": 2,
+        "estimated_cost": null,
+        "prompt_tokens": 20,
+        "total_tokens": 22
+      }
+    },
+    {
+      "attempts": 1,
+      "elapsed_seconds": 1.1382,
+      "error": null,
+      "pilot_index": 8,
+      "prompt": "Reply with only the number: one quarter of 20.",
+      "raw_response": "5",
+      "requested_at": "2026-10-02T22:30:42.076122+00:00",
+      "response_model": "qwen/qwen-2.5-72b-instruct",
+      "usage": {
+        "completion_tokens": 1,
+        "estimated_cost": null,
+        "prompt_tokens": 21,
+        "total_tokens": 22
+      }
+    },
+    {
+      "attempts": 3,
+      "elapsed_seconds": 3.4172,
+      "error": "HfHubHTTPError(\"Client error '402 Payment Required' for url 'https://router.huggingface.co/novita/v3/openai/chat/completions' (Request ID: Root=1-6ac03095-083f8e726a55930310cd9f6e;3eebdcc7-5cbf-480f-85d8-9ce2cf52ea24)\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\\n\\nYou have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.\")",
+      "pilot_index": 9,
+      "prompt": "Reply with only the number: 21 divided by 7.",
+      "raw_response": "",
+      "requested_at": "2026-10-02T22:30:45.493331+00:00",
+      "response_model": null,
+      "usage": {}
+    }
+  ],
+  "provider": "novita",
+  "public_repository_revision": "495f39366efef23836d0cfae4fbe635880d2be31",
+  "served_revision_verifiable": false,
+  "serving_note": "The provider did not attest the immutable weight revision behind the endpoint."
+}

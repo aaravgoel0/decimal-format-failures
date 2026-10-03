@@ -16,6 +16,11 @@ The manuscript is intentionally kept separate from this artifact repository.
 - A selective policy that normalizes leading-zero and scientific notation while
   preserving negative decimals, long fractions, and signed zero improved fresh
   600-case accuracy by 15.2 to 18.8 points across all three models.
+- On 200 further FinQA and TAT-QA problems, that frozen policy transferred for
+  Qwen (+3.83 points, 95% CI +1.50 to +6.33) but not Llama (+0.83 points,
+  95% CI -1.83 to +3.67). Gemma is excluded from this confirmation after
+  nonrandom Metal out-of-memory failures; the attempts and deviation record
+  are preserved.
 - Llama 3.1 8B compares ordinary integers almost perfectly but is highly
   sensitive to decimal formatting, prompt wording, and numeral presentation
   order.
@@ -114,6 +119,8 @@ python scripts/build_qwen_component_figure.py
 python scripts/analyze_numeric_invariance.py
 python scripts/analyze_selective_normalization.py
 python scripts/build_numeric_invariance_figures.py
+python scripts/analyze_downstream_mitigation_postcrash.py
+python scripts/build_downstream_mitigation_figure.py
 ```
 
 The three activation arrays total about 1.7 GB and are excluded from the public

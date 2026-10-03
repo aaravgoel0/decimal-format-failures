@@ -1,0 +1,21 @@
+{
+  "frozen_at_utc": "2026-10-02T22:33:04Z",
+  "note": "Analysis was frozen after deterministic dataset construction and after the unrelated hosted pilot failed, but before any study-row model output.",
+  "analysis_script": {
+    "path": "scripts/analyze_downstream_mitigation.py",
+    "sha256": "3f5e94226d3764565abd7c2336aff001293e2d96e525a478d5edfd19846ffba7"
+  },
+  "dataset": {
+    "path": "data/downstream_mitigation_confirmation.jsonl",
+    "sha256": "791725730e175932ef80823e836599102b9d6cab2d103ed41206a961ee94389a",
+    "rows": 800,
+    "base_problems": 200
+  },
+  "hosted_pilot": {
+    "path": "results/downstream_mitigation_hosted_pilot.json",
+    "sha256": "58e58298a4deef70c647a802151e939429e2cc8d3bf999de5457268662549e95",
+    "passed": false,
+    "study_rows_sent": 0,
+    "failure": "Hugging Face monthly included inference credits were depleted during the pilot gate."
+  }
+}

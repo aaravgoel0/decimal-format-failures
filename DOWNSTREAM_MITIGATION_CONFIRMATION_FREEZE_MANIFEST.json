@@ -1,0 +1,23 @@
+{
+  "frozen_at_utc": "2026-10-02T22:26:27Z",
+  "note": "Frozen before dataset generation or any study-row model output. One unrelated hosted-model feasibility prompt preceded the freeze.",
+  "protocol": {
+    "path": "DOWNSTREAM_MITIGATION_CONFIRMATION_PROTOCOL.md",
+    "sha256": "1e59d7e7158b7786ecf69d66ef6460c08cca6a73a5d11d95f5c2d1532a38b605"
+  },
+  "scripts": {
+    "scripts/evaluate_downstream_mitigation.py": "0cfdde43dddbfcf294ecdef5a96852049484281e58109b388a5b06e2f22ac2bf",
+    "scripts/evaluate_downstream_mitigation_hosted.py": "e638e1562c8e940aa1be27b5d5d1117824bfc4db834bd411060087d2be33c98e",
+    "scripts/make_downstream_mitigation_dataset.py": "fc52db184b0f3d919618da9e6f5f2c20e7f8f3a6f2e83fe6ab9cba22b303a30f"
+  },
+  "source_commits": {
+    "finqa": "0f16e2867befa6840783e58be38c9efb9229d742",
+    "tatqa": "870accc41953dcde885aabeb963d94aabdc0fbc3"
+  },
+  "hosted_scale_control": {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "public_repository_revision": "495f39366efef23836d0cfae4fbe635880d2be31",
+    "provider": "novita",
+    "served_revision_verifiable": false
+  }
+}

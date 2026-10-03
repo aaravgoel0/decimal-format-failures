@@ -168,6 +168,31 @@ accuracy penalty. Gemma's two conditions for one FinQA base item failed with a
 reproducible Metal out-of-memory error. The matched pair was excluded under a
 documented execution-only amendment, and the two failed rows remain preserved.
 
+## Fresh downstream mitigation confirmation
+
+The frozen selective-normalization policy was carried into 100 further FinQA
+test problems and 100 further TAT-QA development problems, all disjoint from
+the earlier downstream sets. Each base has canonical, padded, leading-zero,
+and scientific-notation forms. The policy preserves padded inputs and maps the
+other two noncanonical forms to the byte-identical canonical prompt.
+
+| Model | Original | Selective | Blanket | Selective change | 95% base-clustered CI | Frozen criterion |
+|---|---:|---:|---:|---:|---:|---|
+| Llama 3.1 8B | 22.17% | 23.00% | 24.50% | +0.83 points | -1.83 to +3.67 | Fail |
+| Qwen3 4B | 23.50% | 27.33% | 31.00% | +3.83 points | +1.50 to +6.33 | Pass |
+
+Qwen's point estimate is positive in both sources: +3.0 points in FinQA and
++4.67 in TAT-QA. Both source-specific sign-flip tests have Holm-adjusted
+`p < 0.039`. Llama's interval crosses zero. The result therefore supports
+realistic-task transfer for Qwen, not a model-general mitigation claim.
+
+The Gemma execution is excluded from outcome analysis. It preserved 752
+attempt lines, including 169 explicit Metal out-of-memory errors, before a
+host restart. Recovery leaves 637 unique prompt IDs and only 142 bases with
+all four successful forms. Missingness is nonrandom. The hosted Qwen2.5 72B
+pilot also failed its feasibility gate when provider credits were depleted;
+no study row was sent. Both deviations and all attempts are preserved.
+
 ## Further analyses
 
 See `MECHANISTIC_REPORT.md` for the cross-format probes, representation

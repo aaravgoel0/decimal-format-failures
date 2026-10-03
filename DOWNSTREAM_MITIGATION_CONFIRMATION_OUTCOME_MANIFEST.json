@@ -1,0 +1,51 @@
+{
+  "analysis": {
+    "path": "results/downstream_mitigation_analysis_postcrash.json",
+    "sha256": "93d94148f0f5fd734895f44f24b4abe6fed4a7dd8772dd0a58e7bd36f20b1ba8"
+  },
+  "dataset": {
+    "base_problems": 200,
+    "path": "data/downstream_mitigation_confirmation.jsonl",
+    "rows": 800,
+    "sha256": "791725730e175932ef80823e836599102b9d6cab2d103ed41206a961ee94389a"
+  },
+  "figure": {
+    "path": "figures/downstream_mitigation_confirmation.png",
+    "sha256": "adfb0aad5614c329397095e1b9d686b3b33670bd4137b5131d215b6bc21e4cc5"
+  },
+  "hosted_scale_control": {
+    "pilot_path": "results/downstream_mitigation_hosted_pilot.json",
+    "pilot_sha256": "58e58298a4deef70c647a802151e939429e2cc8d3bf999de5457268662549e95",
+    "pilot_passed": false,
+    "study_rows_sent": 0
+  },
+  "models": {
+    "gemma": {
+      "complete_confirmatory_run": false,
+      "error_attempts": 169,
+      "outcomes_used": false,
+      "path": "results/downstream_mitigation_google-gemma-2-9b-it.jsonl",
+      "preserved_attempt_lines": 752,
+      "sha256": "028f5a65dbd6862f71ba0d7450752ffbc7b4977fe22be6bcd449bfe3bae5d7d1"
+    },
+    "llama": {
+      "complete_rows": 800,
+      "pooled_delta": 0.008333333333333338,
+      "pooled_interval_95": [-0.01833333333333333, 0.03666666666666667],
+      "prespecified_pass": false,
+      "sha256": "f5fa4f876e626007f6d991ccd8ba9b5bb1b16c6c390ceafbe5de1e408445c724"
+    },
+    "qwen": {
+      "complete_rows": 800,
+      "pooled_delta": 0.03833333333333334,
+      "pooled_interval_95": [0.015, 0.06333333333333332],
+      "prespecified_pass": true,
+      "sha256": "98281ce62b0090e798b76c99ad0c4cc9da7549e2e201a97158eca54245418b01"
+    }
+  },
+  "paper_pdfs": {
+    "anonymous_sha256": "6b4ff181679ea14730d213c6c3c33f324fbb668b9873943d08dbb11c66df0c3b",
+    "preprint_sha256": "7efdedeee06b5efeb3d61ca426b0dc9c26c2a565d73890f8cd5bb1758e7b54ac"
+  },
+  "status": "two complete confirmatory models; incomplete Gemma excluded"
+}
