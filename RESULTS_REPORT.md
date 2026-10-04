@@ -4,7 +4,8 @@
 
 This report covers unequal integers, misleading decimal pairs, equal
 zero-padded decimal pairs, prompt-robustness confirmations, held-out tests,
-unquantized-checkpoint controls, representation analyses, and causal interventions.
+unquantized-checkpoint controls, a reasoning-enabled downstream confirmation,
+representation analyses, and causal interventions.
 
 ## Primary results
 
@@ -201,6 +202,33 @@ model-general mitigation claim.
 The Gemma execution is incomplete and excluded from outcome analysis because
 its missingness is nonrandom. The preserved attempts and deviation record are
 included in the supplement.
+
+## Reasoning-enabled downstream confirmation
+
+A prespecified Qwen3 4B follow-up reruns all 200 FinQA and TAT-QA bases and all
+800 exact-value forms with at most three short calculation lines before a
+strictly marked final answer. The run uses the same official unquantized
+checkpoint, greedy decoding, exact decimal scoring, and percent-unit rule. All
+800 rows complete without an execution error.
+
+| Domain | Canonical | Padded | Leading zero | Scientific | Four-form disagreement | Four-form robust |
+|---|---:|---:|---:|---:|---:|---:|
+| FinQA | 33.0% | 26.0% | 27.0% | 27.0% | 55.0% | 18.0% |
+| TAT-QA | 81.0% | 83.0% | 81.0% | 70.0% | 32.0% | 62.0% |
+| Pooled | 57.0% | 54.5% | 54.0% | 48.5% | 43.5% | 40.0% |
+
+Scientific notation lowers pooled accuracy by 8.5 points, with a 95%
+base-clustered interval of -13.5 to -3.5 points. The pooled comparison is
+descriptive. None of the six prespecified domain-by-form contrasts survives
+Holm correction; the TAT-QA scientific contrast is -11.0 points with a raw
+`p=0.0127` and Holm-adjusted `p=0.0764`.
+
+Across the 600 noncanonical observations, the frozen selective policy raises
+accuracy from 52.33% to 56.17%, a paired gain of 3.83 points with a 95%
+base-clustered interval of 1.33 to 6.50 points. The source point estimates are
++4.00 points for FinQA and +3.67 for TAT-QA. Blanket normalization is 0.83
+points higher than selective normalization, with an interval of -0.67 to
++2.33 points.
 
 ## Further analyses
 

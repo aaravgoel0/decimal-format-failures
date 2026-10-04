@@ -1,0 +1,7 @@
+{
+  "frozen_at": "2026-10-03",
+  "pilot_rows_excluded": 25,
+  "amendment_sha256": "df286dff643b872b4cf3d1caf3b9c928ef41f250167aa3f56e275d3c82eb2875",
+  "amended_evaluator_sha256": "0a363ea2b04a29d3de607e19c334dc251f062678fe602551f10db2d2ec21ba94",
+  "feasibility_pilot_sha256": "cc3588c8dac1431adee898da0fb4cafd6171cf891c33cc3fceba67a1b2475e0f"
+}

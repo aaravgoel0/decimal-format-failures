@@ -21,6 +21,13 @@ The manuscript is intentionally kept separate from this artifact repository.
   95% CI -1.83 to +3.67). Blanket normalization was only 0.5 points higher
   than selective normalization for either model, with intervals spanning zero.
   Gemma is excluded because its confirmation run is incomplete.
+- In a prespecified reasoning-enabled Qwen confirmation on all 200 of those
+  base problems, pooled canonical accuracy rises to 57.0% and TAT-QA reaches
+  81.0%. Scientific notation is 8.5 points below canonical in the pooled
+  descriptive comparison (95% CI -13.5 to -3.5), but none of the six
+  domain-level contrasts survives Holm correction.
+- Under the same reasoning condition, the frozen selective policy recovers
+  3.83 points (95% CI 1.33 to 6.50) across 600 noncanonical observations.
 - Llama 3.1 8B compares ordinary integers almost perfectly but is highly
   sensitive to decimal formatting, prompt wording, and numeral presentation
   order.
@@ -125,6 +132,8 @@ python scripts/analyze_selective_normalization.py
 python scripts/build_numeric_invariance_figures.py
 python scripts/analyze_downstream_mitigation_postcrash.py
 python scripts/build_downstream_mitigation_figure.py
+python scripts/analyze_reasoning_confirmation.py
+python scripts/build_reasoning_confirmation_figure.py
 ```
 
 The three activation arrays total about 1.7 GB and are excluded from the public

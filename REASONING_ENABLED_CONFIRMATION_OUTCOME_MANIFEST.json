@@ -1,0 +1,44 @@
+{
+  "analysis": {
+    "bootstrap_repetitions": 10000,
+    "primary_holm_family_size": 6,
+    "primary_significant_contrasts": 0
+  },
+  "completed_at": "2026-10-03",
+  "execution": {
+    "errors": 0,
+    "feasibility_pilot_rows_excluded": 25,
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "rows": 800
+  },
+  "files_sha256": {
+    "REASONING_ENABLED_CONFIRMATION_AMENDMENT_MANIFEST.json": "c0a9eb32d24c043932173d47250b3079efb9631e37beaa88cedf56b2b4abc7a7",
+    "REASONING_ENABLED_CONFIRMATION_FREEZE_MANIFEST.json": "71afc3840d1147dc708c2de821fb6d694ae004108559dc3b10ce615b451e1e70",
+    "REASONING_ENABLED_CONFIRMATION_OPERATIONAL_AMENDMENT.md": "df286dff643b872b4cf3d1caf3b9c928ef41f250167aa3f56e275d3c82eb2875",
+    "REASONING_ENABLED_CONFIRMATION_PROTOCOL.md": "73eaaf514bfdb216f601d5cd4ceaad643e416a3539659a14ff21697a1dfbc6bb",
+    "figures/reasoning_enabled_confirmation.png": "8b2ff1f9a9917e601407154926615dfcaac7f69d219836765fec431c20297710",
+    "results/reasoning_confirmation_Qwen-Qwen3-4B-Instruct-2507.jsonl": "908a1b0fae0354934499abde1242b65d9b8afe8df89b25a7fd80a8ed5d0a7d0a",
+    "results/reasoning_confirmation_analysis.json": "6f9a4e939c03c09e0736d4cd5ad40c99633f99205bb90f268ebdede65e5c5861",
+    "results/reasoning_confirmation_feasibility_pilot.jsonl": "cc3588c8dac1431adee898da0fb4cafd6171cf891c33cc3fceba67a1b2475e0f",
+    "scripts/analyze_reasoning_confirmation.py": "1873a784f3487ca60b1dd2aedf666e91bbede651038c2920469ed2a535ae04f4",
+    "scripts/build_reasoning_confirmation_figure.py": "91b4b8ea09035cdfbebd5b1e3ecd2c93676d15c6a2fbefc4e20395682f686942",
+    "scripts/evaluate_reasoning_confirmation.py": "0a363ea2b04a29d3de607e19c334dc251f062678fe602551f10db2d2ec21ba94"
+  },
+  "pooled_results": {
+    "canonical_accuracy": 0.57,
+    "four_form_prediction_disagreement": 0.435,
+    "four_form_robust_accuracy": 0.4,
+    "scientific_accuracy": 0.485,
+    "scientific_minus_canonical": -0.085,
+    "scientific_minus_canonical_bootstrap95": [
+      -0.135,
+      -0.035
+    ],
+    "selective_minus_original": 0.03833333333333334,
+    "selective_minus_original_bootstrap95": [
+      0.013333333333333334,
+      0.065
+    ]
+  }
+}

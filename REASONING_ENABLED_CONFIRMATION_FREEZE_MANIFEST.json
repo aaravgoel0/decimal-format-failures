@@ -1,0 +1,10 @@
+{
+  "frozen_at": "2026-10-03",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "expected_rows": 800,
+  "protocol_sha256": "73eaaf514bfdb216f601d5cd4ceaad643e416a3539659a14ff21697a1dfbc6bb",
+  "dataset_sha256": "791725730e175932ef80823e836599102b9d6cab2d103ed41206a961ee94389a",
+  "evaluator_sha256": "751a2d170d26fe95729f09c612b8bfcfff8f8a89b17ebdeafccd583f431fe0f1",
+  "analysis_sha256": "1873a784f3487ca60b1dd2aedf666e91bbede651038c2920469ed2a535ae04f4"
+}
