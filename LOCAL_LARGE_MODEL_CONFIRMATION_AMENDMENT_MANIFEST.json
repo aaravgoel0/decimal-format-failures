@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-10-04",
+  "outcomes_generated_before_amendment": 0,
+  "sha256": {
+    "LOCAL_LARGE_MODEL_CONFIRMATION_FREEZE_MANIFEST.json": "60ec5bf67ec5aa8555373cddb24d70a621fbf1f8bde6b72a2e0b893f92de040f",
+    "LOCAL_LARGE_MODEL_CONFIRMATION_OPERATIONAL_AMENDMENT.md": "a0424f47361bbfb9461b19fc7008573faa69206a609814eb55c7578df72e3fef",
+    "scripts/evaluate_local_large_model_confirmation.py": "238cd604eb5f8a657259805f343d3b987a89df03a278c4b650b5f89f6a863fe2"
+  }
+}

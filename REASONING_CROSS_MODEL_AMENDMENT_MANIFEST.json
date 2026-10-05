@@ -1,0 +1,9 @@
+{
+  "amended_after_completed_llama_rows": 35,
+  "frozen_before_aggregate_outcomes": true,
+  "sha256": {
+    "REASONING_CROSS_MODEL_OPERATIONAL_AMENDMENT.md": "91d0d1b61d6314e9835edbf2781f2675718d1002e7a88a29479d3c6e077e2836",
+    "results/reasoning_confirmation_meta-llama-Meta-Llama-3.1-8B-Instruct.jsonl": "7aae58c42bcf75e8dd9d2344b70b650d5eb0e650477a71a2b6a3c8728ffa2656",
+    "scripts/evaluate_reasoning_cross_model.py": "fcc91e87d7919d35f38e42aa5d88c8d8209ed6a85f09326c5157ccc06d489d08"
+  }
+}

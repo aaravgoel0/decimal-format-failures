@@ -3,7 +3,9 @@
 This repository contains the code, datasets, model outputs, model revisions,
 held-out tests, downstream evaluations, mitigation tests, cross-format probes,
 representation analyses, causal interventions, and figures for a study of
-numerical format sensitivity in Llama 3.1 8B, Qwen3 4B, and Gemma 2 9B.
+numerical format sensitivity in Llama 3.1 8B, Qwen3 4B, and Gemma 2 9B. A
+separately labeled reasoning-enabled scaling control uses a local 4-bit Gemma 3
+27B checkpoint.
 
 The manuscript is intentionally kept separate from this artifact repository.
 
@@ -20,14 +22,16 @@ The manuscript is intentionally kept separate from this artifact repository.
   Qwen (+4.50 points, 95% CI +2.00 to +7.00) but not Llama (+0.83 points,
   95% CI -1.83 to +3.67). Blanket normalization was only 0.5 points higher
   than selective normalization for either model, with intervals spanning zero.
-  Gemma is excluded because its confirmation run is incomplete.
-- In a prespecified reasoning-enabled Qwen confirmation on all 200 of those
-  base problems, pooled canonical accuracy rises to 57.0% and TAT-QA reaches
-  81.0%. Scientific notation is 8.5 points below canonical in the pooled
-  descriptive comparison (95% CI -13.5 to -3.5), but none of the six
-  domain-level contrasts survives Holm correction.
+  Gemma 2 9B is excluded from this native-precision mitigation confirmation
+  because its run is incomplete.
+- Reasoning-enabled confirmations on all 200 bases show pooled
+  scientific-minus-canonical changes of -7.0 points for Llama (95% CI -13.0
+  to -1.0), -8.5 for Qwen (-13.5 to -3.5), and -1.0 for a separately labeled
+  4-bit Gemma 3 27B scaling control (-7.5 to +5.5). No domain-level contrast
+  survives within-model Holm correction.
 - Under the same reasoning condition, the frozen selective policy recovers
-  3.83 points (95% CI 1.33 to 6.50) across 600 noncanonical observations.
+  4.50 points for Llama (95% CI 1.17 to 7.83), 3.83 for Qwen (1.33 to 6.50),
+  and an inconclusive 0.83 for Gemma 3 (-2.50 to 4.17).
 - Llama 3.1 8B compares ordinary integers almost perfectly but is highly
   sensitive to decimal formatting, prompt wording, and numeral presentation
   order.
@@ -71,6 +75,11 @@ included with the reproducibility artifacts.
   `cdbee75f17c01a7cc42f958dc650907174af0554`
 - `google/gemma-2-9b-it`, revision
   `11c9b309abf73637e4b6f9a3fa1e92e615547819`
+
+The separate scaling control uses
+`mlx-community/gemma-3-text-27b-it-4bit`, revision
+`feccbf793f8404211939458acfa9b857f22a9fe4`. It is not treated as an
+exact-precision comparison with the three checkpoints above.
 
 The quantized behavioral controls use Ollama's `llama3.1:8b` package (ID
 `46e0c10c039e`, weight SHA-256
@@ -134,6 +143,8 @@ python scripts/analyze_downstream_mitigation_postcrash.py
 python scripts/build_downstream_mitigation_figure.py
 python scripts/analyze_reasoning_confirmation.py
 python scripts/build_reasoning_confirmation_figure.py
+python scripts/analyze_reasoning_cross_model.py
+python scripts/build_reasoning_cross_model_figure.py
 ```
 
 The three activation arrays total about 1.7 GB and are excluded from the public

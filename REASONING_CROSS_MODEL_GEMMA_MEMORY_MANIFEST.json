@@ -1,0 +1,8 @@
+{
+  "failed_attempt_output_rows": 0,
+  "frozen_before_gemma_outcomes": true,
+  "sha256": {
+    "REASONING_CROSS_MODEL_GEMMA_MEMORY_AMENDMENT.md": "b8740cab0c6990816d38a66e1990d55f1cd7cfe6c871921667c9af2a8a22fcb8",
+    "scripts/evaluate_reasoning_cross_model.py": "539e14cd6fe34037b0a355b2e815fd4b9a6e07af5bd4e2a5ebe73da8f4cfa5f9"
+  }
+}

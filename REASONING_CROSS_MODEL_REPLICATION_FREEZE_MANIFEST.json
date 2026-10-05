@@ -1,0 +1,21 @@
+{
+  "frozen_at": "2026-10-03",
+  "models": {
+    "gemma": {
+      "model": "google/gemma-2-9b-it",
+      "revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819"
+    },
+    "llama": {
+      "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659"
+    }
+  },
+  "sha256": {
+    "REASONING_CROSS_MODEL_REPLICATION_PROTOCOL.md": "032edea36e21031d79104cc558890660ba8df71839191665ff78c2694cedf72e",
+    "data/downstream_mitigation_confirmation.jsonl": "791725730e175932ef80823e836599102b9d6cab2d103ed41206a961ee94389a",
+    "results/reasoning_confirmation_analysis.json": "6f9a4e939c03c09e0736d4cd5ad40c99633f99205bb90f268ebdede65e5c5861",
+    "scripts/analyze_reasoning_cross_model.py": "72691591f328d482a579e7771c79cd2569927757bafe116c71ea175d39a6a13d",
+    "scripts/build_reasoning_cross_model_figure.py": "cee0ab855f660b37e6a4b87a87308f85cfdb3d31cbd372b3b761acc3856f8207",
+    "scripts/evaluate_reasoning_cross_model.py": "ce19ecc0123e5447379c12da5bdd3b064cd0b9038da17916634b94bb5f73f27f"
+  }
+}

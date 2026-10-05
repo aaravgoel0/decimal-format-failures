@@ -1,0 +1,91 @@
+{
+  "completed_at": "2026-10-05",
+  "analysis": {
+    "bootstrap_repetitions": 10000,
+    "within_model_primary_family_size": 6,
+    "within_model_significant_contrasts": {
+      "gemma3_27b_4bit": 0,
+      "llama3_1_8b": 0,
+      "qwen3_4b": 0
+    },
+    "secondary_new_model_family_size": 12,
+    "secondary_new_model_significant_contrasts": 0
+  },
+  "execution": {
+    "analyzed_rows": 2400,
+    "execution_errors": 0,
+    "models": {
+      "gemma3_27b_4bit": {
+        "model": "mlx-community/gemma-3-text-27b-it-4bit",
+        "revision": "feccbf793f8404211939458acfa9b857f22a9fe4",
+        "rows": 800,
+        "parse_failures": 0
+      },
+      "llama3_1_8b": {
+        "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+        "rows": 800,
+        "parse_failures": 98
+      },
+      "qwen3_4b": {
+        "model": "Qwen/Qwen3-4B-Instruct-2507",
+        "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+        "rows": 800,
+        "parse_failures": 24
+      }
+    },
+    "incomplete_hosted_attempt": {
+      "successful_requests": 364,
+      "failed_requests": 436,
+      "failure": "HTTP 402 included inference credits depleted",
+      "outcomes_used": false
+    }
+  },
+  "pooled_results": {
+    "gemma3_27b_4bit": {
+      "canonical_accuracy": 0.5,
+      "scientific_accuracy": 0.49,
+      "scientific_minus_canonical": -0.01,
+      "scientific_minus_canonical_bootstrap95": [-0.075, 0.055],
+      "four_form_prediction_disagreement": 0.58,
+      "four_form_robust_accuracy": 0.32,
+      "selective_minus_original": 0.008333333333333335,
+      "selective_minus_original_bootstrap95": [-0.025, 0.04166666666666668]
+    },
+    "llama3_1_8b": {
+      "canonical_accuracy": 0.385,
+      "scientific_accuracy": 0.315,
+      "scientific_minus_canonical": -0.07,
+      "scientific_minus_canonical_bootstrap95": [-0.13, -0.01],
+      "four_form_prediction_disagreement": 0.695,
+      "four_form_robust_accuracy": 0.195,
+      "selective_minus_original": 0.045,
+      "selective_minus_original_bootstrap95": [0.011666666666666676, 0.07833333333333334]
+    },
+    "qwen3_4b": {
+      "canonical_accuracy": 0.57,
+      "scientific_accuracy": 0.485,
+      "scientific_minus_canonical": -0.085,
+      "scientific_minus_canonical_bootstrap95": [-0.135, -0.035],
+      "four_form_prediction_disagreement": 0.435,
+      "four_form_robust_accuracy": 0.4,
+      "selective_minus_original": 0.03833333333333334,
+      "selective_minus_original_bootstrap95": [0.013333333333333334, 0.065]
+    }
+  },
+  "files_sha256": {
+    "HOSTED_LARGE_MODEL_EXECUTION_DEVIATION.md": "f85a28121e309ddd5439703ef40782a73901dafd3d1cc9659919e4ceddf75507",
+    "LOCAL_LARGE_MODEL_CONFIRMATION_AMENDMENT_MANIFEST.json": "243af79d614532a8282e32c05041dcc559b5c33c1b7371fd9b74a7f881fc108b",
+    "LOCAL_LARGE_MODEL_CONFIRMATION_FREEZE_MANIFEST.json": "60ec5bf67ec5aa8555373cddb24d70a621fbf1f8bde6b72a2e0b893f92de040f",
+    "LOCAL_LARGE_MODEL_CONFIRMATION_OPERATIONAL_AMENDMENT.md": "a0424f47361bbfb9461b19fc7008573faa69206a609814eb55c7578df72e3fef",
+    "LOCAL_LARGE_MODEL_CONFIRMATION_PROTOCOL.md": "96a3db497df94d0fe2ba986203ddf042478cacc314768b868c707ff9be361af4",
+    "figures/reasoning_cross_model_confirmation.png": "d1477a219ae75f467270229f0bbd64da45032baaed199163284dd4dd1b4e5cef",
+    "results/reasoning_confirmation_Qwen-Qwen3-4B-Instruct-2507.jsonl": "908a1b0fae0354934499abde1242b65d9b8afe8df89b25a7fd80a8ed5d0a7d0a",
+    "results/reasoning_confirmation_meta-llama-Meta-Llama-3.1-8B-Instruct.jsonl": "2cccce40c8d5e94dd353acdafcbc9ef07df8c17665858a24b92385e79704cd61",
+    "results/reasoning_confirmation_mlx-community-gemma-3-text-27b-it-4bit.jsonl": "70e238fd42228cb2a664ef2c3deb8026d90bf4dfd3cb3207254ab8bd7da8b8b7",
+    "results/reasoning_cross_model_analysis.json": "11233edea1803f8ef73a4992baeb745bb82504c60982bb67ab3bf5c9ca9b2e65",
+    "scripts/analyze_reasoning_cross_model.py": "05c16f35e226b42862fb3a04be50bf7deddfad68fa251c9f896fae7a22d67c8b",
+    "scripts/build_reasoning_cross_model_figure.py": "fd4c21f2b193fbac0f52beb1a31037cb10cd2bbc9f6dd95f799dbe7bf80a246d",
+    "scripts/evaluate_local_large_model_confirmation.py": "238cd604eb5f8a657259805f343d3b987a89df03a278c4b650b5f89f6a863fe2"
+  }
+}

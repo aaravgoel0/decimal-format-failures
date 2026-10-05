@@ -1,0 +1,11 @@
+{
+  "frozen_at": "2026-10-04",
+  "model": "mlx-community/gemma-3-text-27b-it-4bit",
+  "model_revision": "feccbf793f8404211939458acfa9b857f22a9fe4",
+  "source_model": "google/gemma-3-27b-it",
+  "sha256": {
+    "LOCAL_LARGE_MODEL_CONFIRMATION_PROTOCOL.md": "96a3db497df94d0fe2ba986203ddf042478cacc314768b868c707ff9be361af4",
+    "data/downstream_mitigation_confirmation.jsonl": "791725730e175932ef80823e836599102b9d6cab2d103ed41206a961ee94389a",
+    "scripts/evaluate_local_large_model_confirmation.py": "40ef832df081c987995ee60ac4ad4b46f6cf549cc97acfe3196f7e3106708f14"
+  }
+}

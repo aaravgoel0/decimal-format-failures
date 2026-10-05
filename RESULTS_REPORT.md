@@ -4,7 +4,7 @@
 
 This report covers unequal integers, misleading decimal pairs, equal
 zero-padded decimal pairs, prompt-robustness confirmations, held-out tests,
-unquantized-checkpoint controls, a reasoning-enabled downstream confirmation,
+unquantized-checkpoint controls, reasoning-enabled downstream confirmations,
 representation analyses, and causal interventions.
 
 ## Primary results
@@ -199,36 +199,38 @@ selective policy by only 0.5 points for either model; both paired intervals are
 -0.83 to +1.83. The result supports realistic-task transfer for Qwen, not a
 model-general mitigation claim.
 
-The Gemma execution is incomplete and excluded from outcome analysis because
-its missingness is nonrandom. The preserved attempts and deviation record are
-included in the supplement.
+The native-precision Gemma 2 9B execution is incomplete and excluded from this
+mitigation analysis because its missingness is nonrandom. The preserved
+attempts and deviation record are included in the supplement.
 
-## Reasoning-enabled downstream confirmation
+## Reasoning-enabled downstream confirmations
 
-A prespecified Qwen3 4B follow-up reruns all 200 FinQA and TAT-QA bases and all
-800 exact-value forms with at most three short calculation lines before a
-strictly marked final answer. The run uses the same official unquantized
-checkpoint, greedy decoding, exact decimal scoring, and percent-unit rule. All
-800 rows complete without an execution error.
+The same 200 FinQA and TAT-QA bases and 800 exact-value forms are evaluated
+with at most three short calculation lines before a strictly marked final
+answer. Qwen3 4B and Llama 3.1 8B use pinned official native-precision
+checkpoints. The separately labeled Gemma 3 27B scaling control uses the pinned
+local 4-bit MLX revision `feccbf793f8404211939458acfa9b857f22a9fe4`.
+All 2,400 analyzed rows complete without an execution error.
 
-| Domain | Canonical | Padded | Leading zero | Scientific | Four-form disagreement | Four-form robust |
+| Model | Canonical | Padded | Leading zero | Scientific | Four-form disagreement | Four-form robust |
 |---|---:|---:|---:|---:|---:|---:|
-| FinQA | 33.0% | 26.0% | 27.0% | 27.0% | 55.0% | 18.0% |
-| TAT-QA | 81.0% | 83.0% | 81.0% | 70.0% | 32.0% | 62.0% |
-| Pooled | 57.0% | 54.5% | 54.0% | 48.5% | 43.5% | 40.0% |
+| Llama 3.1 8B | 38.5% | 37.0% | 32.0% | 31.5% | 69.5% | 19.5% |
+| Qwen3 4B | 57.0% | 54.5% | 54.0% | 48.5% | 43.5% | 40.0% |
+| Gemma 3 27B 4-bit | 50.0% | 50.5% | 48.5% | 49.0% | 58.0% | 32.0% |
 
-Scientific notation lowers pooled accuracy by 8.5 points, with a 95%
-base-clustered interval of -13.5 to -3.5 points. The pooled comparison is
-descriptive. None of the six prespecified domain-by-form contrasts survives
-Holm correction; the TAT-QA scientific contrast is -11.0 points with a raw
-`p=0.0127` and Holm-adjusted `p=0.0764`.
+| Model | Scientific minus canonical | 95% CI | Selective minus original | 95% CI |
+|---|---:|---:|---:|---:|
+| Llama 3.1 8B | -7.00 points | -13.00 to -1.00 | +4.50 points | +1.17 to +7.83 |
+| Qwen3 4B | -8.50 points | -13.50 to -3.50 | +3.83 points | +1.33 to +6.50 |
+| Gemma 3 27B 4-bit | -1.00 points | -7.50 to +5.50 | +0.83 points | -2.50 to +4.17 |
 
-Across the 600 noncanonical observations, the frozen selective policy raises
-accuracy from 52.33% to 56.17%, a paired gain of 3.83 points with a 95%
-base-clustered interval of 1.33 to 6.50 points. The source point estimates are
-+4.00 points for FinQA and +3.67 for TAT-QA. Blanket normalization is 0.83
-points higher than selective normalization, with an interval of -0.67 to
-+2.33 points.
+No domain-by-form contrast survives a model's six-test Holm correction, and no
+Llama or Gemma 3 contrast survives the secondary combined 12-test correction.
+The pooled result therefore shows sensitivity under stronger prompting for
+Llama and Qwen, but not a universal effect in the larger quantized control.
+The frozen selective policy has positive pooled intervals for Llama and Qwen
+and an inconclusive interval for Gemma 3. An incomplete hosted Gemma 3 attempt
+is preserved for execution transparency but excluded from all outcome analysis.
 
 ## Further analyses
 

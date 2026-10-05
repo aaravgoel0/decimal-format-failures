@@ -1,0 +1,11 @@
+{
+  "frozen_at": "2026-10-04",
+  "model": "google/gemma-3-27b-it",
+  "provider": "deepinfra",
+  "provider_revision_pin_available": false,
+  "sha256": {
+    "HOSTED_LARGE_MODEL_CONFIRMATION_PROTOCOL.md": "b77207062334498720da8a02117cc7f0ed9dff3245f6f9b4526f5bc93280ea41",
+    "data/downstream_mitigation_confirmation.jsonl": "791725730e175932ef80823e836599102b9d6cab2d103ed41206a961ee94389a",
+    "scripts/evaluate_hosted_large_model_confirmation.py": "c2f8f7a23418d7b28943c81bc3d895d8f7bfc6a1c83340f4b79ed5a3673fe346"
+  }
+}
